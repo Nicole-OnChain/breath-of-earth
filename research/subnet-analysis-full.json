@@ -1,0 +1,2582 @@
+[
+  {
+    "netuid": 3,
+    "name": "SN3",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2962107906537333,
+    "alpha_outstanding": 1920544680310765,
+    "emission_rao": 296021651888,
+    "emission_tao": 296.021651888,
+    "owner": "5FUJoAsY5TWfs1FGFtscC5QUuarJMCWYwYzEftyGAeH7pUqK",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4882652586848098,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 97,
+    "name": "SN97",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 46447943860774,
+    "alpha_outstanding": 247897912757695,
+    "emission_rao": 296021651886,
+    "emission_tao": 296.021651886,
+    "owner": "5EUXD91ADceyH7nRWXCqG1wbaCEhsqosT4rjGhwaZDRR4ib6",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 294345856618469,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 104,
+    "name": "SN104",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1182800896902006,
+    "alpha_outstanding": 2588280978036904,
+    "emission_rao": 296021651884,
+    "emission_tao": 296.021651884,
+    "owner": "5HBb3F1bmDzdwQ5WTweXUvnKETTzu6aWNAH811vrLkvSdQAn",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3771081874938910,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 55,
+    "name": "SN55",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2033169976672306,
+    "alpha_outstanding": 2466391611792771,
+    "emission_rao": 296021651818,
+    "emission_tao": 296.021651818,
+    "owner": "5GeWUxaFP6duJyNg8EUv6Jfcv6ZNkoERywAcbSw4FAuEMpDq",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4499561588465077,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 87,
+    "name": "SN87",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 209162644813706,
+    "alpha_outstanding": 725261508680287,
+    "emission_rao": 296021651751,
+    "emission_tao": 296.021651751,
+    "owner": "5GquyFXCVX4dAB1GFNSfZemYZm43H8KWa1BSTjV9UKeSYt2x",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 934424153493993,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 66,
+    "name": "SN66",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 903476400095774,
+    "alpha_outstanding": 3835489527569185,
+    "emission_rao": 296021651749,
+    "emission_tao": 296.021651749,
+    "owner": "5DRtWRDDrcKfgwPBkjADBVPSFzpLSGXejzNXXRtfSCpkFKHP",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4738965927664959,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 29,
+    "name": "SN29",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1310815926066039,
+    "alpha_outstanding": 3559365055913055,
+    "emission_rao": 296021651747,
+    "emission_tao": 296.021651747,
+    "owner": "5HHHHHzgLnYRvnKkHd45cRUDMHXTSwx7MjUzxBrKbY4JfZWn",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4870180981979094,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 69,
+    "name": "SN69",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1933234431267172,
+    "alpha_outstanding": 2995172916319183,
+    "emission_rao": 296021651747,
+    "emission_tao": 296.021651747,
+    "owner": "5EsorPyFCP7TaNz3QrNvDvr8ZDVtG9hfzNEfGeAVG9wbFi2B",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4928407347586355,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 70,
+    "name": "SN70",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 59129233799060,
+    "alpha_outstanding": 194611032386688,
+    "emission_rao": 296021651747,
+    "emission_tao": 296.021651747,
+    "owner": "5HisJVRY5s72aGFqcvemjk2AzdQnPhbTcMjWDecWZKtoCqj9",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 253740266185748,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 98,
+    "name": "SN98",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1539791409986032,
+    "alpha_outstanding": 2221606895232142,
+    "emission_rao": 296021651746,
+    "emission_tao": 296.021651746,
+    "owner": "5Dd9Q6yueRkH1fLTHa2xdEEPoMQiqenWKRMUtZKPTuvjRL3w",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3761398305218174,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 120,
+    "name": "SN120",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1178120472302537,
+    "alpha_outstanding": 1909454731750685,
+    "emission_rao": 296021651746,
+    "emission_tao": 296.021651746,
+    "owner": "5Fc3ZZQAYB3SPXKcFnd1WJeyQvArSZZeB6LU1rb7zvQ6XvDh",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3087575204053222,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 82,
+    "name": "SN82",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1613581226664467,
+    "alpha_outstanding": 2656082991619699,
+    "emission_rao": 296021651745,
+    "emission_tao": 296.021651745,
+    "owner": "5CQGGDxtZrtpMJGpjXqEP3pkwmqfwwYs1knmYnQGjGs8MMgS",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4269664218284166,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 43,
+    "name": "SN43",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2437955929252841,
+    "alpha_outstanding": 2435419178556050,
+    "emission_rao": 296021651744,
+    "emission_tao": 296.021651744,
+    "owner": "5HjMs5JDrLH3Hknmfm1gDq7nFYAv6M7t9v3EWMctSRXJS9HC",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4873375107808891,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 17,
+    "name": "SN17",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2132602078157263,
+    "alpha_outstanding": 2662020533918785,
+    "emission_rao": 296021651738,
+    "emission_tao": 296.021651738,
+    "owner": "5E7a4a7QETrNjoZ2SbVSJMaavrQeyTEaHgjBPDUDxBKjUaMZ",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4794622612076048,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 4,
+    "name": "SN4",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2277453652388701,
+    "alpha_outstanding": 2705145765978707,
+    "emission_rao": 296021651690,
+    "emission_tao": 296.02165169,
+    "owner": "5CXGPMnq9RCCLUEvp9G2iUuabw69TSFM155UVS1S4Zmusaxv",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4982599418367408,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 106,
+    "name": "SN106",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1864576291983854,
+    "alpha_outstanding": 1855307942721661,
+    "emission_rao": 296021651685,
+    "emission_tao": 296.021651685,
+    "owner": "5E5Ctr2D9SjvLwNn45UNhBpjuQ7QWuinMqpAXY1ueRfJr5PT",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3719884234705515,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 84,
+    "name": "SN84",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1668695948752321,
+    "alpha_outstanding": 2664548017576634,
+    "emission_rao": 296021651681,
+    "emission_tao": 296.021651681,
+    "owner": "5FBwsAvvKjhe7bGSdtVSAaxm7huJAcWFZRb9WRpJJmrVUvoB",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4333243966328955,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 26,
+    "name": "SN26",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1963342814839913,
+    "alpha_outstanding": 2875977661098157,
+    "emission_rao": 296021651679,
+    "emission_tao": 296.021651679,
+    "owner": "5GsfAD4a3KXYKx2TF9UcajcW6C85Bw5vZsCTmrFep7RgMjcm",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4839320475938070,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 47,
+    "name": "SN47",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 155162192883256,
+    "alpha_outstanding": 601226156578276,
+    "emission_rao": 296021651678,
+    "emission_tao": 296.021651678,
+    "owner": "5DDKR8DVDQ4UaAprFR5gfc6WXFgk3cG6WmBpdKZ8Eah4Z6Mu",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 756388349461532,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 81,
+    "name": "SN81",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2327155794082435,
+    "alpha_outstanding": 1939017387795936,
+    "emission_rao": 296021651678,
+    "emission_tao": 296.021651678,
+    "owner": "5DUELqJMeY6tA7652ooUUvU9TgUCi5hnv9o66nC8Zjw7BtW5",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4266173181878371,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 92,
+    "name": "SN92",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 335208754513156,
+    "alpha_outstanding": 811811020420946,
+    "emission_rao": 296021651678,
+    "emission_tao": 296.021651678,
+    "owner": "5Ck9Wu6bQ923pPgb7KWfszAWo6uraNryxw88JLfmRx7xUBTT",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1147019774934102,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 107,
+    "name": "SN107",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 113353342057683,
+    "alpha_outstanding": 479919314090738,
+    "emission_rao": 296021651678,
+    "emission_tao": 296.021651678,
+    "owner": "5DA2vLrSXZxnT9G4Yrywx1Fpi4RXwMH1Ah7r8DTTWS7UZZBM",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 593272656148421,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 36,
+    "name": "SN36",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 16422849724915,
+    "alpha_outstanding": 101690505982029,
+    "emission_rao": 296021651677,
+    "emission_tao": 296.021651677,
+    "owner": "5GLGTwG6n4dFPMwcN5BWJ1tw7fwcgQsjxCV4xb5ft3vKLUxc",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 118113355706944,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 12,
+    "name": "SN12",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2206083279263995,
+    "alpha_outstanding": 2889840314025662,
+    "emission_rao": 296021651676,
+    "emission_tao": 296.021651676,
+    "owner": "5ELzhHvgUqmnAYs74vFWjMMehXNeHkRtkreAa3g8QQS96PCp",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 5095923593289657,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 42,
+    "name": "SN42",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2513823368165156,
+    "alpha_outstanding": 2055088755720347,
+    "emission_rao": 296021651676,
+    "emission_tao": 296.021651676,
+    "owner": "5EC5HHfLqgmr8cdt2MAW5nJMG9n3jKF1QhZb1gYTgiJGNMo5",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4568912123885503,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 78,
+    "name": "SN78",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1004874388671,
+    "alpha_outstanding": 32138673686824,
+    "emission_rao": 296021651676,
+    "emission_tao": 296.021651676,
+    "owner": "5FnQCJW2Rm1BijNBUJzPetcpZx43RWutYiyaxA8j88fy9i9L",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 33143548075495,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 76,
+    "name": "SN76",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 107083810987590,
+    "alpha_outstanding": 410412797793488,
+    "emission_rao": 296021651674,
+    "emission_tao": 296.021651674,
+    "owner": "5FFNhWd881QTWuuiDgkqW4vgiWFDW1QYqPwRB9MZUkH7cMUP",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 517496608781078,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 38,
+    "name": "SN38",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 128653275530995,
+    "alpha_outstanding": 703753222333274,
+    "emission_rao": 296021651673,
+    "emission_tao": 296.021651673,
+    "owner": "5CaHKFJZQQRhEBT9RkHWM7NBsAW58MkBBo3mKKfGykNPmBqp",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 832406497864269,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 46,
+    "name": "SN46",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1357718570346659,
+    "alpha_outstanding": 3343172293215568,
+    "emission_rao": 296021651669,
+    "emission_tao": 296.021651669,
+    "owner": "5Ft9E2ovN52AVMczVA3713uXmmBPczvUboB4YQpupu3aEYg7",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4700890863562227,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 95,
+    "name": "SN95",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 622024428528818,
+    "alpha_outstanding": 1829047318414912,
+    "emission_rao": 296021651616,
+    "emission_tao": 296.021651616,
+    "owner": "5D5UhUuc6cC47CXUBHyBkpDBrdeyeL6bpWGAreZgNm5WTyrg",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 2451071746943730,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 49,
+    "name": "SN49",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 325201707211540,
+    "alpha_outstanding": 1141600869572527,
+    "emission_rao": 296021651613,
+    "emission_tao": 296.021651613,
+    "owner": "5FL781vfkLNnYBUi58JnhZ3r2waHDMiehxRhzcMaMWvKDfXf",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1466802576784067,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 30,
+    "name": "SN30",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2107004606101608,
+    "alpha_outstanding": 2741370564830459,
+    "emission_rao": 296021651612,
+    "emission_tao": 296.021651612,
+    "owner": "5HTogQKFuDaLq5ifWNhL2owMpLPHM3TAmujUUaTVj7FWzf6p",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4848375170932067,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 91,
+    "name": "SN91",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 73652723063915,
+    "alpha_outstanding": 279953760823397,
+    "emission_rao": 296021651612,
+    "emission_tao": 296.021651612,
+    "owner": "5CaYBBkGrFEpwYSVMCgsRMKbE4RhBPWqn2ipjqTkELEbQbpF",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 353606483887312,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 100,
+    "name": "SN100",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 234969897748918,
+    "alpha_outstanding": 1081501929798375,
+    "emission_rao": 296021651611,
+    "emission_tao": 296.021651611,
+    "owner": "5FX6kmhYwTYRFaZjxEo7k9DaG8qRmqrJtLTMGRgnfjRcXiWU",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1316471827547293,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 112,
+    "name": "SN112",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 909547074953738,
+    "alpha_outstanding": 1499611217417165,
+    "emission_rao": 296021651611,
+    "emission_tao": 296.021651611,
+    "owner": "5D7Rf7HbeE7ti49fyLg3TM3F96uWFUwzYBo9SkzBpAUTQMhM",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 2409158292370903,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 11,
+    "name": "SN11",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1868093417516699,
+    "alpha_outstanding": 2932153525456335,
+    "emission_rao": 296021651610,
+    "emission_tao": 296.02165161,
+    "owner": "5D2Jhtbnm7iAdKfjRk6DisXBnr1MEsYat8kXqaPNrVqJP3uE",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4800246942973034,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 101,
+    "name": "SN101",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 761829741434138,
+    "alpha_outstanding": 1465731699063799,
+    "emission_rao": 296021651610,
+    "emission_tao": 296.02165161,
+    "owner": "5H8dNvi1jZRe1dcYN2FdknWKxfGx6u1o9pYm5zRMCZyy2Ex3",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 2227561440497937,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 119,
+    "name": "SN119",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 796603903154118,
+    "alpha_outstanding": 1000254530402673,
+    "emission_rao": 296021651609,
+    "emission_tao": 296.021651609,
+    "owner": "5GbLENPLG8Takn1puaz5HorPmrFtDT7i2PojiJsqutbaGwWu",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1796858433556791,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 44,
+    "name": "SN44",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1577383399149356,
+    "alpha_outstanding": 3199851643805477,
+    "emission_rao": 296021651608,
+    "emission_tao": 296.021651608,
+    "owner": "5CaCekuxb9pKQyLoxh3jbkEXig8fxjkeS4AQ6UmZa12xfQ9H",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4777235042954833,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 89,
+    "name": "SN89",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1790992564633186,
+    "alpha_outstanding": 1948160081629820,
+    "emission_rao": 296021651608,
+    "emission_tao": 296.021651608,
+    "owner": "5Dc5NmEUptDeMLrxDSvg8kfCToxJkiF47apAYSVTycAVvDN4",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3739152646263006,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 20,
+    "name": "SN20",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2100286611303607,
+    "alpha_outstanding": 2692535154854710,
+    "emission_rao": 296021651607,
+    "emission_tao": 296.021651607,
+    "owner": "5FuzgvtfbZWdKSRxyYVPAPYNaNnf9cMnpT7phL3s2T3Kkrzo",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4792821766158317,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 86,
+    "name": "SN86",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 450720386054855,
+    "alpha_outstanding": 1000139591760618,
+    "emission_rao": 296021651607,
+    "emission_tao": 296.021651607,
+    "owner": "5ERnAHRQjTrLwtTcBgKqDu7j5YSL23eetTtnFgqb5jaKLqrq",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1450859977815473,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 19,
+    "name": "SN19",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2657194656951827,
+    "alpha_outstanding": 2179828934779869,
+    "emission_rao": 296021651606,
+    "emission_tao": 296.021651606,
+    "owner": "5FWh37LfVV5LE9dZA91STzbtebh6vxYa3MH71c621sYafo1L",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4837023591731696,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 60,
+    "name": "SN60",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1511948789192732,
+    "alpha_outstanding": 3015324694817987,
+    "emission_rao": 296021651606,
+    "emission_tao": 296.021651606,
+    "owner": "5CXLwkK1Scd1uiMUrXYjJUTTPxqqyH2FTJQNLp9uXQhA9rhR",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4527273484010719,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 125,
+    "name": "SN125",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1361555765718165,
+    "alpha_outstanding": 1909649633954785,
+    "emission_rao": 296021651606,
+    "emission_tao": 296.021651606,
+    "owner": "5DTzv2rL6YGQjCDNiWQJz2nE23fK1mDccH9eQimgiieyL3C4",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3271205399672950,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 37,
+    "name": "SN37",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2126679836816964,
+    "alpha_outstanding": 2811515408832096,
+    "emission_rao": 296021651604,
+    "emission_tao": 296.021651604,
+    "owner": "5GRBbS3aDep7cvR1NRm9Awp5HAF1o4HC7t59Y8HoheLZ6ZaP",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4938195245649060,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 99,
+    "name": "SN99",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 147322212678663,
+    "alpha_outstanding": 517206031765741,
+    "emission_rao": 296021651604,
+    "emission_tao": 296.021651604,
+    "owner": "5FxogcQr2XDRNCKSaaHh3AujzJKqksCzKLQWvPzToxG64tfm",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 664528244444404,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 109,
+    "name": "SN109",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 200723940971025,
+    "alpha_outstanding": 670340229026020,
+    "emission_rao": 296021651604,
+    "emission_tao": 296.021651604,
+    "owner": "5EZcsP7SqGLNfXujcX6ZRJ3epRQ2yCDXURjr8XcaEY45eZdm",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 871064169997045,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 121,
+    "name": "SN121",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1001956238132471,
+    "alpha_outstanding": 2270265340889424,
+    "emission_rao": 296021651604,
+    "emission_tao": 296.021651604,
+    "owner": "5CXGaDJsffVeBK4CDhBNMVK6MH7fHbL7AbnjzZ8XP6QzFLWm",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3272221579021895,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 24,
+    "name": "SN24",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 986721666642382,
+    "alpha_outstanding": 3784903769081899,
+    "emission_rao": 296021651602,
+    "emission_tao": 296.021651602,
+    "owner": "5EjSHN7ZH4y21tgf8ACe5WtRQYvoWdLS6xsYvBktEycbmKYi",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4771625435724281,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 108,
+    "name": "SN108",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 384304361155079,
+    "alpha_outstanding": 820679250383120,
+    "emission_rao": 296021651602,
+    "emission_tao": 296.021651602,
+    "owner": "5HDuqw9fkqG3xdm1yZA8dfKeLBnZhg138xiMwnYQdBeLfytT",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1204983611538199,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 94,
+    "name": "SN94",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 401354295911994,
+    "alpha_outstanding": 809890053605247,
+    "emission_rao": 296021651598,
+    "emission_tao": 296.021651598,
+    "owner": "5EZRCK9op9piMhQvHqrEL1SNQU8ENU8s9aqGnRKNsUxmPYP2",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1211244349517241,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 122,
+    "name": "SN122",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1100019849270796,
+    "alpha_outstanding": 2105526212213000,
+    "emission_rao": 296021651593,
+    "emission_tao": 296.021651593,
+    "owner": "5H6fAdf7QsrZpLKyydA1pM9sxTK7qJx4S4jUgg6YMHr4Xzqs",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3205546061483796,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 28,
+    "name": "SN28",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1176274213333988,
+    "alpha_outstanding": 3763040238777087,
+    "emission_rao": 296021651550,
+    "emission_tao": 296.02165155,
+    "owner": "5Dh9XXYBzr5kg6cisudA1iQ66P5GSiT3cx6gxPJYmcfdUB5a",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4939314452111075,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 90,
+    "name": "SN90",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 367443197107801,
+    "alpha_outstanding": 858388156017949,
+    "emission_rao": 296021651547,
+    "emission_tao": 296.021651547,
+    "owner": "5CqrdkU4FuH8LdUjkq4YQFJbQiK1Bmf9q4fVpFuhrxGcGwbW",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1225831353125750,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 110,
+    "name": "SN110",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 629151576429697,
+    "alpha_outstanding": 1687971263840715,
+    "emission_rao": 296021651547,
+    "emission_tao": 296.021651547,
+    "owner": "5D53sX6AwAzXUB24G85Ch35hYr5rCpXjYFWpFTe4uzBb75sL",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 2317122840270412,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 5,
+    "name": "SN5",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1827015888008267,
+    "alpha_outstanding": 2871363779381142,
+    "emission_rao": 296021651546,
+    "emission_tao": 296.021651546,
+    "owner": "5GurNtB3yQFCh6CSmfH7LrYJDsvzup4diHZiaYtKe274nrMX",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4698379667389409,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 67,
+    "name": "SN67",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 41634647601034,
+    "alpha_outstanding": 161044032212409,
+    "emission_rao": 296021651544,
+    "emission_tao": 296.021651544,
+    "owner": "5HEAv3TU1yNei4GwiTsxfmDCDW9pMCKLeDVky9iaVJfYiVeY",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 202678679813443,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 63,
+    "name": "SN63",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1743645201586827,
+    "alpha_outstanding": 3005746538883446,
+    "emission_rao": 296021651543,
+    "emission_tao": 296.021651543,
+    "owner": "5CqTmNfgDchxULD1bfoz8jvj9rDYSoq76kiq98oBUUEDpWqX",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4749391740470273,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 25,
+    "name": "SN25",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2304576066886753,
+    "alpha_outstanding": 2546582785148733,
+    "emission_rao": 296021651542,
+    "emission_tao": 296.021651542,
+    "owner": "5F6aRdsBHajN2NhZHBTB6ibBFu7YuZZEWruWzB8x6B6GiZ4D",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4851158852035486,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 39,
+    "name": "SN39",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2592641790928650,
+    "alpha_outstanding": 2359721767772318,
+    "emission_rao": 296021651542,
+    "emission_tao": 296.021651542,
+    "owner": "5CQKh1G5MKRyBEPCY7cHRW1okvj2LxjK94cgjsD9c24wrpCN",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4952363558700968,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 31,
+    "name": "SN31",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 218538598762666,
+    "alpha_outstanding": 771848145373646,
+    "emission_rao": 296021651541,
+    "emission_tao": 296.021651541,
+    "owner": "5H3mfhC8DS853nezGzh73rRnrFqPaPXtaCR8jDtgkSCHrfvb",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 990386744136312,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 10,
+    "name": "SN10",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2681246541475631,
+    "alpha_outstanding": 2165519708919056,
+    "emission_rao": 296021651539,
+    "emission_tao": 296.021651539,
+    "owner": "5GbcimKjp17QPUoS568DBSMNqV2pmDetBf3xyC15vh4bTFE1",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4846766250394687,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 21,
+    "name": "SN21",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1746198120621432,
+    "alpha_outstanding": 3079330285179107,
+    "emission_rao": 296021651539,
+    "emission_tao": 296.021651539,
+    "owner": "5HjCYVfrWSkzTfJM5rkWBW3qTTJqXEFUzZrKty5hodpgfjyW",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4825528405800539,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 102,
+    "name": "SN102",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 13577575930836,
+    "alpha_outstanding": 109654760637844,
+    "emission_rao": 296021651539,
+    "emission_tao": 296.021651539,
+    "owner": "5HidKLutq4YQgmBPWtLRYzh2cGYgWJRaC4owcz756W87puTL",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 123232336568680,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 23,
+    "name": "SN23",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1674231900104701,
+    "alpha_outstanding": 3158902666212859,
+    "emission_rao": 296021651538,
+    "emission_tao": 296.021651538,
+    "owner": "5CqTRwoFmme25YAbbwovR9rEic1UY7hYBLHxSk1PSfZ2jpmN",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4833134566317560,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 53,
+    "name": "SN53",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2687916314970661,
+    "alpha_outstanding": 2148966555312024,
+    "emission_rao": 296021651538,
+    "emission_tao": 296.021651538,
+    "owner": "5F2HTUqtk9VWQwXkkUX9oFSXUkAib74qw7s3W7KyZP88AmYe",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4836882870282685,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 52,
+    "name": "SN52",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2614493135217413,
+    "alpha_outstanding": 2232424370431931,
+    "emission_rao": 296021651537,
+    "emission_tao": 296.021651537,
+    "owner": "5Fv1ZvNPsEvUN6jfia6Mv3ZoefZ6KdoowGMjkPMX61QwRLXx",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4846917505649344,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 9,
+    "name": "SN9",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2067202442196783,
+    "alpha_outstanding": 2894662235255100,
+    "emission_rao": 296021651535,
+    "emission_tao": 296.021651535,
+    "owner": "5FsbubeciqtB5Nik3umL2iD4fG8FcC9GbT9nHJfXMj4mJJZ9",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4961864677451883,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 14,
+    "name": "SN14",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2571387601348083,
+    "alpha_outstanding": 2345184386134848,
+    "emission_rao": 296021651534,
+    "emission_tao": 296.021651534,
+    "owner": "5CKhH8nKAhXLmqxwaXzFtVFgxqwwnyckXG8qLpmGtzVJH9Ri",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4916571987482931,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 114,
+    "name": "SN114",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 147058359494815,
+    "alpha_outstanding": 607050334442430,
+    "emission_rao": 296021651517,
+    "emission_tao": 296.021651517,
+    "owner": "5FHrQMjzzAhmL5zS9ys87ZrGCwG3vsVT9hXAUWZQ8SNdRqig",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 754108693937245,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 35,
+    "name": "SN35",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1827199095388912,
+    "alpha_outstanding": 3011413165532463,
+    "emission_rao": 296021651479,
+    "emission_tao": 296.021651479,
+    "owner": "5EqZVDbW5sKXE5qB5zVaH6SQT2sud3LkmFBo2dn79NdY9RTr",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4838612260921375,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 48,
+    "name": "SN48",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2227743841207037,
+    "alpha_outstanding": 2438861805895694,
+    "emission_rao": 296021651476,
+    "emission_tao": 296.021651476,
+    "owner": "5GNH5YMkcX8jEF1PukvxKafifcqz13jp18BT73jRL3AZc4Rc",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4666605647102731,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 58,
+    "name": "SN58",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1661948041401872,
+    "alpha_outstanding": 3193716330808314,
+    "emission_rao": 296021651473,
+    "emission_tao": 296.021651473,
+    "owner": "5CigXk8XsnSqi8unxvYma6n8wYD35obs1XCS9eibjFF4vYEN",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4855664372210186,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 7,
+    "name": "SN7",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1649631309076686,
+    "alpha_outstanding": 2794292203423833,
+    "emission_rao": 296021651470,
+    "emission_tao": 296.02165147,
+    "owner": "5CAc19iETJmWD2rYVX1ht58ghCpyHq86MoBNdx5TzLfinzcx",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4443923512500519,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 116,
+    "name": "SN116",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 900827465726742,
+    "alpha_outstanding": 1579937837329231,
+    "emission_rao": 296021651464,
+    "emission_tao": 296.021651464,
+    "owner": "5GgjJXbcDyiGenKGfPrPhRxJ7p91EdC22fcAAF4ccbATgu6H",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 2480765303055973,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 62,
+    "name": "SN62",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1719002151204728,
+    "alpha_outstanding": 2909387459862386,
+    "emission_rao": 296021651463,
+    "emission_tao": 296.021651463,
+    "owner": "5DhsVYewpCdQQUenHU52k5Cys1WsTWTt5V5m84D3n4L8FWDS",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4628389611067114,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 15,
+    "name": "SN15",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 120834897018309,
+    "alpha_outstanding": 546629973621390,
+    "emission_rao": 296021651462,
+    "emission_tao": 296.021651462,
+    "owner": "5GE9r7GMtDyfbsp5RKr2V8M5PaYJ7pgF9KBu6oBcRiYjZPCc",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 667464870639699,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 124,
+    "name": "SN124",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1207502185317120,
+    "alpha_outstanding": 2287034525238139,
+    "emission_rao": 296021651462,
+    "emission_tao": 296.021651462,
+    "owner": "5HKYqfJrUFKYPMRFZZ7kfhUNEyHUbY2ZyEjQqKJf2RKVpeXM",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3494536710555259,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 73,
+    "name": "SN73",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1818369939753279,
+    "alpha_outstanding": 2771427504926058,
+    "emission_rao": 296021651455,
+    "emission_tao": 296.021651455,
+    "owner": "5CUjS24TsKfKBc8kvHnjubAiAkkxwHF4u6vDLBE9jg4CGBJm",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4589797444679337,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 16,
+    "name": "SN16",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1812960652128132,
+    "alpha_outstanding": 2931831867249567,
+    "emission_rao": 296021651410,
+    "emission_tao": 296.02165141,
+    "owner": "5CqRkhQUEgkQ4nBB4SCKnc9AzKPs9VLYv28erjeXPqQYVt9V",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4744792519377699,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 40,
+    "name": "SN40",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2076950271161320,
+    "alpha_outstanding": 2873063320063404,
+    "emission_rao": 296021651402,
+    "emission_tao": 296.021651402,
+    "owner": "5F9Qvcz22Fwq4cm58o2bShiL6n8BnJmhqXB1cispBpqRfN6w",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4950013591224724,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 77,
+    "name": "SN77",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2299338060016985,
+    "alpha_outstanding": 2078334623182439,
+    "emission_rao": 296021651402,
+    "emission_tao": 296.021651402,
+    "owner": "5GxxsUeYRyJSJKCuPeG1jZZiCummHJttmTNsfgDRSfxVnhGi",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4377672683199424,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 18,
+    "name": "SN18",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1823733000462796,
+    "alpha_outstanding": 2759725213867372,
+    "emission_rao": 296021651393,
+    "emission_tao": 296.021651393,
+    "owner": "5DHwWLjtpwnZQUQKKXE2N5Gdy2N8PpqhgjLUuzgSB7yuGZkF",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4583458214330168,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 115,
+    "name": "SN115",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 777924535229608,
+    "alpha_outstanding": 1221963852756944,
+    "emission_rao": 296021651339,
+    "emission_tao": 296.021651339,
+    "owner": "5EkNnrTjnMYaj4x1gNxAnJne9UvKgfU6NZNjhm6XFWMstbdG",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1999888387986552,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 27,
+    "name": "SN27",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1880980197020185,
+    "alpha_outstanding": 3059616537067729,
+    "emission_rao": 296021651333,
+    "emission_tao": 296.021651333,
+    "owner": "5CopvHeTZHNy6RMztuRFvViwwZbsZaVkJPA9zmRRnPAna73M",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4940596734087914,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 45,
+    "name": "SN45",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1933190387339873,
+    "alpha_outstanding": 2728370003347604,
+    "emission_rao": 296021651324,
+    "emission_tao": 296.021651324,
+    "owner": "5FbcZiAHA75i2bPVrF7wa9mFaxV1eM27HR63kJtbpb8spvmf",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4661560390687477,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 127,
+    "name": "SN127",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 866532177156139,
+    "alpha_outstanding": 2230093022495659,
+    "emission_rao": 296021651263,
+    "emission_tao": 296.021651263,
+    "owner": "5FU4uxAdrZsaWaezWwXEK93MwPX5gw2566BQK2WwrGUudfSH",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3096625199651798,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 2,
+    "name": "SN2",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1586590426767438,
+    "alpha_outstanding": 3051889392846299,
+    "emission_rao": 296021651254,
+    "emission_tao": 296.021651254,
+    "owner": "5EcYQ3W77ndrmMWdvVQusoFqY8doxfP3U2zrh7xZQiaz7avY",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4638479819613737,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 65,
+    "name": "SN65",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1865795527481268,
+    "alpha_outstanding": 2941368157869395,
+    "emission_rao": 296021651248,
+    "emission_tao": 296.021651248,
+    "owner": "5GxEEHxLWpvcAGghL8LG7xNjrxZk4SEPW1VT43hGPZ2TP9mZ",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4807163685350663,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 80,
+    "name": "SN80",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 231827787830991,
+    "alpha_outstanding": 777935132850204,
+    "emission_rao": 296021651198,
+    "emission_tao": 296.021651198,
+    "owner": "5ERJCUPWkgEmVDFCcdwMgaBbtEqGmzZnhdqNRcf3W29JsJJs",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1009762920681195,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 74,
+    "name": "SN74",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1202039663413987,
+    "alpha_outstanding": 3108036727192235,
+    "emission_rao": 296021651126,
+    "emission_tao": 296.021651126,
+    "owner": "5D1VXeeSdrfyrBdMe4SNwKnRsmzrjXES9dhx6kQkCHhJUPvS",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4310076390606222,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 13,
+    "name": "SN13",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2958545866996724,
+    "alpha_outstanding": 1977915198240867,
+    "emission_rao": 296021651112,
+    "emission_tao": 296.021651112,
+    "owner": "5HBswBt1A9Ahx6U76abXXGd7VmabmCNBGhSK2vrP71GSxtgZ",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4936461065237591,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 8,
+    "name": "SN8",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2344093147295402,
+    "alpha_outstanding": 2538725220491358,
+    "emission_rao": 296021651096,
+    "emission_tao": 296.021651096,
+    "owner": "5F6tnxzAAxbhaWRmeUmB63JEM3VXBNSmqb3AwYJVDStQjw8y",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4882818367786760,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 64,
+    "name": "SN64",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2535601270028254,
+    "alpha_outstanding": 2485337486819893,
+    "emission_rao": 296021650969,
+    "emission_tao": 296.021650969,
+    "owner": "5FRYKhbmfXPDoHdUUDMx27E3HuMvAzwjzFMMq3rNurUhAyS9",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 5020938756848147,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 41,
+    "name": "SN41",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2353259329893535,
+    "alpha_outstanding": 2224538662415500,
+    "emission_rao": 296021650837,
+    "emission_tao": 296.021650837,
+    "owner": "5FCSevLkofmKZRixMawp6jyyjBty1AeSCLa7N5Fv892DYkXX",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4577797992309035,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 56,
+    "name": "SN56",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2664929620605077,
+    "alpha_outstanding": 2184407349241522,
+    "emission_rao": 296021650837,
+    "emission_tao": 296.021650837,
+    "owner": "5EJ1zbdwhumTRYFx3VCGnR6SW7CJWP28tEJCo2gw1dFbVL5g",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4849336969846599,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 51,
+    "name": "SN51",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2102005608487663,
+    "alpha_outstanding": 2746658758469437,
+    "emission_rao": 296021650752,
+    "emission_tao": 296.021650752,
+    "owner": "5FqACMtcegZxxopgu1g7TgyrnyD8skurr9QDPLPhxNQzsThe",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4848664366957100,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 118,
+    "name": "SN118",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 765807909947853,
+    "alpha_outstanding": 1102597049200180,
+    "emission_rao": 296021650695,
+    "emission_tao": 296.021650695,
+    "owner": "5CdS9RLYMZzgHUCmQagpqzhVkJFoNxasLyaCMA72wY3GvGG5",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1868404959148033,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 128,
+    "name": "SN128",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1193336007386442,
+    "alpha_outstanding": 2000328917073228,
+    "emission_rao": 296021650338,
+    "emission_tao": 296.021650338,
+    "owner": "5GgMeLFN4YssT6f9i9pZpRmczt8GYDsCZ1nYPiGRcTPWn3AA",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3193664924459670,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 34,
+    "name": "SN34",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2573267055153423,
+    "alpha_outstanding": 2037694410655637,
+    "emission_rao": 296021650324,
+    "emission_tao": 296.021650324,
+    "owner": "5DthmKBR83sUdudSfgFnsxBkTYtYTFLJUgovNfb1TSKVLiTH",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4610961465809060,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 85,
+    "name": "SN85",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1479374867725481,
+    "alpha_outstanding": 2544464160168073,
+    "emission_rao": 296021650257,
+    "emission_tao": 296.021650257,
+    "owner": "5GTPBjA4uXhuQ51SJB7Jd55JwY6dKEnbnjCrsSSEXy3MN63z",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4023839027893554,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 105,
+    "name": "SN105",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 301383135858264,
+    "alpha_outstanding": 1248129936225022,
+    "emission_rao": 296021650215,
+    "emission_tao": 296.021650215,
+    "owner": "5G3ic2pAzVu1gZmeUQfKGox3P8TetJw87asvyAdkb2o8aCCX",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1549513072083286,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 103,
+    "name": "SN103",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 769294996075366,
+    "alpha_outstanding": 2395430952542595,
+    "emission_rao": 296021649543,
+    "emission_tao": 296.021649543,
+    "owner": "5E6wTZZipkTmm6mci5jZp1FwXoUSGgG8CemFeC3DsV2nUGiM",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3164725948617961,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 6,
+    "name": "SN6",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2073779898434039,
+    "alpha_outstanding": 2595750207043376,
+    "emission_rao": 296021648988,
+    "emission_tao": 296.021648988,
+    "owner": "5CfSg4e23Z3aTXvc2XZie8ZE1xkqRPoyVRFdWUuyyjGxJrMA",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4669530105477415,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 61,
+    "name": "SN61",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1887182892894768,
+    "alpha_outstanding": 3011197916184226,
+    "emission_rao": 296021648930,
+    "emission_tao": 296.02164893,
+    "owner": "5ECEsYL82fbXx9KfTZy7G2KXSurnScciJyAVMHZjekc8jUbn",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4898380809078994,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 75,
+    "name": "SN75",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1568144499089027,
+    "alpha_outstanding": 2884346279516885,
+    "emission_rao": 296021648906,
+    "emission_tao": 296.021648906,
+    "owner": "5DAQpczEK4vzBn1waHkC4BZGqGPZ1dwPxKVsj36JDofHAw3a",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4452490778605912,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 32,
+    "name": "SN32",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2013334082052855,
+    "alpha_outstanding": 2859553922680076,
+    "emission_rao": 296021648242,
+    "emission_tao": 296.021648242,
+    "owner": "5DWgkCSvq4brWSNLDU9FBgTk1ZpAQ2y6t3ky97CvEVuS9Qad",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4872888004732931,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 54,
+    "name": "SN54",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1292432635889617,
+    "alpha_outstanding": 3417089695322488,
+    "emission_rao": 296021648139,
+    "emission_tao": 296.021648139,
+    "owner": "5FUfruyVDoDsCty1Sh7tCmHVdpoC3XV1nUZYjhcpfe31Defk",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4709522331212105,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 88,
+    "name": "SN88",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1715386094917071,
+    "alpha_outstanding": 2380190912008077,
+    "emission_rao": 296021648091,
+    "emission_tao": 296.021648091,
+    "owner": "5FhMsGJS7WYdwBzcgsTWxEtY7UCYLZdmBVLcNPmCxr3ppiKS",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4095577006925148,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 57,
+    "name": "SN57",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2337605011362341,
+    "alpha_outstanding": 2607812453501146,
+    "emission_rao": 296021647462,
+    "emission_tao": 296.021647462,
+    "owner": "5CSBNRxeoGtkFMbdnG9H8QMXkf65b3351BSVHYMaewPSQWU2",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4945417464863487,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 22,
+    "name": "SN22",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1891756315894326,
+    "alpha_outstanding": 3036610206472827,
+    "emission_rao": 296021647284,
+    "emission_tao": 296.021647284,
+    "owner": "5DFuaMasyQtPhXcsuoYEyJmCVSRtzKxsTKFTA4SrpcGXBxJn",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4928366522367153,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 71,
+    "name": "SN71",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 913772970244613,
+    "alpha_outstanding": 3691059967599431,
+    "emission_rao": 296021647283,
+    "emission_tao": 296.021647283,
+    "owner": "5DwHzMhBXPGPSSxnPzp3J8Y12UyYmU17nppQ8oHum6yrRjSk",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4604832937844044,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 33,
+    "name": "SN33",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2203096355126903,
+    "alpha_outstanding": 2027543825169773,
+    "emission_rao": 296021647281,
+    "emission_tao": 296.021647281,
+    "owner": "5HinUfk5SqBUAbkMtgdNoum3VJvwrLgdvwW5sbXA1UPYZ8uB",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4230640180296676,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 79,
+    "name": "SN79",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1473559645178532,
+    "alpha_outstanding": 2775833363406418,
+    "emission_rao": 296021647080,
+    "emission_tao": 296.02164708,
+    "owner": "5Fxp7QBG81X7PLdMkAe1RLCvqqfQSw9rJC5ppEQs9FP8qez9",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4249393008584950,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 126,
+    "name": "SN126",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 105716151370150,
+    "alpha_outstanding": 411678160409561,
+    "emission_rao": 296021646939,
+    "emission_tao": 296.021646939,
+    "owner": "5DqrUa2z6E9taJdY8FGiPCrtCswsEjHjPbVo5xcTw2GqvKZm",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 517394311779711,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 59,
+    "name": "SN59",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1690735290927646,
+    "alpha_outstanding": 3116140346340819,
+    "emission_rao": 296021646760,
+    "emission_tao": 296.02164676,
+    "owner": "5DkPyHKTXK3eTJarh2hAL4FnkpQ5k7QivRucY8yXVN1wug4y",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4806875637268465,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 50,
+    "name": "SN50",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1537022003846837,
+    "alpha_outstanding": 3074659442620322,
+    "emission_rao": 296021646326,
+    "emission_tao": 296.021646326,
+    "owner": "5DxyiWpGqN5xXiczXcEGph51BcgTqcYKD5GKZqoACuc2sJkD",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4611681446467159,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 123,
+    "name": "SN123",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1653825932541047,
+    "alpha_outstanding": 1607282614637285,
+    "emission_rao": 296021646247,
+    "emission_tao": 296.021646247,
+    "owner": "5HVuEdEGMYisecwjkWC7dKDPEzgs9cECdsdCQagfPRVf6FxZ",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3261108547178332,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 83,
+    "name": "SN83",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 934899001814536,
+    "alpha_outstanding": 1701077851368449,
+    "emission_rao": 296021645706,
+    "emission_tao": 296.021645706,
+    "owner": "5DqEjRLyNN8k3WbEXhA36tyGG4YpWyPEcVSTa47XxspNHhc3",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 2635976853182985,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 72,
+    "name": "SN72",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2308966760819361,
+    "alpha_outstanding": 2023018830286443,
+    "emission_rao": 296021645630,
+    "emission_tao": 296.02164563,
+    "owner": "5HTYVBxrF2WbVN8RBtFxAkBGuHJxjgLd9Sze5gxH4KC6GLCv",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4331985591105804,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 111,
+    "name": "SN111",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1190355895447644,
+    "alpha_outstanding": 2443088836654020,
+    "emission_rao": 296021645400,
+    "emission_tao": 296.0216454,
+    "owner": "5HKeYGvjWXKfB6VVtG4SBpRa87TyKYzc6n8pJKacStFwWyfZ",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3633444732101664,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 68,
+    "name": "SN68",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2090837350466135,
+    "alpha_outstanding": 2642089657352225,
+    "emission_rao": 242741368003,
+    "emission_tao": 242.741368003,
+    "owner": "5EcdJLAeYoxM3Tsf5VZ3NQPenPku218gqnjSoo3iJNy4V12V",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4732927007818360,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 113,
+    "name": "SN113",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 349112675288038,
+    "alpha_outstanding": 815132265538415,
+    "emission_rao": 201294723168,
+    "emission_tao": 201.294723168,
+    "owner": "5C85m1bfiEXNW3fP3B5xY5Q9Fhmz5eAxwTk2qezLHenBNezY",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1164244940826453,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 93,
+    "name": "SN93",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1317354764312624,
+    "alpha_outstanding": 2622721227291371,
+    "emission_rao": 153931258750,
+    "emission_tao": 153.93125875,
+    "owner": "5FLfN276taTF6Ud62soChQhPNbtF2EPK4dr3pJB9oTsTpUvr",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 3940075991603995,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 117,
+    "name": "SN117",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 803256084901614,
+    "alpha_outstanding": 1124280509257055,
+    "emission_rao": 148010825864,
+    "emission_tao": 148.010825864,
+    "owner": "5HpMdsVENRx7e8Ex88k6vs7M1zxoWeU2Y9gz2FhaLhaaxgk8",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 1927536594158669,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 1,
+    "name": "SN1",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 2702080676917693,
+    "alpha_outstanding": 2084186584913825,
+    "emission_rao": 82000457502,
+    "emission_tao": 82.000457502,
+    "owner": "5HCFWvRqzSHWRPecN7q8J6c7aKQnrCZTMHstPv39xL1wgDHh",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 4786267261831518,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  },
+  {
+    "netuid": 0,
+    "name": "SN0",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 1337734741304965,
+    "alpha_outstanding": 4712878616522596,
+    "emission_rao": 9923309019,
+    "emission_tao": 9.923309019,
+    "owner": "5C4hrfjw9DjXZTzV3MwzrrAr9P1MJhSrvWGWqi1eSuyUpnhM",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 6050613357827561,
+    "weinstein_stage": {
+      "stage": "N/A",
+      "confidence": "HIGH",
+      "reasoning": "Root subnet \u2014 no alpha token, no stage classification applicable"
+    }
+  },
+  {
+    "netuid": 96,
+    "name": "SN96",
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0,
+    "alpha_reserve": 584303501,
+    "alpha_outstanding": 0,
+    "emission_rao": 0,
+    "emission_tao": 0.0,
+    "owner": "5CGq1JQhmZmR8w3pXFqycUgX9mcLt8bPwMZ8YDJbEmELpw7X",
+    "neuron_count": 0,
+    "alpha_price_tao": 0.0,
+    "market_cap_tao": 0.0,
+    "total_alpha_supply": 584303501,
+    "weinstein_stage": {
+      "stage": "UNKNOWN",
+      "confidence": "LOW",
+      "reasoning": "No comparable data"
+    }
+  }
+]

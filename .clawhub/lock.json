@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "chart-generator-2-0-0": {
+      "version": "1.0.0",
+      "installedAt": 1776549491356
+    },
+    "chart-data-viz": {
+      "version": "1.0.0",
+      "installedAt": 1776549500974
+    }
+  }
+}

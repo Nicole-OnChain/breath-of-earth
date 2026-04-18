@@ -1,0 +1,4 @@
+# Mia's Subnet Scanner — runs every 2 hours
+# Fetches pool histories for subnets that don't have cached data yet
+# V3 scanner resumes from where it left off
+0 */2 * * * /usr/bin/python3 /root/.openclaw/workspace/scripts/scanner_v3.py --top 20 --export json >> /root/.openclaw/workspace/memory/scanner_output/cron.log 2>&1

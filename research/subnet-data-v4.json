@@ -1,0 +1,1312 @@
+[
+  {
+    "netuid": 0,
+    "name": "Root (\u03c4)",
+    "alpha_reserve": 1337769741304965,
+    "alpha_outstanding": 4712843616522596,
+    "emission_rao": 9923309019,
+    "emission_tao": 9.923309019,
+    "owner": "N/A",
+    "total_alpha": 6050613357827561,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 1,
+    "name": "Apex (\u03b1)",
+    "alpha_reserve": 2702080730297735,
+    "alpha_outstanding": 2084194531533783,
+    "emission_rao": 82000457502,
+    "emission_tao": 82.000457502,
+    "owner": "5HCFWvRqzSHWRPecN7q8J6c7aKQnrCZTMHstPv39xL1wgDHh",
+    "total_alpha": 4786275261831518,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 2,
+    "name": "Omron (\u03b2)",
+    "alpha_reserve": 1586590485303044,
+    "alpha_outstanding": 3051897334310693,
+    "emission_rao": 296021651254,
+    "emission_tao": 296.021651254,
+    "owner": "5EcYQ3W77ndrmMWdvVQusoFqY8doxfP3U2zrh7xZQiaz7avY",
+    "total_alpha": 4638487819613737,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 3,
+    "name": "Templar (\u03b3)",
+    "alpha_reserve": 2962107976529196,
+    "alpha_outstanding": 1920552610318902,
+    "emission_rao": 296021651888,
+    "emission_tao": 296.021651888,
+    "owner": "5FUJoAsY5TWfs1FGFtscC5QUuarJMCWYwYzEftyGAeH7pUqK",
+    "total_alpha": 4882660586848098,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 4,
+    "name": "Targon (\u03b4)",
+    "alpha_reserve": 2277457181003074,
+    "alpha_outstanding": 2705153711921517,
+    "emission_rao": 296021651690,
+    "emission_tao": 296.02165169,
+    "owner": "5CXGPMnq9RCCLUEvp9G2iUuabw69TSFM155UVS1S4Zmusaxv",
+    "total_alpha": 4982610892924591,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 5,
+    "name": "SN5 (\u03b5)",
+    "alpha_reserve": 1825467094780744,
+    "alpha_outstanding": 2872910029131259,
+    "emission_rao": 296021651546,
+    "emission_tao": 296.021651546,
+    "owner": "5GurNtB3yQFCh6CSmfH7LrYJDsvzup4diHZiaYtKe274nrMX",
+    "total_alpha": 4698377123912003,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 6,
+    "name": "SN6 (\u03b6)",
+    "alpha_reserve": 2073779954375258,
+    "alpha_outstanding": 2595758151102157,
+    "emission_rao": 296021648988,
+    "emission_tao": 296.021648988,
+    "owner": "5CfSg4e23Z3aTXvc2XZie8ZE1xkqRPoyVRFdWUuyyjGxJrMA",
+    "total_alpha": 4669538105477415,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 7,
+    "name": "SN7 (\u03b7)",
+    "alpha_reserve": 1649633769962319,
+    "alpha_outstanding": 2794300145681817,
+    "emission_rao": 296021651470,
+    "emission_tao": 296.02165147,
+    "owner": "5CAc19iETJmWD2rYVX1ht58ghCpyHq86MoBNdx5TzLfinzcx",
+    "total_alpha": 4443933915644136,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 8,
+    "name": "SN8 (\u03b8)",
+    "alpha_reserve": 2344351444800848,
+    "alpha_outstanding": 2538476722348448,
+    "emission_rao": 296021651096,
+    "emission_tao": 296.021651096,
+    "owner": "5F6tnxzAAxbhaWRmeUmB63JEM3VXBNSmqb3AwYJVDStQjw8y",
+    "total_alpha": 4882828167149296,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 9,
+    "name": "Pretrain/IOTA (\u03b9)",
+    "alpha_reserve": 2067202492152518,
+    "alpha_outstanding": 2894670185299365,
+    "emission_rao": 296021651535,
+    "emission_tao": 296.021651535,
+    "owner": "5FsbubeciqtB5Nik3umL2iD4fG8FcC9GbT9nHJfXMj4mJJZ9",
+    "total_alpha": 4961872677451883,
+    "tao_reserve_rao": 0,
+    "tao_reserve_tao": 0
+  },
+  {
+    "netuid": 10,
+    "name": "SN10 (\u03ba)",
+    "alpha_reserve": 2681246598483686,
+    "alpha_outstanding": 2165527651911001,
+    "emission_rao": 296021651539,
+    "emission_tao": 296.021651539,
+    "owner": "5GbcimKjp17QPUoS568DBSMNqV2pmDetBf3xyC15vh4bTFE1",
+    "total_alpha": 4846774250394687
+  },
+  {
+    "netuid": 11,
+    "name": "SN11 (\u03bb)",
+    "alpha_reserve": 1868096069994009,
+    "alpha_outstanding": 2932161475652962,
+    "emission_rao": 296021651610,
+    "emission_tao": 296.02165161,
+    "owner": "5D2Jhtbnm7iAdKfjRk6DisXBnr1MEsYat8kXqaPNrVqJP3uE",
+    "total_alpha": 4800257545646971
+  },
+  {
+    "netuid": 12,
+    "name": "SN12 (\u03bc)",
+    "alpha_reserve": 2206084513388065,
+    "alpha_outstanding": 2889848258297170,
+    "emission_rao": 296021651676,
+    "emission_tao": 296.021651676,
+    "owner": "5ELzhHvgUqmnAYs74vFWjMMehXNeHkRtkreAa3g8QQS96PCp",
+    "total_alpha": 5095932771685235
+  },
+  {
+    "netuid": 13,
+    "name": "Data Universe (\u03bd)",
+    "alpha_reserve": 2958545920796484,
+    "alpha_outstanding": 1977923144441107,
+    "emission_rao": 296021651112,
+    "emission_tao": 296.021651112,
+    "owner": "5HBswBt1A9Ahx6U76abXXGd7VmabmCNBGhSK2vrP71GSxtgZ",
+    "total_alpha": 4936469065237591
+  },
+  {
+    "netuid": 14,
+    "name": "TaoHash/Latent-to (\u03be)",
+    "alpha_reserve": 2571387949965605,
+    "alpha_outstanding": 2345192332725522,
+    "emission_rao": 296021651534,
+    "emission_tao": 296.021651534,
+    "owner": "5CKhH8nKAhXLmqxwaXzFtVFgxqwwnyckXG8qLpmGtzVJH9Ri",
+    "total_alpha": 4916580282691127
+  },
+  {
+    "netuid": 15,
+    "name": "SN15 (\u03bf)",
+    "alpha_reserve": 120838879471861,
+    "alpha_outstanding": 546637885018728,
+    "emission_rao": 296021651462,
+    "emission_tao": 296.021651462,
+    "owner": "5GE9r7GMtDyfbsp5RKr2V8M5PaYJ7pgF9KBu6oBcRiYjZPCc",
+    "total_alpha": 667476764490589
+  },
+  {
+    "netuid": 16,
+    "name": "SN16 (\u03c0)",
+    "alpha_reserve": 1812960706494077,
+    "alpha_outstanding": 2931839812883622,
+    "emission_rao": 296021651410,
+    "emission_tao": 296.02165141,
+    "owner": "5CqRkhQUEgkQ4nBB4SCKnc9AzKPs9VLYv28erjeXPqQYVt9V",
+    "total_alpha": 4744800519377699
+  },
+  {
+    "netuid": 17,
+    "name": "SN17 (\u03c1)",
+    "alpha_reserve": 2132605006881425,
+    "alpha_outstanding": 2662028514484381,
+    "emission_rao": 296021651738,
+    "emission_tao": 296.021651738,
+    "owner": "5E7a4a7QETrNjoZ2SbVSJMaavrQeyTEaHgjBPDUDxBKjUaMZ",
+    "total_alpha": 4794633521365806
+  },
+  {
+    "netuid": 18,
+    "name": "SN18 (\u03c3)",
+    "alpha_reserve": 1823733052405405,
+    "alpha_outstanding": 2759732161924763,
+    "emission_rao": 296021651393,
+    "emission_tao": 296.021651393,
+    "owner": "5DHwWLjtpwnZQUQKKXE2N5Gdy2N8PpqhgjLUuzgSB7yuGZkF",
+    "total_alpha": 4583465214330168
+  },
+  {
+    "netuid": 19,
+    "name": "SN19 (\u03c4-sub)",
+    "alpha_reserve": 2657194707707399,
+    "alpha_outstanding": 2179835884024297,
+    "emission_rao": 296021651606,
+    "emission_tao": 296.021651606,
+    "owner": "5FWh37LfVV5LE9dZA91STzbtebh6vxYa3MH71c621sYafo1L",
+    "total_alpha": 4837030591731696
+  },
+  {
+    "netuid": 20,
+    "name": "SN20 (\u03c5)",
+    "alpha_reserve": 2100286661805055,
+    "alpha_outstanding": 2692542104353262,
+    "emission_rao": 296021651607,
+    "emission_tao": 296.021651607,
+    "owner": "5FuzgvtfbZWdKSRxyYVPAPYNaNnf9cMnpT7phL3s2T3Kkrzo",
+    "total_alpha": 4792828766158317
+  },
+  {
+    "netuid": 21,
+    "name": "SN21 (\u03c6)",
+    "alpha_reserve": 1746198172685153,
+    "alpha_outstanding": 3079337233115386,
+    "emission_rao": 296021651539,
+    "emission_tao": 296.021651539,
+    "owner": "5HjCYVfrWSkzTfJM5rkWBW3qTTJqXEFUzZrKty5hodpgfjyW",
+    "total_alpha": 4825535405800539
+  },
+  {
+    "netuid": 22,
+    "name": "SN22 (\u03c7)",
+    "alpha_reserve": 1891756585172818,
+    "alpha_outstanding": 3036617156811577,
+    "emission_rao": 296021647284,
+    "emission_tao": 296.021647284,
+    "owner": "5DFuaMasyQtPhXcsuoYEyJmCVSRtzKxsTKFTA4SrpcGXBxJn",
+    "total_alpha": 4928373741984395
+  },
+  {
+    "netuid": 23,
+    "name": "SN23 (\u03c8)",
+    "alpha_reserve": 1674231937458233,
+    "alpha_outstanding": 3158909628859327,
+    "emission_rao": 296021651538,
+    "emission_tao": 296.021651538,
+    "owner": "5CqTRwoFmme25YAbbwovR9rEic1UY7hYBLHxSk1PSfZ2jpmN",
+    "total_alpha": 4833141566317560
+  },
+  {
+    "netuid": 24,
+    "name": "SN24 (\u03c9)",
+    "alpha_reserve": 987029949757497,
+    "alpha_outstanding": 3784601114980106,
+    "emission_rao": 296021651602,
+    "emission_tao": 296.021651602,
+    "owner": "5EjSHN7ZH4y21tgf8ACe5WtRQYvoWdLS6xsYvBktEycbmKYi",
+    "total_alpha": 4771631064737603
+  },
+  {
+    "netuid": 25,
+    "name": "SN25",
+    "alpha_reserve": 2304576116723776,
+    "alpha_outstanding": 2546589735311710,
+    "emission_rao": 296021651542,
+    "emission_tao": 296.021651542,
+    "owner": "5F6aRdsBHajN2NhZHBTB6ibBFu7YuZZEWruWzB8x6B6GiZ4D",
+    "total_alpha": 4851165852035486
+  },
+  {
+    "netuid": 26,
+    "name": "SN26",
+    "alpha_reserve": 1963342864083309,
+    "alpha_outstanding": 2875984611854761,
+    "emission_rao": 296021651679,
+    "emission_tao": 296.021651679,
+    "owner": "5GsfAD4a3KXYKx2TF9UcajcW6C85Bw5vZsCTmrFep7RgMjcm",
+    "total_alpha": 4839327475938070
+  },
+  {
+    "netuid": 27,
+    "name": "SN27",
+    "alpha_reserve": 1880983633610095,
+    "alpha_outstanding": 3059623483427625,
+    "emission_rao": 296021651333,
+    "emission_tao": 296.021651333,
+    "owner": "5CopvHeTZHNy6RMztuRFvViwwZbsZaVkJPA9zmRRnPAna73M",
+    "total_alpha": 4940607117037720
+  },
+  {
+    "netuid": 28,
+    "name": "SN28",
+    "alpha_reserve": 1176271270980294,
+    "alpha_outstanding": 3763047190206633,
+    "emission_rao": 296021651550,
+    "emission_tao": 296.02165155,
+    "owner": "5Dh9XXYBzr5kg6cisudA1iQ66P5GSiT3cx6gxPJYmcfdUB5a",
+    "total_alpha": 4939318461186927
+  },
+  {
+    "netuid": 29,
+    "name": "SN29",
+    "alpha_reserve": 1310817362676179,
+    "alpha_outstanding": 3559372004714972,
+    "emission_rao": 296021651747,
+    "emission_tao": 296.021651747,
+    "owner": "5HHHHHzgLnYRvnKkHd45cRUDMHXTSwx7MjUzxBrKbY4JfZWn",
+    "total_alpha": 4870189367391151
+  },
+  {
+    "netuid": 30,
+    "name": "SN30",
+    "alpha_reserve": 2107004655132818,
+    "alpha_outstanding": 2741377515799249,
+    "emission_rao": 296021651612,
+    "emission_tao": 296.021651612,
+    "owner": "5HTogQKFuDaLq5ifWNhL2owMpLPHM3TAmujUUaTVj7FWzf6p",
+    "total_alpha": 4848382170932067
+  },
+  {
+    "netuid": 31,
+    "name": "SN31",
+    "alpha_reserve": 218541873454573,
+    "alpha_outstanding": 771855081038787,
+    "emission_rao": 296021651541,
+    "emission_tao": 296.021651541,
+    "owner": "5H3mfhC8DS853nezGzh73rRnrFqPaPXtaCR8jDtgkSCHrfvb",
+    "total_alpha": 990396954493360
+  },
+  {
+    "netuid": 32,
+    "name": "SN32",
+    "alpha_reserve": 2013334230846505,
+    "alpha_outstanding": 2859560873355945,
+    "emission_rao": 296021648242,
+    "emission_tao": 296.021648242,
+    "owner": "5DWgkCSvq4brWSNLDU9FBgTk1ZpAQ2y6t3ky97CvEVuS9Qad",
+    "total_alpha": 4872895104202450
+  },
+  {
+    "netuid": 33,
+    "name": "SN33",
+    "alpha_reserve": 2203096409713544,
+    "alpha_outstanding": 2027550770583132,
+    "emission_rao": 296021647281,
+    "emission_tao": 296.021647281,
+    "owner": "5HinUfk5SqBUAbkMtgdNoum3VJvwrLgdvwW5sbXA1UPYZ8uB",
+    "total_alpha": 4230647180296676
+  },
+  {
+    "netuid": 34,
+    "name": "SN34",
+    "alpha_reserve": 2573267108622373,
+    "alpha_outstanding": 2037701357186687,
+    "emission_rao": 296021650324,
+    "emission_tao": 296.021650324,
+    "owner": "5DthmKBR83sUdudSfgFnsxBkTYtYTFLJUgovNfb1TSKVLiTH",
+    "total_alpha": 4610968465809060
+  },
+  {
+    "netuid": 35,
+    "name": "SN35",
+    "alpha_reserve": 1827199145776275,
+    "alpha_outstanding": 3011420115145100,
+    "emission_rao": 296021651479,
+    "emission_tao": 296.021651479,
+    "owner": "5EqZVDbW5sKXE5qB5zVaH6SQT2sud3LkmFBo2dn79NdY9RTr",
+    "total_alpha": 4838619260921375
+  },
+  {
+    "netuid": 36,
+    "name": "SN36",
+    "alpha_reserve": 16425261550370,
+    "alpha_outstanding": 101697327846779,
+    "emission_rao": 296021651677,
+    "emission_tao": 296.021651677,
+    "owner": "5GLGTwG6n4dFPMwcN5BWJ1tw7fwcgQsjxCV4xb5ft3vKLUxc",
+    "total_alpha": 118122589397149
+  },
+  {
+    "netuid": 37,
+    "name": "SN37",
+    "alpha_reserve": 2126679885660572,
+    "alpha_outstanding": 2811522359988488,
+    "emission_rao": 296021651604,
+    "emission_tao": 296.021651604,
+    "owner": "5GRBbS3aDep7cvR1NRm9Awp5HAF1o4HC7t59Y8HoheLZ6ZaP",
+    "total_alpha": 4938202245649060
+  },
+  {
+    "netuid": 38,
+    "name": "SN38",
+    "alpha_reserve": 128656804207035,
+    "alpha_outstanding": 703760151335787,
+    "emission_rao": 296021651673,
+    "emission_tao": 296.021651673,
+    "owner": "5CaHKFJZQQRhEBT9RkHWM7NBsAW58MkBBo3mKKfGykNPmBqp",
+    "total_alpha": 832416955542822
+  },
+  {
+    "netuid": 39,
+    "name": "SN39",
+    "alpha_reserve": 2592641816158826,
+    "alpha_outstanding": 2359728742542142,
+    "emission_rao": 296021651542,
+    "emission_tao": 296.021651542,
+    "owner": "5CQKh1G5MKRyBEPCY7cHRW1okvj2LxjK94cgjsD9c24wrpCN",
+    "total_alpha": 4952370558700968
+  },
+  {
+    "netuid": 40,
+    "name": "SN40",
+    "alpha_reserve": 2076950319137656,
+    "alpha_outstanding": 2873070272087068,
+    "emission_rao": 296021651402,
+    "emission_tao": 296.021651402,
+    "owner": "5F9Qvcz22Fwq4cm58o2bShiL6n8BnJmhqXB1cispBpqRfN6w",
+    "total_alpha": 4950020591224724
+  },
+  {
+    "netuid": 41,
+    "name": "SN41",
+    "alpha_reserve": 2353259381515285,
+    "alpha_outstanding": 2224545610793750,
+    "emission_rao": 296021650837,
+    "emission_tao": 296.021650837,
+    "owner": "5FCSevLkofmKZRixMawp6jyyjBty1AeSCLa7N5Fv892DYkXX",
+    "total_alpha": 4577804992309035
+  },
+  {
+    "netuid": 42,
+    "name": "SN42",
+    "alpha_reserve": 2513823390841512,
+    "alpha_outstanding": 2055095733043991,
+    "emission_rao": 296021651676,
+    "emission_tao": 296.021651676,
+    "owner": "5EC5HHfLqgmr8cdt2MAW5nJMG9n3jKF1QhZb1gYTgiJGNMo5",
+    "total_alpha": 4568919123885503
+  },
+  {
+    "netuid": 43,
+    "name": "SN43",
+    "alpha_reserve": 2437957298058057,
+    "alpha_outstanding": 2435426158619107,
+    "emission_rao": 296021651744,
+    "emission_tao": 296.021651744,
+    "owner": "5HjMs5JDrLH3Hknmfm1gDq7nFYAv6M7t9v3EWMctSRXJS9HC",
+    "total_alpha": 4873383456677164
+  },
+  {
+    "netuid": 44,
+    "name": "SN44",
+    "alpha_reserve": 1577383243916554,
+    "alpha_outstanding": 3199858623279710,
+    "emission_rao": 296021651608,
+    "emission_tao": 296.021651608,
+    "owner": "5CaCekuxb9pKQyLoxh3jbkEXig8fxjkeS4AQ6UmZa12xfQ9H",
+    "total_alpha": 4777241867196264
+  },
+  {
+    "netuid": 45,
+    "name": "SN45",
+    "alpha_reserve": 1933190437748621,
+    "alpha_outstanding": 2728376952938856,
+    "emission_rao": 296021651324,
+    "emission_tao": 296.021651324,
+    "owner": "5FbcZiAHA75i2bPVrF7wa9mFaxV1eM27HR63kJtbpb8spvmf",
+    "total_alpha": 4661567390687477
+  },
+  {
+    "netuid": 46,
+    "name": "SN46",
+    "alpha_reserve": 1357714528946309,
+    "alpha_outstanding": 3343179244841330,
+    "emission_rao": 296021651669,
+    "emission_tao": 296.021651669,
+    "owner": "5Ft9E2ovN52AVMczVA3713uXmmBPczvUboB4YQpupu3aEYg7",
+    "total_alpha": 4700893773787639
+  },
+  {
+    "netuid": 47,
+    "name": "SN47",
+    "alpha_reserve": 155165533436545,
+    "alpha_outstanding": 601233072443492,
+    "emission_rao": 296021651678,
+    "emission_tao": 296.021651678,
+    "owner": "5DDKR8DVDQ4UaAprFR5gfc6WXFgk3cG6WmBpdKZ8Eah4Z6Mu",
+    "total_alpha": 756398605880037
+  },
+  {
+    "netuid": 48,
+    "name": "SN48",
+    "alpha_reserve": 2227743881823176,
+    "alpha_outstanding": 2438868765279555,
+    "emission_rao": 296021651476,
+    "emission_tao": 296.021651476,
+    "owner": "5GNH5YMkcX8jEF1PukvxKafifcqz13jp18BT73jRL3AZc4Rc",
+    "total_alpha": 4666612647102731
+  },
+  {
+    "netuid": 49,
+    "name": "SN49",
+    "alpha_reserve": 325203854650406,
+    "alpha_outstanding": 1141607815750300,
+    "emission_rao": 296021651613,
+    "emission_tao": 296.021651613,
+    "owner": "5FL781vfkLNnYBUi58JnhZ3r2waHDMiehxRhzcMaMWvKDfXf",
+    "total_alpha": 1466811670400706
+  },
+  {
+    "netuid": 50,
+    "name": "SN50",
+    "alpha_reserve": 1537022044844747,
+    "alpha_outstanding": 3074666401622412,
+    "emission_rao": 296021646326,
+    "emission_tao": 296.021646326,
+    "owner": "5DxyiWpGqN5xXiczXcEGph51BcgTqcYKD5GKZqoACuc2sJkD",
+    "total_alpha": 4611688446467159
+  },
+  {
+    "netuid": 51,
+    "name": "SN51",
+    "alpha_reserve": 2102003740778826,
+    "alpha_outstanding": 2746665709937916,
+    "emission_rao": 296021650752,
+    "emission_tao": 296.021650752,
+    "owner": "5FqACMtcegZxxopgu1g7TgyrnyD8skurr9QDPLPhxNQzsThe",
+    "total_alpha": 4848669450716742
+  },
+  {
+    "netuid": 52,
+    "name": "SN52",
+    "alpha_reserve": 2614493187113990,
+    "alpha_outstanding": 2232431318535354,
+    "emission_rao": 296021651537,
+    "emission_tao": 296.021651537,
+    "owner": "5Fv1ZvNPsEvUN6jfia6Mv3ZoefZ6KdoowGMjkPMX61QwRLXx",
+    "total_alpha": 4846924505649344
+  },
+  {
+    "netuid": 53,
+    "name": "SN53",
+    "alpha_reserve": 2687916364031936,
+    "alpha_outstanding": 2148973506250749,
+    "emission_rao": 296021651538,
+    "emission_tao": 296.021651538,
+    "owner": "5F2HTUqtk9VWQwXkkUX9oFSXUkAib74qw7s3W7KyZP88AmYe",
+    "total_alpha": 4836889870282685
+  },
+  {
+    "netuid": 54,
+    "name": "SN54",
+    "alpha_reserve": 1292429834385723,
+    "alpha_outstanding": 3417096648036608,
+    "emission_rao": 296021648139,
+    "emission_tao": 296.021648139,
+    "owner": "5FUfruyVDoDsCty1Sh7tCmHVdpoC3XV1nUZYjhcpfe31Defk",
+    "total_alpha": 4709526482422331
+  },
+  {
+    "netuid": 55,
+    "name": "SN55",
+    "alpha_reserve": 2033170069804865,
+    "alpha_outstanding": 2466398518660212,
+    "emission_rao": 296021651818,
+    "emission_tao": 296.021651818,
+    "owner": "5GeWUxaFP6duJyNg8EUv6Jfcv6ZNkoERywAcbSw4FAuEMpDq",
+    "total_alpha": 4499568588465077
+  },
+  {
+    "netuid": 56,
+    "name": "SN56",
+    "alpha_reserve": 2664929667971209,
+    "alpha_outstanding": 2184414301875390,
+    "emission_rao": 296021650837,
+    "emission_tao": 296.021650837,
+    "owner": "5EJ1zbdwhumTRYFx3VCGnR6SW7CJWP28tEJCo2gw1dFbVL5g",
+    "total_alpha": 4849343969846599
+  },
+  {
+    "netuid": 57,
+    "name": "SN57",
+    "alpha_reserve": 2337605069718797,
+    "alpha_outstanding": 2607819395144690,
+    "emission_rao": 296021647462,
+    "emission_tao": 296.021647462,
+    "owner": "5CSBNRxeoGtkFMbdnG9H8QMXkf65b3351BSVHYMaewPSQWU2",
+    "total_alpha": 4945424464863487
+  },
+  {
+    "netuid": 58,
+    "name": "SN58",
+    "alpha_reserve": 1661948089351987,
+    "alpha_outstanding": 3193723282858199,
+    "emission_rao": 296021651473,
+    "emission_tao": 296.021651473,
+    "owner": "5CigXk8XsnSqi8unxvYma6n8wYD35obs1XCS9eibjFF4vYEN",
+    "total_alpha": 4855671372210186
+  },
+  {
+    "netuid": 59,
+    "name": "SN59",
+    "alpha_reserve": 1690735340510617,
+    "alpha_outstanding": 3116147296757848,
+    "emission_rao": 296021646760,
+    "emission_tao": 296.02164676,
+    "owner": "5DkPyHKTXK3eTJarh2hAL4FnkpQ5k7QivRucY8yXVN1wug4y",
+    "total_alpha": 4806882637268465
+  },
+  {
+    "netuid": 60,
+    "name": "SN60",
+    "alpha_reserve": 1511948839567090,
+    "alpha_outstanding": 3015331644443629,
+    "emission_rao": 296021651606,
+    "emission_tao": 296.021651606,
+    "owner": "5CXLwkK1Scd1uiMUrXYjJUTTPxqqyH2FTJQNLp9uXQhA9rhR",
+    "total_alpha": 4527280484010719
+  },
+  {
+    "netuid": 61,
+    "name": "SN61",
+    "alpha_reserve": 1887182942689385,
+    "alpha_outstanding": 3011204866389609,
+    "emission_rao": 296021648930,
+    "emission_tao": 296.02164893,
+    "owner": "5ECEsYL82fbXx9KfTZy7G2KXSurnScciJyAVMHZjekc8jUbn",
+    "total_alpha": 4898387809078994
+  },
+  {
+    "netuid": 62,
+    "name": "SN62",
+    "alpha_reserve": 1719002182401549,
+    "alpha_outstanding": 2909394410473932,
+    "emission_rao": 296021651463,
+    "emission_tao": 296.021651463,
+    "owner": "5DhsVYewpCdQQUenHU52k5Cys1WsTWTt5V5m84D3n4L8FWDS",
+    "total_alpha": 4628396592875481
+  },
+  {
+    "netuid": 63,
+    "name": "SN63",
+    "alpha_reserve": 1743645251696995,
+    "alpha_outstanding": 3005753488773278,
+    "emission_rao": 296021651543,
+    "emission_tao": 296.021651543,
+    "owner": "5CqTmNfgDchxULD1bfoz8jvj9rDYSoq76kiq98oBUUEDpWqX",
+    "total_alpha": 4749398740470273
+  },
+  {
+    "netuid": 64,
+    "name": "SN64",
+    "alpha_reserve": 2535601317261341,
+    "alpha_outstanding": 2485344439586806,
+    "emission_rao": 296021650969,
+    "emission_tao": 296.021650969,
+    "owner": "5FRYKhbmfXPDoHdUUDMx27E3HuMvAzwjzFMMq3rNurUhAyS9",
+    "total_alpha": 5020945756848147
+  },
+  {
+    "netuid": 65,
+    "name": "SN65",
+    "alpha_reserve": 1865795571479131,
+    "alpha_outstanding": 2941375113871532,
+    "emission_rao": 296021651248,
+    "emission_tao": 296.021651248,
+    "owner": "5GxEEHxLWpvcAGghL8LG7xNjrxZk4SEPW1VT43hGPZ2TP9mZ",
+    "total_alpha": 4807170685350663
+  },
+  {
+    "netuid": 66,
+    "name": "SN66",
+    "alpha_reserve": 897206740067059,
+    "alpha_outstanding": 3841764001181952,
+    "emission_rao": 296021651749,
+    "emission_tao": 296.021651749,
+    "owner": "5DRtWRDDrcKfgwPBkjADBVPSFzpLSGXejzNXXRtfSCpkFKHP",
+    "total_alpha": 4738970741249011
+  },
+  {
+    "netuid": 67,
+    "name": "SN67",
+    "alpha_reserve": 41638069457656,
+    "alpha_outstanding": 161050916689336,
+    "emission_rao": 296021651544,
+    "emission_tao": 296.021651544,
+    "owner": "5HEAv3TU1yNei4GwiTsxfmDCDW9pMCKLeDVky9iaVJfYiVeY",
+    "total_alpha": 202688986146992
+  },
+  {
+    "netuid": 68,
+    "name": "SN68",
+    "alpha_reserve": 2090837400622484,
+    "alpha_outstanding": 2642096607195876,
+    "emission_rao": 242741368003,
+    "emission_tao": 242.741368003,
+    "owner": "5EcdJLAeYoxM3Tsf5VZ3NQPenPku218gqnjSoo3iJNy4V12V",
+    "total_alpha": 4732934007818360
+  },
+  {
+    "netuid": 69,
+    "name": "SN69",
+    "alpha_reserve": 1933234478502000,
+    "alpha_outstanding": 2995179869084355,
+    "emission_rao": 296021651747,
+    "emission_tao": 296.021651747,
+    "owner": "5EsorPyFCP7TaNz3QrNvDvr8ZDVtG9hfzNEfGeAVG9wbFi2B",
+    "total_alpha": 4928414347586355
+  },
+  {
+    "netuid": 70,
+    "name": "SN70",
+    "alpha_reserve": 59132259542225,
+    "alpha_outstanding": 194617924539697,
+    "emission_rao": 296021651747,
+    "emission_tao": 296.021651747,
+    "owner": "5HisJVRY5s72aGFqcvemjk2AzdQnPhbTcMjWDecWZKtoCqj9",
+    "total_alpha": 253750184081922
+  },
+  {
+    "netuid": 71,
+    "name": "SN71",
+    "alpha_reserve": 913773019593164,
+    "alpha_outstanding": 3691066918250880,
+    "emission_rao": 296021647283,
+    "emission_tao": 296.021647283,
+    "owner": "5DwHzMhBXPGPSSxnPzp3J8Y12UyYmU17nppQ8oHum6yrRjSk",
+    "total_alpha": 4604839937844044
+  },
+  {
+    "netuid": 72,
+    "name": "SN72",
+    "alpha_reserve": 2308966812540793,
+    "alpha_outstanding": 2023025778565011,
+    "emission_rao": 296021645630,
+    "emission_tao": 296.02164563,
+    "owner": "5HTYVBxrF2WbVN8RBtFxAkBGuHJxjgLd9Sze5gxH4KC6GLCv",
+    "total_alpha": 4331992591105804
+  },
+  {
+    "netuid": 73,
+    "name": "SN73",
+    "alpha_reserve": 1818441800031549,
+    "alpha_outstanding": 2771363095577252,
+    "emission_rao": 296021651455,
+    "emission_tao": 296.021651455,
+    "owner": "5CUjS24TsKfKBc8kvHnjubAiAkkxwHF4u6vDLBE9jg4CGBJm",
+    "total_alpha": 4589804895608801
+  },
+  {
+    "netuid": 74,
+    "name": "SN74",
+    "alpha_reserve": 1202040670239010,
+    "alpha_outstanding": 3108043668152589,
+    "emission_rao": 296021651126,
+    "emission_tao": 296.021651126,
+    "owner": "5D1VXeeSdrfyrBdMe4SNwKnRsmzrjXES9dhx6kQkCHhJUPvS",
+    "total_alpha": 4310084338391599
+  },
+  {
+    "netuid": 75,
+    "name": "SN75",
+    "alpha_reserve": 1568144549903805,
+    "alpha_outstanding": 2884353228702107,
+    "emission_rao": 296021648906,
+    "emission_tao": 296.021648906,
+    "owner": "5DAQpczEK4vzBn1waHkC4BZGqGPZ1dwPxKVsj36JDofHAw3a",
+    "total_alpha": 4452497778605912
+  },
+  {
+    "netuid": 76,
+    "name": "SN76",
+    "alpha_reserve": 107087079072435,
+    "alpha_outstanding": 410419689858699,
+    "emission_rao": 296021651674,
+    "emission_tao": 296.021651674,
+    "owner": "5FFNhWd881QTWuuiDgkqW4vgiWFDW1QYqPwRB9MZUkH7cMUP",
+    "total_alpha": 517506768931134
+  },
+  {
+    "netuid": 77,
+    "name": "SN77",
+    "alpha_reserve": 2299338111418801,
+    "alpha_outstanding": 2078341571780623,
+    "emission_rao": 296021651402,
+    "emission_tao": 296.021651402,
+    "owner": "5GxxsUeYRyJSJKCuPeG1jZZiCummHJttmTNsfgDRSfxVnhGi",
+    "total_alpha": 4377679683199424
+  },
+  {
+    "netuid": 78,
+    "name": "SN78",
+    "alpha_reserve": 1002532903880,
+    "alpha_outstanding": 32148530129194,
+    "emission_rao": 296021651676,
+    "emission_tao": 296.021651676,
+    "owner": "5FnQCJW2Rm1BijNBUJzPetcpZx43RWutYiyaxA8j88fy9i9L",
+    "total_alpha": 33151063033074
+  },
+  {
+    "netuid": 79,
+    "name": "SN79",
+    "alpha_reserve": 1473558868319628,
+    "alpha_outstanding": 2775840310834271,
+    "emission_rao": 296021647080,
+    "emission_tao": 296.02164708,
+    "owner": "5Fxp7QBG81X7PLdMkAe1RLCvqqfQSw9rJC5ppEQs9FP8qez9",
+    "total_alpha": 4249399179153899
+  },
+  {
+    "netuid": 80,
+    "name": "SN80",
+    "alpha_reserve": 231831095291668,
+    "alpha_outstanding": 777941981215425,
+    "emission_rao": 296021651198,
+    "emission_tao": 296.021651198,
+    "owner": "5ERJCUPWkgEmVDFCcdwMgaBbtEqGmzZnhdqNRcf3W29JsJJs",
+    "total_alpha": 1009773076507093
+  },
+  {
+    "netuid": 81,
+    "name": "SN81",
+    "alpha_reserve": 2327155819122564,
+    "alpha_outstanding": 1939023362755807,
+    "emission_rao": 296021651678,
+    "emission_tao": 296.021651678,
+    "owner": "5DUELqJMeY6tA7652ooUUvU9TgUCi5hnv9o66nC8Zjw7BtW5",
+    "total_alpha": 4266179181878371
+  },
+  {
+    "netuid": 82,
+    "name": "SN82",
+    "alpha_reserve": 1613581242109144,
+    "alpha_outstanding": 2656088976175022,
+    "emission_rao": 296021651745,
+    "emission_tao": 296.021651745,
+    "owner": "5CQGGDxtZrtpMJGpjXqEP3pkwmqfwwYs1knmYnQGjGs8MMgS",
+    "total_alpha": 4269670218284166
+  },
+  {
+    "netuid": 83,
+    "name": "SN83",
+    "alpha_reserve": 934897986243733,
+    "alpha_outstanding": 1701083782527251,
+    "emission_rao": 296021645706,
+    "emission_tao": 296.021645706,
+    "owner": "5DqEjRLyNN8k3WbEXhA36tyGG4YpWyPEcVSTa47XxspNHhc3",
+    "total_alpha": 2635981768770984
+  },
+  {
+    "netuid": 84,
+    "name": "SN84",
+    "alpha_reserve": 1668695990882266,
+    "alpha_outstanding": 2664553975446689,
+    "emission_rao": 296021651681,
+    "emission_tao": 296.021651681,
+    "owner": "5FBwsAvvKjhe7bGSdtVSAaxm7huJAcWFZRb9WRpJJmrVUvoB",
+    "total_alpha": 4333249966328955
+  },
+  {
+    "netuid": 85,
+    "name": "SN85",
+    "alpha_reserve": 1479377364909301,
+    "alpha_outstanding": 2544469905773185,
+    "emission_rao": 296021650257,
+    "emission_tao": 296.021650257,
+    "owner": "5GTPBjA4uXhuQ51SJB7Jd55JwY6dKEnbnjCrsSSEXy3MN63z",
+    "total_alpha": 4023847270682486
+  },
+  {
+    "netuid": 86,
+    "name": "SN86",
+    "alpha_reserve": 450722567169929,
+    "alpha_outstanding": 1000145490522881,
+    "emission_rao": 296021651607,
+    "emission_tao": 296.021651607,
+    "owner": "5ERnAHRQjTrLwtTcBgKqDu7j5YSL23eetTtnFgqb5jaKLqrq",
+    "total_alpha": 1450868057692810
+  },
+  {
+    "netuid": 87,
+    "name": "SN87",
+    "alpha_reserve": 209165644286413,
+    "alpha_outstanding": 725267473129422,
+    "emission_rao": 296021651751,
+    "emission_tao": 296.021651751,
+    "owner": "5GquyFXCVX4dAB1GFNSfZemYZm43H8KWa1BSTjV9UKeSYt2x",
+    "total_alpha": 934433117415835
+  },
+  {
+    "netuid": 88,
+    "name": "SN88",
+    "alpha_reserve": 1715386137964557,
+    "alpha_outstanding": 2380196868960591,
+    "emission_rao": 296021648091,
+    "emission_tao": 296.021648091,
+    "owner": "5FhMsGJS7WYdwBzcgsTWxEtY7UCYLZdmBVLcNPmCxr3ppiKS",
+    "total_alpha": 4095583006925148
+  },
+  {
+    "netuid": 89,
+    "name": "SN89",
+    "alpha_reserve": 1790992611776531,
+    "alpha_outstanding": 1948166034486475,
+    "emission_rao": 296021651608,
+    "emission_tao": 296.021651608,
+    "owner": "5Dc5NmEUptDeMLrxDSvg8kfCToxJkiF47apAYSVTycAVvDN4",
+    "total_alpha": 3739158646263006
+  },
+  {
+    "netuid": 90,
+    "name": "SN90",
+    "alpha_reserve": 367445998495202,
+    "alpha_outstanding": 858394113329677,
+    "emission_rao": 296021651547,
+    "emission_tao": 296.021651547,
+    "owner": "5CqrdkU4FuH8LdUjkq4YQFJbQiK1Bmf9q4fVpFuhrxGcGwbW",
+    "total_alpha": 1225840111824879
+  },
+  {
+    "netuid": 91,
+    "name": "SN91",
+    "alpha_reserve": 73655823330732,
+    "alpha_outstanding": 279959507261373,
+    "emission_rao": 296021651612,
+    "emission_tao": 296.021651612,
+    "owner": "5CaYBBkGrFEpwYSVMCgsRMKbE4RhBPWqn2ipjqTkELEbQbpF",
+    "total_alpha": 353615330592105
+  },
+  {
+    "netuid": 92,
+    "name": "SN92",
+    "alpha_reserve": 335211810455003,
+    "alpha_outstanding": 811816904185187,
+    "emission_rao": 296021651678,
+    "emission_tao": 296.021651678,
+    "owner": "5Ck9Wu6bQ923pPgb7KWfszAWo6uraNryxw88JLfmRx7xUBTT",
+    "total_alpha": 1147028714640190
+  },
+  {
+    "netuid": 93,
+    "name": "SN93",
+    "alpha_reserve": 1317354808356089,
+    "alpha_outstanding": 2622727183247906,
+    "emission_rao": 153931258750,
+    "emission_tao": 153.93125875,
+    "owner": "5FLfN276taTF6Ud62soChQhPNbtF2EPK4dr3pJB9oTsTpUvr",
+    "total_alpha": 3940081991603995
+  },
+  {
+    "netuid": 94,
+    "name": "SN94",
+    "alpha_reserve": 401356357236452,
+    "alpha_outstanding": 809896010815288,
+    "emission_rao": 296021651598,
+    "emission_tao": 296.021651598,
+    "owner": "5EZRCK9op9piMhQvHqrEL1SNQU8ENU8s9aqGnRKNsUxmPYP2",
+    "total_alpha": 1211252368051740
+  },
+  {
+    "netuid": 95,
+    "name": "SN95",
+    "alpha_reserve": 622025322619895,
+    "alpha_outstanding": 1829053249971470,
+    "emission_rao": 296021651616,
+    "emission_tao": 296.021651616,
+    "owner": "5D5UhUuc6cC47CXUBHyBkpDBrdeyeL6bpWGAreZgNm5WTyrg",
+    "total_alpha": 2451078572591365
+  },
+  {
+    "netuid": 96,
+    "name": "SN96",
+    "alpha_reserve": 584303501,
+    "alpha_outstanding": 0,
+    "emission_rao": 0,
+    "emission_tao": 0.0,
+    "owner": "5CGq1JQhmZmR8w3pXFqycUgX9mcLt8bPwMZ8YDJbEmELpw7X",
+    "total_alpha": 584303501
+  },
+  {
+    "netuid": 97,
+    "name": "SN97",
+    "alpha_reserve": 46519104848827,
+    "alpha_outstanding": 247835152604654,
+    "emission_rao": 296021651886,
+    "emission_tao": 296.021651886,
+    "owner": "5EUXD91ADceyH7nRWXCqG1wbaCEhsqosT4rjGhwaZDRR4ib6",
+    "total_alpha": 294354257453481
+  },
+  {
+    "netuid": 98,
+    "name": "SN98",
+    "alpha_reserve": 1539791457604587,
+    "alpha_outstanding": 2221612847613587,
+    "emission_rao": 296021651746,
+    "emission_tao": 296.021651746,
+    "owner": "5Dd9Q6yueRkH1fLTHa2xdEEPoMQiqenWKRMUtZKPTuvjRL3w",
+    "total_alpha": 3761404305218174
+  },
+  {
+    "netuid": 99,
+    "name": "SN99",
+    "alpha_reserve": 147324983917600,
+    "alpha_outstanding": 517211970689424,
+    "emission_rao": 296021651604,
+    "emission_tao": 296.021651604,
+    "owner": "5FxogcQr2XDRNCKSaaHh3AujzJKqksCzKLQWvPzToxG64tfm",
+    "total_alpha": 664536954607024
+  },
+  {
+    "netuid": 100,
+    "name": "SN100",
+    "alpha_reserve": 234971275616280,
+    "alpha_outstanding": 1081507883989156,
+    "emission_rao": 296021651611,
+    "emission_tao": 296.021651611,
+    "owner": "5FX6kmhYwTYRFaZjxEo7k9DaG8qRmqrJtLTMGRgnfjRcXiWU",
+    "total_alpha": 1316479159605436
+  },
+  {
+    "netuid": 101,
+    "name": "SN101",
+    "alpha_reserve": 761831396152800,
+    "alpha_outstanding": 1465737626154533,
+    "emission_rao": 296021651610,
+    "emission_tao": 296.02165161,
+    "owner": "5H8dNvi1jZRe1dcYN2FdknWKxfGx6u1o9pYm5zRMCZyy2Ex3",
+    "total_alpha": 2227569022307333
+  },
+  {
+    "netuid": 102,
+    "name": "SN102",
+    "alpha_reserve": 13579213500122,
+    "alpha_outstanding": 109660629685054,
+    "emission_rao": 296021651539,
+    "emission_tao": 296.021651539,
+    "owner": "5HidKLutq4YQgmBPWtLRYzh2cGYgWJRaC4owcz756W87puTL",
+    "total_alpha": 123239843185176
+  },
+  {
+    "netuid": 103,
+    "name": "SN103",
+    "alpha_reserve": 769297884073387,
+    "alpha_outstanding": 2395436900774157,
+    "emission_rao": 296021649543,
+    "emission_tao": 296.021649543,
+    "owner": "5E6wTZZipkTmm6mci5jZp1FwXoUSGgG8CemFeC3DsV2nUGiM",
+    "total_alpha": 3164734784847544
+  },
+  {
+    "netuid": 104,
+    "name": "SN104",
+    "alpha_reserve": 1182803143376750,
+    "alpha_outstanding": 2588286977449354,
+    "emission_rao": 296021651884,
+    "emission_tao": 296.021651884,
+    "owner": "5HBb3F1bmDzdwQ5WTweXUvnKETTzu6aWNAH811vrLkvSdQAn",
+    "total_alpha": 3771090120826104
+  },
+  {
+    "netuid": 105,
+    "name": "SN105",
+    "alpha_reserve": 301150469767412,
+    "alpha_outstanding": 1248370587048669,
+    "emission_rao": 296021650215,
+    "emission_tao": 296.021650215,
+    "owner": "5G3ic2pAzVu1gZmeUQfKGox3P8TetJw87asvyAdkb2o8aCCX",
+    "total_alpha": 1549521056816081
+  },
+  {
+    "netuid": 106,
+    "name": "SN106",
+    "alpha_reserve": 1864576339739245,
+    "alpha_outstanding": 1855313894966270,
+    "emission_rao": 296021651685,
+    "emission_tao": 296.021651685,
+    "owner": "5E5Ctr2D9SjvLwNn45UNhBpjuQ7QWuinMqpAXY1ueRfJr5PT",
+    "total_alpha": 3719890234705515
+  },
+  {
+    "netuid": 107,
+    "name": "SN107",
+    "alpha_reserve": 113356167702766,
+    "alpha_outstanding": 479925232263065,
+    "emission_rao": 296021651678,
+    "emission_tao": 296.021651678,
+    "owner": "5DA2vLrSXZxnT9G4Yrywx1Fpi4RXwMH1Ah7r8DTTWS7UZZBM",
+    "total_alpha": 593281399965831
+  },
+  {
+    "netuid": 108,
+    "name": "SN108",
+    "alpha_reserve": 384307379791203,
+    "alpha_outstanding": 820685207261955,
+    "emission_rao": 296021651602,
+    "emission_tao": 296.021651602,
+    "owner": "5HDuqw9fkqG3xdm1yZA8dfKeLBnZhg138xiMwnYQdBeLfytT",
+    "total_alpha": 1204992587053158
+  },
+  {
+    "netuid": 109,
+    "name": "SN109",
+    "alpha_reserve": 200726989366746,
+    "alpha_outstanding": 670346175703657,
+    "emission_rao": 296021651604,
+    "emission_tao": 296.021651604,
+    "owner": "5EZcsP7SqGLNfXujcX6ZRJ3epRQ2yCDXURjr8XcaEY45eZdm",
+    "total_alpha": 871073165070403
+  },
+  {
+    "netuid": 110,
+    "name": "SN110",
+    "alpha_reserve": 629152906941323,
+    "alpha_outstanding": 1687977187774000,
+    "emission_rao": 296021651547,
+    "emission_tao": 296.021651547,
+    "owner": "5D53sX6AwAzXUB24G85Ch35hYr5rCpXjYFWpFTe4uzBb75sL",
+    "total_alpha": 2317130094715323
+  },
+  {
+    "netuid": 111,
+    "name": "SN111",
+    "alpha_reserve": 1190356389794626,
+    "alpha_outstanding": 2443094819013045,
+    "emission_rao": 296021645400,
+    "emission_tao": 296.0216454,
+    "owner": "5HKeYGvjWXKfB6VVtG4SBpRa87TyKYzc6n8pJKacStFwWyfZ",
+    "total_alpha": 3633451208807671
+  },
+  {
+    "netuid": 112,
+    "name": "SN112",
+    "alpha_reserve": 909547144308724,
+    "alpha_outstanding": 1499617148062179,
+    "emission_rao": 296021651611,
+    "emission_tao": 296.021651611,
+    "owner": "5D7Rf7HbeE7ti49fyLg3TM3F96uWFUwzYBo9SkzBpAUTQMhM",
+    "total_alpha": 2409164292370903
+  },
+  {
+    "netuid": 113,
+    "name": "SN113",
+    "alpha_reserve": 349115641814013,
+    "alpha_outstanding": 815138229976592,
+    "emission_rao": 201294723168,
+    "emission_tao": 201.294723168,
+    "owner": "5C85m1bfiEXNW3fP3B5xY5Q9Fhmz5eAxwTk2qezLHenBNezY",
+    "total_alpha": 1164253871790605
+  },
+  {
+    "netuid": 114,
+    "name": "SN114",
+    "alpha_reserve": 147061358252518,
+    "alpha_outstanding": 607056277106130,
+    "emission_rao": 296021651517,
+    "emission_tao": 296.021651517,
+    "owner": "5FHrQMjzzAhmL5zS9ys87ZrGCwG3vsVT9hXAUWZQ8SNdRqig",
+    "total_alpha": 754117635358648
+  },
+  {
+    "netuid": 115,
+    "name": "SN115",
+    "alpha_reserve": 777924612479069,
+    "alpha_outstanding": 1221969775507483,
+    "emission_rao": 296021651339,
+    "emission_tao": 296.021651339,
+    "owner": "5EkNnrTjnMYaj4x1gNxAnJne9UvKgfU6NZNjhm6XFWMstbdG",
+    "total_alpha": 1999894387986552
+  },
+  {
+    "netuid": 116,
+    "name": "SN116",
+    "alpha_reserve": 900829537029074,
+    "alpha_outstanding": 1579943770005422,
+    "emission_rao": 296021651464,
+    "emission_tao": 296.021651464,
+    "owner": "5GgjJXbcDyiGenKGfPrPhRxJ7p91EdC22fcAAF4ccbATgu6H",
+    "total_alpha": 2480773307034496
+  },
+  {
+    "netuid": 117,
+    "name": "SN117",
+    "alpha_reserve": 803256241566319,
+    "alpha_outstanding": 1124286431231021,
+    "emission_rao": 148010825864,
+    "emission_tao": 148.010825864,
+    "owner": "5HpMdsVENRx7e8Ex88k6vs7M1zxoWeU2Y9gz2FhaLhaaxgk8",
+    "total_alpha": 1927542672797340
+  },
+  {
+    "netuid": 118,
+    "name": "SN118",
+    "alpha_reserve": 765808174466831,
+    "alpha_outstanding": 1102602967215951,
+    "emission_rao": 296021650695,
+    "emission_tao": 296.021650695,
+    "owner": "5CdS9RLYMZzgHUCmQagpqzhVkJFoNxasLyaCMA72wY3GvGG5",
+    "total_alpha": 1868411141682782
+  },
+  {
+    "netuid": 119,
+    "name": "SN119",
+    "alpha_reserve": 796603992816936,
+    "alpha_outstanding": 1000260440739855,
+    "emission_rao": 296021651609,
+    "emission_tao": 296.021651609,
+    "owner": "5GbLENPLG8Takn1puaz5HorPmrFtDT7i2PojiJsqutbaGwWu",
+    "total_alpha": 1796864433556791
+  },
+  {
+    "netuid": 120,
+    "name": "SN120",
+    "alpha_reserve": 1178121490856600,
+    "alpha_outstanding": 1909460674685101,
+    "emission_rao": 296021651746,
+    "emission_tao": 296.021651746,
+    "owner": "5Fc3ZZQAYB3SPXKcFnd1WJeyQvArSZZeB6LU1rb7zvQ6XvDh",
+    "total_alpha": 3087582165541701
+  },
+  {
+    "netuid": 121,
+    "name": "SN121",
+    "alpha_reserve": 1001959015032578,
+    "alpha_outstanding": 2270271284532724,
+    "emission_rao": 296021651604,
+    "emission_tao": 296.021651604,
+    "owner": "5CXGaDJsffVeBK4CDhBNMVK6MH7fHbL7AbnjzZ8XP6QzFLWm",
+    "total_alpha": 3272230299565302
+  },
+  {
+    "netuid": 122,
+    "name": "SN122",
+    "alpha_reserve": 1100019903883582,
+    "alpha_outstanding": 2105532157600214,
+    "emission_rao": 296021651593,
+    "emission_tao": 296.021651593,
+    "owner": "5H6fAdf7QsrZpLKyydA1pM9sxTK7qJx4S4jUgg6YMHr4Xzqs",
+    "total_alpha": 3205552061483796
+  },
+  {
+    "netuid": 123,
+    "name": "SN123",
+    "alpha_reserve": 1653825986890863,
+    "alpha_outstanding": 1607288560287469,
+    "emission_rao": 296021646247,
+    "emission_tao": 296.021646247,
+    "owner": "5HVuEdEGMYisecwjkWC7dKDPEzgs9cECdsdCQagfPRVf6FxZ",
+    "total_alpha": 3261114547178332
+  },
+  {
+    "netuid": 124,
+    "name": "SN124",
+    "alpha_reserve": 1207502632895487,
+    "alpha_outstanding": 2287040477871509,
+    "emission_rao": 296021651462,
+    "emission_tao": 296.021651462,
+    "owner": "5HKYqfJrUFKYPMRFZZ7kfhUNEyHUbY2ZyEjQqKJf2RKVpeXM",
+    "total_alpha": 3494543110766996
+  },
+  {
+    "netuid": 125,
+    "name": "SN125",
+    "alpha_reserve": 1361555821914380,
+    "alpha_outstanding": 1909655577758570,
+    "emission_rao": 296021651606,
+    "emission_tao": 296.021651606,
+    "owner": "5DTzv2rL6YGQjCDNiWQJz2nE23fK1mDccH9eQimgiieyL3C4",
+    "total_alpha": 3271211399672950
+  },
+  {
+    "netuid": 126,
+    "name": "SN126",
+    "alpha_reserve": 105719051532746,
+    "alpha_outstanding": 411684089067430,
+    "emission_rao": 296021646939,
+    "emission_tao": 296.021646939,
+    "owner": "5DqrUa2z6E9taJdY8FGiPCrtCswsEjHjPbVo5xcTw2GqvKZm",
+    "total_alpha": 517403140600176
+  },
+  {
+    "netuid": 127,
+    "name": "SN127",
+    "alpha_reserve": 866532230370969,
+    "alpha_outstanding": 2230098969280829,
+    "emission_rao": 296021651263,
+    "emission_tao": 296.021651263,
+    "owner": "5FU4uxAdrZsaWaezWwXEK93MwPX5gw2566BQK2WwrGUudfSH",
+    "total_alpha": 3096631199651798
+  },
+  {
+    "netuid": 128,
+    "name": "SN128",
+    "alpha_reserve": 1193336033725733,
+    "alpha_outstanding": 2000334890733937,
+    "emission_rao": 296021650338,
+    "emission_tao": 296.021650338,
+    "owner": "5GgMeLFN4YssT6f9i9pZpRmczt8GYDsCZ1nYPiGRcTPWn3AA",
+    "total_alpha": 3193670924459670
+  }
+]
