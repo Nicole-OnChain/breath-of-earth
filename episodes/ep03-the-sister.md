@@ -164,9 +164,30 @@ Warm. Normal. A memory of home. Golden hour. Don't over-explain.
 
 ---
 
-## BACKGROUND MUSIC (Generate in Audio Tab)
+## BACKGROUND MUSIC (Generate 5 SEPARATE SECTIONS — layer in Movie Editor)
 
-> "Dark romantic fantasy instrumental, 85 seconds. Opens with warm golden acoustic guitar melody for 12 seconds — gentle, nostalgic, like a memory, FULL and AUDIBLE with a simple melodic phrase, not just strumming. At 12 seconds = guitar fades abruptly — cold sparse piano enters, lonely and clear, single notes with space between. At 18 seconds = single dissonant low cello note (Sera's theme), sustained for 6 seconds underneath the piano. At 24 seconds = warm strings and gentle woodwind melody enter over earth sounds — this is the second real melody, let it breathe and be heard. At 36 seconds = she sits — music quiets to just piano and soft strings, intimate. At 48 seconds = he stands — music STOPS completely. Just footsteps and fire. At 60 seconds = chin grab — dead silence for 2 seconds, then a single deep cello note enters, low and resonant. At 72 seconds = he makes camp — sparse guitar returns, quiet and uncertain, like he's deciding something. At 78 seconds = single piano note rings out and fades. Melody should be FRONT AND CENTER in the first 12 seconds and from 24-48 seconds. The quiet parts (piano only) should still be clearly melodic — individual notes you can hum. Think film score with real themes, not background texture."
+Venice's audio generator doesn't follow timing instructions well. Generate each section separately and layer them in the Movie Editor at the correct timestamps. Crossfade 1-2 seconds between sections.
+
+**Section 1 — "The Memory" (0-12s)**
+> "Warm nostalgic acoustic guitar instrumental melody, gentle and bittersweet, like remembering a happy home, golden hour feeling, single clear guitar phrase that you can hum, SIMPLE melody not just strumming, orchestral fantasy film score, 12 seconds, audible and front and center, no percussion"
+
+**Section 2 — "The Sister" (12-23s)**
+> "Cold sparse piano, single notes with space between, lonely and clear, at 6 seconds a low dissonant cello note enters underneath and sustains, the tone shifts from warm to cold and unsettling, dark fantasy orchestral, 11 seconds, no percussion, no guitar"
+
+**Section 3 — "The Clearing" (24-48s)**
+> "Warm strings and gentle oboe melody over a crackling fire, intimate and quiet but clearly audible, a real melody you can hum, romantic fantasy film score, strings carry the tune while oboe weaves around it, starts gentle and intimate, builds slightly at 36 seconds then quiets down at 44 seconds, 24 seconds, soft percussion only in the second half, fire ambience underneath"
+
+**Section 4 — "The Silence" (48-60s)**
+> "2 seconds of dead silence, then a single deep resonant cello note enters low and sustains for 10 seconds, dark tense fantasy score, nothing else, just the one note hanging in the air like a held breath, 12 seconds total, no percussion, no other instruments"
+
+**Section 5 — "The Promise" (60-84s)**
+> "Sparse uncertain guitar returns with a few halting notes, quiet and searching, then at 72 seconds the guitar finds the same warm phrase from the opening melody but quieter and more certain, resolving gently, single piano note rings out at 80 seconds and fades to silence, dark romantic fantasy film score, 24 seconds, no percussion"
+
+**MOVIE EDITOR LAYERING:**
+1. Drop each section on timeline at correct timestamps (0s, 12s, 24s, 48s, 60s)
+2. Crossfade 1-2 seconds between sections
+3. Layer voiceover on top (audio layer 2)
+4. Layer sound effects on top (audio layer 3)
 
 ---
 
