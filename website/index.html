@@ -221,6 +221,8 @@
         .character-card.earth::before { background: linear-gradient(to right, transparent, var(--earth-glow), transparent); }
         .character-card.fire::before { background: linear-gradient(to right, transparent, var(--fire-glow), transparent); }
         .character-card.water::before { background: linear-gradient(to right, transparent, var(--water-glow), transparent); }
+        .character-img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; margin-bottom: 20px; filter: saturate(0.85) brightness(0.9); transition: filter 0.5s ease; }
+        .character-card:hover .character-img { filter: saturate(1) brightness(1); }
         .character-element { font-family: 'Inter', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 12px; }
         .character-card.wind .character-element { color: var(--wind-glow); }
         .character-card.earth .character-element { color: var(--earth-glow); }
@@ -511,6 +513,7 @@
     </div>
     <div class="character-grid">
         <div class="character-card wind reveal">
+            <img src="assets/characters/Lyra.webp" alt="Lyra — Wind-weaver" class="character-img">
             <p class="character-element">1st &mdash; Wind</p>
             <h3 class="character-name">Lyra</h3>
             <p class="character-role">Wind-weaver</p>
@@ -518,6 +521,7 @@
             <p class="character-quote">"I didn't want to be there."</p>
         </div>
         <div class="character-card earth reveal">
+            <img src="assets/characters/Ronan.webp" alt="Ronan — Earth-shaper" class="character-img">
             <p class="character-element">4th &mdash; Earth</p>
             <h3 class="character-name">Ronan</h3>
             <p class="character-role">Earth-shaper</p>
@@ -525,6 +529,7 @@
             <p class="character-quote">"No one will hurt them."</p>
         </div>
         <div class="character-card fire reveal">
+            <img src="assets/characters/Zara.webp" alt="Zara — Flame-kissed" class="character-img">
             <p class="character-element">2nd &mdash; Fire</p>
             <h3 class="character-name">Zara</h3>
             <p class="character-role">Flame-kissed</p>
@@ -532,6 +537,7 @@
             <p class="character-quote">"Better air flow. Obviously."</p>
         </div>
         <div class="character-card water reveal">
+            <img src="assets/characters/Caspian.webp" alt="Caspian — Tide-caller" class="character-img">
             <p class="character-element">3rd &mdash; Water</p>
             <h3 class="character-name">Caspian</h3>
             <p class="character-role">Tide-caller</p>
@@ -595,6 +601,7 @@
         <div class="story-text">
             <p>Each class trains against its natural enemy. The training grounds are built into the geography &mdash; and the hierarchy is literally built into the architecture. The higher tier always comes down to fight on the lower tier's turf.</p>
         </div>
+        <img src="assets/characters/Training Grounds Map.webp" alt="Training Grounds Map &mdash; elemental camp hierarchy" style="width: 100%; max-width: 700px; display: block; margin: 32px auto 0; border-radius: 8px; filter: brightness(0.9) saturate(0.85); transition: filter 0.5s ease;" onmouseover="this.style.filter='brightness(1) saturate(1)'" onmouseout="this.style.filter='brightness(0.9) saturate(0.85)'">
     </div>
     <div class="camp-map reveal">
         <div class="map-layer map-wind" tabindex="0">
