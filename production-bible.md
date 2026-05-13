@@ -490,13 +490,60 @@ BoE-S01E11-TheRescue.mp4
 - Drafts before final approval: `BoE-S01E02-Escape-draft1.mp4`, `BoE-S01E02-Escape-draft2.mp4`, etc.
 - The final version drops the draft suffix
 
+## Social Launch Checklist
+
+### Phase 1: Pre-Launch (Now)
+- [ ] Create Facebook Page — "Breath of Earth" (Category: Entertainment Website)
+- [ ] Same profile pic and cover art as TikTok
+- [ ] Bio: "Wind rules. Earth serves. Some things are worth the risk. Fantasy romance — new episodes on TikTok. Link below ↓"
+- [ ] Add breath-of-earth.com as website link
+- [ ] Add TikTok link in bio
+- [ ] Reserve the name on Instagram (@breathofearth or closest available)
+- [ ] Reserve the name on YouTube (Breath of Earth channel)
+
+### Phase 2: Teaser Campaign (1-2 weeks before first episode)
+- [ ] Facebook: Post character portraits (1 per day, 4 days) — Lyra, Ronan, Zara, Caspian
+- [ ] Facebook: Post quote cards (best voiceover lines on elemental backgrounds)
+- [ ] Facebook: Post 15-second teaser clips (NOT full episodes)
+- [ ] Facebook: "New episode dropping on TikTok" announcements
+- [ ] Every Facebook post ends with: *Full episodes on TikTok. Link in bio.*
+- [ ] TikTok: Post behind-the-scenes (Venice Studio process, prompt screenshots)
+- [ ] TikTok: Post character reveal clips with hashtags
+- [ ] Website: Update hero section with TikTok link when profile is live
+
+### Phase 3: TikTok Launch (3-5 episodes per week)
+- [ ] Post Episode 1 on TikTok
+- [ ] Cross-post to Instagram Reels (same MP4, adjust hashtags)
+- [ ] Facebook: teaser for each new episode + TikTok link
+- [ ] Track: views, likes, comments, shares per episode
+- [ ] Engage: reply to every comment in first 48 hours
+- [ ] TikTok monetization goal: 10K followers + 100K views in 30 days
+
+### Phase 4: Expand (After TikTok monetization)
+- [ ] Start cross-posting full episodes to Instagram Reels
+- [ ] Start cross-posting to YouTube Shorts
+- [ ] Facebook: shift from teasers to full Reels reposts
+- [ ] Consider Facebook Group for fan community (only if audience warrants moderation)
+- [ ] Launch shop products (coloring book, art pack)
+
+### Facebook Content Strategy
+- **Post type:** Teaser images, quote cards, character portraits, 15s clips
+- **Frequency:** 3-4 posts/week pre-launch, 1/day during season
+- **Every post:** CTA to TikTok for full episodes
+- **Never post:** Full episodes on Facebook (that's what TikTok is for)
+- **Facebook's strength:** Visual art shares further than video — character portraits and quote cards will travel
+
+---
+
 ## Cross-Platform Posting
 
-| Platform | Format | Notes |
-|----------|--------|-------|
-| **TikTok** | 9:16, 60-90 sec | Primary, use all hashtags |
-| **Instagram Reels** | Same 9:16 MP4 | Cross-post same video, adjust hashtags |
-| **YouTube Shorts** | Same 9:16 MP4 | Optional, same content |
+| Platform | Format | Notes | Status |
+|----------|--------|-------|--------|
+| **TikTok** | 9:16, 60-90 sec | PRIMARY — launch platform, algorithm pushes new creators | 🔴 Launch First |
+| **Instagram Reels** | Same 9:16 MP4 | Cross-post after TikTok monetization, adjust hashtags | 🟡 Phase 4 |
+| **YouTube Shorts** | Same 9:16 MP4 | Optional, same content, different audience | 🟡 Phase 4 |
+| **Facebook Page** | Teasers only | Character portraits, quote cards, 15s clips → TikTok CTA | 🟢 Pre-launch |
+| **breath-of-earth.com** | Hub | Permanent home, links to all platforms, shop | ✅ Live |
 
 **No re-editing needed.** Export once from Venice Studio, post everywhere.
 
@@ -511,11 +558,11 @@ BoE-S01E11-TheRescue.mp4
 | TikTok Creator Fund | Episode views | $100-500/mo | Month 1-3 |
 | TikTok Series | Paid episodes | $2-3/season | Month 3+ |
 | Instagram Reels | Same content, broader reach | Bonus views | Month 1 |
-| Website | Hub, early access, fan community | Free + $5/mo Patreon | Month 2 |
+| Website | Hub, early access, fan community | Free + shop products | Month 2 |
 | Amazon KDP | "Breath of Earth Season 1" coloring book | $9.99 | Month 3-6 |
 | Etsy | Phone wallpapers, bookmarks, reading journals | $3-12 each | Month 3-6 |
 | Printify merch | Character quotes on shirts/mugs/tote bags | $20-35 retail | Month 4+ |
-| Patreon/Ko-fi | Early access, bonus scenes, fan voting | $5/mo | Month 4+ |
+| Ko-fi | Early access, bonus scenes, fan voting | $5/mo | Month 4+ |
 
 ---
 
