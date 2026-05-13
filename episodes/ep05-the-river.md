@@ -132,7 +132,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ## END CARD (1:12-1:17)
 - Black screen
 - White text: *Breath of Earth*
-- Smaller text: *Episode 6: The Camp — Tomorrow*
+- Smaller text: Season 1 — Episode 6: The Camp
 
 ---
 
@@ -185,7 +185,7 @@ But someone else was watching."
 9. **Clip 6 (the look):** Caspian's note plays. Just a glimpse. The audience should wonder who that was.
 10. Add text overlays (italic quotes in title card tool)
 11. Crossfade transitions between clips
-12. End card: black screen → "Breath of Earth" → "Episode 6: The Camp — Tomorrow"
+12. End card: black screen → "Breath of Earth" → "Season 1 — Episode 6: The Camp"
 
 ---
 

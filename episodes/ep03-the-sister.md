@@ -137,13 +137,13 @@ Warm. Normal. A memory of home. Golden hour. Don't over-explain.
 ## END CARD (1:12-1:17)
 - Black screen
 - White text: *No one will hurt them.*
-- Smaller text: *Breath of Earth — Episode 4: The Night — Tomorrow*
+- Smaller text: Season 1 — Episode 4: The Night
 
 ---
 
 ## BACKGROUND MUSIC (Generate in Audio Tab)
 
-> "Warm golden acoustic guitar for 12 seconds — like a memory, safe. At 12 seconds = guitar fades, cold piano enters, sparse and lonely. At 18 seconds = single dissonant low note (Sera's theme). At 24 seconds = fire sounds, gentle strings. At 48 seconds = he stands — music STOPS. Just footsteps and fire. At 60 seconds = he speaks — dead silence, just his voice and a single deep note. Cut to black. 85 seconds total, dark romantic fantasy, instrumental"
+> "Dark romantic fantasy instrumental, 85 seconds. Opens with warm golden acoustic guitar melody for 12 seconds — gentle, nostalgic, like a memory, FULL and AUDIBLE with a simple melodic phrase, not just strumming. At 12 seconds = guitar fades abruptly — cold sparse piano enters, lonely and clear, single notes with space between. At 18 seconds = single dissonant low cello note (Sera's theme), sustained for 6 seconds underneath the piano. At 24 seconds = warm strings and gentle woodwind melody enter over fire sounds — this is the second real melody, let it breathe and be heard. At 36 seconds = she sits — music quiets to just piano and soft strings, intimate. At 48 seconds = he stands — music STOPS completely. Just footsteps and fire. At 60 seconds = he grabs her chin — dead silence for 2 seconds, then a single deep cello note enters, low and resonant, while he speaks. At 70 seconds = cello note sustains under his last words, then resolves. At 78 seconds = single piano note rings out and fades. Melody should be FRONT AND CENTER in the first 12 seconds and from 24-48 seconds. The quiet parts (piano only) should still be clearly melodic — individual notes you can hum. Think film score with real themes, not background texture."
 
 ---
 
@@ -189,7 +189,8 @@ He walked over. Grabbed my chin. Made me look at him.
 8. **Clip 3 (fire):** The fire responds to Ronan. Not a demonstration — a conversation. It should feel intimate, not showy.
 9. **Clip 5 (the grip):** He stands. Walks to her. Grabs her chin. The music STOPS when he moves. Just footsteps and fire.
 10. **Clip 6 (the words):** Dead silence when he speaks. Just his voice and a single deep note. Cut to black on *them*. No warm resolution.
-11. Add text overlays (italic quotes in title card tool)
+11. **MIXING:** Music should be CLEARLY AUDIBLE throughout — not background texture. When voiceover plays, duck music 3-4dB (not mute). When no voiceover, music at FULL volume. Sound effects sit on top of music, not replacing it. The guitar melody (0-12s) and strings/woodwind melody (24-48s) should be the emotional backbone — if you can't hum them after watching, they're too quiet. The quiet parts (piano only, 12-24s) should still be clearly melodic — single notes with space, but you can hear every one.
+12. Add text overlays (italic quotes in title card tool)
 12. Crossfade transitions between clips
 13. End card: black screen → *No one will hurt them.* → Episode 4 tease
 

@@ -141,7 +141,7 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 ## END CARD (1:12-1:17)
 - Black screen
 - White text: *It felt like falling.*
-- Smaller text: *Breath of Earth — Episode 7: The Hierarchy — Tomorrow*
+- Smaller text: Season 1 — Episode 7: The Hierarchy
 
 ---
 

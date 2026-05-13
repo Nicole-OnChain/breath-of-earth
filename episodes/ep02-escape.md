@@ -1,7 +1,7 @@
 # Breath of Earth — Episode 2: "Escape"
-**Version:** 3.0 (6 clips × 12s, multi-scene format)
-**Duration target:** 72+ seconds (6 clips × 12s)
-**Video clips:** 6 (12 seconds each)
+**Version:** 3.1 (5 clips × 12s + 1 clip × 24s for Ronan's reaction)
+**Duration target:** 84+ seconds
+**Video clips:** 6 (Clip 5 extended to 24s)
 **Voiceover:** Lyra (single narrator)
 **Music mood:** Tense suffocating car → cold forest → brief warmth → slammed shut again
 **Aspect ratio:** 9:16 (vertical — TikTok + Instagram Reels)
@@ -72,49 +72,55 @@
 ### Clip 4 — THE BINDING (0:36-0:48) ⭐ Solo (key character moment)
 
 **R2V prompt:**
-> An earth-shaper man, tall and muscular with dark hair and stone-grey eyes (image 3) crouches down roughly in a dark forest, binding the wind-weaver girl's wounded leg (image 1) with a strip torn from his own shirt, his movements efficient and fast, not gentle, not cruel — just done, like fixing a problem, warm firelight from a small campfire nearby, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fabric tearing, rough movement, fire crackling, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> An earth-shaper man with dark hair and stone-grey eyes (image 3) CROUCHING DOWN NEXT TO a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) who is sitting on the ground in a dark forest with a wounded leg, the man's large rough hands are WRAPPING A BANDAGE around HER lower leg, HIS hands are clearly doing the wrapping — tying the strip of torn shirt around her calf and shin, his movements efficient and fast, not gentle, not cruel, just done, the girl wincing slightly but not pulling away, warm firelight from a small campfire nearby, camera angle shows both their faces with his hands visible on her leg wrapping the bandage, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fabric tearing, rough movement, fire crackling, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "He didn't ask if I was okay. He just... fixed it. Like fixing a leak. No warmth. No care. Just done."
 **Text overlay:** *Just done.*
 **Duration:** 12 seconds
 **Sound effect:** Fabric tearing, rough movement, fire crackling
 
+**Tip:** **CRITICAL FRAMING TO AVOID AI CONFUSION:** (1) Camera must show BOTH faces so we see HIS expression while HIS hands work on HER leg. (2) HE is crouching/bending down next to her — NOT behind her. (3) HIS hands are clearly wrapping the bandage around HER calf. This is NOT her bandaging herself — HE is doing it. (4) His movements are rough and efficient — like fixing a leak. She winces. No warmth. No tenderness. Just done.
+
 ---
 
-### Clip 5 — THE TOUCH (0:48-1:00) ⭐ Solo (key emotional beat)
+### Clip 5 — THE TOUCH + HIS REACTION (0:48-1:12) ⭐ Extended (key emotional beat — extended for his reaction, 24 seconds)
 
 **R2V prompt:**
-> Close-up of hands — an earth-shaper man's rough hand and the wind-weaver girl's hand touching as he ties a bandage, sparks of light and electricity exploding between their fingers at the point of contact, both their eyes going wide, his jaw dropping slightly, her lips parting, warm firelight and cool moonlight mixing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, electric spark, sharp intake of breath, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> An earth-shaper man with dark hair and stone-grey eyes (image 3) has just finished bandaging the wind-weaver girl's wounded leg (image 1) — he is pulling his hands away from the finished bandage, and as he withdraws his hand, his fingers brush against HER HAND that was resting on her own knee, sparks of light and electricity exploding between their fingers at the point of contact where their hands touch, sparks emanating FROM HER HAND where he touched it, both their eyes going wide — HOLD on RONAN'S FACE for several seconds showing his reaction: first his jaw drops, his eyes go wide with shock and confusion, then his expression slowly hardens as he processes what just happened, the wall going back up, firelight and moonlight on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, electric spark, sharp intake of breath, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "And when our hands met—"
 **Text overlay:** *And when our hands met—*
-**Duration:** 12 seconds
-**Sound effect:** Electric spark, single piano note, sharp intake of breath
+**Duration:** 24 seconds (extended — we need time on his face)
+**Sound effect:** Electric spark, single piano note, sharp intake of breath, then silence
+
+**Tip:** **CRITICAL FRAMING:** (1) He has FINISHED bandaging her leg — the bandage is already done and tied. (2) He is PULLING HIS HAND AWAY from the finished work, and his withdrawing hand brushes against her hand that was resting on her own knee. (3) The spark happens at the accidental hand-to-hand touch as he pulls away — NOT during the bandaging itself. (4) Sparks come from THEIR HANDS touching, specifically emanating FROM HER HAND where he touched it. (5) After the spark, we HOLD on Ronan's face for at least 5 full seconds: first shock (jaw drops, eyes wide), then the wall starting to come up (expression hardening, jaw clenching). We need to SEE his reaction play out. The moment the spark happens is one beat — his face AFTER is the whole story. (6) This 24-second duration gives us room to let his reaction breathe. Don't rush it.
 
 ---
 
-### Clip 6 — THE SHUTTER + THE END (1:00-1:12) 🔗 Multi (2 cuts)
+### Clip 6 — THE SHUTTER + THE END (1:12-1:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> An earth-shaper man, tall and muscular with dark hair and stone-grey eyes (image 3) yanks his hand back from the wind-weaver girl (image 1) like he's been burned, standing up abruptly, his expression slamming shut — cold, guarded, furious at himself for feeling something, firelight casting harsh shadows on his face, she reaches toward him but he's already stepping back — CUT TO — the same earth-shaper man walking ahead into dark forest, not looking back, his back rigid and angry, the wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) limping slightly behind him with a bandaged leg, watching his back with something between hurt and fascination, dark trees surrounding them, firelight fading behind, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, sharp movement then footsteps on forest floor, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> An earth-shaper man with dark hair and stone-grey eyes (image 3) yanks his hand back from the wind-weaver girl (image 1) like he's been burned, standing up abruptly, his expression slamming shut — cold, guarded, furious at himself for feeling something, firelight casting harsh shadows on his face, she reaches toward him but he's already stepping back — CUT TO — the same earth-shaper man (image 3) walking AWAY FROM CAMERA into the dark forest, his back to us, stride stiff and angry, not looking back, while the wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) walks TOWARD CAMERA a few steps after him, then stops, her expression a mix of hurt and fascination, limping slightly with a bandaged leg, dark trees surrounding them, firelight fading behind, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, his footsteps walking away then her footsteps following then stopping, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "He pulled away like it burned. Whatever passed between us — he wanted no part of it. 'Keep up.' That was all he said. And he didn't say it kindly."
 **Text overlay:** *Keep up.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
-**Sound effect:** Sharp movement, fire popping → footsteps, ambient night wind
+**Sound effect:** Sharp movement, fire popping → his footsteps walking away, her footsteps following, then stopping
+
+**Tip:** **CRITICAL DIRECTION:** He walks AWAY from camera (back to us, into the forest). She walks TOWARD camera (following him, then stops). Both are walking forward in their respective directions. He never looks back. She stops chasing.
 
 ---
 
-## END CARD (1:12-1:17)
+## END CARD (1:24-1:29)
 - Black screen fade
 - White text: *Breath of Earth*
-- Smaller text: *Episode 3: The Sister — Tomorrow*
+- Smaller text: Season 1 — Episode 3: The Sister
 
 ---
 
 ## BACKGROUND MUSIC (Generate in Audio Tab)
 
-> "Tense oppressive bass drone for 20 seconds, suffocating and cold. At 20 seconds = transition to eerie forest ambience with dissonant strings. At 50 seconds = brief soft piano melody that cuts off abruptly at 57 seconds when they touch. At 57 seconds = sharp dissonant chord then silence. At 64 seconds = bass returns, colder and harder. 85 seconds total, dark romantic fantasy thriller, instrumental"
+> "Dark romantic fantasy thriller instrumental, 97 seconds. Opens with tense oppressive bass drone and dissonant cello for 20 seconds — cold and suffocating, melody-free. At 20 seconds = transition to eerie forest ambience with dissonant strings and a distant lonely oboe line weaving through. At 36 seconds = fabric tearing sound, strings go quiet, just oboe and fire crackle. At 48 seconds = brief soft piano melody enters, gentle and tentative, like something almost warm — this is the first real melody of the track, make it AUDIBLE. At 57 seconds = the touch — sharp dissonant chord cuts everything. Then 5 seconds of near-silence with just a single sustained high violin note, thin and electric. At 62 seconds = Ronan's reaction — piano returns, low and tentative, single notes with long pauses between, like a heartbeat trying to restart. At 72 seconds = bass returns under the piano, colder, building. At 80 seconds = strings swell briefly, then cut to just footsteps and bass drone fading. Piano and oboe should be CLEAR and AUDIBLE — not buried under sound design. Think film score with real melody, not ambient texture."
 
 ---
 
@@ -156,11 +162,11 @@ He pulled away like it burned. Whatever passed between us — he wanted no part 
 4. Add music track on audio layer 1
 5. Drop sound effects at exact moments on audio layer 3
 6. **L-cut:** Extend car rain + engine sound past Clip 1's visual cut into the forest — smooths the transition
-7. **Key moment:** Clip 5 (touch) → Clip 6 (shutter). The music should cut off DEAD at the spark. 1 second of silence before the bass returns. This is the most important edit in the whole episode.
-8. **Volume ducking:** Music drops low during voiceover, swells between lines. At Clip 5, music builds to the touch — then SILENCE when he pulls away.
+7. **Key moment:** Clip 5 (touch + reaction) → Clip 6 (shutter). The spark happens at the hand touch. Then HOLD on Ronan's face for 5+ seconds showing shock then wall going up. Then the music cuts off DEAD. 1 second of silence before the bass returns. Clip 5 is now 24 seconds to give his reaction room to breathe.
+8. **MIXING:** Music should be CLEARLY AUDIBLE throughout — not background texture. When voiceover plays, duck music 3-4dB (not mute). When no voiceover, music at FULL volume. Sound effects sit on top of music, not replacing it. The piano and oboe melodies should be the emotional backbone — if you can't hum them after watching, they're too quiet. At Clip 5, the music builds to the touch with piano getting louder — then sharp dissonant chord CUTS everything to near-silence with just a thin sustained violin note. At 62 seconds piano returns for his reaction, single notes, audible and clear.
 9. Add text overlays (italic quotes in title card tool)
 10. Crossfade transitions between clips
-11. End card: black fade → "Breath of Earth" → "Episode 3: The Sister — Tomorrow"
+11. End card: black fade → "Breath of Earth" → "Season 1 — Episode 3: The Sister"
 
 ---
 

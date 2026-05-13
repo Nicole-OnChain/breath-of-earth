@@ -135,7 +135,7 @@ Generate in Venice Studio **Image** tab, then save to **Library**. Download copi
 ## PHASE 4: AUDIO (Generate in Audio Tab)
 
 ### Background Music
-> "First 15 seconds = low bass pulse building tension. At 22 seconds = sudden wind crescendo. At 32 seconds = silence. Then soft heartbeat returns. At 55 seconds = gentle melancholic piano notes. 90 seconds total, dark romantic fantasy, instrumental, NO MUSIC, ONLY SOUND EFFECTS, 9:16"
+> "Dark romantic fantasy instrumental, 90 seconds. Opens with low bass pulse and tension for 15 seconds. At 15 seconds = melody enters — a single haunting violin line, sparse and aching, over the bass. At 22 seconds = full strings and brass swell with the wind explosion — big and cinematic. At 32 seconds = everything cuts to silence. At 35 seconds = a soft heartbeat pulse returns, joined by a quiet piano melody, gentle and melancholic, barely there. At 55 seconds = piano melody becomes more present and clear, still gentle but audible — the emotional core of the track. At 70 seconds = strings re-enter softly underneath the piano, building warmth. At 85 seconds = piano resolves to a single held note that fades to nothing. Melody should be FRONT AND CENTER after 22 seconds — not ambient, not background. Think film score, not sound design."
 
 ### Sound Effects (Generate individually)
 1. "Muffled party bass and crowd chatter, 8 seconds"
@@ -160,10 +160,11 @@ Generate in Venice Studio **Image** tab, then save to **Library**. Download copi
 4. Add music track on audio layer 1
 5. Drop sound effects at exact moments on audio layer 3
 6. **L-cut technique:** Detach audio from Scene 4 (eruption → silence), extend the silence into Scene 5's visual — this hides the AI clip seam
+7. **MIXING:** Music should be CLEARLY AUDIBLE throughout — not background texture. When voiceover plays, duck music 3-4dB (not mute). When no voiceover, music should be at FULL volume, front and center. Sound effects sit on top of music, not replacing it. The melody (violin, piano, strings) should be the emotional backbone of the whole edit. If you can't hum the melody after watching, it's too quiet.
 7. Add text overlays (title cards with the italic quotes)
 8. Apply crossfade transitions between clips
 9. **Volume ducking:** Lower music during voiceover, raise between lines
-10. Add end card (black fade → "Breath of Earth" → "Episode 2: Escape — Tomorrow")
+10. Add end card (black fade → "Breath of Earth" → "Season 1 — Episode 2: The Escape")
 
 ---
 

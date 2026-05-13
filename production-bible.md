@@ -466,6 +466,30 @@ This plan shows which scenes to combine into multi-scene prompts (3 cuts per gen
 
 ---
 
+## File Naming Convention
+
+All final exported videos use the format:
+
+```
+BoE-S01E01-Awakening.mp4
+BoE-S01E02-Escape.mp4
+BoE-S01E03-TheSister.mp4
+BoE-S01E04-TheNight.mp4
+BoE-S01E05-TheRiver.mp4
+BoE-S01E06-TheCamp.mp4
+BoE-S01E07-TheHierarchy.mp4
+BoE-S01E08-Training.mp4
+BoE-S01E09-TheTriangle.mp4
+BoE-S01E10-ThePit.mp4
+BoE-S01E11-TheRescue.mp4
+```
+
+- **BoE** = Breath of Earth (short, searchable)
+- **S01E01** = Season/Episode, zero-padded (future-proofs for Season 2+)
+- **Title** = PascalCase episode name (no spaces, file-safe)
+- Drafts before final approval: `BoE-S01E02-Escape-draft1.mp4`, `BoE-S01E02-Escape-draft2.mp4`, etc.
+- The final version drops the draft suffix
+
 ## Cross-Platform Posting
 
 | Platform | Format | Notes |
@@ -475,6 +499,8 @@ This plan shows which scenes to combine into multi-scene prompts (3 cuts per gen
 | **YouTube Shorts** | Same 9:16 MP4 | Optional, same content |
 
 **No re-editing needed.** Export once from Venice Studio, post everywhere.
+
+**Post filename = video filename.** When uploading to TikTok/Reels, use the BoE-S01E## convention for your own tracking. Captions and hashtags go in the platform, not the filename.
 
 ---
 

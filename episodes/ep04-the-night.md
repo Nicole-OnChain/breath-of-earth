@@ -1,6 +1,7 @@
 # Breath of Earth — Episode 4: "The Night"
-**Version:** 2.0 (6 clips × 12s, multi-scene format)
-**Duration target:** 72+ seconds (6 clips × 12s)
+**Version:** 2.1 (5 clips × 12s + 1 clip × 24s for Ronan's reaction)
+**Duration target:** 84+ seconds
+**Video clips:** 6 (Clip 5 extended to 24s)
 **Video clips:** 6 (12 seconds each)
 **Voiceover:** Lyra (single narrator)
 **Music mood:** Cold silence → reluctant warmth → the morning after
@@ -62,67 +63,69 @@ The river crossing and the camp move to Episode 5.
 ### Clip 3 — THE WARMTH (0:24-0:36) ⭐ Solo (key emotional beat — most intimate moment)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3) sitting down behind a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) on the ground at night, pulling her back against his chest roughly, wrapping his jacket around her, his arms stiff at his sides like he doesn't want to be doing this, she's stiff with shock, neither of them comfortable, but she stops shivering, dying embers and moonlight, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Camera angle: shot from the FRONT showing BOTH faces. An earth-shaper man with dark hair and stone-grey eyes (image 3) sitting on the ground behind a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1), HE is behind HER, his back against a tree, her back against his chest, his HEAVY DARK JACKET is draped over her shoulders and wrapped around her torso covering her front, HIS arms are stiff at his sides OUTSIDE the jacket NOT wrapped around her, his jaw clenched tight with frustration, she is stiff with shock, neither comfortable, the jacket is clearly HIS — too big for her, dark and rough against her light clothing, dying embers and moonlight, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "He pulled me against him. Didn't ask. Just... did it. And his arms stayed stiff. Like he was mad at me for being cold."
 **Text overlay:** *Like he was mad at me for being cold.*
 **Duration:** 12 seconds
 **Sound effect:** Fabric rustling, sharp exhale from him, then silence
 
-**Tip:** This is NOT romantic. It's reluctant. He's annoyed. She's shocked. The warmth is physical, not emotional — but the fact that he did it at all? That's everything. His jaw should be tight. His arms should be rigid. He's not holding her — he's containing her. There's a difference.
+**Tip:** **CRITICAL FRAMING TO AVOID AI CONFUSION:** (1) Shoot from the FRONT so both faces are visible — this prevents the AI from confusing whose hands are whose. (2) He is BEHIND her — his chest is her backrest. (3) HIS jacket is draped OVER her shoulders covering her front — this is NOT bandaging, it's him roughly wrapping his own jacket around her because she's freezing. (4) His arms stay STIFF AT HIS SIDES, outside the jacket, NOT holding her. He's not embracing her — he's providing heat against his will. (5) The jacket is too big for her and clearly a man's — dark, rough, military-style. She's swimming in it. (6) His jaw is TIGHT. He's annoyed. She's shocked. The warmth is physical, not emotional — but the fact that he did it at all? That's everything.
 
 ---
 
 ### Clip 4 — THE QUIET + THE SHIFT (0:36-0:48) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) leaning back against an earth-shaper man with dark hair and stone-grey eyes (image 3) at night, both of them fully clothed, his arms stiff at his sides, she's looking up at the stars through the canopy, neither of them speaking, the fire completely out now, just moonlight — CUT TO — close-up of the same wind-weaver girl (image 1) leaning against his chest, she shifts slightly, and the earth-shaper man's arm that was stiff at his side relaxes — just barely — coming to rest across her, his hand open, not gripping, like it happened in his sleep, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, soft rustle of fabric then breathing, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) leaning back against the chest of an earth-shaper man with dark hair and stone-grey eyes (image 3) at night, both of them fully clothed, his arms stiff at his sides NOT wrapped around her, she's looking up at the stars through the canopy, neither of them speaking, the fire completely out now, just moonlight — CUT TO — close-up of the SAME MAN (image 3) from behind the girl, showing HIS LEFT ARM that was stiff at his side slowly relaxing and coming to rest ACROSS HER WAIST from behind, HIS HAND resting on her side near her stomach, his hand open palm-down NOT gripping, his face above and behind her head with eyes closed like he's half-asleep, the movement is subtle and involuntary like it happened in his sleep, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, soft rustle of fabric then breathing, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "Neither of us slept. At some point... his arm moved. I don't think he knew."
 **Text overlay:** *I don't think he knew.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
 **Sound effect:** Complete quiet, wind in trees → soft rustle, breathing, night wind
 
-**Tip:** His arm relaxes in his sleep. Not holding her. Just... there. Like his body made a choice his mind wouldn't. This is the crack in the wall. Tiny. Real. The audience should almost miss it — like she almost missed it.
+**Tip:** **CRITICAL FRAMING:** The second cut MUST be shot FROM BEHIND LYRA looking at RONAN'S face over her head, so we clearly see HIS arm moving and HIS expression. This prevents the AI from generating Lyra's hands doing the wrong thing — his arm and hand are the focus, not hers. His arm relaxes in his sleep. Not holding her. Just... there. Like his body made a choice his mind wouldn't. This is the crack in the wall. Tiny. Real. The audience should almost miss it — like she almost missed it.
 
 ---
 
-### Clip 5 — THE MORNING (0:48-1:00) ⭐ Solo (key emotional beat — he sees her)
+### Clip 5 — THE MORNING (0:48-1:12) ⭐ Extended (key emotional beat — his reaction, 24 seconds)
 
 **R2V prompt:**
-> Early dawn light, a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) slowly waking up, opening her eyes, and seeing an earth-shaper man with dark hair and stone-grey eyes (image 3) already awake, sitting up against a tree, looking at her, his expression unreadable but his eyes intense, neither of them speaking, dawn light on both their faces, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Early dawn light, a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) slowly waking up, opening her eyes, and seeing an earth-shaper man with dark hair and stone-grey eyes (image 3) already awake, sitting up against a tree, looking at her — HOLD on RONAN'S FACE for several seconds, his expression shifting microscopically from unreadable to something deeper, his jaw tightens, his eyes hold on her, dawn light on his face, then his expression SLAMS CLOSED like a door, he looks away sharply, stands up abruptly, the warmth gone — she's left sitting on the ground, dawn light on both their faces, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "When I woke up, he was already looking at me. Not warm. Not cold. Just... seeing me. For the first time."
 **Text overlay:** *For the first time.*
-**Duration:** 12 seconds
-**Sound effect:** Dawn birds, stillness
+**Duration:** 24 seconds (extended — we need time on his face)
+**Sound effect:** Dawn birds, stillness → sharp exhale when he looks away, movement sounds
 
-**Tip:** This is the moment. He's been watching her sleep. He didn't have to. He could have gotten up, walked away, been cold again. Instead, he was looking at her when she woke up. His expression is unreadable — but he's *seeing* her. Not through her. Not past her. *At* her. The first time in the whole story.
+**Tip:** This is the moment — and it needs TIME. We need at least 5 full seconds on Ronan's face AFTER she wakes up, BEFORE he shuts down. The audience needs to see: he was watching her. His eyes hold. Something flickers. Then — SLAM. The wall goes back up. His expression shifts from something almost soft to completely closed. That transition IS the story. Don't rush it. The 24-second duration gives us room to let his reaction breathe.
 
 ---
 
-### Clip 6 — THE WALL (1:00-1:12) 🔗 Multi (2 cuts)
+### Clip 6 — THE WALL (1:12-1:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3) standing up abruptly at dawn, turning away from a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) who is sitting up on the ground, his expression slamming shut, cold again, already walking toward the jungle path — CUT TO — the same wind-weaver girl (image 1) watching him go from the ground, her expression something between frustration and wonder, dawn light on the jungle clearing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps walking away, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> An earth-shaper man with dark hair and stone-grey eyes (image 3) standing up abruptly at dawn, his expression slamming shut cold, he turns and starts walking AWAY from camera down a jungle path — and simultaneously a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) sitting on the ground watching him go, takes a step FORWARD toward him, then stops, dawn light on the jungle clearing — CUT TO — the same earth-shaper man (image 3) walking AWAY FROM CAMERA down the jungle path, his back to us, his stride stiff and deliberate, while the wind-weaver girl (image 1) stands and takes a few steps FORWARD after him, walking TOWARD camera, then stops and watches his retreating back, her expression a mix of frustration and wonder, dawn light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps walking away then footsteps following then stopping, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
-**Voiceover:** "Then he stood up. Walked away. Like it never happened."
+**Voiceover:** "Then he stood up. Walked away. Like it never happened. I took a step after him. Then stopped."
 **Text overlay:** *Like it never happened.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
-**Sound effect:** Footsteps on ground, jungle morning sounds → fade
+**Sound effect:** His footsteps walking away → her footsteps following → her footsteps stopping → silence
+
+**Tip:** **CRITICAL DIRECTION:** Ronan walks AWAY from camera (back to us, walking into the jungle). Lyra walks TOWARD camera (facing us, following him). She takes a few steps after him then stops. This gives both characters clear directional movement — his retreat and her failed pursuit. The moment she stops walking is the moment she gives up chasing him. He doesn't look back.
 
 ---
 
-## END CARD (1:12-1:17)
+## END CARD (1:24-1:29)
 - Black screen
 - White text: *Breath of Earth*
-- Smaller text: *Episode 5: The River — Tomorrow*
+- Smaller text: Season 1 — Episode 5: The River
 
 ---
 
 ## BACKGROUND MUSIC (Generate in Audio Tab)
 
-> "Cold sparse piano, barely there, for 12 seconds. At 12 seconds = low strings when he stands, tense. At 24 seconds = when he pulls her against him, strings swell BRIEFLY then cut to almost nothing, just a low warm hum. At 36 seconds = that warm hum continues, barely audible, then the smallest shift — a single higher note (his arm relaxing). At 48 seconds = dawn — piano returns, gentle and tentative. At 60 seconds = he looks away — piano cuts. Cold again. 80 seconds total, dark romantic fantasy, instrumental"
+> "Cold sparse piano, barely there, for 12 seconds. At 12 seconds = low strings when he stands, tense. At 24 seconds = when he pulls her against him, strings swell BRIEFLY then cut to almost nothing, just a low warm hum. At 36 seconds = that warm hum continues, barely audible, then the smallest shift — a single higher note (his arm relaxing). At 48 seconds = dawn — piano returns, gentle and tentative. HOLD through his reaction for 24 seconds — piano stays gentle and present, never swelling, just watching. At 72 seconds = he looks away sharply — piano cuts. Cold again. At 84 seconds = he walks away — just footsteps and jungle. 97 seconds total, dark romantic fantasy, instrumental"
 
 ---
 
@@ -169,7 +172,7 @@ Then he stood up. Walked away. Like it never happened."
 9. **Clip 6 (the wall):** He slams the wall back up. Piano cuts. Cold. The warmth was real. The wall is real too. Both are true.
 10. Add text overlays (italic quotes in title card tool)
 11. Crossfade transitions between clips — EXCEPT Clip 2 → 3, which should be a hard cut (the abruptness of him pulling her)
-12. End card: black screen → "Breath of Earth" → "Episode 5: The River — Tomorrow"
+12. End card: black screen → "Breath of Earth" → "Season 1 — Episode 5: The River"
 
 ---
 
