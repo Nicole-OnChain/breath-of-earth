@@ -221,13 +221,15 @@
         .character-card.earth::before { background: linear-gradient(to right, transparent, var(--earth-glow), transparent); }
         .character-card.fire::before { background: linear-gradient(to right, transparent, var(--fire-glow), transparent); }
         .character-card.water::before { background: linear-gradient(to right, transparent, var(--water-glow), transparent); }
-        .character-img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; margin-bottom: 20px; filter: saturate(0.85) brightness(0.9); transition: filter 0.5s ease; }
+        .character-img { width: 100%; aspect-ratio: 3/4; object-fit: contain; border-radius: 4px; margin-bottom: 20px; filter: saturate(0.85) brightness(0.9); transition: filter 0.5s ease; background: rgba(10, 10, 15, 0.3); }
         .character-card:hover .character-img { filter: saturate(1) brightness(1); }
         .character-element { font-family: 'Inter', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 12px; }
         .character-card.wind .character-element { color: var(--wind-glow); }
         .character-card.earth .character-element { color: var(--earth-glow); }
         .character-card.fire .character-element { color: var(--fire-glow); }
         .character-card.water .character-element { color: var(--water-glow); }
+        .character-card.none .character-element { color: var(--text-muted); }
+        .character-card.none::before { background: linear-gradient(to right, transparent, var(--text-muted), transparent); }
         .character-name { font-family: 'Cinzel', serif; font-size: 24px; font-weight: 600; color: var(--text-bright); margin-bottom: 16px; letter-spacing: 1px; }
         .character-role { font-family: 'Cormorant Garamond', serif; font-size: 16px; font-style: italic; color: var(--text-muted); margin-bottom: 20px; }
         .character-desc { font-size: 15px; line-height: 1.7; color: var(--text); }
@@ -543,6 +545,13 @@
             <p class="character-role">Tide-caller</p>
             <p class="character-desc">Striking, dark-skinned, light compelling eyes. Blunt and perceptive. Has history with Zara &mdash; electricity despite hostility. The only Tide-caller who's been down in the mud with the Earth-shapers.</p>
             <p class="character-quote">"Watch your step."</p>
+        </div>
+        <div class="character-card none reveal">
+            <p class="character-element">No Element</p>
+            <h3 class="character-name">Sera</h3>
+            <p class="character-role">Lyra's Twin</p>
+            <p class="character-desc">Same face. Different everything else. No element, no place in the hierarchy. Something cold behind those familiar eyes.</p>
+            <p class="character-quote">"We're nothing alike."</p>
         </div>
     </div>
 </section>
