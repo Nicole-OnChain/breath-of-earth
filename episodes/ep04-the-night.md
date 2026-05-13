@@ -1,17 +1,27 @@
 # Breath of Earth — Episode 4: "The Night"
-**Version:** 2.1 (5 clips × 12s + 1 clip × 24s for Ronan's reaction)
-**Duration target:** 84+ seconds
-**Video clips:** 6 (Clip 5 extended to 24s)
-**Video clips:** 6 (12 seconds each)
+**Version:** 3.0 (6 clips, directional re-writes, shortened character refs, split music)
+**Duration target:** 84 seconds (5 clips × 12s + 1 clip × 24s)
+**Video clips:** 6
 **Voiceover:** Lyra (single narrator)
 **Music mood:** Cold silence → reluctant warmth → the morning after
 **Aspect ratio:** 9:16 (vertical — TikTok + Instagram Reels)
 
 ---
 
+## SCREEN POSITION RULES (all clips)
+
+- **Ronan = LEFT side** (grounded, steady, stays put)
+- **Lyra = RIGHT side** (POV character, we see her reactions)
+- **When across a fire:** Ronan LEFT, Lyra RIGHT
+- **Reference format:** Use `(image X — Name)` not full physical descriptions — the image reference handles appearance
+
+---
+
 ## WHAT THIS EPISODE IS
 
 The night after the promise. They're stuck in the woods together. He made camp. She's freezing. He doesn't want to care — but he does. The most physically intimate moment of the series so far, and it happens because he can't not help her. Not because he wants to.
+
+Note: Ronan now speaks (since Ep 3). His silence in this episode is a choice — he's retreated back behind his wall. He spoke one promise, and now he's done talking.
 
 The river crossing and the camp move to Episode 5.
 
@@ -39,7 +49,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 1 — THE AFTERMATH + THE COLD (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) lying on the ground next to a dying campfire in a jungle clearing at night, wrapped in a thin blanket, shivering, eyes open staring at the dark sky, embers glowing faintly, an earth-shaper man with dark hair and stone-grey eyes (image 3) sitting across the fire with his back to a tree, not looking at her, arms crossed — CUT TO — close-up of the same wind-weaver girl (image 1) shivering violently, her breath visible in the cold air, pulling the thin blanket tighter around herself, jaw clenched trying to stop her teeth from chattering, embers barely glowing, dark jungle surrounding, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, dying embers then shivering and cold wind, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (image 1 — Lyra) lying on the ground on the RIGHT side of frame next to a dying campfire in a jungle clearing at night, wrapped in a thin blanket, shivering, eyes open staring at the dark sky, embers glowing faintly, (image 3 — Ronan) sitting on the LEFT side across the fire with his back to a tree, not looking at her, arms crossed — CUT TO — close-up of (image 1 — Lyra) shivering violently, her breath visible in the cold air, pulling the thin blanket tighter around herself, jaw clenched trying to stop her teeth from chattering, embers barely glowing, dark jungle surrounding, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, dying embers then shivering and cold wind, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "He made camp. Made a fire. Didn't say another word. I was freezing. And I wasn't going to ask."
 **Text overlay:** *I wasn't going to ask.*
@@ -51,7 +61,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 2 — THE LOOK + THE MOVE (0:12-0:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3) sitting against a tree at night, arms crossed, his eyes open slightly, looking across the dying fire at the wind-weaver girl shivering on the ground (image 1), his jaw tightening, frustration in his expression, like he's fighting something inside himself — CUT TO — the same earth-shaper man (image 3) standing up abruptly, frustrated, striding around the dying campfire toward the shivering wind-weaver girl (image 1), his expression hard and annoyed, like he's doing something he doesn't want to do, firelight catching his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crack goes quiet then footsteps on leaves, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (image 3 — Ronan) sitting against a tree on the LEFT side of frame at night, arms crossed, his eyes open slightly, looking across the dying fire at (image 1 — Lyra) shivering on the ground on the RIGHT, his jaw tightening, frustration in his expression, like he's fighting something inside himself — CUT TO — (image 3 — Ronan) standing up abruptly, frustrated, striding around the dying campfire from LEFT toward RIGHT toward (image 1 — Lyra), his expression hard and annoyed, like he's doing something he doesn't want to do, firelight catching his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crack goes quiet then footsteps on leaves, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "He saw. He got up. Crossed the fire. Like it was my fault he had to move."
 **Text overlay:** *Like it was my fault.*
@@ -63,7 +73,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 3 — THE WARMTH (0:24-0:36) ⭐ Solo (key emotional beat — most intimate moment)
 
 **R2V prompt:**
-> Camera angle: shot from the FRONT showing BOTH faces. An earth-shaper man with dark hair and stone-grey eyes (image 3) sitting on the ground behind a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1), HE is behind HER, his back against a tree, her back against his chest, his HEAVY DARK JACKET is draped over her shoulders and wrapped around her torso covering her front, HIS arms are stiff at his sides OUTSIDE the jacket NOT wrapped around her, his jaw clenched tight with frustration, she is stiff with shock, neither comfortable, the jacket is clearly HIS — too big for her, dark and rough against her light clothing, dying embers and moonlight, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Camera angle: shot from the FRONT showing BOTH faces. (image 3 — Ronan) sitting on the ground on the LEFT behind (image 1 — Lyra) on the RIGHT, his back against a tree, her back against his chest, his HEAVY DARK JACKET is draped over her shoulders and wrapped around her torso covering her front, HIS arms are stiff at his sides OUTSIDE the jacket NOT wrapped around her, his jaw clenched tight with frustration, she is stiff with shock, neither comfortable, the jacket is clearly HIS — too big for her, dark and rough against her light clothing, dying embers and moonlight, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "He pulled me against him. Didn't ask. Just... did it. And his arms stayed stiff. Like he was mad at me for being cold."
 **Text overlay:** *Like he was mad at me for being cold.*
@@ -77,7 +87,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 4 — THE QUIET + THE SHIFT (0:36-0:48) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) leaning back against the chest of an earth-shaper man with dark hair and stone-grey eyes (image 3) at night, both of them fully clothed, his arms stiff at his sides NOT wrapped around her, she's looking up at the stars through the canopy, neither of them speaking, the fire completely out now, just moonlight — CUT TO — close-up of the SAME MAN (image 3) from behind the girl, showing HIS LEFT ARM that was stiff at his side slowly relaxing and coming to rest ACROSS HER WAIST from behind, HIS HAND resting on her side near her stomach, his hand open palm-down NOT gripping, his face above and behind her head with eyes closed like he's half-asleep, the movement is subtle and involuntary like it happened in his sleep, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, soft rustle of fabric then breathing, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (image 1 — Lyra) on the RIGHT leaning back against the chest of (image 3 — Ronan) on the LEFT at night, both of them fully clothed, his arms stiff at his sides NOT wrapped around her, she's looking up at the stars through the canopy, neither of them speaking, the fire completely out now, just moonlight — CUT TO — close-up of (image 3 — Ronan) from behind (image 1 — Lyra), showing HIS LEFT ARM that was stiff at his side slowly relaxing and coming to rest ACROSS HER WAIST from behind, HIS HAND resting on her side near her stomach, his hand open palm-down NOT gripping, his face above and behind her head with eyes closed like he's half-asleep, the movement is subtle and involuntary like it happened in his sleep, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, soft rustle of fabric then breathing, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "Neither of us slept. At some point... his arm moved. I don't think he knew."
 **Text overlay:** *I don't think he knew.*
@@ -91,7 +101,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 5 — THE MORNING (0:48-1:12) ⭐ Extended (key emotional beat — his reaction, 24 seconds)
 
 **R2V prompt:**
-> Early dawn light, a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) slowly waking up, opening her eyes, and seeing an earth-shaper man with dark hair and stone-grey eyes (image 3) already awake, sitting up against a tree, looking at her — HOLD on RONAN'S FACE for several seconds, his expression shifting microscopically from unreadable to something deeper, his jaw tightens, his eyes hold on her, dawn light on his face, then his expression SLAMS CLOSED like a door, he looks away sharply, stands up abruptly, the warmth gone — she's left sitting on the ground, dawn light on both their faces, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Early dawn light, (image 1 — Lyra) on the RIGHT slowly waking up, opening her eyes, and seeing (image 3 — Ronan) on the LEFT already awake, sitting up against a tree, looking at her — HOLD on RONAN'S FACE for several seconds, his expression shifting microscopically from unreadable to something deeper, his jaw tightens, his eyes hold on her, dawn light on his face, then his expression SLAMS CLOSED like a door, he looks away sharply, stands up abruptly, the warmth gone — she's left sitting on the ground, dawn light on both their faces, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "When I woke up, he was already looking at me. Not warm. Not cold. Just... seeing me. For the first time."
 **Text overlay:** *For the first time.*
@@ -105,7 +115,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 6 — THE WALL (1:12-1:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3) standing up abruptly at dawn, his expression slamming shut cold, he turns and starts walking AWAY from camera down a jungle path — and simultaneously a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) sitting on the ground watching him go, takes a step FORWARD toward him, then stops, dawn light on the jungle clearing — CUT TO — the same earth-shaper man (image 3) walking AWAY FROM CAMERA down the jungle path, his back to us, his stride stiff and deliberate, while the wind-weaver girl (image 1) stands and takes a few steps FORWARD after him, walking TOWARD camera, then stops and watches his retreating back, her expression a mix of frustration and wonder, dawn light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps walking away then footsteps following then stopping, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (image 3 — Ronan) on the LEFT standing up abruptly at dawn, his expression slamming shut cold, he turns and starts walking AWAY from camera down a jungle path — and simultaneously (image 1 — Lyra) on the RIGHT sitting on the ground watching him go, takes a step FORWARD toward him, then stops, dawn light on the jungle clearing — CUT TO — (image 3 — Ronan) walking AWAY FROM CAMERA down the jungle path, his back to us, his stride stiff and deliberate, while (image 1 — Lyra) stands and takes a few steps FORWARD after him, walking TOWARD camera, then stops and watches his retreating back, her expression a mix of frustration and wonder, dawn light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps walking away then footsteps following then stopping, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
 
 **Voiceover:** "Then he stood up. Walked away. Like it never happened. I took a step after him. Then stopped."
 **Text overlay:** *Like it never happened.*
@@ -118,14 +128,36 @@ The river crossing and the camp move to Episode 5.
 
 ## END CARD (1:24-1:29)
 - Black screen
-- White text: *Breath of Earth*
+- White text: *Like it never happened.*
 - Smaller text: Season 1 — Episode 5: The River
 
 ---
 
-## BACKGROUND MUSIC (Generate in Audio Tab)
+## BACKGROUND MUSIC (Generate 5 SEPARATE SECTIONS — layer in Movie Editor)
 
-> "Cold sparse piano, barely there, for 12 seconds. At 12 seconds = low strings when he stands, tense. At 24 seconds = when he pulls her against him, strings swell BRIEFLY then cut to almost nothing, just a low warm hum. At 36 seconds = that warm hum continues, barely audible, then the smallest shift — a single higher note (his arm relaxing). At 48 seconds = dawn — piano returns, gentle and tentative. HOLD through his reaction for 24 seconds — piano stays gentle and present, never swelling, just watching. At 72 seconds = he looks away sharply — piano cuts. Cold again. At 84 seconds = he walks away — just footsteps and jungle. 97 seconds total, dark romantic fantasy, instrumental"
+Venice's audio generator doesn't follow timing instructions well. Generate each section separately and layer them in the Movie Editor at the correct timestamps. Crossfade 1-2 seconds between sections.
+
+**Section 1 — "The Cold" (0-12s)**
+> "Cold sparse solo piano, single notes with long pauses between, bleak and lonely, dying embers ambience underneath, the silence between notes should feel heavy, like holding your breath, dark fantasy film score, 12 seconds, no percussion, no strings, no guitar"
+
+**Section 2 — "The Move" (12-24s)**
+> "Low tense strings enter abruptly, dark and frustrated, when he stands the strings swell for 2 seconds then cut to almost nothing, leaving just a low warm cello hum underneath, reluctant warmth not romantic, dark fantasy film score, 12 seconds, no percussion, no guitar"
+
+**Section 3 — "The Quiet" (24-48s)**
+> "Low warm cello hum barely audible for the first 12 seconds, then at 36 seconds a single higher piano note enters, gentle and tentative, like something shifting in sleep, the note is quiet and uncertain, not a melody, just one note that shouldn't be there, dark romantic fantasy film score, 24 seconds, no percussion, no guitar"
+
+**Section 4 — "The Morning" (48-72s)**
+> "Gentle tentative piano melody, quiet and watching, like morning light through trees, simple melody you can hum, starts hesitant then grows slightly more present but never swells, at 72 seconds the piano cuts off abruptly mid-phrase, cold and sharp, dark romantic fantasy film score, 24 seconds, no percussion, dawn birds underneath"
+
+**Section 5 — "The Wall" (72-84s)**
+> "Just footsteps on leaves and jungle ambience, no music, complete cold silence after the piano cuts off, the warmth is gone, 12 seconds of empty sound"
+
+**MOVIE EDITOR LAYERING:**
+1. Drop each section on timeline at correct timestamps (0s, 12s, 24s, 48s, 72s)
+2. Crossfade 1-2 seconds between sections 1-4 (section 4 cuts abruptly into section 5, NO crossfade — hard cut)
+3. Layer voiceover on top (audio layer 2)
+4. Layer sound effects on top (audio layer 3)
+5. **Section 4 → Section 5 is a HARD CUT.** The piano dies. That IS the story. Don't fade it.
 
 ---
 
@@ -159,26 +191,51 @@ Then he stood up. Walked away. Like it never happened."
 
 ---
 
+## SUBTITLES (Text Overlays)
+
+1. 00:00:07,000 --> 00:00:10,000
+<i>I wasn't going to ask.</i>
+
+2. 00:00:17,000 --> 00:00:20,000
+<i>Like it was my fault.</i>
+
+3. 00:00:29,000 --> 00:00:33,000
+<i>Like he was mad at me for being cold.</i>
+
+4. 00:00:41,000 --> 00:00:45,000
+<i>I don't think he knew.</i>
+
+5. 00:00:55,000 --> 00:00:59,000
+<i>For the first time.</i>
+
+6. 00:01:17,000 --> 00:00:21,000
+<i>Like it never happened.</i>
+
+---
+
 ## EDIT IN MOVIE EDITOR
 
 1. Drop 6 video clips on timeline → arrange in order
 2. Trim edges to match target durations
-3. Add voiceover track on audio layer 2
-4. Add music track on audio layer 1
+3. Add music sections on audio layer 1 (5 separate tracks, timed per sections above)
+4. Add voiceover track on audio layer 2
 5. Drop sound effects at exact moments on audio layer 3
-6. **Clip 3 (the warmth):** When he pulls her against him, the music should swell BRIEFLY then cut to almost nothing. Just a low warm hum. The silence is the point — it's awkward and reluctant and neither of them knows what to do.
-7. **Clip 4 (the shift):** His arm relaxing is tiny. Don't make it big. Just a barely-there higher note in the music. The audience should almost miss it — like she almost missed it.
-8. **Clip 5 (the morning):** Dawn light. He's looking at her. The piano is gentle and tentative — not romantic, not cold. Just *present*. When the voiceover says "for the first time" — hold on his eyes for one extra beat.
-9. **Clip 6 (the wall):** He slams the wall back up. Piano cuts. Cold. The warmth was real. The wall is real too. Both are true.
-10. Add text overlays (italic quotes in title card tool)
-11. Crossfade transitions between clips — EXCEPT Clip 2 → 3, which should be a hard cut (the abruptness of him pulling her)
-12. End card: black screen → "Breath of Earth" → "Season 1 — Episode 5: The River"
+6. **Clip 2 → 3:** HARD CUT, no crossfade (the abruptness of him pulling her)
+7. **Section 4 → Section 5 music:** HARD CUT — piano dies mid-phrase, that IS the story
+8. **Clip 3 (the warmth):** Music should be just a low cello hum. The silence is the point.
+9. **Clip 4 (the shift):** His arm relaxing is tiny. Single piano note, barely there.
+10. **Clip 5 (the morning):** Piano is gentle and present, not romantic, not cold. Just watching.
+11. **Clip 6 (the wall):** No music. Just footsteps and jungle. Cold.
+12. Add text overlays (italic quotes from subtitles above)
+13. End card: black screen → *Like it never happened.* → Season 1 — Episode 5: The River
 
 ---
 
 ## WHAT THIS EPISODE DOES
 
 **The whole episode is the night.** After the chin grab and the promise, they have to sleep in the same space. He made camp. She's freezing. He doesn't want to care. He does.
+
+Note: Ronan spoke one promise in Ep 3. In this episode he's silent again — not because he can't speak, but because he's retreated behind his wall. The promise cost him. He's not giving anything else.
 
 **Clip 3 (the warmth) is the crux:** He pulls her against him roughly. His arms are stiff. He's mad about it. But he did it. He couldn't not. This is NOT a romantic moment — it's reluctant and uncomfortable and neither of them wants to be there. But his body heat saves her from freezing. That's it. That's all it is. And that's enough.
 
