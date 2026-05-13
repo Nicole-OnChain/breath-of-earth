@@ -1,23 +1,27 @@
 1
 00:00:07,000 --> 00:00:10,000
-Different everything else.
+<i>Different everything else.</i>
 
 2
 00:00:17,000 --> 00:00:20,000
-I went looking for him.
+<i>I went looking for him.</i>
 
 3
 00:00:29,000 --> 00:00:33,000
-Like it listened.
+<i>Like it knew him.</i>
 
 4
 00:00:44,000 --> 00:00:47,000
-All of us.
+<i>Help me get them back.</i>
 
 5
 00:00:53,000 --> 00:00:56,000
-Made me look at him.
+<i>Made me look at him.</i>
 
 6
-00:01:03,000 --> 00:01:06,000
-No one will hurt them.
+00:01:01,000 --> 00:01:05,000
+<i>You think I don't know what you're doing.</i>
+
+7
+00:01:16,000 --> 00:01:20,000
+<i>I won't let anything happen to them.</i>
