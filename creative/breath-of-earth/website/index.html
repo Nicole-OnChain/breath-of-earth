@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breath of Earth — A Fantasy Romance Novella</title>
+    <title>Breath of Earth — A Fantasy Romance</title>
     <meta name="description" content="In a world where Wind rules and Earth serves, a Wind-weaver discovers her gift is far more dangerous than anyone knows — and that the quiet Earth-shaper who saved her may be the key to breaking a system designed to keep them apart.">
-    <meta property="og:title" content="Breath of Earth — A Fantasy Romance Novella">
+    <meta property="og:title" content="Breath of Earth — A Fantasy Romance">
     <meta property="og:description" content="Wind rules. Earth serves. Some things are worth the risk.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
@@ -221,11 +221,15 @@
         .character-card.earth::before { background: linear-gradient(to right, transparent, var(--earth-glow), transparent); }
         .character-card.fire::before { background: linear-gradient(to right, transparent, var(--fire-glow), transparent); }
         .character-card.water::before { background: linear-gradient(to right, transparent, var(--water-glow), transparent); }
+        .character-img { width: 100%; aspect-ratio: 3/4; object-fit: contain; border-radius: 4px; margin-bottom: 20px; filter: saturate(0.85) brightness(0.9); transition: filter 0.5s ease; background: rgba(10, 10, 15, 0.3); }
+        .character-card:hover .character-img { filter: saturate(1) brightness(1); }
         .character-element { font-family: 'Inter', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 12px; }
         .character-card.wind .character-element { color: var(--wind-glow); }
         .character-card.earth .character-element { color: var(--earth-glow); }
         .character-card.fire .character-element { color: var(--fire-glow); }
         .character-card.water .character-element { color: var(--water-glow); }
+        .character-card.none .character-element { color: var(--text-muted); }
+        .character-card.none::before { background: linear-gradient(to right, transparent, var(--text-muted), transparent); }
         .character-name { font-family: 'Cinzel', serif; font-size: 24px; font-weight: 600; color: var(--text-bright); margin-bottom: 16px; letter-spacing: 1px; }
         .character-role { font-family: 'Cormorant Garamond', serif; font-size: 16px; font-style: italic; color: var(--text-muted); margin-bottom: 20px; }
         .character-desc { font-size: 15px; line-height: 1.7; color: var(--text); }
@@ -473,10 +477,10 @@
     <div class="ember-particles" id="emberParticles"></div>
     <h1 class="hero-title"><span class="word-breath">Breath</span> of <span class="word-earth">Earth</span></h1>
     <p class="hero-subtitle">Some things are worth the risk.</p>
-    <p class="hero-tagline">A Fantasy Romance Novella &mdash; Season 1</p>
+    <p class="hero-tagline">A Fantasy Romance &mdash; Season 1 Now on TikTok</p>
     <div class="hero-cta">
-        <a href="#episodes" class="btn btn-primary">Begin Season 1</a>
-        <a href="#shop" class="btn btn-secondary">Visit the Shop</a>
+        <a href="#watch" class="btn btn-primary">Watch on TikTok</a>
+        <a href="#episodes" class="btn btn-secondary">Explore Season 1</a>
     </div>
     <div class="scroll-indicator">
         <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -511,6 +515,7 @@
     </div>
     <div class="character-grid">
         <div class="character-card wind reveal">
+            <img src="assets/characters/Lyra.webp" alt="Lyra — Wind-weaver" class="character-img">
             <p class="character-element">1st &mdash; Wind</p>
             <h3 class="character-name">Lyra</h3>
             <p class="character-role">Wind-weaver</p>
@@ -518,13 +523,15 @@
             <p class="character-quote">"I didn't want to be there."</p>
         </div>
         <div class="character-card earth reveal">
+            <img src="assets/characters/Ronan.webp" alt="Ronan — Earth-shaper" class="character-img">
             <p class="character-element">4th &mdash; Earth</p>
             <h3 class="character-name">Ronan</h3>
             <p class="character-role">Earth-shaper</p>
             <p class="character-desc">Silent, powerful, forbidden. Doesn't speak much &mdash; his actions speak instead. Earth moves with him. Takes the fall for Lyra. The audience will be obsessed with him by Episode 2.</p>
-            <p class="character-quote">"No one will hurt them."</p>
+            <p class="character-quote">"I won't let anything happen to them."</p>
         </div>
         <div class="character-card fire reveal">
+            <img src="assets/characters/Zara.webp" alt="Zara — Flame-kissed" class="character-img">
             <p class="character-element">2nd &mdash; Fire</p>
             <h3 class="character-name">Zara</h3>
             <p class="character-role">Flame-kissed</p>
@@ -532,12 +539,14 @@
             <p class="character-quote">"Better air flow. Obviously."</p>
         </div>
         <div class="character-card water reveal">
+            <img src="assets/characters/Caspian.webp" alt="Caspian — Tide-caller" class="character-img">
             <p class="character-element">3rd &mdash; Water</p>
             <h3 class="character-name">Caspian</h3>
             <p class="character-role">Tide-caller</p>
             <p class="character-desc">Striking, dark-skinned, light compelling eyes. Blunt and perceptive. Has history with Zara &mdash; electricity despite hostility. The only Tide-caller who's been down in the mud with the Earth-shapers.</p>
             <p class="character-quote">"Watch your step."</p>
         </div>
+
     </div>
 </section>
 
@@ -581,7 +590,7 @@
                 </div>
             </div>
         </div>
-        <div class="hierarchy-note reveal">Earth doesn't get sparring partners. They don't get to hone their power. They just work. That isolation is part of why Ronan doesn't speak.</div>
+        <div class="hierarchy-note reveal">Earth doesn't get sparring partners. They don't get to hone their power. They just work. That isolation is part of why Ronan keeps his distance.</div>
     </div>
 </section>
 
@@ -595,6 +604,7 @@
         <div class="story-text">
             <p>Each class trains against its natural enemy. The training grounds are built into the geography &mdash; and the hierarchy is literally built into the architecture. The higher tier always comes down to fight on the lower tier's turf.</p>
         </div>
+        <img src="assets/characters/Training Grounds Map.webp" alt="Training Grounds Map &mdash; elemental camp hierarchy" style="width: 100%; max-width: 700px; display: block; margin: 32px auto 0; border-radius: 8px; filter: brightness(0.9) saturate(0.85); transition: filter 0.5s ease;" onmouseover="this.style.filter='brightness(1) saturate(1)'" onmouseout="this.style.filter='brightness(0.9) saturate(0.85)'">
     </div>
     <div class="camp-map reveal">
         <div class="map-layer map-wind" tabindex="0">
@@ -641,7 +651,7 @@
     <div class="episode-list">
         <div class="episode-item reveal"><div class="episode-num">01</div><div class="episode-info"><div class="episode-title">Awakening</div><div class="episode-hook">"I didn't want to be there."</div></div></div>
         <div class="episode-item reveal"><div class="episode-num">02</div><div class="episode-info"><div class="episode-title">Escape</div><div class="episode-hook">"Keep up."</div></div></div>
-        <div class="episode-item reveal"><div class="episode-num">03</div><div class="episode-info"><div class="episode-title">The Sister</div><div class="episode-hook">"No one will hurt them."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">03</div><div class="episode-info"><div class="episode-title">The Sister</div><div class="episode-hook">"I won't let anything happen to them."</div></div></div>
         <div class="episode-item reveal"><div class="episode-num">04</div><div class="episode-info"><div class="episode-title">The Night</div><div class="episode-hook">"Like it was my fault."</div></div></div>
         <div class="episode-item reveal"><div class="episode-num">05</div><div class="episode-info"><div class="episode-title">The River</div><div class="episode-hook">"Watch your step."</div></div></div>
         <div class="episode-item reveal"><div class="episode-num">06</div><div class="episode-info"><div class="episode-title">The Camp</div><div class="episode-hook">"It felt like falling."</div></div></div>
@@ -656,8 +666,8 @@
 <!-- Quote -->
 <section class="quote-section">
     <div class="reveal">
-        <p class="quote-text">"You shouldn't be here."</p>
-        <p class="quote-attr">&mdash; Ronan, his first words</p>
+        <p class="quote-text">"I won't let anything happen to them."</p>
+        <p class="quote-attr">&mdash; Ronan</p>
     </div>
 </section>
 
@@ -707,15 +717,6 @@
             <p class="shop-desc">12 illustrated quote posters &mdash; the best voiceover lines on elemental backgrounds. Print-ready.</p>
             <p class="shop-price">$4.99</p>
             <a href="#" class="shop-cta">Download</a>
-        </div>
-        <div class="shop-card reveal">
-            <div class="shop-badge physical">Physical</div>
-            <p class="shop-category">Novella</p>
-            <h3 class="shop-title">Season 1 &mdash; The Book</h3>
-            <p class="shop-desc">The full story adapted into a novella with interior illustrations. Available on Amazon Kindle and in print.</p>
-            <p class="shop-price">$9.99+</p>
-            <a href="#" class="shop-cta">Amazon</a>
-        </div>
     </div>
     <div class="shop-external reveal">
         <a href="#" class="shop-external-card">
@@ -725,10 +726,6 @@
         <a href="#" class="shop-external-card">
             <span class="shop-external-icon">&#9654;</span>
             <span class="shop-external-name">Amazon Storefront</span>
-        </a>
-        <a href="#" class="shop-external-card">
-            <span class="shop-external-icon">&#9829;</span>
-            <span class="shop-external-name">Patreon</span>
         </a>
     </div>
     <p class="shop-note reveal">Website exclusives include bonus content not available anywhere else. Free shipping on physical orders over $35.</p>
@@ -740,11 +737,10 @@
 <section class="watch-section" id="watch">
     <div class="reveal">
         <p class="section-label">Now Streaming</p>
-        <h2 class="section-heading">Watch Season 1</h2>
+        <h2 class="section-heading">Watch Season 1 on TikTok</h2>
+        <p class="story-text" style="text-align:center; max-width:560px; margin:0 auto 32px;">New episodes every week. Follow for Chapter 1 and beyond.</p>
         <div class="platforms">
-            <a href="#" class="platform-card"><span class="platform-icon">&#9899;</span><span class="platform-name">TikTok</span></a>
-            <a href="#" class="platform-card"><span class="platform-icon">&#9733;</span><span class="platform-name">Instagram</span></a>
-            <a href="#" class="platform-card"><span class="platform-icon">&#9654;</span><span class="platform-name">YouTube</span></a>
+            <a href="#" class="platform-card" style="border-color: var(--wind-glow);"><span class="platform-icon">&#9899;</span><span class="platform-name">TikTok</span></a>
         </div>
     </div>
 </section>
