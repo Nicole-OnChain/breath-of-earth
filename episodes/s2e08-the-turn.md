@@ -116,7 +116,7 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 **Duration:** 12 seconds
 **Sound effect:** Wind howling outside. Near silence inside. Her breathing catching. A sound caught between a sob and trying to stop one. Then nothing.
 
-**Tip:** This is the lowest point in the season. She's not just sad — she's desperate. Hysterical. Her body is failing to hold it together. Hands gripping her own arms, knuckles white, jaw clenched, tears, eyes squeezed shut. She's trying not to scream and she's losing. The voiceover cuts off mid-sentence — she can't finish. The audience should feel this in their chest.
+**Tip:** This is the lowest point in the season. She's not just sad — she's desperate. Hysterical. Her body is failing to hold it together. Hands gripping her own arms, knuckles white, jaw clenched, tears, eyes squeezed shut. She's trying not to scream and she's losing. The voiceover is short and final — "Caspian's gone. I had nothing." No trailing off. Just devastation stated as fact. The audience should feel this in their chest.
 
 ---
 
