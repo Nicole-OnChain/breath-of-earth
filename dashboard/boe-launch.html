@@ -1,0 +1,2483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breath of Earth — Launch Dashboard</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0f; color: #e0e0e0; line-height: 1.6; }
+  .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+  h1 { color: #c9a0ff; font-size: 1.8em; margin-bottom: 5px; }
+  h2 { color: #a0d4ff; font-size: 1.3em; margin: 25px 0 10px; border-bottom: 1px solid #2a2a3a; padding-bottom: 5px; }
+  h3 { color: #ffc0a0; font-size: 1.1em; margin: 20px 0 8px; }
+  .subtitle { color: #888; font-size: 0.9em; margin-bottom: 20px; }
+
+  /* ──── TAB NAV ──── */
+  .tab-nav { display: flex; gap: 0; margin-bottom: 20px; border-bottom: 2px solid #2a2a3a; }
+  .tab-btn { padding: 12px 24px; background: #141420; color: #888; border: none; cursor: pointer; font-size: 0.95em; font-weight: 600; border-bottom: 3px solid transparent; transition: all 0.3s; }
+  .tab-btn:hover { color: #ccc; background: #1a1a2e; }
+  .tab-btn.active { color: #c9a0ff; border-bottom-color: #c9a0ff; background: #1a1a2e; }
+  .tab-btn .tab-count { font-size: 0.75em; background: #2a2a3a; padding: 2px 8px; border-radius: 10px; margin-left: 6px; }
+  .tab-btn.active .tab-count { background: #7c3aed55; color: #c9a0ff; }
+  .tab-btn.fb-tab.active { color: #1877f2; border-bottom-color: #1877f2; }
+  .tab-btn.fb-tab.active .tab-count { background: #1877f233; color: #4da6ff; }
+  .tab-btn.tt-tab.active { color: #ff0050; border-bottom-color: #ff0050; }
+  .tab-btn.tt-tab.active .tab-count { background: #ff005033; color: #ff4d7a; }
+  .tab-btn.setup-tab.active { color: #4ade80; border-bottom-color: #4ade80; }
+  .tab-btn.setup-tab.active .tab-count { background: #4ade8033; color: #4ade80; }
+  .tab-btn.ep-tab.active { color: #c9a0ff; border-bottom-color: #c9a0ff; }
+  .tab-btn.ep-tab.active .tab-count { background: #7c3aed55; color: #c9a0ff; }
+  .ep-list { display: flex; flex-direction: column; gap: 8px; }
+  .ep-item { display: flex; align-items: center; gap: 12px; background: #1a1a2e; border: 1px solid #2a2a3a; border-radius: 10px; padding: 14px 18px; transition: all 0.2s; }
+  .ep-item:hover { border-color: #7c3aed; background: #1e1e34; }
+  .ep-num { font-size: 1.4em; font-weight: 700; color: #7c3aed; min-width: 36px; text-align: center; }
+  .ep-info { flex: 1; }
+  .ep-title { font-weight: 600; font-size: 1em; color: #e0e0e0; }
+  .ep-season { font-size: 0.75em; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+  .ep-status { font-size: 0.75em; padding: 3px 10px; border-radius: 12px; font-weight: 600; }
+  .status-v3 { background: #7c3aed33; color: #c9a0ff; }
+  .copy-btn { background: #2a2a3a; color: #888; border: 1px solid #3a3a4a; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.8em; transition: all 0.2s; white-space: nowrap; }
+  .copy-btn:hover { background: #7c3aed; color: white; border-color: #7c3aed; }
+  .copy-btn.copied { background: #4ade80; color: white; border-color: #4ade80; }
+  .ep-notice { background: #1a1a2e; border-left: 3px solid #c9a0ff; padding: 15px; margin-bottom: 20px; border-radius: 0 8px 8px 0; font-size: 0.9em; color: #aaa; }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* ──── CARDS ──── */
+  .phase-card { background: #141420; border: 1px solid #2a2a3a; border-radius: 12px; padding: 20px; margin-bottom: 15px; }
+  .phase-card h3 { margin: 0 0 12px; }
+  .post-card { background: #1a1a2e; border: 1px solid #2a2a3a; border-radius: 10px; padding: 16px; margin-bottom: 10px; transition: all 0.3s; }
+  .post-card.checked { opacity: 0.5; border-color: #4ade80; }
+  .post-card.checked .post-title { text-decoration: line-through; }
+  .post-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .post-title { font-weight: 600; font-size: 0.95em; flex: 1; }
+  .post-type { font-size: 0.75em; padding: 3px 10px; border-radius: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+  .type-portrait { background: #7c3aed33; color: #c9a0ff; }
+  .type-quote { background: #3b82f633; color: #a0d4ff; }
+  .type-teaser { background: #fbbf2433; color: #fbbf24; }
+  .type-bts { background: #4ade8033; color: #4ade80; }
+  .type-episode { background: #ef444433; color: #f87171; }
+  .type-announce { background: #06b6d433; color: #22d3ee; }
+  .post-day { font-size: 0.8em; color: #888; margin-bottom: 6px; }
+  .post-body { font-size: 0.9em; color: #ccc; margin: 8px 0; white-space: pre-line; }
+  .post-asset { font-size: 0.8em; color: #ffc0a0; margin: 4px 0; }
+  .post-cta { font-size: 0.8em; color: #4ade80; font-weight: 600; margin: 6px 0; }
+  .post-notes { font-size: 0.8em; color: #888; font-style: italic; }
+  .checkbox-label { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; font-size: 0.9em; cursor: pointer; }
+  .checkbox-label input { margin-top: 3px; accent-color: #c9a0ff; width: 18px; height: 18px; flex-shrink: 0; }
+  .progress-bar { background: #1a1a2e; border-radius: 8px; height: 24px; margin: 15px 0; overflow: hidden; }
+  .progress-fill { height: 100%; background: linear-gradient(90deg, #7c3aed, #c9a0ff); border-radius: 8px; transition: width 0.5s; display: flex; align-items: center; justify-content: center; font-size: 0.75em; font-weight: 600; color: white; }
+  .counters { display: flex; gap: 15px; margin: 10px 0 15px; flex-wrap: wrap; }
+  .counter { background: #141420; border: 1px solid #2a2a3a; border-radius: 8px; padding: 10px 18px; text-align: center; }
+  .counter-num { font-size: 1.6em; font-weight: 700; }
+  .counter-label { font-size: 0.7em; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+  .info-box { background: #1a1a2e; border-left: 3px solid #c9a0ff; padding: 15px; margin: 15px 0; border-radius: 0 8px 8px 0; }
+  .info-box.strategy { border-left-color: #fbbf24; }
+  .info-box.fb { border-left-color: #1877f2; }
+  .info-box.tt { border-left-color: #ff0050; }
+  .btn { display: inline-block; background: #7c3aed; color: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; margin: 5px 5px 5px 0; cursor: pointer; border: none; font-size: 0.9em; }
+  .btn:hover { background: #6d28d9; }
+
+  /* ──── PLATFORM COLORS ──── */
+  .fb-accent { color: #1877f2; }
+  .tt-accent { color: #ff0050; }
+  .ig-accent { color: #e1306c; }
+  .ig-phase { border-left: 3px solid #e1306c; }
+  .tab-btn.ig-tab.active { color: #e1306c; border-bottom-color: #e1306c; }
+  .tab-btn.ig-tab.active .tab-count { background: #e1306c33; color: #ff6b9d; }
+  .type-repost { background: #e1306c33; color: #ff6b9d; }
+  .type-story { background: #fbbf2433; color: #fbbf24; }
+  .web-accent { color: #60a5fa; }
+  .web-phase { border-left: 3px solid #60a5fa; }
+  .tab-btn.web-tab.active { color: #60a5fa; border-bottom-color: #60a5fa; }
+  .tab-btn.web-tab.active .tab-count { background: #60a5fa33; color: #93c5fd; }
+  .asset-priority-1 { border-left: 3px solid #ef4444; }
+  .asset-priority-2 { border-left: 3px solid #f59e0b; }
+  .asset-priority-3 { border-left: 3px solid #22c55e; }
+  .asset-section { background: rgba(96,165,250,0.05); border: 1px solid rgba(96,165,250,0.15); border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+  .fb-phase { border-left: 3px solid #1877f2; }
+  .tt-phase { border-left: 3px solid #ff0050; }
+
+  @media (max-width: 600px) {
+    .container { padding: 15px; }
+    h1 { font-size: 1.4em; }
+    .counters { flex-direction: column; }
+    .tab-btn { padding: 10px 14px; font-size: 0.85em; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>🌿 Breath of Earth — Launch Dashboard</h1>
+<p class="subtitle">Content calendar • Progress tracker • Scheduled posts</p>
+
+<!-- ──── PROGRESS ──── -->
+<div class="counters">
+  <div class="counter"><div class="counter-num fb-accent" id="fb-done">0</div><div class="counter-label">FB Posts Done</div></div>
+  <div class="counter"><div class="counter-num tt-accent" id="tt-done">0</div><div class="counter-label">TikTok Done</div></div>
+  <div class="counter"><div class="counter-num ig-accent" id="ig-done" style="color:#e1306c;">0</div><div class="counter-label">IG Done</div></div>
+  <div class="counter"><div class="counter-num" id="web-done" style="color:#60a5fa;">0</div><div class="counter-label">Website Done</div></div>
+  <div class="counter"><div class="counter-num" id="setup-done" style="color:#4ade80;">0</div><div class="counter-label">Setup Done</div></div>
+  <div class="counter"><div class="counter-num" id="total-done">0</div><div class="counter-label">Total Done</div></div>
+</div>
+
+<div class="progress-bar">
+  <div class="progress-fill" id="progress-bar" style="width: 0%;">0%</div>
+</div>
+
+<!-- ──── TAB NAV ──── -->
+<div class="tab-nav">
+  <button class="tab-btn fb-tab active" onclick="switchTab('facebook')">📘 Facebook <span class="tab-count" id="fb-count">0/37</span></button>
+  <button class="tab-btn tt-tab" onclick="switchTab('tiktok')">🎬 TikTok <span class="tab-count" id="tt-count">0/33</span></button>
+  <button class="tab-btn ig-tab" onclick="switchTab('instagram')">📸 Instagram <span class="tab-count" id="ig-count">0/33</span></button>
+  <button class="tab-btn web-tab" onclick="switchTab('website')">🌐 Website <span class="tab-count" id="web-count">0/20</span></button>
+  <button class="tab-btn setup-tab" onclick="switchTab('setup')">✅ Setup <span class="tab-count" id="setup-count">0/10</span></button>
+  <button class="tab-btn ep-tab" onclick="switchTab('episodes')">📖 Episodes <span class="tab-count">12</span></button>
+</div>
+
+<!-- ════════════════════════════════════════ -->
+<!-- ──── FACEBOOK TAB ──── -->
+<!-- ════════════════════════════════════════ -->
+<div class="tab-content active" id="tab-facebook">
+
+<div class="info-box fb">
+  <strong>📘 Facebook Strategy:</strong> 2x/week Jun 2-18 (character reveals + quotes), 2x/week Jun 30-Jul 12 (video teasers + BTS), every 2-3 days Jul 14-31 (countdown ramp), then every 2-3 days Aug 1-31 (funneling to TikTok). Every post drives to @boe_series. Visual art shares further on Facebook than video.<br>
+  <strong>📅 Gap Jun 19-29:</strong> Intentional — 10-day pause builds anticipation before teasers begin.<br>
+  <strong>⚠️ Hashtag rule:</strong> NO romance-coded tags on Facebook. Use adventure/fantasy framing only.<br>
+  <strong>🎯 Launch date:</strong> Aug 1 on TikTok.
+</div>
+
+<div class="phase-card fb-phase">
+  <h3 class="fb-accent">Week 1 — Character Reveals (Jun 2-9)</h3>
+
+  <div class="post-card" id="fb-1">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-1" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jun 2 — Lyra Character Portrait</span>
+      <span class="post-type type-portrait">Portrait</span>
+    </div>
+    <div class="post-day">📅 Jun 2 (Tue) 6-8 PM ET</div>
+    <div class="post-body">"She didn't ask for this power. She didn't ask for any of it.
+
+But the wind chose her anyway."
+
+Lyra. Wind-weaver. The girl who broke every rule — and found out they were never there to protect her.
+
+A new fantasy romance series. Coming soon.</div>
+    <div class="post-asset">🖼 Asset: Lyra character portrait</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #windweaver #fantasyart #fantasyseries #newseries</div>
+  </div>
+
+  <div class="post-card" id="fb-2">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-2" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jun 4 — Ronan Character Portrait</span>
+      <span class="post-type type-portrait">Portrait</span>
+    </div>
+    <div class="post-day">📅 Jun 4 (Thu) 6-8 PM ET</div>
+    <div class="post-body">"The ground shifts for him. Earth moves with him. He took the fall for protecting her. She's getting him back."
+
+Ronan. Earth-shaper. Silent. Dangerous. And the only person in this world who actually sees her.
+
+Some things are worth the risk.</div>
+    <div class="post-asset">🖼 Asset: Ronan character portrait</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #earthshaper #fantasyart #adventure #fantasyseries</div>
+  </div>
+
+  <div class="post-card" id="fb-3">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-3" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jun 7 — Zara Character Portrait</span>
+      <span class="post-type type-portrait">Portrait</span>
+    </div>
+    <div class="post-day">📅 Jun 7 (Sun) 12-2 PM ET</div>
+    <div class="post-body">"She doesn't burn. She controls the burn."
+
+Zara. Fire-kissed. Second in the hierarchy. The one who follows the rules — until she meets someone worth breaking them for.
+
+But that story comes later.</div>
+    <div class="post-asset">🖼 Asset: Zara character portrait</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #firekissed #fantasyart #strongfemalelead #fantasyseries</div>
+  </div>
+
+  <div class="post-card" id="fb-4">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-4" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jun 9 — Caspian Character Portrait</span>
+      <span class="post-type type-portrait">Portrait</span>
+    </div>
+    <div class="post-day">📅 Jun 9 (Tue) 6-8 PM ET</div>
+    <div class="post-body">"He's the only Tide-caller who's been down in the mud. That's why he's different. That's why he sees Ronan."
+
+Caspian. Tide-caller. Water element. Perceptive, blunt, and hiding history with someone he shouldn't want.
+
+The hierarchy says water and fire don't mix. He never cared what the hierarchy said.</div>
+    <div class="post-asset">🖼 Asset: Caspian character portrait</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #tidecaller #fantasyart #fantasyseries #adventure</div>
+  </div>
+</div>
+
+<div class="phase-card fb-phase">
+  <h3 class="fb-accent">Week 2 — Quotes & World-Building (Jun 11-18)</h3>
+
+  <div class="post-card" id="fb-5">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-5" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jun 11 — Quote: "Like it knew him"</span>
+      <span class="post-type type-quote">Quote</span>
+    </div>
+    <div class="post-day">📅 Jun 11 (Thu) 6-8 PM ET</div>
+    <div class="post-body">"The earth just... moved for him. Like it knew him."
+
+— Breath of Earth, Episode 3</div>
+    <div class="post-asset">🖼 Asset: Earth-toned background with quote in Cinzel font</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasyquotes #bookquotes #earthshaper #fantasyseries</div>
+  </div>
+
+  <div class="post-card" id="fb-6">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-6" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jun 14 — Quote: "I don't think he knew"</span>
+      <span class="post-type type-quote">Quote</span>
+    </div>
+    <div class="post-day">📅 Jun 14 (Sun) 12-2 PM ET</div>
+    <div class="post-body">"Neither of us slept. At some point... his arm moved. I don't think he knew."
+
+— Breath of Earth, Episode 4</div>
+    <div class="post-asset">🖼 Asset: Dark night background with quote in Cinzel font</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasyquotes #bookquotes #slowburn #fantasyseries</div>
+  </div>
+
+  <div class="post-card" id="fb-7">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-7" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jun 16 — World: The Hierarchy</span>
+      <span class="post-type type-teaser">World</span>
+    </div>
+    <div class="post-day">📅 Jun 16 (Tue) 6-8 PM ET</div>
+    <div class="post-body">Four elements. One order.
+
+Wind rules at the top. Fire serves them. Water does what it's told. And Earth? Earth doesn't get a choice.
+
+The hierarchy is built into the architecture. The towers. The platforms. Everything.
+
+But some things are worth the risk.</div>
+    <div class="post-asset">🖼 Asset: Training Grounds Map or Hierarchy diagram</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasyworld #elemental #hierarchy #worldbuilding</div>
+  </div>
+
+  <div class="post-card" id="fb-8">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-8" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jun 18 — Quote: "I won't let anything happen to them"</span>
+      <span class="post-type type-quote">Quote</span>
+    </div>
+    <div class="post-day">📅 Jun 18 (Thu) 6-8 PM ET</div>
+    <div class="post-body">"I won't let anything happen to them."
+
+Not a promise. A fact.
+
+— Ronan, Breath of Earth Episode 3</div>
+    <div class="post-asset">🖼 Asset: Dark background with firelight, quote in Cinzel font</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #bookquotes #protector #fantasyseries</div>
+  </div>
+</div>
+
+<div class="phase-card fb-phase">
+  <h3 class="fb-accent">Week 5-6 — Video Teasers & BTS (Jun 30-Jul 12)</h3>
+
+  <div class="post-card" id="fb-9">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-9" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jun 30 — Teaser: The Eruption</span>
+      <span class="post-type type-teaser">Teaser</span>
+    </div>
+    <div class="post-day">📅 Jun 30 (Tue) 6-8 PM ET</div>
+    <div class="post-body">"The wind didn't ask permission. It just... erupted."
+
+15 seconds from Episode 1 — the moment Lyra's power explodes at the party. Just the eruption clip, ends on her face, cut to black.
+
+Premieres August 1 on TikTok.</div>
+    <div class="post-asset">🖼 Asset: 15-second clip from Ep 1 (the eruption moment only)</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasytiktok #windweaver #fyp #storytime</div>
+  </div>
+
+  <div class="post-card" id="fb-10">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-10" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 2 — Teaser: The Touch</span>
+      <span class="post-type type-teaser">Teaser</span>
+    </div>
+    <div class="post-day">📅 Jul 2 (Thu) 6-8 PM ET</div>
+    <div class="post-body">"Their hands touched. And the world cracked open."
+
+15 seconds from Episode 2 — the spark moment when their hands touch and the ground shifts.
+
+Premieres August 1 on TikTok.</div>
+    <div class="post-asset">🖼 Asset: 15-second clip from Ep 2 (the spark/touch moment)</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #slowburn #fantasytiktok #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-11">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-11" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 5 — Teaser: The Promise</span>
+      <span class="post-type type-teaser">Teaser</span>
+    </div>
+    <div class="post-day">📅 Jul 5 (Sun) 12-2 PM ET</div>
+    <div class="post-body">"I won't let anything happen to them."
+
+15 seconds from Episode 3 — Ronan making camp with earth power, then looking at her. The promise.
+
+Premieres August 1 on TikTok.</div>
+    <div class="post-asset">🖼 Asset: 15-second clip from Ep 3 (Ronan making camp + the promise)</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #protector #fantasytiktok #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-12">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-12" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 8 — BTS: How I Build Each Episode</span>
+      <span class="post-type type-bts">BTS</span>
+    </div>
+    <div class="post-day">📅 Jul 8 (Wed) 6-8 PM ET</div>
+    <div class="post-body">"Every episode starts as a script. Then I build the world — character by character, scene by scene — using AI art tools.
+
+Here's what the production process looks like for Breath of Earth."
+
+Show 3-4 images: script page → character portrait → scene backdrop → final clip screenshot.
+
+The entire series is made by one person. No studio. No team. Just a story that wouldn't let go.</div>
+    <div class="post-asset">🖼 Asset: Carousel — (1) script page, (2) character portrait, (3) backdrop, (4) final clip still</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #aiart #indiecreator #behindthescenes #fantasytiktok #contentcreator</div>
+  </div>
+
+  <div class="post-card" id="fb-13">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-13" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 10 (Fri) — 15s Teaser: The Chin Grab</span>
+      <span class="post-type type-teaser">Teaser</span>
+    </div>
+    <div class="post-day">📅 Jul 10 (Fri) 6-8 PM ET</div>
+    <div class="post-body">"You think I don't know what you're doing."
+
+15 seconds from Episode 3 — the confrontation. The chin grab. The pushback.</div>
+    <div class="post-asset">🖼 Asset: 15-second clip from Ep 3 (the chin grab moment)</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasytiktok #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-14">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-14" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 12 (Sun) — World Teaser: The Training Grounds</span>
+      <span class="post-type type-teaser">Teaser</span>
+    </div>
+    <div class="post-day">📅 Jul 12 (Sun) 12-2 PM ET</div>
+    <div class="post-body">This is where they train. Where Lyra learns to control the wind. Where Ronan moves earth like it's breathing.
+
+The Training Grounds. Every element has its place.
+
+Full episodes on TikTok starting August 1.</div>
+    <div class="post-asset">🖼 Asset: Training Grounds Map or hero background image</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Premieres August 1. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasyworld #worldbuilding #elemental #fyp</div>
+  </div>
+</div>
+
+<div class="phase-card fb-phase">
+  <h3 class="fb-accent">Week 7 — Countdown Begins (Jul 14-20)</h3>
+
+  <div class="post-card" id="fb-15">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-15" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 14 (Tue) — 📢 18 Days Until Launch</span>
+      <span class="post-type type-announce">Countdown</span>
+    </div>
+    <div class="post-day">📅 Jul 14 (Tue) 6-8 PM ET</div>
+    <div class="post-body">18 days.
+
+That's when the wind starts.
+
+Breath of Earth. A new fantasy series. August 1 on TikTok.</div>
+    <div class="post-asset">🖼 Asset: Dark moody image with countdown number, Wind-weaver imagery</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #comingsoon #august1 #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-16">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-16" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 16 (Thu) — Quote: "Some things are worth the risk"</span>
+      <span class="post-type type-quote">Quote</span>
+    </div>
+    <div class="post-day">📅 Jul 16 (Thu) 6-8 PM ET</div>
+    <div class="post-body">"Some things are worth the risk."
+
+The hierarchy says wind and earth don't mix. She never cared what the hierarchy said.
+
+16 days.</div>
+    <div class="post-asset">🖼 Asset: Cinzel font quote on dark forest/moonlight background</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasyquotes #comingsoon</div>
+  </div>
+
+  <div class="post-card" id="fb-17">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-17" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 19 (Sun) — 15s Teaser: The Night</span>
+      <span class="post-type type-teaser">Teaser</span>
+    </div>
+    <div class="post-day">📅 Jul 19 (Sun) 12-2 PM ET</div>
+    <div class="post-body">"Neither of us slept. At some point... his arm moved."
+
+15 seconds from Episode 4. The overnight scene. The shift.
+
+13 days.</div>
+    <div class="post-asset">🖼 Asset: 15-second clip from Ep 4 (the night scene)</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #slowburn #fantasytiktok #fyp</div>
+  </div>
+</div>
+
+<div class="phase-card fb-phase">
+  <h3 class="fb-accent">Week 8 — Final Countdown (Jul 21-31)</h3>
+
+  <div class="post-card" id="fb-18">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-18" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 21 (Tue) — 📢 11 Days</span>
+      <span class="post-type type-announce">Countdown</span>
+    </div>
+    <div class="post-day">📅 Jul 21 (Tue) 6-8 PM ET</div>
+    <div class="post-body">11 days until Breath of Earth premieres on TikTok.
+
+Are you ready? The wind is coming.</div>
+    <div class="post-asset">🖼 Asset: Countdown graphic with "11" and Wind-weaver imagery</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #comingsoon #countdown #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-19">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-19" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 23 (Thu) — Quote: "The hierarchy says no"</span>
+      <span class="post-type type-quote">Quote</span>
+    </div>
+    <div class="post-day">📅 Jul 23 (Thu) 6-8 PM ET</div>
+    <div class="post-body">"The hierarchy says wind and earth don't mix. She never cared what the hierarchy said."
+
+9 days.</div>
+    <div class="post-asset">🖼 Asset: Hierarchy visual with quote overlay</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasyquotes #hierarchy #comingsoon</div>
+  </div>
+
+  <div class="post-card" id="fb-20">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-20" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 25 (Sat) — 📢 7 Days</span>
+      <span class="post-type type-announce">Countdown</span>
+    </div>
+    <div class="post-day">📅 Jul 25 (Sat) 6-8 PM ET</div>
+    <div class="post-body">One week.
+
+One week until Lyra's world changes forever.
+
+August 1. TikTok. @boe_series.</div>
+    <div class="post-asset">🖼 Asset: "7 DAYS" countdown graphic with eruption imagery</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #oneweek #comingsoon #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-21">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-21" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 27 (Mon) — 📢 5 Days + BTS: The Music</span>
+      <span class="post-type type-bts">BTS</span>
+    </div>
+    <div class="post-day">📅 Jul 27 (Mon) 12-2 PM ET</div>
+    <div class="post-body">5 days.
+
+Here's a behind-the-scenes look at how the music gets made for Breath of Earth. Every scene has a sound — wind, fire, earth moving. The score is as intentional as the story.
+
+August 1 on TikTok.</div>
+    <div class="post-asset">🖼 Asset: Short BTS clip or carousel showing music production</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #aiart #behindthescenes #comingsoon #fantasytiktok</div>
+  </div>
+
+  <div class="post-card" id="fb-22">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-22" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 29 (Wed) — 📢 3 Days</span>
+      <span class="post-type type-announce">Countdown</span>
+    </div>
+    <div class="post-day">📅 Jul 29 (Wed) 6-8 PM ET</div>
+    <div class="post-body">3 days.
+
+The hierarchy is built into the architecture. The towers. The platforms. Everything.
+
+But some things are worth the risk.
+
+August 1. @boe_series on TikTok.</div>
+    <div class="post-asset">🖼 Asset: "3 DAYS" countdown graphic with hierarchy/tower imagery</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #3days #comingsoon #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-23">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-23" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 30 (Thu) — 📢 2 Days</span>
+      <span class="post-type type-announce">Countdown</span>
+    </div>
+    <div class="post-day">📅 Jul 30 (Thu) 6-8 PM ET</div>
+    <div class="post-body">2 days.
+
+She didn't ask for this power. The wind chose her anyway.
+
+Breath of Earth. August 1. TikTok.</div>
+    <div class="post-asset">🖼 Asset: "2 DAYS" countdown graphic with Lyra portrait</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #2days #comingsoon #windweaver #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-24">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-24" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Jul 31 (Fri) — 🔥 TOMORROW 🔥</span>
+      <span class="post-type type-announce">LAUNCH</span>
+    </div>
+    <div class="post-day">📅 Jul 31 (Fri) 6-8 PM ET</div>
+    <div class="post-body">TOMORROW.
+
+Breath of Earth premieres on TikTok.
+
+Episode 1. The Awakening. The wind erupts.
+
+@boe_series. August 1. Be there.</div>
+    <div class="post-asset">🖼 Asset: Final launch graphic — "TOMORROW" with series logo</div>
+    <div class="post-cta">📌 CTA: "Follow @boe_series on TikTok NOW. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #tomorrow #launch #august1 #tiktok #fyp</div>
+  </div>
+</div>
+
+
+<div class="phase-card fb-phase">
+  <h3 class="fb-accent">Week 9+ — Launch Funnel (Aug 1-31)</h3>
+
+  <div class="post-card" id="fb-25">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-25" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 1 (Sat) — 🔥 IT'S LIVE — Episode 1: Awakening</span>
+      <span class="post-type type-announce">LAUNCH</span>
+    </div>
+    <div class="post-day">📅 Aug 1 (Sat) 6-8 PM ET</div>
+    <div class="post-body">IT'S HERE.
+
+Episode 1: The Awakening. She didn't ask for this power. The wind chose her anyway.
+
+Watch now on TikTok → @boe_series
+
+Link in bio.</div>
+    <div class="post-asset">🖼 Asset: Ep1 key frame or eruption still</div>
+    <div class="post-cta">📌 CTA: "Watch Episode 1 on TikTok NOW. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #nowlive #episode1 #tiktok #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-26">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-26" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 3 (Mon) — Ep 3 Highlight: The Promise</span>
+      <span class="post-type type-teaser">Teaser</span>
+    </div>
+    <div class="post-day">📅 Aug 3 (Mon) 12-2 PM ET</div>
+    <div class="post-body">"I won't let anything happen to them."
+
+Three episodes in. The promise. The pushback.
+
+Are you watching yet? Episodes 1-3 on TikTok → @boe_series</div>
+    <div class="post-asset">🖼 Asset: Still from Ep3 — the chin grab or promise moment</div>
+    <div class="post-cta">📌 CTA: "Catch up on Episodes 1-3 on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #thepromise #fantasytiktok #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-27">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-27" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 5 (Wed) — Ep 5 Highlight: The River</span>
+      <span class="post-type type-teaser">Teaser</span>
+    </div>
+    <div class="post-day">📅 Aug 5 (Wed) 6-8 PM ET</div>
+    <div class="post-body">The river. The boundary. What waits on the other side.
+
+Five episodes deep. If you haven't started yet — now's the time.
+
+Episodes 1-5 on TikTok → @boe_series</div>
+    <div class="post-asset">🖼 Asset: Still from Ep5 — the river scene</div>
+    <div class="post-cta">📌 CTA: "Start from Episode 1 on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #theriver #fantasytiktok #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-28">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-28" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 7 (Fri) — Quote: "Keep up."</span>
+      <span class="post-type type-quote">Quote</span>
+    </div>
+    <div class="post-day">📅 Aug 7 (Fri) 6-8 PM ET</div>
+    <div class="post-body">"Keep up."
+
+Two words. That's all he said. But his actions? They said everything.
+
+Episodes 1-7 on TikTok → @boe_series</div>
+    <div class="post-asset">🖼 Asset: Cinzel font quote on dark backdrop</div>
+    <div class="post-cta">📌 CTA: "Watch from Episode 1 on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasyquotes #ronan #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-29">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-29" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 9 (Sun) — 🔥 S1 FINALE Weekend: The Rescue</span>
+      <span class="post-type type-announce">Announcement</span>
+    </div>
+    <div class="post-day">📅 Aug 9 (Sun) 12-2 PM ET</div>
+    <div class="post-body">Season 1 finale drops today.
+
+"You shouldn't be here." He speaks. The rescue. The escape.
+
+11 episodes. One season. Are you caught up?
+
+@boe_series on TikTok.</div>
+    <div class="post-asset">🖼 Asset: S1 finale key frame or "SEASON FINALE" graphic</div>
+    <div class="post-cta">📌 CTA: "Watch the Season 1 finale on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #season1finale #therescue #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-30">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-30" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 11 (Tue) — 📢 Season 2 Starts TODAY</span>
+      <span class="post-type type-announce">Announcement</span>
+    </div>
+    <div class="post-day">📅 Aug 11 (Tue) 6-8 PM ET</div>
+    <div class="post-body">Season 2 starts today on TikTok.
+
+If you thought Season 1 was intense... you haven't seen anything yet.
+
+Catch up on all 11 episodes now → @boe_series</div>
+    <div class="post-asset">🖼 Asset: "SEASON 2" launch graphic</div>
+    <div class="post-cta">📌 CTA: "Catch up on Season 1 on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #season2 #nowlive #tiktok #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-31">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-31" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 14 (Fri) — BTS: How Each Episode Gets Made</span>
+      <span class="post-type type-bts">BTS</span>
+    </div>
+    <div class="post-day">📅 Aug 14 (Fri) 6-8 PM ET</div>
+    <div class="post-body">Curious how a one-person studio makes a fantasy series?
+
+Script → Art → Video → Music → Edit. Every single piece built from scratch.
+
+Here's what the pipeline looks like for one episode of Breath of Earth.
+
+16 episodes in. 17 more to go. 🎬</div>
+    <div class="post-asset">🖼 Asset: Carousel — script, character art, video still, final edit screenshot</div>
+    <div class="post-cta">📌 CTA: "Watch from the beginning on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #behindthescenes #aiart #indiecreator #fantasytiktok</div>
+  </div>
+
+  <div class="post-card" id="fb-32">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-32" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 17 (Mon) — Ep Highlight: The Hierarchy</span>
+      <span class="post-type type-teaser">Teaser</span>
+    </div>
+    <div class="post-day">📅 Aug 17 (Mon) 12-2 PM ET</div>
+    <div class="post-body">Wind at the top. Earth at the bottom. The rules that built this world.
+
+The Hierarchy explained. Episode 7. If you missed it — now you know.
+
+17 episodes in. New ones daily on TikTok → @boe_series</div>
+    <div class="post-asset">🖼 Asset: Still from Ep7 — the hierarchy visual</div>
+    <div class="post-cta">📌 CTA: "Start from Episode 1 on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #thehierarchy #worldbuilding #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-33">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-33" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 20 (Thu) — 🔥 S2 FINALE This Week</span>
+      <span class="post-type type-announce">Announcement</span>
+    </div>
+    <div class="post-day">📅 Aug 20 (Thu) 6-8 PM ET</div>
+    <div class="post-body">Season 2 finale drops this Saturday.
+
+Every season raises the stakes. This one? You're not ready.
+
+Catch up on all 21 episodes → @boe_series on TikTok.</div>
+    <div class="post-asset">🖼 Asset: "S2 FINALE THIS WEEK" graphic</div>
+    <div class="post-cta">📌 CTA: "Binge Season 1 + 2 on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #season2finale #catchup #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-34">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-34" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 24 (Mon) — 📢 Season 3 Is HERE</span>
+      <span class="post-type type-announce">Announcement</span>
+    </div>
+    <div class="post-day">📅 Aug 24 (Mon) 12-2 PM ET</div>
+    <div class="post-body">Season 3. The final season. It starts today.
+
+If you've been waiting to binge — this is your weekend. 22 episodes. Go.
+
+@boe_series on TikTok.</div>
+    <div class="post-asset">🖼 Asset: "SEASON 3" launch graphic with final season branding</div>
+    <div class="post-cta">📌 CTA: "Binge all seasons on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #season3 #finalseason #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-35">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-35" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 27 (Thu) — Quote: "Some things are worth the risk"</span>
+      <span class="post-type type-quote">Quote</span>
+    </div>
+    <div class="post-day">📅 Aug 27 (Thu) 6-8 PM ET</div>
+    <div class="post-body">"Some things are worth the risk."
+
+The line that started it all. 27 episodes in. 6 to go.
+
+Are you still watching? @boe_series on TikTok.</div>
+    <div class="post-asset">🖼 Asset: Cinzel font quote on moody background</div>
+    <div class="post-cta">📌 CTA: "Watch from the beginning on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #fantasyquotes #worththerisk #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-36">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-36" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 30 (Sun) — 🔥 SERIES FINALE: 3 Days Left</span>
+      <span class="post-type type-announce">Announcement</span>
+    </div>
+    <div class="post-day">📅 Aug 30 (Sun) 12-2 PM ET</div>
+    <div class="post-body">3 days left.
+
+33 episodes. One story. It all comes down to this.
+
+If you haven't started yet — you have exactly one weekend to catch up before it's over.
+
+@boe_series on TikTok. Start from Episode 1.</div>
+    <div class="post-asset">🖼 Asset: "3 DAYS LEFT — SERIES FINALE" countdown graphic</div>
+    <div class="post-cta">📌 CTA: "Start from Episode 1 on TikTok. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #finale #3days #catchup #fyp</div>
+  </div>
+
+  <div class="post-card" id="fb-37">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="fb-37" style="accent-color:#1877f2;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 31 (Mon) — 📢 One More Day</span>
+      <span class="post-type type-announce">Announcement</span>
+    </div>
+    <div class="post-day">📅 Aug 31 (Mon) 12-2 PM ET</div>
+    <div class="post-body">Tomorrow. The final episode of Breath of Earth.
+
+It ends the way it started — with the wind.
+
+Tomorrow on TikTok. @boe_series.</div>
+    <div class="post-asset">🖼 Asset: "TOMORROW — SERIES FINALE" graphic</div>
+    <div class="post-cta">📌 CTA: "Watch all 33 episodes on TikTok. Finale tomorrow. Link in bio."</div>
+    <div class="post-notes">#breathofearth #fantasyromance #finale #tomorrow #seriesfinale #fyp</div>
+  </div>
+</div>
+
+</div><!-- end facebook tab -->
+
+<!-- ════════════════════════════════════════ -->
+<!-- ──── TIKTOK TAB ──── -->
+<!-- ════════════════════════════════════════ -->
+<div class="tab-content" id="tab-tiktok">
+
+<div class="info-box tt">
+  <strong>🎬 TikTok Strategy:</strong> 1 episode per day, 33 days straight (Aug 1 - Sep 2). All videos must be 1+ minute for Creator Rewards. Cross-post to Instagram Reels 30-60 min after TikTok.<br>
+  <strong>🎯 Goal:</strong> 100K views in 30 days for Creator Rewards Program eligibility (10K followers + 100K views + 1min+ videos).<br>
+  <strong>✅ BookTok hashtags OK on TikTok</strong> — use #darkromance #enemiestolovers #slowburn #booktok freely.<br>
+  <strong>⏰ After you post:</strong> Come back 30 min later → reply to 3-5 comments → pin the best one → done. The videos do the heavy lifting.
+</div>
+
+<!-- ──── SEASON 1 ──── -->
+<div class="phase-card tt-phase">
+  <h3 class="tt-accent">🎬 Season 1 — "Awakening" (Aug 1-11)</h3>
+
+  <div class="post-card" id="tt-1">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-1" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 1 (Sat) — Ep1: "Awakening" 🚀 LAUNCH</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 01 (Sat) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">"She didn't ask for this power. The wind chose her anyway."
+
+The party. The eruption. Ronan appears. The touch. The hook.</div>
+    <div class="post-asset">🖼 BoE-S01E01-Awakening.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #romancetok #fyp #storytime #newseries #windweaver #forbiddenlove #enemiestolovers #darkromance #slowburn</div>
+  </div>
+
+  <div class="post-card" id="tt-2">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-2" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 2 (Sun) — Ep2: "Escape"</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 02 (Sun) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">"Their hands touched. And the world cracked open."
+
+The car ride. The forest. Earth moves. The fall. The binding. "Keep up."</div>
+    <div class="post-asset">🖼 BoE-S01E02-Escape.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #romancetok #fyp #storytime #enemiestolovers #forbiddenlove #darkromance #slowburn #earthshaper</div>
+  </div>
+
+  <div class="post-card" id="tt-3">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-3" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 3 (Mon) — Ep3: "The Sister"</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 03 (Mon) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">"I won't let anything happen to them."
+
+The memory. Sera. The earth moves. The chin grab. The promise.</div>
+    <div class="post-asset">🖼 BoE-S01E03-TheSister.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #forbiddenlove #darkromance #slowburn #bookboyfriend #thepromise</div>
+  </div>
+
+  <div class="post-card" id="tt-4">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-4" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 4 (Tue) — Ep4: "The Night"</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 04 (Tue) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">"Neither of us slept. At some point... his arm moved. I don't think he knew."
+
+The overnight. The shift. The wall cracks.</div>
+    <div class="post-asset">🖼 BoE-S01E04-TheNight.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #slowburn #darkromance #thenight #enemiestolovers</div>
+  </div>
+
+  <div class="post-card" id="tt-5">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-5" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 5 (Wed) — Ep5: "The River"</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 05 (Wed) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">The river. The boundary. What waits on the other side.</div>
+    <div class="post-asset">🖼 BoE-S01E05-TheRiver.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #theriver #slowburn</div>
+  </div>
+
+  <div class="post-card" id="tt-6">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-6" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 6 (Thu) — Ep6: "The Camp"</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 06 (Thu) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">The camp. The fire. The first night they don't pretend.</div>
+    <div class="post-asset">🖼 BoE-S01E06-TheCamp.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #thecamp #slowburn #darkromance</div>
+  </div>
+
+  <div class="post-card" id="tt-7">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-7" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 7 (Fri) — Ep7: "The Hierarchy"</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 07 (Fri) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">The hierarchy revealed. Wind at the top. Earth at the bottom. The rules that built this world.</div>
+    <div class="post-asset">🖼 BoE-S01E07-TheHierarchy.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #thehierarchy #worldbuilding</div>
+  </div>
+
+  <div class="post-card" id="tt-8">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-8" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 8 (Sat) — Ep8: "Training"</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 08 (Sat) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">Training begins. Wind and earth, side by side. The proximity is the point.</div>
+    <div class="post-asset">🖼 BoE-S01E08-Training.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #training #slowburn</div>
+  </div>
+
+  <div class="post-card" id="tt-9">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-9" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 9 (Sun) — Ep9: "The Triangle"</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 09 (Sun) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">The triangle forms. Zara arrives. The lines are drawn.</div>
+    <div class="post-asset">🖼 BoE-S01E09-TheTriangle.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #thetriangle #darkromance</div>
+  </div>
+
+  <div class="post-card" id="tt-10">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-10" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 10 (Mon) — Ep10: "The Pit"</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 10 (Mon) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">The pit. The fight. Everything they've been hiding comes out.</div>
+    <div class="post-asset">🖼 BoE-S01E10-ThePit.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #thepit</div>
+  </div>
+
+  <div class="post-card" id="tt-11">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-11" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 11 (Tue) — Ep11: "The Rescue" (S1 FINALE) 🔥</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 11 (Tue) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">"You shouldn't be here." He speaks. The rescue. The escape. Season 1 ends on the run.</div>
+    <div class="post-asset">🖼 BoE-S01E11-TheRescue.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #therescue #season1finale #darkromance #slowburn</div>
+  </div>
+</div>
+
+<!-- ──── SEASON 2 ──── -->
+<div class="phase-card tt-phase">
+  <h3 class="tt-accent">🎬 Season 2 — "???" (Aug 12-22)</h3>
+
+  <div class="post-card" id="tt-12">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-12" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 12 (Wed) — S2E1</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 12 (Wed) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Season 2 premiere. Title and description TBD — scripts in progress.</div>
+    <div class="post-asset">🖼 BoE-S02E01.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-13">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-13" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 13 (Thu) — S2E2</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 13 (Thu) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E02.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-14">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-14" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 14 (Fri) — S2E3</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 14 (Fri) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E03.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-15">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-15" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 15 (Sat) — S2E4</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 15 (Sat) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E04.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-16">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-16" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 16 (Sun) — S2E5</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 16 (Sun) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E05.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-17">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-17" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 17 (Mon) — S2E6</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 17 (Mon) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E06.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-18">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-18" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 18 (Tue) — S2E7</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 18 (Tue) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E07.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-19">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-19" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 19 (Wed) — S2E8</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 19 (Wed) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E08.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-20">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-20" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 20 (Thu) — S2E9</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 20 (Thu) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E09.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-21">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-21" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 21 (Fri) — S2E10</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 21 (Fri) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E10.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2</div>
+  </div>
+
+  <div class="post-card" id="tt-22">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-22" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 22 (Sat) — S2E11 (S2 FINALE) 🔥</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 22 (Sat) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">Season 2 finale. Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S02E11.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season2finale</div>
+  </div>
+</div>
+
+<!-- ──── SEASON 3 ──── -->
+<div class="phase-card tt-phase">
+  <h3 class="tt-accent">🎬 Season 3 — "???" (Aug 23 - Sep 2)</h3>
+
+  <div class="post-card" id="tt-23">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-23" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 23 (Sun) — S3E1</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 23 (Sun) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">Season 3 premiere. Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E01.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-24">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-24" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 24 (Mon) — S3E2</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 24 (Mon) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E02.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-25">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-25" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 25 (Tue) — S3E3</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 25 (Tue) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E03.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-26">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-26" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 26 (Wed) — S3E4</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 26 (Wed) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E04.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-27">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-27" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 27 (Thu) — S3E5</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 27 (Thu) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E05.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-28">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-28" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 28 (Fri) — S3E6</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 28 (Fri) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E06.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-29">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-29" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 29 (Sat) — S3E7</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 29 (Sat) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E07.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-30">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-30" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 30 (Sun) — S3E8</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 30 (Sun) — Post at 12 PM ET → IG Reels at 12:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E08.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-31">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-31" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 31 (Mon) — S3E9</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Aug 31 (Mon) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E09.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-32">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-32" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Sep 1 (Tue) — S3E10</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Sep 01 (Tue) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E10.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #season3</div>
+  </div>
+
+  <div class="post-card" id="tt-33">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="tt-33" style="accent-color:#ff0050;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Sep 2 (Wed) — S3E11 (SERIES FINALE) 🔥🔥🔥</span>
+      <span class="post-type type-episode">Full Episode</span>
+    </div>
+    <div class="post-day">📅 Sep 02 (Wed) — Post at 7 PM ET → IG Reels at 7:30 PM ET</div>
+    <div class="post-body">Series finale. Title and description TBD.</div>
+    <div class="post-asset">🖼 BoE-S03E11.mp4</div>
+    <div class="post-notes">#breathofearth #romanticfantasy #fantasytiktok #booktok #fyp #storytime #seriesfinale #darkromance</div>
+  </div>
+</div>
+
+</div><!-- end tiktok tab -->
+
+<!-- ════════════════════════════════════════ -->
+<!-- ──── INSTAGRAM TAB ──── -->
+<!-- ════════════════════════════════════════ -->
+<div class="tab-content" id="tab-instagram">
+
+<div class="info-box ig">
+  <strong>📸 Instagram Strategy:</strong> Cross-post every TikTok episode to Reels, 30-60 min after TikTok. Same video, different hashtags. This is an audience multiplier, not a separate content pipeline.<br>
+  <strong>⏰ Timing:</strong> Post to TikTok first, then Reels 30-60 min later. TikTok rewards original content; IG doesn't penalize TikTok-sourced video.<br>
+  <strong>🏷️ Hashtag rule:</strong> Use #Bookstagram hashtags on IG (different from #BookTok). See each card for specific tags.<br>
+  <strong>🎯 Goal:</strong> Build secondary audience. IG monetization is brand-deal driven, not per-view like TikTok Creator Rewards.
+</div>
+
+<div class="phase-card ig-phase">
+  <h3 class="ig-accent">Season 1 — Cross-Post Schedule (Aug 1-11)</h3>
+
+  <div class="post-card" id="ig-1">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-1" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 1 (Sat) — Reels: Ep1 Awakening</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 01 (Sat) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep1. Remove TikTok watermark if present. Post clean version.
+    📱 Story: Countdown sticker — "Episode 1 drops TONIGHT 🌪️"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-1</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #enemiestolovers #forbiddenlove #slowburnromance #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #newseries #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-2">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-2" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 2 (Sun) — Reels: Ep2 Escape</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 02 (Sun) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep2.
+    📱 Story: Poll — "Would you escape with Lyra? YES / NO"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-2</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #escape #freenovel #slowburnromance #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-3">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-3" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 3 (Mon) — Reels: Ep3 The Sister</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 03 (Mon) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep3.
+    📱 Story: Quote card — "My sister warned me about him. She was right."
+    </div>
+    <div class="post-asset">🖼 Same video as tt-3</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #sisters #forbiddenlove #slowburnromance #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #sistersinstory #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-4">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-4" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 4 (Tue) — Reels: Ep4 The Night</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 04 (Tue) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep4.
+    📱 Story: Poll — "The Night: romantic or terrifying? 🌙"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-4</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #darkromance #thenight #slowburnromance #enemiestolovers #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #nightaesthetic #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-5">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-5" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 5 (Wed) — Reels: Ep5 The River</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 05 (Wed) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep5.
+    📱 Story: Quiz — "Which element would you control? 🌊"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-5</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #theriver #slowburnromance #forbiddenlove #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #riveraesthetic #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-6">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-6" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 6 (Thu) — Reels: Ep6 The Camp</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 06 (Thu) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep6.
+    📱 Story: Behind-the-scenes — training ground concept art
+    </div>
+    <div class="post-asset">🖼 Same video as tt-6</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #thecamp #slowburnromance #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-7">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-7" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 7 (Fri) — Reels: Ep7 The Hierarchy</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 07 (Fri) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep7.
+    📱 Story: Infographic — "The Hierarchy: Wind > Fire > Water > Earth ⚡"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-7</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #thehierarchy #worldbuilding #forbiddenlove #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld #elemental
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-8">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-8" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 8 (Sat) — Reels: Ep8 Training</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 08 (Sat) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep8.
+    📱 Story: Poll — "Could you survive elemental training? 💪"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-8</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #training #slowburnromance #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-9">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-9" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 9 (Sun) — Reels: Ep9 The Triangle</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 09 (Sun) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep9.
+    📱 Story: Poll — "Team Ronan or Team Caspian? 🤔"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-9</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #lovetriangle #darkromance #slowburnromance #enemiestolovers #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-10">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-10" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 10 (Mon) — Reels: Ep10 The Pit</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 10 (Mon) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep10.
+    📱 Story: Countdown — "The Pit is coming... 🔥"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-10</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #thepit #darkromance #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-11">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-11" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 11 (Tue) — Reels: Ep11 The Rescue (S1 FINALE) 🔥</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 11 (Tue) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok Ep11. Season finale — add "S1 FINALE" text in IG caption.
+    📱 Story: Big reveal sticker — "S1 FINALE. You're not ready. 🌪️"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-11</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season1finale #darkromance #slowburnromance #forbiddenlove #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #finale #fantasyworld
+    </div>
+  </div>
+</div>
+
+<div class="phase-card ig-phase">
+  <h3 class="ig-accent">Season 2 — Cross-Post Schedule (Aug 12-22)</h3>
+
+  <div class="info-box ig" style="border-left-color:#e1306c;">
+    Same pattern: TikTok first, then IG Reels 30-60 min later. Same video, #Bookstagram hashtags. Season 2 titles TBD.
+  </div>
+
+  <div class="post-card" id="ig-12">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-12" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 12 (Wed) — Reels: S2E1</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 12 (Wed) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E1.
+    📱 Story: "Season 2 starts NOW. New episodes daily." + countdown
+    </div>
+    <div class="post-asset">🖼 Same video as tt-12</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #enemiestolovers #forbiddenlove #slowburnromance #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #newseason #bookreels #romancereels
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-13">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-13" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 13 (Thu) — Reels: S2E2</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 13 (Thu) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E2.
+    📱 Story: Poll — "The stakes just got higher. Are you ready?"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-13</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #slowburnromance #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-14">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-14" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 14 (Fri) — Reels: S2E3</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 14 (Fri) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E3.
+    📱 Story: Quote card — pick a devastating S2 line
+    </div>
+    <div class="post-asset">🖼 Same video as tt-14</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #forbiddenlove #slowburnromance #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-15">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-15" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 15 (Sat) — Reels: S2E4</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 15 (Sat) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E4.
+    📱 Story: Quiz — "Which element faction do you belong to?"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-15</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #slowburnromance #enemiestolovers #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-16">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-16" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 16 (Sun) — Reels: S2E5</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 16 (Sun) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E5.
+    📱 Story: Behind-the-scenes — character arc progression
+    </div>
+    <div class="post-asset">🖼 Same video as tt-16</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #darkromance #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-17">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-17" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 17 (Mon) — Reels: S2E6</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 17 (Mon) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E6.
+    📱 Story: Poll — "Trust Zara? YES is not an option 😈"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-17</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #forbiddenlove #slowburnromance #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-18">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-18" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 18 (Tue) — Reels: S2E7</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 18 (Tue) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E7.
+    📱 Story: This or That — "Wind powers or Fire powers?"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-18</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #enemiestolovers #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-19">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-19" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 19 (Wed) — Reels: S2E8</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 19 (Wed) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E8.
+    📱 Story: Quote card — another S2 gut-punch line
+    </div>
+    <div class="post-asset">🖼 Same video as tt-19</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #darkromance #forbiddenlove #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-20">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-20" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 20 (Thu) — Reels: S2E9</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 20 (Thu) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E9.
+    📱 Story: Poll — "Who's your favorite? Lyra / Ronan / Zara / Caspian"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-20</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-21">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-21" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 21 (Fri) — Reels: S2E10</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 21 (Fri) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E10.
+    📱 Story: Countdown — "3 episodes left in Season 2 📉"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-21</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2 #enemiestolovers #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-22">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-22" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 22 (Sat) — Reels: S2E11 (S2 FINALE) 🔥</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 22 (Sat) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S2E11. Season 2 finale.
+    📱 Story: "S2 FINALE. This changes everything. 🔥"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-22</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season2finale #darkromance #slowburnromance #forbiddenlove #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #finale #fantasyworld
+    </div>
+  </div>
+</div>
+
+<div class="phase-card ig-phase">
+  <h3 class="ig-accent">Season 3 — Cross-Post Schedule (Aug 23 - Sep 2)</h3>
+
+  <div class="post-card" id="ig-23">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-23" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 23 (Sun) — Reels: S3E1</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 23 (Sun) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E1. Season 3 premiere.
+    📱 Story: "Final season. 11 episodes. It all ends here." + countdown
+    </div>
+    <div class="post-asset">🖼 Same video as tt-23</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #newseason #enemiestolovers #forbiddenlove #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-24">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-24" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 24 (Mon) — Reels: S3E2</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 24 (Mon) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E2.
+    📱 Story: Poll — "Can Lyra survive the final trial?"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-24</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #darkromance #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-25">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-25" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 25 (Tue) — Reels: S3E3</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 25 (Tue) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E3.
+    📱 Story: Quote card — a line that hits different in the final act
+    </div>
+    <div class="post-asset">🖼 Same video as tt-25</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #forbiddenlove #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-26">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-26" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 26 (Wed) — Reels: S3E4</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 26 (Wed) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E4.
+    📱 Story: Quiz — "Which Breath of Earth character are you?"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-26</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #enemiestolovers #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-27">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-27" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 27 (Thu) — Reels: S3E5</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 27 (Thu) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E5.
+    📱 Story: This or That — "Save yourself or save them?"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-27</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #slowburnromance #forbiddenlove #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-28">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-28" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 28 (Fri) — Reels: S3E6</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 28 (Fri) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E6.
+    📱 Story: Countdown — "7 episodes left. The end is coming."
+    </div>
+    <div class="post-asset">🖼 Same video as tt-28</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #darkromance #enemiestolovers #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-29">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-29" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 29 (Sat) — Reels: S3E7</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 29 (Sat) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E7.
+    📱 Story: Poll — "Will the hierarchy hold? YES / NO"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-29</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-30">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-30" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 30 (Sun) — Reels: S3E8</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 30 (Sun) — TikTok 12 PM ET → IG Reels 12:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E8.
+    📱 Story: Quote card — the most devastating line of the series
+    </div>
+    <div class="post-asset">🖼 Same video as tt-30</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #forbiddenlove #darkromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-31">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-31" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Aug 31 (Mon) — Reels: S3E9</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Aug 31 (Mon) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E9.
+    📱 Story: Countdown — "3 episodes left 😭"
+    </div>
+    <div class="post-asset">🖼 Same video as tt-31</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #enemiestolovers #slowburnromance #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-32">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-32" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Sep 1 (Tue) — Reels: S3E10</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Sep 01 (Tue) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E10.
+    📱 Story: Countdown — "Tomorrow is the series finale."
+    </div>
+    <div class="post-asset">🖼 Same video as tt-32</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #season3 #darkromance #forbiddenlove #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #trending #bookreels #romancereels #fantasyworld
+    </div>
+  </div>
+
+  <div class="post-card" id="ig-33">
+    <div class="post-header">
+      <input type="checkbox" class="post-check" data-target="ig-33" style="accent-color:#e1306c;width:20px;height:20px;margin-top:2px;">
+      <span class="post-title">Sep 2 (Wed) — Reels: S3E11 (SERIES FINALE) 🔥🔥🔥</span>
+      <span class="post-type type-repost">Reels</span>
+    </div>
+    <div class="post-day">📅 Sep 02 (Wed) — TikTok 7 PM ET → IG Reels 7:30 PM ET</div>
+    <div class="post-body">
+      Same video as TikTok S3E11. Series finale.
+    📱 Story: "SERIES FINALE. Tonight. 🌪️🔥" + countdown sticker
+    </div>
+    <div class="post-asset">🖼 Same video as tt-33</div>
+    <div class="post-notes">
+      #breathofearth #windweaver #bookstagram #bookstagrammer #romanticfantasy #fantasybooks #romancebooks #fantasyromance #seriesfinale #darkromance #slowburnromance #forbiddenlove #enemiestolovers #bookish #booklover #bookworm #readersofinstagram #igreads #bookishfeatures #reels #explorepage #viral #bookreels #romancereels #grandfinale
+    </div>
+  </div>
+</div>
+
+</div><!-- end instagram tab -->
+
+<!-- ════════════════════════════════════════ -->
+<!-- ──── WEBSITE TAB ──── -->
+<!-- ════════════════════════════════════════ -->
+<div class="tab-content" id="tab-website">
+
+<div class="info-box" style="border-left-color:#60a5fa;">
+  <strong>🌐 Website:</strong> breath-of-earth.com (primary) + boeforge.com (redirect)<br>
+  <strong>🎯 Status:</strong> HTML/CSS built, assets needed, hosting & payment not yet set up<br>
+  <strong>⏰ Deadline:</strong> Before Aug 1 launch — website must be live when first TikTok drops
+</div>
+
+<!-- ──── PHASE 1: IMAGE ASSETS ──── -->
+<div class="asset-section">
+<h3 class="web-accent">🔴 Phase 1: Image Assets (Generate in Venice Studio)</h3>
+<p style="color:#999;font-size:14px;margin-bottom:16px;">Every image the website needs, in priority order. Generate these in Venice Studio using the prompts in <code>venice-prompts.md</code>.</p>
+
+<div class="post-card" id="web-1" style="border-left:3px solid #ef4444;">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-1" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Hero Background — Dark Fantasy Landscape</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Format:</strong> 16:9 landscape, <code>.webp</code><br>
+    <strong>File:</strong> <code>assets/hero-bg.webp</code><br>
+    <strong>Prompt:</strong> "Dark fantasy landscape, misty mountain peaks with wind swirling through silver clouds, volcanic glow on the horizon, earthy foreground with ancient stone ruins, cinematic lighting, moody atmosphere, deep blues and warm golds, no people, no text"<br>
+    <strong>Use:</strong> Full-width hero section background (currently CSS gradient placeholder)
+  </div>
+</div>
+
+<div class="post-card" id="web-2" style="border-left:3px solid #ef4444;">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-2" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Lyra Portrait — Wind-weaver (Front View)</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Format:</strong> 3:4 portrait, <code>.webp</code><br>
+    <strong>File:</strong> <code>assets/characters/Lyra.webp</code><br>
+    <strong>Prompt:</strong> "Young woman with windswept silver-blonde hair, fair skin, wide expressive blue-gray eyes, lean athletic build, wearing white and silver flowing fabrics with wind motifs, standing in wind, dark fantasy portrait style, ethereal, determined expression, small wind symbol pendant"<br>
+    <strong>Use:</strong> Character card on website + Facebook portrait post + Instagram Reels thumbnail
+  </div>
+</div>
+
+<div class="post-card" id="web-3" style="border-left:3px solid #ef4444;">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-3" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Ronan Portrait — Earth-shaper (Front View)</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Format:</strong> 3:4 portrait, <code>.webp</code><br>
+    <strong>File:</strong> <code>assets/characters/Ronan.webp</code><br>
+    <strong>Prompt:</strong> "Tall muscular man with dark hair, stoic expression, brown eyes, earth-toned clothing (browns, deep greens, black leather), imposing presence, backlit with earthy golden light, hands rough from labor, dark fantasy portrait style, no smile, strong jaw"<br>
+    <strong>Use:</strong> Character card on website + Facebook portrait post + Instagram Reels thumbnail
+  </div>
+</div>
+
+<div class="post-card" id="web-4" style="border-left:3px solid #ef4444;">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-4" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Zara Portrait — Flame-kissed (Front View)</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Format:</strong> 3:4 portrait, <code>.webp</code><br>
+    <strong>File:</strong> <code>assets/characters/Zara.webp</code><br>
+    <strong>Prompt:</strong> "Confident red-haired woman, amber eyes, smirk expression, wearing flame-red and gold form-fitting clothing with fire motifs, standing near volcanic glow, dark fantasy portrait style, prissy-sarcastic energy, arms crossed or hip-cocked pose"<br>
+    <strong>Use:</strong> Character card on website + Facebook portrait post + Instagram Reels thumbnail
+  </div>
+</div>
+
+<div class="post-card" id="web-5" style="border-left:3px solid #ef4444;">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-5" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Caspian Portrait — Tide-caller (Front View)</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Format:</strong> 3:4 portrait, <code>.webp</code><br>
+    <strong>File:</strong> <code>assets/characters/Caspian.webp</code><br>
+    <strong>Prompt:</strong> "Striking dark-skinned man with compelling light-colored eyes (pale blue-green), wearing blue-teal water-patterned clothing, water mist around him, calculating expression, dark fantasy portrait style, perceptive gaze, broad shoulders"<br>
+    <strong>Use:</strong> Character card on website + Facebook portrait post + Instagram Reels thumbnail
+  </div>
+</div>
+
+<div class="post-card" id="web-6" style="border-left:3px solid #ef4444;">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-6" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Training Grounds Map — Illustrated</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Format:</strong> 3:5 portrait, <code>.webp</code><br>
+    <strong>File:</strong> <code>assets/characters/Training Grounds Map.webp</code><br>
+    <strong>Prompt:</strong> "Isometric illustrated map of a fantasy elemental training camp built into a mountain. Top: elegant silver tower with wind wisps. Upper: volcanic caldera with lava glow. Mid: sunken stone arena with waterfalls. Bottom: muddy rock yard. Below: dark iron cell area. Each level glowing with its element color — silver-blue, orange-red, teal-blue, earthy brown. Dark fantasy style, no text, no people"<br>
+    <strong>Use:</strong> Interactive camp map section on website
+  </div>
+</div>
+</div>
+
+<!-- ──── PHASE 2: TECHNICAL SETUP ──── -->
+<div class="asset-section">
+<h3 class="web-accent">🟡 Phase 2: Technical Setup</h3>
+<p style="color:#999;font-size:14px;margin-bottom:16px;">Infrastructure and configuration needed to go live.</p>
+
+<div class="post-card" id="web-7">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-7" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Register breath-of-earth.com domain</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Registrar:</strong> Any (Cloudflare, Namecheap, Porkbun, etc.)<br>
+    <strong>Cost:</strong> ~$10-15/year<br>
+    <strong>Notes:</strong> This is the primary domain. Must be registered before we can set up hosting or SSL.
+  </div>
+</div>
+
+<div class="post-card" id="web-8">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-8" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Register boeforge.com domain</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Registrar:</strong> Same as primary domain<br>
+    <strong>Cost:</strong> ~$10-15/year<br>
+    <strong>Notes:</strong> This is the redirect domain. Set up DNS to 301 redirect all traffic to breath-of-earth.com. Both domains point to the same site.
+  </div>
+</div>
+
+<div class="post-card" id="web-9">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-9" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Set up hosting (Cloudflare Pages or Netlify)</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Options:</strong><br>
+    • <strong>Cloudflare Pages</strong> — Free, fast CDN, automatic SSL, custom domains. Push to GitHub → auto-deploy.<br>
+    • <strong>Netlify</strong> — Free tier, drag-and-drop deploy, automatic SSL. Good for static sites.<br>
+    • <strong>Vercel</strong> — Free for static, good if we add Next.js later.<br>
+    <strong>Recommendation:</strong> Cloudflare Pages — free, fast, and domain + DNS + hosting all in one place.<br>
+    <strong>Steps:</strong> Push website repo to GitHub → connect Cloudflare Pages → auto-deploys on push.
+  </div>
+</div>
+
+<div class="post-card" id="web-10">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-10" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Configure DNS for both domains</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>breath-of-earth.com:</strong> CNAME → Cloudflare Pages (or A record to hosting IP)<br>
+    <strong>boeforge.com:</strong> 301 redirect → breath-of-earth.com (permanent redirect, preserves SEO)<br>
+    <strong>www subdomain:</strong> Both www.breath-of-earth.com and www.boeforge.com should redirect to their bare domains<br>
+    <strong>SSL:</strong> Automatic with Cloudflare/Netlify — no manual cert needed<br>
+    <strong>Verification:</strong> After DNS propagates (1-48 hrs), verify both domains load the site over HTTPS
+  </div>
+</div>
+
+<div class="post-card" id="web-11">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-11" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Upload generated assets to website</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Required files:</strong><br>
+    • <code>assets/hero-bg.webp</code> — Hero background image<br>
+    • <code>assets/characters/Lyra.webp</code> — Character portrait (3:4)<br>
+    • <code>assets/characters/Ronan.webp</code> — Character portrait (3:4)<br>
+    • <code>assets/characters/Zara.webp</code> — Character portrait (3:4)<br>
+    • <code>assets/characters/Caspian.webp</code> — Character portrait (3:4)<br>
+    • <code>assets/characters/Training Grounds Map.webp</code> — Camp map illustration<br>
+    <strong>Current state:</strong> All 5 image references in HTML point to these paths but files don't exist yet. Site will show broken images until assets are uploaded.
+  </div>
+</div>
+
+<div class="post-card" id="web-12">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-12" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Update TikTok link in Watch section</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Current:</strong> <code>&lt;a href="#" class="platform-card"&gt;</code> — placeholder link<br>
+    <strong>Update to:</strong> <code>https://tiktok.com/@boe_series</code> (or exact TikTok profile URL)<br>
+    <strong>Also add:</strong> Instagram link — <code>https://instagram.com/@boe_series</code> (once IG account is created)<br>
+    <strong>Also add:</strong> Facebook page link (once FB page is created)
+  </div>
+</div>
+
+<div class="post-card" id="web-13">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-13" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Add Open Graph image for social sharing</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>What:</strong> A 1200×630px image that appears when the URL is shared on Facebook, Instagram, TikTok, etc.<br>
+    <strong>Prompt:</strong> "Breath of Earth logo/title on dark fantasy background, wind and earth elements, cinematic, 1200x630px, no people"<br>
+    <strong>File:</strong> <code>assets/og-image.jpg</code><br>
+    <strong>Meta tag needed:</strong> <code>&lt;meta property="og:image" content="assets/og-image.jpg"&gt;</code><br>
+    <strong>Also add:</strong> <code>&lt;meta name="twitter:image" content="assets/og-image.jpg"&gt;</code>
+  </div>
+</div>
+</div>
+
+<!-- ──── PHASE 3: PAYMENT & SHOP ──── -->
+<div class="asset-section">
+<h3 class="web-accent">🟢 Phase 3: Payment & Shop Setup</h3>
+<p style="color:#999;font-size:14px;margin-bottom:16px;">The shop section exists in HTML but all "Buy" buttons link to <code>#</code>. These need real payment links.</p>
+
+<div class="post-card" id="web-14">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-14" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Choose payment processor</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Options:</strong><br>
+    • <strong>Gumroad</strong> — Easiest for digital products. Handles checkout, delivery, VAT. 10% flat fee. No website integration needed — link out to Gumroad product pages.<br>
+    • <strong>Lemon Squeezy</strong> — Similar to Gumroad, lower fees (5% + $0.50). Better for subscriptions. Can embed checkout on your site.<br>
+    • <strong>Stripe Checkout</strong> — Most control, lowest fees (2.9% + $0.30). Requires Stripe account and more setup. Best for long-term scale.<br>
+    • <strong>Shopify</strong> — Overkill for 5 digital products. Skip unless we add physical merch later.<br>
+    <strong>Recommendation:</strong> Start with <strong>Gumroad</strong> for speed (no dev work), migrate to Stripe later if volume justifies it.
+  </div>
+</div>
+
+<div class="post-card" id="web-15">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-15" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Create 5 products on Gumroad (or chosen processor)</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Product list (matches website shop cards):</strong><br>
+    1. <strong>Season 1 Full Collection</strong> — $12.99 (all 11 eps + bonus scenes + character art + coloring book)<br>
+    2. <strong>Episodes 1-11 Bundle</strong> — $7.99 (ad-free, downloadable)<br>
+    3. <strong>Coloring Book</strong> — $8.99 (was $11.99, 30+ illustrations, PDF download)<br>
+    4. <strong>Character Art Pack</strong> — $5.99 (4 high-res portraits + wallpapers)<br>
+    5. <strong>Quote Collection</strong> — $4.99 (12 illustrated quote posters, print-ready)<br>
+    <strong>Note:</strong> "Website Exclusive" badge on items 1 & 2 — Gumroad lets you limit sales to specific sources
+  </div>
+</div>
+
+<div class="post-card" id="web-16">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-16" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Update shop buttons with real purchase links</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Current state:</strong> All 5 "Buy"/"Get"/"Download" buttons link to <code>#</code><br>
+    <strong>Update each button:</strong><br>
+    • Season Pass → Gumroad product URL<br>
+    • Episode Bundle → Gumroad product URL<br>
+    • Coloring Book → Gumroad product URL<br>
+    • Character Art Pack → Gumroad product URL<br>
+    • Quote Collection → Gumroad product URL<br>
+    <strong>Also update:</strong> Etsy and Amazon Storefront links in the external cards (or remove them if not yet set up)
+  </div>
+</div>
+
+<div class="post-card" id="web-17">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-17" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Create actual product files for download</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Files needed before launch:</strong><br>
+    • <strong>Coloring Book</strong> — 30+ pages of line art (generate in Venice Studio, compile as PDF)<br>
+    • <strong>Character Art Pack</strong> — 4 portraits at print quality (300 DPI) + phone wallpaper crops + desktop crops, as ZIP<br>
+    • <strong>Quote Collection</strong> — 12 illustrated quote posters, print-ready PDF<br>
+    • <strong>Episode Bundle</strong> — 11 video files + bonus scenes (once produced)<br>
+    • <strong>Season Pass</strong> — All of the above bundled<br>
+    <strong>Note:</strong> Episodes and bonus content can't be delivered until they're produced. Coloring book, art pack, and quotes can be ready before launch.
+  </div>
+</div>
+</div>
+
+<!-- ──── PHASE 4: FINAL PRE-LAUNCH ──── -->
+<div class="asset-section">
+<h3 class="web-accent">🔵 Phase 4: Final Pre-Launch Checks</h3>
+
+<div class="post-card" id="web-18">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-18" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Mobile responsiveness test</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Test on:</strong> iPhone (Safari), Android (Chrome), iPad, desktop (Chrome + Firefox)<br>
+    <strong>Check:</strong> Hero loads, character cards stack, camp map scrolls, shop grid adapts, nav works on mobile, all images display
+  </div>
+</div>
+
+<div class="post-card" id="web-19">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-19" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Social links & SEO meta tags</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Add/update meta tags:</strong><br>
+    • <code>og:title</code> — "Breath of Earth — A Fantasy Romance"<br>
+    • <code>og:description</code> — "Wind rules. Earth serves. Some things are worth the risk."<br>
+    • <code>og:image</code> — OG image (1200×630)<br>
+    • <code>og:url</code> — <code>https://breath-of-earth.com</code><br>
+    • <code>twitter:card</code> — <code>summary_large_image</code><br>
+    • <code>twitter:image</code> — Same OG image<br>
+    <strong>Add social links in footer:</strong><br>
+    • TikTok: <code>@boe_series</code><br>
+    • Instagram: <code>@boe_series</code> (once created)<br>
+    • Facebook: BOE page link (once created)
+  </div>
+</div>
+
+<div class="post-card" id="web-20">
+  <div class="post-header">
+    <input type="checkbox" class="post-check" data-target="web-20" style="accent-color:#60a5fa;width:20px;height:20px;margin-top:2px;">
+    <span class="post-title">Final deployment & launch</span>
+  </div>
+  <div class="post-body" style="font-size:14px;">
+    <strong>Pre-launch checklist:</strong><br>
+    ✅ Domain registered and DNS configured<br>
+    ✅ Hosting set up with auto-deploy from GitHub<br>
+    ✅ All 5 assets uploaded and displaying correctly<br>
+    ✅ OG image created and meta tags verified<br>
+    ✅ All shop buttons link to real Gumroad products<br>
+    ✅ Social links (TikTok, IG, FB) in footer<br>
+    ✅ Mobile tested on 3+ devices<br>
+    ✅ SSL certificate active (HTTPS working)<br>
+    ✅ boeforge.com 301 redirect to breath-of-earth.com working<br>
+    ✅ Both www and non-www redirect correctly<br>
+    <strong>Then:</strong> Push to GitHub → auto-deploy → site is live
+  </div>
+</div>
+</div>
+
+</div><!-- end website tab -->
+
+<!-- ════════════════════════════════════════ -->
+<!-- ──── SETUP CHECKLIST TAB ──── -->
+<!-- ════════════════════════════════════════ -->
+<div class="tab-content" id="tab-setup">
+
+<h2 style="color: #4ade80;">✅ Pre-Launch Setup</h2>
+
+<div class="phase-card" style="border-left: 3px solid #4ade80;">
+  <h3 style="color: #4ade80;">Account & Brand Setup</h3>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Create Facebook Page "Breath of Earth" (Entertainment Website)</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Upload profile pic (Lyra portrait or BoE logo)</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Upload cover art (Training Grounds Map or hero image)</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Set bio: "Elemental fantasy series. Season 1 now on TikTok →"</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Add breath-of-earth.com as website</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Add TikTok link in bio</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Create TikTok account (@boe_series)</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Reserve @breathofearth on Instagram</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Reserve "Breath of Earth" on YouTube</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#4ade80;width:18px;height:18px;"> Update website TikTok link when profile is live</div>
+</div>
+
+<h2 style="color: #fbbf24;">🎬 Production Checklist</h2>
+<div class="phase-card" style="border-left: 3px solid #fbbf24;">
+  <h3 style="color: #fbbf24;">Video Fixes Needed</h3>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#fbbf24;width:18px;height:18px;"> Fix Ep1 caption layout (video shrunk, text below instead of overlaid)</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#fbbf24;width:18px;height:18px;"> Fix Ep2 caption layout (same issue)</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#fbbf24;width:18px;height:18px;"> Fix Ep3 caption layout (same issue)</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#fbbf24;width:18px;height:18px;"> Verify Ep4 caption layout is correct (reference)</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#fbbf24;width:18px;height:18px;"> Generate character portraits (Lyra ✅, Ronan ✅, Zara, Caspian)</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#fbbf24;width:18px;height:18px;"> Generate Training Grounds Map</div>
+  <div class="checkbox-label"><input type="checkbox" class="setup-check" style="accent-color:#fbbf24;width:18px;height:18px;"> Generate hero background image</div>
+</div>
+
+</div><!-- end setup tab -->
+
+<!-- ════════════════════════════════════════ -->
+<!-- ──── EPISODES TAB ──── -->
+<!-- ════════════════════════════════════════ -->
+
+<div class="tab-content" id="tab-episodes">
+
+<h2 style="color: #c9a0ff;">📖 Season 1 — Episodes</h2>
+
+<div class="ep-notice">
+  All episodes use <strong>Prompt Standard v3</strong>. Click <strong>Copy Link</strong> to grab the raw GitHub URL for each episode script.
+</div>
+
+<div class="ep-list">
+
+  <div class="ep-item">
+    <div class="ep-num">1</div>
+    <div class="ep-info">
+      <div class="ep-title">Awakening</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep01-awakening.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">2</div>
+    <div class="ep-info">
+      <div class="ep-title">Escape</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep02-escape.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">3</div>
+    <div class="ep-info">
+      <div class="ep-title">The Sister</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep03-the-sister.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">4</div>
+    <div class="ep-info">
+      <div class="ep-title">The Night</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep04-the-night.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">5</div>
+    <div class="ep-info">
+      <div class="ep-title">The River</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep05-the-river.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">6</div>
+    <div class="ep-info">
+      <div class="ep-title">The Camp</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep06-the-camp.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">7</div>
+    <div class="ep-info">
+      <div class="ep-title">The Hierarchy</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep07-the-hierarchy.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">8</div>
+    <div class="ep-info">
+      <div class="ep-title">Training</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep08-training.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">9</div>
+    <div class="ep-info">
+      <div class="ep-title">The Choice</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep09-the-choice.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">10</div>
+    <div class="ep-info">
+      <div class="ep-title">The Pit</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep10-the-pit.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">11</div>
+    <div class="ep-info">
+      <div class="ep-title">The Cell</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep11-the-cell.md', this)">Copy Link</button>
+  </div>
+
+  <div class="ep-item">
+    <div class="ep-num">12</div>
+    <div class="ep-info">
+      <div class="ep-title">The Standoff</div>
+      <div class="ep-season">Season 1</div>
+    </div>
+    <span class="ep-status status-v3">v3</span>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/episodes/ep12-the-standoff.md', this)">Copy Link</button>
+  </div>
+
+</div>
+
+<h2 style="color: #a0d4ff; margin-top: 30px;">📋 Reference</h2>
+
+<div class="phase-card">
+  <div class="ep-item" style="margin-bottom: 0;">
+    <div class="ep-num" style="font-size: 1em;">📄</div>
+    <div class="ep-info">
+      <div class="ep-title">Prompt Standard v3</div>
+      <div class="ep-season">Format reference for all episodes</div>
+    </div>
+    <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/Nicole-OnChain/breath-of-earth/main/prompt-standard.md', this)">Copy Link</button>
+  </div>
+</div>
+
+</div><!-- end episodes tab -->
+
+</div><!-- end container -->
+
+<script>
+// ──── TAB SWITCHING ────
+function switchTab(tab) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  event.target.closest('.tab-btn').classList.add('active');
+}
+
+// ──── CHECKBOX PERSISTENCE ────
+document.addEventListener('change', function(e) {
+  if (e.target.type === 'checkbox') {
+    saveCheckboxes();
+    updateProgress();
+  }
+});
+
+function saveCheckboxes() {
+  const checks = {};
+  document.querySelectorAll('input[type="checkbox"]').forEach((cb, i) => {
+    checks['cb_' + i] = cb.checked;
+  });
+  localStorage.setItem('boe-launch-checks', JSON.stringify(checks));
+}
+
+function loadCheckboxes() {
+  const stored = localStorage.getItem('boe-launch-checks');
+  if (!stored) return;
+  const checks = JSON.parse(stored);
+  document.querySelectorAll('input[type="checkbox"]').forEach((cb, i) => {
+    if (checks['cb_' + i]) {
+      cb.checked = true;
+      const card = cb.closest('.post-card');
+      if (card) card.classList.add('checked');
+    }
+  });
+}
+
+function updateProgress() {
+  const all = document.querySelectorAll('input[type="checkbox"]');
+  const done = [...all].filter(cb => cb.checked).length;
+  const total = all.length;
+  const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+
+  document.getElementById('progress-bar').style.width = pct + '%';
+  document.getElementById('progress-bar').textContent = pct + '%';
+
+  // Count by section
+  let fbDone = 0, ttDone = 0, igDone = 0, webDone = 0, setupDone = 0;
+  let fbTotal = 0, ttTotal = 0, igTotal = 0, webTotal = 0, setupTotal = 0;
+
+  all.forEach(cb => {
+    const card = cb.closest('.post-card');
+    const label = cb.closest('.checkbox-label');
+    if (card && card.id.startsWith('fb-')) {
+      fbTotal++;
+      if (cb.checked) fbDone++;
+    }
+    if (card && card.id.startsWith('tt-')) {
+      ttTotal++;
+      if (cb.checked) ttDone++;
+    }
+    if (card && card.id.startsWith('ig-')) {
+      igTotal++;
+      if (cb.checked) igDone++;
+    }
+    if (card && card.id.startsWith('web-')) {
+      webTotal++;
+      if (cb.checked) webDone++;
+    }
+    if (label && cb.classList.contains('setup-check')) {
+      setupTotal++;
+      if (cb.checked) setupDone++;
+    }
+  });
+
+  document.getElementById('fb-done').textContent = fbDone;
+  document.getElementById('tt-done').textContent = ttDone;
+  document.getElementById('ig-done').textContent = igDone;
+  document.getElementById('setup-done').textContent = setupDone;
+  document.getElementById('total-done').textContent = done;
+
+  document.getElementById('fb-count').textContent = fbDone + '/' + fbTotal;
+  document.getElementById('tt-count').textContent = ttDone + '/' + ttTotal;
+  document.getElementById('ig-count').textContent = igDone + '/' + igTotal;
+  document.getElementById('web-count').textContent = webDone + '/' + webTotal;
+  document.getElementById('setup-count').textContent = setupDone + '/' + setupTotal;
+
+  // Mark cards as checked
+  all.forEach(cb => {
+    const card = cb.closest('.post-card');
+    if (card) {
+      if (cb.checked) card.classList.add('checked');
+      else card.classList.remove('checked');
+    }
+  });
+}
+
+// ──── COPY LINK ────
+function copyLink(url, btn) {
+  navigator.clipboard.writeText(url).then(() => {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy Link';
+      btn.classList.remove('copied');
+    }, 2000);
+  }).catch(() => {
+    // Fallback
+    const ta = document.createElement('textarea');
+    ta.value = url;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy Link';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+loadCheckboxes();
+updateProgress();
+</script>
+</body>
+</html>
