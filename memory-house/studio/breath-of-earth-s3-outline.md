@@ -20,14 +20,17 @@ He didn't die in the Drown Pit. The burn scar Zara gave him isn't just damage �
 **2. Lyra goes home because it's the only safe place she knows.**
 She wants to see her family. She thinks the Compound can't reach her there. She's wrong.
 
-**3. Sera wins. Both Lyra and Ronan are captured.**
-This season doesn't end with a victory. It ends with Lyra and Ronan taken to the Trench. Caspian needs all the elements. Ronan was never collateral — he was always the last piece.
+**3. Sera wins. Lyra, Ronan, and one twin are captured. The other twin stays with Zara.**
+This season doesn't end with a victory. It ends with Lyra, Ronan, and one of the twins taken to the Trench. Caspian needs all four elements to unseal a source point. He splits the twins — takes one, leaves the other. That's personal. That's the wound that drives S4.
 
 **4. Zara stays inside the Compound.**
 She doesn't leave. She finds the twins, gets to know them, becomes their protector inside the system. She's the inside voice. She's building a position, not running from one.
 
 **5. The red-headed twins are new additions to the Fire quarters.**
 Zara doesn't know who they are at first. She just knows they're small and scared and the system is going to turn them into weapons. Meanwhile, Lyra is actively asking Sera about them — and Sera is lying.
+
+**6. The source ritual requires all four elements.**
+The source points are sealed. Proximity absorption is the only way anyone has accessed power for generations. But if four elements stand at a source point together, they can unseal it — not absorb it, but directly channel it. Sera's consuming power is the key that turns the lock. She can pull the seal open where a normal element-user would just push. But a child's fire isn't enough to hold the channel. The ritual works partially but not completely. Caspian gets access, but not full control.
 
 ---
 
@@ -116,56 +119,63 @@ Zara doesn't know who they are at first. She just knows they're small and scared
 - **End card:** "She stayed for them."
 
 ### E9: The Trap
-**Caspian's plan was always the Trench. Both of them were always the target.**
+**Caspian's plan was always the Trench. He needs all four elements.**
 
 - Zara is still inside the Compound. She hasn't left. She's been learning from Torvin, protecting the twins, building her position. But she sends a message — through the stone, through the wind, however elements communicate. She gets word out about the twins. About what the Compound is doing to them.
 - The message doesn't reach Lyra in time.
 - Caspian steps out of shadow. We see his hands. His jaw. The scar. And now — finally — his face. "Hello, Lyra."
-- His plan: the Trench. The Water source point. Deep, ancient, fixed in the world. If a Wind-weaver, an Earth-shaper, and a consuming-power user stand at the Water source together, they can open a channel that's been sealed for generations. He needs all of them. Lyra for wind. Ronan for earth. Sera for consuming. Three elements at the Water source.
-- The twins: they were taken to the Compound specifically because of their Fire element. Four elements, one family. That's not accident. That's what cross-element parents produce.
+- His plan: the Trench. The Water source point. The sources are sealed — they've been sealed for generations. That's why proximity is the only way to absorb power, and why the hierarchy controls who lives near them. But if you stand at a source with all four elements present, you can unseal it. Not absorb proximity power — directly channel the source itself.
+- He needs all four elements. Wind (Lyra), Earth (Ronan), Fire (one of the twins), and Sera's consuming power as the key that turns the lock. Sera can *pull* the seal open where a normal element-user would just push against it.
+- He takes one of the twins. The other stays behind in the Compound. Split them up. It's brutal. It's personal. It works.
 - **End card:** "He didn't need to break out. He needed someone to break in."
 
 ### E10: Both of Them
-**Sera takes Lyra. Caspian takes Ronan.**
+**Sera takes Lyra. Caspian takes Ronan. And one of the twins.**
 
 - Sera's been playing sister this whole time. Caspian didn't just train her — he *rebuilt* her. She killed their parents to sever Lyra's ties to home. She's been waiting at this village for Lyra to arrive.
 - Sera and Lyra fight. It's not close. Consuming power doesn't just push — it *takes*. Sera pulls at Lyra's wind, draining it, drawing it into herself.
-- Ronan tries to intervene. Caspian stops him. Not with water — with something else. Something darker. He takes Ronan too. Earth is the fourth element. He was never collateral. He was always the last piece.
-- Both of them are captured. Lyra and Ronan. Wind and Earth.
+- Ronan tries to intervene. Caspian stops him. Not with water — with something else. Something darker. He takes Ronan too. Earth is part of the ritual. He was never collateral.
+- And then — Caspian takes one of the twins. The other twin is left behind in the Compound. The boys are split up. The one Caspian takes is small, scared, and doesn't understand why. He just knows his brother isn't there anymore.
+- Three elements plus the consuming key. That's what opens a sealed source.
 - **End card:** "She was always her sister. That's what makes it a war."
 
 ### E11: The Trench
-**They take Lyra and Ronan to the Water source.**
+**They take Lyra, Ronan, and the twin to the Water source.**
 
-- Caspian, Sera, and both captives travel to the Trench — the Water source point. Deep. Ancient. Fixed in the world.
+- Caspian, Sera, and all three captives travel to the Trench — the Water source point. Deep. Ancient. Fixed in the world.
 - The Trench is not a compound. It's a place where the ocean meets the rock and the water *remembers*. You can feel the power in the ground here. This is where Tide-calling was born.
-- Lyra is not unconscious. She's aware. She's watching. She's learning what Sera became and what Caspian chose. She hasn't given up — she's *listening*.
+- The twin is scared. He doesn't understand what he is or why he's here. He just knows his brother isn't with him.
+- Lyra is not unconscious. She's aware. She's watching. She sees her brother being used as a component in someone else's ritual. She hasn't given up — she's *listening*.
 - Ronan is beside her. They don't speak. They don't need to. Their hands find each other. The spark. Even here.
-- Zara is still in the Compound. Still protecting the twins. Still the inside voice. She hasn't given up either.
+- Zara is still in the Compound. Still protecting the other twin. Still the inside voice. She hasn't given up either.
 - **End card:** "The sources remember who lived on them."
 
 ### E12: Taken
-**Sera wins. Both are taken. The world opens.**
+**Sera wins. The Trench opens. A twin is split from his brother.**
 
-- At the Trench, Caspian begins the ritual. Sera's consuming power, Lyra's wind, Ronan's earth — three elements at the Water source. Something ancient activates. The ground shakes. The ocean responds.
+- At the Trench, Caspian begins the ritual. Four elements at the Water source: Lyra's wind, Ronan's earth, the twin's fire, and Sera's consuming power as the key that turns the lock. Something ancient activates. The ground shakes. The ocean responds.
+- The source unseals. Not proximity absorption — direct channeling. The Trench *opens*. Water that has been locked for generations rises. The power here is older than any hierarchy.
 - Lyra fights. Ronan fights. But consuming power is designed to take — and Sera has been training for this exact moment.
-- The Trench opens. Caspian and Sera take them into it. Lyra and Ronan. Wind and Earth. Together. That was always the point — they're stronger together, and Caspian needs that strength to channel.
-- Final shot: Zara in the Compound, holding two small red-headed boys by the hands. She knows what happened. She felt it. She looks at Torvin. He looks back. And for the first time, she's not listening.
-- A map of the world. Four source points. One of them is glowing — the Trench. Two people were taken into it. And somewhere, a Fire-weaver is walking out of a Compound with two boys who don't know yet that they're about to change everything.
+- Caspian steps into the open source. He's not trying to destroy the hierarchy. He's trying to become the source itself. Absorb the Trench. Channel it directly. One person. One element. Unlimited power.
+- The ritual partially works. The source opens. But a child's fire isn't enough to hold the channel. The twin's power flickers. The ritual is incomplete. Caspian gets what he needs — access to the source — but not what he wants. Full control.
+- Final shot: Zara in the Compound, holding one small red-headed boy by the hand. His brother is gone. She knows what happened. She looks at Torvin. He looks back. And for the first time, she's not listening.
+- A map of the world. Four source points. One of them is open — the Trench. Three people and a child went into it. And somewhere, a Fire-weaver is walking out of a Compound with a boy who doesn't know yet that he's going to get his brother back.
 - **End card:** "She was always the target. The Trench was always the plan."
 
 ---
 
 ## Open Threads for S4
 
-- **The other three source points:** Air, Fire, Earth — each needs to be reached
-- **Zara's inside position:** She's still in the Compound. She has Torvin's knowledge and Lyra's brothers. She's the inside voice.
-- **The twins:** Two red-headed Fire-element boys being protected by a Fire-weaver who has every reason to burn the system down
-- **Torvin's next move:** His nephew just used the Trench. He's not going to let that go
+- **The other three source points:** Air, Fire, Earth — each sealed, each needs to be reached
+- **The Trench is open but incomplete:** Caspian has access to the Water source, but not full control. That's dangerous for everyone.
+- **Zara's inside position:** She's still in the Compound. She has Torvin's knowledge and one of Lyra's brothers. She's the inside voice.
+- **The remaining twin:** A small red-headed boy in the Compound, protected by Zara. His brother was taken to the Trench. S4 has a rescue mission for both of them.
+- **Torvin's next move:** His nephew just opened a source. He's not going to let that go
 - **Sera's humanity:** Is she fully gone, or is there still wind underneath the consuming?
-- **Caspian's endgame:** He has Lyra and Ronan at the Water source. What does he actually want to do with that power?
-- **Ronan captured:** He was never collateral. He was always the fourth element.
+- **Caspian's endgame:** He has access to the Water source but not full control. What does he do next — try again with a stronger Fire element? Go after another source?
+- **Ronan captured:** He was never collateral. He's part of the ritual.
 - **The spark:** Even in the Trench, their hands find each other. The hierarchy tried to prevent this. It happened anyway.
+- **The source ritual:** Four elements at a source point can unseal it. Sera's consuming power turns the lock. But a child's fire isn't enough to hold the channel. The ritual was incomplete.
 
 ## Emotional Arc Summary
 
@@ -180,9 +190,9 @@ Zara doesn't know who they are at first. She just knows they're small and scared
 | 7 | Teacher in shadow (never full face) | Ronan: someone sent her | He's been watching |
 | 8 | Zara finds the twins, stays inside | Lyra asks Sera about the boys | She stayed for them |
 | 9 | Caspian reveals himself + the Trench plan | Zara sends warning (too late) | The trap closes |
-| 10 | Sera takes Lyra. Caspian takes Ronan. | Both of them. | That's what makes it a war |
-| 11 | Journey to the Trench | Zara inside, protecting twins | The sources remember |
-| 12 | Lyra and Ronan taken to the Trench | Zara walks out with the twins | She was always the target. |
+| 10 | Sera takes Lyra. Caspian takes Ronan + one twin. | The boys are split. | That's what makes it a war |
+| 11 | Journey to the Trench | Zara inside, protecting the other twin | The sources remember |
+| 12 | Trench opens, ritual incomplete | Zara walks out with one twin | She was always the target. |
 
 ---
 
