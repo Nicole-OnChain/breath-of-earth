@@ -56,9 +56,9 @@ He's the comic relief. He sits by the pool making commentary. "You two want me t
 ### Clip 2 — CASPIAN'S COMMENTARY (0:12-0:24) ⭐ Solo (comic beat — Caspian roasts them)
 
 **R2V prompt:**
-> (Caspian @image 5) sitting by the pool with his feet dangling in the water, leaning back on his hands with a smug grin, he's calling out to (Lyra @image 1) and (Ronan @image 3) who are sparring in the background, his expression is knowing and theatrical, he gestures dramatically, the bioluminescent moss making him glow blue-green, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water lapping, no music, sound effects only
+> (Caspian @image 5) sitting by the pool with his feet dangling in the water, leaning back on his hands with a smug grin, he speaks directly to (Lyra @image 1) and (Ronan @image 3) who are sparring in the background — he says "You know... if you two want to just hold hands and skip the punching, I won't judge" with a theatrical knowing expression, he gestures dramatically, then a wind gust hits him and he doesn't flinch, he says "Still here" with a grin, the bioluminescent moss making him glow blue-green, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water lapping, Caspian speaking on camera with lip sync, no music, sound effects only
 
-**On-camera dialogue (Caspian speaking directly to camera/Lyra & Ronan):** "You know... if you two want to just hold hands and skip the punching, I won't judge."
+**On-camera dialogue (Caspian speaking directly):** "You know... if you two want to just hold hands and skip the punching, I won't judge."
 
 **Voiceover (Lyra, after Caspian's line):** "I hit him with a wind gust. He didn't even flinch."
 
@@ -86,7 +86,7 @@ He's the comic relief. He sits by the pool making commentary. "You two want me t
 ### Clip 4 — STILL HERE (0:36-0:48) ⭐ Solo (comic beat — Caspian interrupts)
 
 **R2V prompt:**
-> (Caspian @image 5) standing in the pool with water up to his waist, his arms crossed, his expression knowing and loud, he's looking directly at (Lyra @image 1) and (Ronan @image 3) who are standing very close in the background, he says something loudly and makes an exaggerated gesture toward them, the moment completely broken, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water splashing, no music, sound effects only
+> (Caspian @image 5) standing in the pool with water up to his waist, his arms crossed, his expression knowing and loud, he looks directly at (Lyra @image 1) and (Ronan @image 3) who are standing very close in the background — he shouts "STILL HERE!" with an exaggerated gesture toward them, arms spread, breaking the moment completely, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, Caspian speaking loudly on camera with lip sync, water splashing, no music, sound effects only
 
 **On-camera dialogue (Caspian, loud and theatrical):** "STILL HERE!"
 
