@@ -355,6 +355,29 @@
             padding: 100px 24px;
             background: radial-gradient(ellipse at 50% 50%, rgba(201, 168, 76, 0.03) 0%, transparent 50%), transparent;
         }
+        .shop-tabs {
+            display: flex; justify-content: center; gap: 0;
+            margin: 32px auto 0; max-width: 600px;
+            border-bottom: 1px solid rgba(106, 90, 58, 0.2);
+        }
+        .shop-tab-btn {
+            font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 500;
+            letter-spacing: 2px; text-transform: uppercase;
+            padding: 14px 28px; cursor: pointer;
+            border: none; border-bottom: 2px solid transparent;
+            background: transparent; color: var(--text-muted);
+            transition: all 0.3s ease;
+        }
+        .shop-tab-btn:hover { color: var(--gold); }
+        .shop-tab-btn.active { color: var(--gold); border-bottom-color: var(--gold); }
+        .shop-tab-content { display: none; }
+        .shop-tab-content.active { display: block; }
+        .shop-bonus {
+            margin-top: 16px; padding: 12px 16px;
+            background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2);
+            border-radius: 4px; font-size: 13px; color: var(--gold);
+            font-family: 'Cormorant Garamond', serif; font-style: italic;
+        }
         .shop-grid {
             display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 28px; max-width: 1100px; margin: 48px auto 0;
@@ -702,82 +725,88 @@
         <h2 class="section-heading" style="max-width: 900px; margin: 0 auto 32px;">Own a piece of the world.</h2>
     </div>
 
-    <!-- Season 1 -->
-    <div class="reveal" style="margin-bottom: 24px;">
-        <p class="section-label" style="color: var(--gold); text-align: left; font-size: 14px;">Season 1 — Complete</p>
+    <div class="shop-tabs reveal">
+        <button class="shop-tab-btn active" onclick="openShopTab('s1')">Season 1</button>
+        <button class="shop-tab-btn" onclick="openShopTab('s2')">Season 2</button>
+        <button class="shop-tab-btn" onclick="openShopTab('merch')">Art & Merch</button>
     </div>
-    <div class="shop-grid">
-        <div class="shop-card reveal">
-            <div class="shop-badge exclusive">Website Exclusive</div>
-            <p class="shop-category">Season Pass</p>
-            <h3 class="shop-title">Season 1 &mdash; Full Collection</h3>
-            <p class="shop-desc">All 12 episodes + bonus scenes + character art pack + digital coloring book. Only available here.</p>
-            <p class="shop-price">$12.99</p>
-            <a href="#" class="shop-cta">Get the Collection</a>
-        </div>
-        <div class="shop-card reveal">
-            <div class="shop-badge exclusive">Website Exclusive</div>
-            <p class="shop-category">Episode Bundle</p>
-            <h3 class="shop-title">Episodes 1&ndash;12</h3>
-            <p class="shop-desc">All 12 episodes ad-free, downloadable. Early access before social release.</p>
-            <p class="shop-price">$7.99</p>
-            <a href="#" class="shop-cta">Buy Episodes</a>
-        </div>
-        <div class="shop-card reveal">
-            <div class="shop-badge digital">Digital</div>
-            <p class="shop-category">Quote Collection</p>
-            <h3 class="shop-title">"Some Things Are Worth the Risk"</h3>
-            <p class="shop-desc">12 illustrated quote posters &mdash; the best voiceover lines from Season 1 on elemental backgrounds. Print-ready.</p>
-            <p class="shop-price">$4.99</p>
-            <a href="#" class="shop-cta">Download</a>
+
+    <!-- Season 1 Tab -->
+    <div class="shop-tab-content active" id="shop-s1">
+        <div class="shop-grid">
+            <div class="shop-card reveal">
+                <div class="shop-badge exclusive">Website Exclusive</div>
+                <p class="shop-category">Season Pass</p>
+                <h3 class="shop-title">Season 1 &mdash; Full Collection</h3>
+                <p class="shop-desc">All 12 episodes ad-free, downloadable, plus bonus scenes and character art pack.</p>
+                <div class="shop-bonus">&#10024; Includes exclusive bonus video: &ldquo;The Night Before&rdquo; &mdash; Ronan&rsquo;s story the night Lyra arrived.</div>
+                <p class="shop-price">$12.99</p>
+                <a href="#" class="shop-cta">Get the Collection</a>
+            </div>
+            <div class="shop-card reveal">
+                <div class="shop-badge exclusive">Website Exclusive</div>
+                <p class="shop-category">Episode Bundle</p>
+                <h3 class="shop-title">Episodes 1&ndash;12</h3>
+                <p class="shop-desc">All 12 episodes ad-free, downloadable. Early access before social release.</p>
+                <p class="shop-price">$7.99</p>
+                <a href="#" class="shop-cta">Buy Episodes</a>
+            </div>
+            <div class="shop-card reveal">
+                <div class="shop-badge digital">Digital</div>
+                <p class="shop-category">Quote Collection</p>
+                <h3 class="shop-title">"Some Things Are Worth the Risk"</h3>
+                <p class="shop-desc">12 illustrated quote posters &mdash; the best voiceover lines from Season 1 on elemental backgrounds. Print-ready.</p>
+                <p class="shop-price">$4.99</p>
+                <a href="#" class="shop-cta">Download</a>
+            </div>
         </div>
     </div>
 
-    <!-- Season 2 -->
-    <div class="reveal" style="margin-top: 48px; margin-bottom: 24px;">
-        <p class="section-label" style="color: #e74c3c; text-align: left; font-size: 14px;">Season 2 &mdash; Pre-Order Now</p>
-    </div>
-    <div class="shop-grid">
-        <div class="shop-card reveal">
-            <div class="shop-badge exclusive">Website Exclusive</div>
-            <p class="shop-category">Season Pass</p>
-            <h3 class="shop-title">Season 2 &mdash; Full Collection</h3>
-            <p class="shop-desc">All 12 episodes ad-free, downloadable. Available Day 1. Buy the whole season upfront and watch before anyone else.</p>
-            <p class="shop-price">$14.99</p>
-            <a href="#" class="shop-cta">Pre-Order Season 2</a>
-        </div>
-        <div class="shop-card reveal">
-            <div class="shop-badge exclusive">Website Exclusive</div>
-            <p class="shop-category">Episode Bundle</p>
-            <h3 class="shop-title">Episodes 13&ndash;24</h3>
-            <p class="shop-desc">All 12 Season 2 episodes ad-free, downloadable. Day 1 access when the season drops.</p>
-            <p class="shop-price">$9.99</p>
-            <a href="#" class="shop-cta">Pre-Order Episodes</a>
+    <!-- Season 2 Tab -->
+    <div class="shop-tab-content" id="shop-s2">
+        <div class="shop-grid">
+            <div class="shop-card reveal">
+                <div class="shop-badge exclusive">Website Exclusive</div>
+                <p class="shop-category">Season Pass</p>
+                <h3 class="shop-title">Season 2 &mdash; Full Collection</h3>
+                <p class="shop-desc">All 12 episodes ad-free, downloadable. Available Day 1. Watch before anyone else.</p>
+                <div class="shop-bonus">&#10024; Includes exclusive bonus video: &ldquo;The Weight of Fire&rdquo; &mdash; Zara&rsquo;s story before Lyra arrived.</div>
+                <p class="shop-price">$14.99</p>
+                <a href="#" class="shop-cta">Pre-Order Season 2</a>
+            </div>
+            <div class="shop-card reveal">
+                <div class="shop-badge exclusive">Website Exclusive</div>
+                <p class="shop-category">Episode Bundle</p>
+                <h3 class="shop-title">Episodes 13&ndash;24</h3>
+                <p class="shop-desc">All 12 Season 2 episodes ad-free, downloadable. Day 1 access.</p>
+                <p class="shop-price">$9.99</p>
+                <a href="#" class="shop-cta">Pre-Order Episodes</a>
+            </div>
         </div>
     </div>
 
-    <!-- Merch (both seasons) -->
-    <div class="reveal" style="margin-top: 48px; margin-bottom: 24px;">
-        <p class="section-label" style="color: var(--gold-dim); text-align: left; font-size: 14px;">Art & Merch</p>
-    </div>
-    <div class="shop-grid">
-        <div class="shop-card reveal">
-            <div class="shop-badge digital">Digital</div>
-            <p class="shop-category">Coloring Book</p>
-            <h3 class="shop-title">Breath of Earth Coloring Book</h3>
-            <p class="shop-desc">30+ character and scene illustrations. Lyra, Ronan, the Scorch Ring, the Break Yard &mdash; all yours to bring to life.</p>
-            <p class="shop-price">$8.99 <span class="original">$11.99</span></p>
-            <a href="#" class="shop-cta">Download</a>
+    <!-- Art & Merch Tab -->
+    <div class="shop-tab-content" id="shop-merch">
+        <div class="shop-grid">
+            <div class="shop-card reveal">
+                <div class="shop-badge digital">Digital</div>
+                <p class="shop-category">Coloring Book</p>
+                <h3 class="shop-title">Breath of Earth Coloring Book</h3>
+                <p class="shop-desc">30+ character and scene illustrations. Lyra, Ronan, the Scorch Ring, the Break Yard &mdash; all yours to bring to life.</p>
+                <p class="shop-price">$8.99 <span class="original">$11.99</span></p>
+                <a href="#" class="shop-cta">Download</a>
+            </div>
+            <div class="shop-card reveal">
+                <div class="shop-badge digital">Digital</div>
+                <p class="shop-category">Art Collection</p>
+                <h3 class="shop-title">Character Art Pack</h3>
+                <p class="shop-desc">High-res portraits of Lyra, Ronan, Zara, Caspian, and Sera. Phone wallpapers, desktop backgrounds, prints.</p>
+                <p class="shop-price">$5.99</p>
+                <a href="#" class="shop-cta">Get the Pack</a>
+            </div>
         </div>
-        <div class="shop-card reveal">
-            <div class="shop-badge digital">Digital</div>
-            <p class="shop-category">Art Collection</p>
-            <h3 class="shop-title">Character Art Pack</h3>
-            <p class="shop-desc">High-res portraits of Lyra, Ronan, Zara, Caspian, and Sera. Phone wallpapers, desktop backgrounds, prints.</p>
-            <p class="shop-price">$5.99</p>
-            <a href="#" class="shop-cta">Get the Pack</a>
-        </div>
     </div>
+
     <div class="shop-external reveal">
         <a href="#" class="shop-external-card">
             <span class="shop-external-icon">&#9733;</span>
@@ -790,8 +819,6 @@
     </div>
     <p class="shop-note reveal">Website exclusives include bonus content not available anywhere else. Free shipping on physical orders over $35.</p>
 </section>
-
-<div class="divider"><div class="divider-line"></div><div class="divider-symbol">&#10023;</div><div class="divider-line"></div></div>
 
 <!-- Watch -->
 <section class="watch-section" id="watch">
@@ -869,6 +896,13 @@
             if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
     });
+
+    function openShopTab(tab) {
+        document.querySelectorAll('.shop-tab-btn').forEach(btn => btn.classList.remove('active'));
+        document.querySelectorAll('.shop-tab-content').forEach(content => content.classList.remove('active'));
+        document.querySelector(`.shop-tab-btn:nth-child(${tab === 's1' ? 1 : tab === 's2' ? 2 : 3})`).classList.add('active');
+        document.getElementById(`shop-${tab}`).classList.add('active');
+    }
 </script>
 </body>
 </html>
