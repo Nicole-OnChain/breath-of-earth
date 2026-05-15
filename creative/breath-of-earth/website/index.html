@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breath of Earth — A Fantasy Romance</title>
+    <meta name="description" content="In a world where Wind rules and Earth serves, a Wind-weaver discovers her gift is far more dangerous than anyone knows — and that the quiet Earth-shaper who saved her may be the key to breaking a system designed to keep them apart.">
+    <meta property="og:title" content="Breath of Earth — A Fantasy Romance">
+    <meta property="og:description" content="Wind rules. Earth serves. Some things are worth the risk.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --wind: #c4d4e0;
+            --wind-glow: #7eb8d8;
+            --fire: #e8734a;
+            --fire-glow: #ff9e5e;
+            --water: #4a8fa8;
+            --water-glow: #6bc4db;
+            --earth: #6b5b3a;
+            --earth-glow: #a08e5a;
+            --dark: #0a0a0f;
+            --darker: #06060a;
+            --text: #d4cfc6;
+            --text-muted: #8a8478;
+            --text-bright: #f0ebe2;
+            --gold: #c9a84c;
+            --gold-dim: #8a7434;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--dark);
+            color: var(--text);
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 18px;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--darker); }
+        ::-webkit-scrollbar-thumb { background: var(--earth); border-radius: 3px; }
+
+        /* ===== ANIMATIONS ===== */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
+        }
+        @keyframes windDrift {
+            0% { transform: translateX(-10px) translateY(0); opacity: 0; }
+            20% { opacity: 0.6; }
+            80% { opacity: 0.6; }
+            100% { transform: translateX(30px) translateY(-20px); opacity: 0; }
+        }
+        @keyframes emberFloat {
+            0% { transform: translateY(0) scale(1); opacity: 0; }
+            20% { opacity: 1; }
+            80% { opacity: 0.6; }
+            100% { transform: translateY(-80px) scale(0.3); opacity: 0; }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ===== NAVIGATION ===== */
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            padding: 16px 32px;
+            display: flex; justify-content: space-between; align-items: center;
+            transition: background 0.4s ease, padding 0.4s ease;
+        }
+        nav.scrolled {
+            background: rgba(6, 6, 10, 0.92);
+            backdrop-filter: blur(20px);
+            padding: 12px 32px;
+            border-bottom: 1px solid rgba(106, 90, 58, 0.15);
+        }
+        .nav-logo {
+            font-family: 'Cinzel', serif; font-size: 16px; font-weight: 600;
+            color: var(--gold); letter-spacing: 3px; text-transform: uppercase; text-decoration: none;
+        }
+        .nav-links { display: flex; gap: 28px; list-style: none; }
+        .nav-links a {
+            font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 400;
+            letter-spacing: 2px; text-transform: uppercase;
+            color: var(--text-muted); text-decoration: none; transition: color 0.3s;
+        }
+        .nav-links a:hover { color: var(--gold); }
+        .mobile-toggle { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
+        .mobile-toggle span { display: block; width: 24px; height: 2px; background: var(--text-muted); margin: 5px 0; }
+        .mobile-toggle:hover span { background: var(--gold); }
+
+        /* ===== HERO ===== */
+        .hero {
+            position: relative; min-height: 100vh;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            text-align: center; padding: 80px 24px; overflow: hidden;
+        }
+        .hero-bg {
+            position: absolute; inset: 0;
+            background:
+                radial-gradient(ellipse at 50% 0%, rgba(126, 184, 216, 0.06) 0%, transparent 60%),
+                radial-gradient(ellipse at 20% 80%, rgba(107, 91, 58, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 60%, rgba(232, 115, 74, 0.04) 0%, transparent 40%),
+                var(--darker);
+        }
+        .wind-particles { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+        .wind-particle {
+            position: absolute; width: 2px; height: 1px;
+            background: var(--wind-glow); border-radius: 50%; opacity: 0;
+            animation: windDrift 8s ease-in-out infinite;
+        }
+        .ember-particles { position: absolute; bottom: 0; left: 0; right: 0; height: 40%; overflow: hidden; pointer-events: none; }
+        .ember {
+            position: absolute; width: 3px; height: 3px;
+            background: var(--fire); border-radius: 50%; opacity: 0;
+            animation: emberFloat 6s ease-in-out infinite;
+        }
+        .hero-title {
+            position: relative;
+            font-family: 'Cinzel', serif; font-size: clamp(42px, 8vw, 96px); font-weight: 700;
+            color: var(--text-bright); letter-spacing: 6px; line-height: 1.1;
+            animation: fadeIn 2s ease;
+        }
+        .hero-title .word-breath { color: var(--wind-glow); }
+        .hero-title .word-earth { color: var(--earth-glow); }
+        .hero-subtitle {
+            position: relative;
+            font-family: 'Cormorant Garamond', serif; font-size: clamp(18px, 3vw, 28px); font-style: italic;
+            color: var(--text-muted); margin-top: 20px; max-width: 500px;
+            animation: fadeInUp 2s ease 0.4s both;
+        }
+        .hero-tagline {
+            position: relative;
+            font-family: 'Inter', sans-serif; font-size: 11px; letter-spacing: 4px; text-transform: uppercase;
+            color: var(--gold-dim); margin-top: 40px;
+            animation: fadeInUp 2s ease 0.8s both;
+        }
+        .hero-cta {
+            position: relative; margin-top: 48px;
+            display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;
+            animation: fadeInUp 2s ease 1s both;
+        }
+        .btn {
+            font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 500;
+            letter-spacing: 2px; text-transform: uppercase;
+            padding: 14px 32px; border: 1px solid; border-radius: 2px;
+            cursor: pointer; transition: all 0.4s ease; text-decoration: none;
+            display: inline-flex; align-items: center; gap: 8px;
+        }
+        .btn-primary { background: transparent; color: var(--gold); border-color: var(--gold); }
+        .btn-primary:hover { background: var(--gold); color: var(--dark); }
+        .btn-secondary { background: transparent; color: var(--text-muted); border-color: var(--text-muted); }
+        .btn-secondary:hover { border-color: var(--wind-glow); color: var(--wind-glow); }
+        .scroll-indicator {
+            position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%);
+            animation: float 3s ease-in-out infinite;
+        }
+        .scroll-indicator svg { width: 20px; height: 20px; stroke: var(--text-muted); stroke-width: 1.5; fill: none; }
+
+        /* ===== SECTIONS (shared) ===== */
+        .section { padding: 100px 24px; max-width: 900px; margin: 0 auto; }
+        .section-label {
+            font-family: 'Inter', sans-serif; font-size: 11px; letter-spacing: 4px;
+            text-transform: uppercase; color: var(--gold-dim); margin-bottom: 16px;
+        }
+        .section-heading {
+            font-family: 'Cinzel', serif; font-size: clamp(28px, 5vw, 48px); font-weight: 600;
+            color: var(--text-bright); letter-spacing: 2px; margin-bottom: 32px; line-height: 1.2;
+        }
+        .story-text { font-size: 20px; line-height: 1.9; color: var(--text); }
+        .story-text p { margin-bottom: 24px; }
+        .story-text em { color: var(--wind-glow); font-style: italic; }
+        .story-text strong { color: var(--text-bright); font-weight: 600; }
+
+        .divider {
+            display: flex; align-items: center; justify-content: center; gap: 16px;
+            padding: 60px 0; max-width: 600px; margin: 0 auto;
+        }
+        .divider-line { flex: 1; height: 1px; background: linear-gradient(to right, transparent, var(--gold-dim), transparent); }
+        .divider-symbol { font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold-dim); }
+
+        /* ===== CHARACTERS ===== */
+        .characters { padding: 100px 24px; max-width: 1100px; margin: 0 auto; }
+        .character-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; margin-top: 48px; }
+        .character-card {
+            position: relative; padding: 40px 28px;
+            border: 1px solid rgba(106, 90, 58, 0.15); border-radius: 4px;
+            background: rgba(10, 10, 15, 0.6); transition: all 0.5s ease; overflow: hidden;
+        }
+        .character-card::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            opacity: 0; transition: opacity 0.5s ease;
+        }
+        .character-card:hover { border-color: rgba(106, 90, 58, 0.3); transform: translateY(-4px); }
+        .character-card:hover::before { opacity: 1; }
+        .character-card.wind::before { background: linear-gradient(to right, transparent, var(--wind-glow), transparent); }
+        .character-card.earth::before { background: linear-gradient(to right, transparent, var(--earth-glow), transparent); }
+        .character-card.fire::before { background: linear-gradient(to right, transparent, var(--fire-glow), transparent); }
+        .character-card.water::before { background: linear-gradient(to right, transparent, var(--water-glow), transparent); }
+        .character-img { width: 100%; aspect-ratio: 3/4; object-fit: contain; border-radius: 4px; margin-bottom: 20px; filter: saturate(0.85) brightness(0.9); transition: filter 0.5s ease; background: rgba(10, 10, 15, 0.3); }
+        .character-card:hover .character-img { filter: saturate(1) brightness(1); }
+        .character-element { font-family: 'Inter', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 12px; }
+        .character-card.wind .character-element { color: var(--wind-glow); }
+        .character-card.earth .character-element { color: var(--earth-glow); }
+        .character-card.fire .character-element { color: var(--fire-glow); }
+        .character-card.water .character-element { color: var(--water-glow); }
+        .character-card.none .character-element { color: var(--text-muted); }
+        .character-card.none::before { background: linear-gradient(to right, transparent, var(--text-muted), transparent); }
+        .character-name { font-family: 'Cinzel', serif; font-size: 24px; font-weight: 600; color: var(--text-bright); margin-bottom: 16px; letter-spacing: 1px; }
+        .character-role { font-family: 'Cormorant Garamond', serif; font-size: 16px; font-style: italic; color: var(--text-muted); margin-bottom: 20px; }
+        .character-desc { font-size: 15px; line-height: 1.7; color: var(--text); }
+        .character-quote { margin-top: 24px; padding-top: 20px; border-top: 1px solid rgba(106, 90, 58, 0.15); font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 16px; color: var(--gold); }
+
+        /* ===== WORLD / HIERARCHY ===== */
+        .world-section {
+            padding: 100px 24px;
+            background: radial-gradient(ellipse at 50% 100%, rgba(107, 91, 58, 0.06) 0%, transparent 50%), transparent;
+        }
+        .hierarchy { max-width: 700px; margin: 48px auto 0; }
+        .hierarchy-level {
+            display: flex; align-items: center; gap: 20px; padding: 24px 0;
+            border-bottom: 1px solid rgba(106, 90, 58, 0.1);
+        }
+        .hierarchy-rank { font-family: 'Cinzel', serif; font-size: 36px; font-weight: 700; width: 48px; text-align: center; flex-shrink: 0; }
+        .hierarchy-info { flex: 1; }
+        .hierarchy-element { font-family: 'Cinzel', serif; font-size: 20px; font-weight: 600; color: var(--text-bright); letter-spacing: 1px; }
+        .hierarchy-class { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 16px; color: var(--text-muted); }
+        .hierarchy-desc { font-size: 14px; color: var(--text-muted); margin-top: 4px; line-height: 1.5; }
+        .hierarchy-level:nth-child(1) .hierarchy-rank { color: var(--wind-glow); }
+        .hierarchy-level:nth-child(2) .hierarchy-rank { color: var(--fire-glow); }
+        .hierarchy-level:nth-child(3) .hierarchy-rank { color: var(--water-glow); }
+        .hierarchy-level:nth-child(4) .hierarchy-rank { color: var(--earth-glow); }
+        .hierarchy-level:nth-child(4) { border-bottom: none; opacity: 0.7; }
+        .hierarchy-note {
+            margin-top: 32px; padding: 20px 24px; border-left: 2px solid var(--earth-glow);
+            font-style: italic; color: var(--text-muted); font-size: 16px;
+        }
+
+        /* ===== CAMP MAP ===== */
+        .map-section {
+            padding: 100px 24px;
+            background:
+                radial-gradient(ellipse at 50% 80%, rgba(232, 115, 74, 0.04) 0%, transparent 40%),
+                radial-gradient(ellipse at 50% 20%, rgba(126, 184, 216, 0.03) 0%, transparent 40%),
+                transparent;
+        }
+        .camp-map {
+            position: relative; max-width: 700px; margin: 48px auto 0;
+            display: flex; flex-direction: column; gap: 8px;
+        }
+        .map-layer {
+            position: relative; border: 1px solid; border-radius: 4px;
+            padding: 20px 24px; cursor: pointer;
+            transition: all 0.4s ease; overflow: hidden;
+        }
+        .map-layer::after {
+            content: ''; position: absolute; inset: 0; opacity: 0;
+            transition: opacity 0.4s ease; pointer-events: none;
+        }
+        .map-layer:hover { transform: scale(1.015); z-index: 10; }
+        .map-layer:hover::after { opacity: 1; }
+
+        .map-wind { border-color: rgba(126, 184, 216, 0.2); background: rgba(126, 184, 216, 0.03); }
+        .map-wind::after { background: radial-gradient(ellipse at 50% 50%, rgba(126, 184, 216, 0.06), transparent 70%); }
+        .map-wind:hover { border-color: rgba(126, 184, 216, 0.5); box-shadow: 0 0 30px rgba(126, 184, 216, 0.1); }
+
+        .map-fire { border-color: rgba(232, 115, 74, 0.2); background: rgba(232, 115, 74, 0.03); }
+        .map-fire::after { background: radial-gradient(ellipse at 50% 50%, rgba(232, 115, 74, 0.06), transparent 70%); }
+        .map-fire:hover { border-color: rgba(232, 115, 74, 0.5); box-shadow: 0 0 30px rgba(232, 115, 74, 0.1); }
+
+        .map-water { border-color: rgba(74, 143, 168, 0.2); background: rgba(74, 143, 168, 0.03); }
+        .map-water::after { background: radial-gradient(ellipse at 50% 50%, rgba(74, 143, 168, 0.06), transparent 70%); }
+        .map-water:hover { border-color: rgba(74, 143, 168, 0.5); box-shadow: 0 0 30px rgba(74, 143, 168, 0.1); }
+
+        .map-earth { border-color: rgba(107, 91, 58, 0.2); background: rgba(107, 91, 58, 0.03); }
+        .map-earth::after { background: radial-gradient(ellipse at 50% 50%, rgba(107, 91, 58, 0.06), transparent 70%); }
+        .map-earth:hover { border-color: rgba(107, 91, 58, 0.5); box-shadow: 0 0 30px rgba(107, 91, 58, 0.1); }
+
+        .map-cell { border-color: rgba(80, 70, 50, 0.15); background: rgba(40, 35, 25, 0.3); border-style: dashed; }
+        .map-cell:hover { border-color: rgba(160, 142, 90, 0.4); box-shadow: 0 0 20px rgba(107, 91, 58, 0.08); }
+
+        .map-label { font-family: 'Cinzel', serif; font-size: 14px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px; }
+        .map-wind .map-label { color: var(--wind-glow); }
+        .map-fire .map-label { color: var(--fire-glow); }
+        .map-water .map-label { color: var(--water-glow); }
+        .map-earth .map-label { color: var(--earth-glow); }
+        .map-cell .map-label { color: var(--text-muted); }
+        .map-desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; opacity: 0.7; transition: opacity 0.4s; }
+        .map-layer:hover .map-desc { opacity: 1; }
+        .map-lore {
+            max-height: 0; overflow: hidden; transition: max-height 0.5s ease, margin 0.5s ease;
+            font-style: italic; font-size: 14px; color: var(--gold); margin-top: 0; line-height: 1.6;
+        }
+        .map-layer:hover .map-lore { max-height: 200px; margin-top: 10px; }
+        .map-elevation {
+            position: absolute; right: 16px; top: 50%; transform: translateY(-50%);
+            font-family: 'Inter', sans-serif; font-size: 9px; letter-spacing: 2px;
+            text-transform: uppercase; color: var(--text-muted); opacity: 0.4; writing-mode: vertical-rl;
+        }
+
+        /* ===== EPISODES ===== */
+        .episodes { padding: 100px 24px; max-width: 800px; margin: 0 auto; }
+        .episode-list { margin-top: 48px; }
+        .episode-item {
+            display: flex; gap: 20px; padding: 28px 0;
+            border-bottom: 1px solid rgba(106, 90, 58, 0.1); transition: all 0.3s ease;
+        }
+        .episode-item:hover { padding-left: 8px; }
+        .episode-num { font-family: 'Cinzel', serif; font-size: 14px; font-weight: 600; color: var(--gold-dim); letter-spacing: 1px; flex-shrink: 0; width: 36px; padding-top: 2px; }
+        .episode-info { flex: 1; }
+        .episode-title { font-family: 'Cinzel', serif; font-size: 18px; font-weight: 600; color: var(--text-bright); margin-bottom: 6px; }
+        .episode-hook { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 16px; color: var(--gold); }
+
+        /* ===== QUOTE ===== */
+        .quote-section { padding: 120px 24px; text-align: center; position: relative; }
+        .quote-section::before {
+            content: ''; position: absolute; inset: 0;
+            background:
+                radial-gradient(ellipse at 50% 50%, rgba(126, 184, 216, 0.04) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 50%, rgba(107, 91, 58, 0.04) 0%, transparent 50%);
+        }
+        .quote-text {
+            position: relative; font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(24px, 4vw, 42px); font-style: italic; font-weight: 500;
+            color: var(--text-bright); max-width: 600px; margin: 0 auto; line-height: 1.4;
+        }
+        .quote-attr { position: relative; font-family: 'Inter', sans-serif; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--text-muted); margin-top: 24px; }
+
+        /* ===== SHOP ===== */
+        .shop-section {
+            padding: 100px 24px;
+            background: radial-gradient(ellipse at 50% 50%, rgba(201, 168, 76, 0.03) 0%, transparent 50%), transparent;
+        }
+        .shop-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px; max-width: 1100px; margin: 48px auto 0;
+        }
+        .shop-card {
+            position: relative; border: 1px solid rgba(106, 90, 58, 0.15); border-radius: 4px;
+            background: rgba(10, 10, 15, 0.6); padding: 32px 28px;
+            transition: all 0.4s ease; overflow: hidden;
+        }
+        .shop-card:hover { border-color: rgba(201, 168, 76, 0.3); transform: translateY(-4px); }
+        .shop-badge {
+            position: absolute; top: 12px; right: 12px;
+            font-family: 'Inter', sans-serif; font-size: 9px; font-weight: 600;
+            letter-spacing: 2px; text-transform: uppercase; padding: 4px 10px; border-radius: 2px;
+        }
+        .shop-badge.exclusive { background: rgba(201, 168, 76, 0.15); color: var(--gold); border: 1px solid var(--gold-dim); }
+        .shop-badge.digital { background: rgba(126, 184, 216, 0.1); color: var(--wind-glow); border: 1px solid rgba(126, 184, 216, 0.2); }
+        .shop-badge.physical { background: rgba(107, 91, 58, 0.1); color: var(--earth-glow); border: 1px solid rgba(107, 91, 58, 0.2); }
+        .shop-category { font-family: 'Inter', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 10px; }
+        .shop-title { font-family: 'Cinzel', serif; font-size: 18px; font-weight: 600; color: var(--text-bright); margin-bottom: 8px; }
+        .shop-desc { font-size: 14px; color: var(--text); line-height: 1.6; margin-bottom: 16px; }
+        .shop-price { font-family: 'Cinzel', serif; font-size: 22px; font-weight: 600; color: var(--gold); margin-bottom: 16px; }
+        .shop-price .original { font-size: 14px; color: var(--text-muted); text-decoration: line-through; margin-left: 8px; font-weight: 400; }
+        .shop-cta {
+            font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 500;
+            letter-spacing: 2px; text-transform: uppercase;
+            padding: 10px 20px; border: 1px solid var(--gold-dim); border-radius: 2px;
+            background: transparent; color: var(--gold); cursor: pointer;
+            transition: all 0.3s ease; text-decoration: none; display: inline-block;
+        }
+        .shop-cta:hover { background: var(--gold); color: var(--dark); }
+
+        .shop-external {
+            margin-top: 48px; display: flex; justify-content: center;
+            gap: 24px; flex-wrap: wrap;
+        }
+        .shop-external-card {
+            display: flex; align-items: center; gap: 12px; padding: 16px 28px;
+            border: 1px solid rgba(106, 90, 58, 0.2); border-radius: 4px;
+            text-decoration: none; transition: all 0.4s ease;
+            background: rgba(10, 10, 15, 0.4);
+        }
+        .shop-external-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+        .shop-external-icon { font-size: 22px; }
+        .shop-external-name { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 1px; color: var(--text); }
+        .shop-external-card:hover .shop-external-name { color: var(--gold); }
+        .shop-note { margin-top: 32px; text-align: center; font-style: italic; font-size: 15px; color: var(--text-muted); }
+
+        /* ===== WATCH ===== */
+        .watch-section { padding: 100px 24px; text-align: center; }
+        .platforms { display: flex; justify-content: center; gap: 24px; margin-top: 40px; flex-wrap: wrap; }
+        .platform-card {
+            display: flex; align-items: center; gap: 12px; padding: 16px 28px;
+            border: 1px solid rgba(106, 90, 58, 0.2); border-radius: 4px;
+            text-decoration: none; transition: all 0.4s ease; background: rgba(10, 10, 15, 0.4);
+        }
+        .platform-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+        .platform-icon { font-size: 24px; }
+        .platform-name { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 1px; color: var(--text); }
+        .platform-card:hover .platform-name { color: var(--gold); }
+
+        /* ===== FOOTER ===== */
+        footer { padding: 48px 24px; border-top: 1px solid rgba(106, 90, 58, 0.1); text-align: center; }
+        .footer-logo { font-family: 'Cinzel', serif; font-size: 14px; font-weight: 600; color: var(--gold-dim); letter-spacing: 3px; text-transform: uppercase; }
+        .footer-text { font-family: 'Inter', sans-serif; font-size: 12px; color: var(--text-muted); margin-top: 12px; letter-spacing: 1px; }
+        .footer-links { display: flex; justify-content: center; gap: 24px; margin-top: 16px; }
+        .footer-links a { font-family: 'Inter', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted); text-decoration: none; transition: color 0.3s; }
+        .footer-links a:hover { color: var(--gold); }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            nav { padding: 12px 20px; }
+            .nav-links { display: none; }
+            .mobile-toggle { display: block; }
+            .nav-links.open {
+                display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0;
+                background: rgba(6, 6, 10, 0.96); padding: 24px; gap: 20px;
+                border-bottom: 1px solid rgba(106, 90, 58, 0.15);
+            }
+            .hero { padding: 60px 20px; }
+            .section, .characters, .world-section, .map-section, .episodes, .shop-section, .watch-section { padding: 60px 20px; }
+            .character-grid { grid-template-columns: 1fr; gap: 20px; }
+            .shop-grid { grid-template-columns: 1fr; }
+            .hierarchy-level { gap: 12px; }
+            .hierarchy-rank { font-size: 28px; }
+            .map-layer { padding: 14px 16px; }
+            .map-label { font-size: 12px; }
+            .map-desc { font-size: 12px; }
+            .map-lore { font-size: 12px; }
+            .map-elevation { display: none; }
+        }
+        @media (max-width: 480px) {
+            .hero-cta { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="nav">
+    <a href="#" class="nav-logo">Breath of Earth</a>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#story">Story</a></li>
+        <li><a href="#characters">Characters</a></li>
+        <li><a href="#world">World</a></li>
+        <li><a href="#camp">Camp</a></li>
+        <li><a href="#episodes">Episodes</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#watch">Watch</a></li>
+    </ul>
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="wind-particles" id="windParticles"></div>
+    <div class="ember-particles" id="emberParticles"></div>
+    <h1 class="hero-title"><span class="word-breath">Breath</span> of <span class="word-earth">Earth</span></h1>
+    <p class="hero-subtitle">Some things are worth the risk.</p>
+    <p class="hero-tagline">A Fantasy Romance &mdash; Season 1 Now on TikTok</p>
+    <div class="hero-cta">
+        <a href="#watch" class="btn btn-primary">Watch on TikTok</a>
+        <a href="#episodes" class="btn btn-secondary">Explore Season 1</a>
+    </div>
+    <div class="scroll-indicator">
+        <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-symbol">&#10023;</div><div class="divider-line"></div></div>
+
+<!-- Story -->
+<section class="section" id="story">
+    <div class="reveal">
+        <p class="section-label">The Story</p>
+        <h2 class="section-heading">Wind rules. Earth serves.</h2>
+        <div class="story-text">
+            <p>In a world where people are born with <em>elemental powers</em> and ranked by them, a Wind-weaver discovers her gift is far more dangerous than anyone knows.</p>
+            <p>Lyra never asked for this. She had a family. A twin sister. Two little brothers with red hair and mischief in their eyes. A life in the middle of nowhere, simple and safe.</p>
+            <p>Then her power erupted at a party &mdash; and the hierarchy came for her.</p>
+            <p>The quiet Earth-shaper who saved her doesn't speak much. His actions speak instead: <strong>the ground shifts for him, earth moves with him</strong>. He took the fall for protecting her. She's getting him back.</p>
+            <p>The system says elements don't mix. Cross-element relationships are <em>forbidden</em>. The rule exists "for safety" &mdash; but really, for control.</p>
+            <p>Some things are worth the risk.</p>
+        </div>
+    </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-symbol">&bull; &bull; &bull;</div><div class="divider-line"></div></div>
+
+<!-- Characters -->
+<section class="characters" id="characters">
+    <div class="reveal">
+        <p class="section-label">The Characters</p>
+        <h2 class="section-heading">Born to power. Bound by rules.</h2>
+    </div>
+    <div class="character-grid">
+        <div class="character-card wind reveal">
+            <img src="assets/characters/Lyra-side-profile.webp" alt="Lyra — Wind-weaver" class="character-img">
+            <p class="character-element">1st &mdash; Wind</p>
+            <h3 class="character-name">Lyra</h3>
+            <p class="character-role">Wind-weaver</p>
+            <p class="character-desc">New to her powers. Erupted at the party when cornered. Doesn't accept the hierarchy &mdash; instinctively rebels. Her core fear: she got pulled into this world, and her whole family got dragged in with her.</p>
+            <p class="character-quote">"I didn't want to be there."</p>
+        </div>
+        <div class="character-card earth reveal">
+            <img src="assets/characters/Ronan.webp" alt="Ronan — Earth-shaper" class="character-img">
+            <p class="character-element">4th &mdash; Earth</p>
+            <h3 class="character-name">Ronan</h3>
+            <p class="character-role">Earth-shaper</p>
+            <p class="character-desc">Silent, powerful, forbidden. Doesn't speak much &mdash; his actions speak instead. Earth moves with him. Takes the fall for Lyra. The audience will be obsessed with him by Episode 2.</p>
+            <p class="character-quote">"I won't let anything happen to them."</p>
+        </div>
+        <div class="character-card fire reveal">
+            <img src="assets/characters/Zara.webp" alt="Zara — Flame-kissed" class="character-img">
+            <p class="character-element">2nd &mdash; Fire</p>
+            <h3 class="character-name">Zara</h3>
+            <p class="character-role">Flame-kissed</p>
+            <p class="character-desc">Red-haired, confident, prissy-sarcastic. Calls Lyra "sweetheart" and "princess" &mdash; means them warmly, also marking territory. Benefits from the system but genuinely believes it's how the world works.</p>
+            <p class="character-quote">"Better air flow. Obviously."</p>
+        </div>
+        <div class="character-card water reveal">
+            <img src="assets/characters/Caspian.webp" alt="Caspian — Tide-caller" class="character-img">
+            <p class="character-element">3rd &mdash; Water</p>
+            <h3 class="character-name">Caspian</h3>
+            <p class="character-role">Tide-caller</p>
+            <p class="character-desc">Striking, dark-skinned, light compelling eyes. Blunt and perceptive. Has history with Zara &mdash; electricity despite hostility. The only Tide-caller who's been down in the mud with the Earth-shapers.</p>
+            <p class="character-quote">"Watch your step."</p>
+        </div>
+
+    </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-symbol">&#10023;</div><div class="divider-line"></div></div>
+
+<!-- World / Hierarchy -->
+<section class="world-section" id="world">
+    <div class="section reveal" style="padding: 0; max-width: 900px; margin: 0 auto;">
+        <p class="section-label">The World</p>
+        <h2 class="section-heading">Four elements. One order.</h2>
+        <div class="story-text">
+            <p>Elements don't mix. Cross-element relationships are forbidden. The system exists "for safety" &mdash; but really, for control. <em>The hierarchy is literally built into the architecture.</em></p>
+        </div>
+        <div class="hierarchy">
+            <div class="hierarchy-level reveal">
+                <div class="hierarchy-rank">I</div>
+                <div class="hierarchy-info">
+                    <div class="hierarchy-element">Wind &mdash; Weaver</div>
+                    <div class="hierarchy-desc">Wind control, storms, air manipulation. The tower sits above everything.</div>
+                </div>
+            </div>
+            <div class="hierarchy-level reveal">
+                <div class="hierarchy-rank">II</div>
+                <div class="hierarchy-info">
+                    <div class="hierarchy-element">Fire &mdash; Flame-kissed</div>
+                    <div class="hierarchy-desc">Fire creation, heat, passion-fueled. Quarters carved into volcanic rock.</div>
+                </div>
+            </div>
+            <div class="hierarchy-level reveal">
+                <div class="hierarchy-rank">III</div>
+                <div class="hierarchy-info">
+                    <div class="hierarchy-element">Water &mdash; Tide-caller</div>
+                    <div class="hierarchy-desc">Water control, mist, tidal forces. Mid-level, the sunken Drown Pit.</div>
+                </div>
+            </div>
+            <div class="hierarchy-level reveal">
+                <div class="hierarchy-rank">IV</div>
+                <div class="hierarchy-info">
+                    <div class="hierarchy-element">Earth &mdash; Shaper</div>
+                    <div class="hierarchy-desc">Ground manipulation, rocks, physical labor. They don't train. They work.</div>
+                </div>
+            </div>
+        </div>
+        <div class="hierarchy-note reveal">Earth doesn't get sparring partners. They don't get to hone their power. They just work. That isolation is part of why Ronan keeps his distance.</div>
+    </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-symbol">&#9830;</div><div class="divider-line"></div></div>
+
+<!-- Training Grounds Map -->
+<section class="map-section" id="camp">
+    <div class="section reveal" style="padding: 0; max-width: 900px; margin: 0 auto;">
+        <p class="section-label">The Camp</p>
+        <h2 class="section-heading">The hierarchy is built into the stone.</h2>
+        <div class="story-text">
+            <p>Each class trains against its natural enemy. The training grounds are built into the geography &mdash; and the hierarchy is literally built into the architecture. The higher tier always comes down to fight on the lower tier's turf.</p>
+        </div>
+        <img src="assets/characters/Training Grounds Map.webp" alt="Training Grounds Map &mdash; elemental camp hierarchy" style="width: 100%; max-width: 700px; display: block; margin: 32px auto 0; border-radius: 8px; filter: brightness(0.9) saturate(0.85); transition: filter 0.5s ease;" onmouseover="this.style.filter='brightness(1) saturate(1)'" onmouseout="this.style.filter='brightness(0.9) saturate(0.85)'">
+    </div>
+    <div class="camp-map reveal">
+        <div class="map-layer map-wind" tabindex="0">
+            <span class="map-elevation">Highest</span>
+            <div class="map-label">The Wind Tower</div>
+            <div class="map-desc">Above everything. Wind-weavers command the heights &mdash; air, storms, the view of the whole camp below.</div>
+            <div class="map-lore">This is where Lyra wakes after they bring her in. The tower is beautiful and gilded, and it is a cage. From here she can see everything &mdash; including the Break Yard far below.</div>
+        </div>
+        <div class="map-layer map-fire" tabindex="0">
+            <span class="map-elevation">Upper</span>
+            <div class="map-label">The Scorch Ring &bull; Inside the Volcano</div>
+            <div class="map-desc">Fire's home. Thick hot air, hard to breathe. Wind fights at a disadvantage here. Zara's quarters are carved into volcanic rock.</div>
+            <div class="map-lore">Zara knocked Lyra flat here with a fire blast. The Scorch Ring is where Wind comes down to prove itself &mdash; and where Fire reminds everyone why they're second.</div>
+        </div>
+        <div class="map-layer map-water" tabindex="0">
+            <span class="map-elevation">Mid</span>
+            <div class="map-label">The Drown Pit</div>
+            <div class="map-desc">Sunken stone arena with waterfalls and standing water. Water extinguishes Fire. This is where Zara met Caspian.</div>
+            <div class="map-lore">Sparring partners who became something more complicated. The look they exchange is two people who used to burn each other and maybe still want to.</div>
+        </div>
+        <div class="map-layer map-earth" tabindex="0">
+            <span class="map-elevation">Ground</span>
+            <div class="map-label">The Break Yard</div>
+            <div class="map-desc">Ground level. Mud and rock. Earth-shapers don't train here &mdash; they labor. No sparring partners. No one comes to train against them.</div>
+            <div class="map-lore">Caspian is the only Tide-caller who has been down in the mud. He's seen how Earth-shapers live. That's why he's different. That's why he sees Ronan.</div>
+        </div>
+        <div class="map-layer map-cell" tabindex="0">
+            <span class="map-elevation">Below</span>
+            <div class="map-label">The Cell</div>
+            <div class="map-desc">Below everything. Iron bars and punishment marks. Where they put Earth-shapers who forget their place.</div>
+            <div class="map-lore">Lyra's hand through the bars. His shifts toward hers. That was enough.</div>
+        </div>
+    </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-symbol">&bull; &bull; &bull;</div><div class="divider-line"></div></div>
+
+<!-- Episodes -->
+<section class="episodes" id="episodes">
+    <div class="reveal">
+        <p class="section-label">Season 1: Awakening</p>
+        <h2 class="section-heading">Eleven episodes. One story.</h2>
+    </div>
+    <div class="episode-list">
+        <div class="episode-item reveal"><div class="episode-num">01</div><div class="episode-info"><div class="episode-title">Awakening</div><div class="episode-hook">"I didn't want to be there."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">02</div><div class="episode-info"><div class="episode-title">Escape</div><div class="episode-hook">"Keep up."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">03</div><div class="episode-info"><div class="episode-title">The Sister</div><div class="episode-hook">"I won't let anything happen to them."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">04</div><div class="episode-info"><div class="episode-title">The Night</div><div class="episode-hook">"Like it was my fault."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">05</div><div class="episode-info"><div class="episode-title">The River</div><div class="episode-hook">"Watch your step."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">06</div><div class="episode-info"><div class="episode-title">The Camp</div><div class="episode-hook">"It felt like falling."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">07</div><div class="episode-info"><div class="episode-title">The Hierarchy</div><div class="episode-hook">"The wind knew."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">08</div><div class="episode-info"><div class="episode-title">Training</div><div class="episode-hook">"The wind had other ideas."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">09</div><div class="episode-info"><div class="episode-title">The Triangle</div><div class="episode-hook">"I'm getting him back."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">10</div><div class="episode-info"><div class="episode-title">The Pit</div><div class="episode-hook">"You can't unsee what happens."</div></div></div>
+        <div class="episode-item reveal"><div class="episode-num">11</div><div class="episode-info"><div class="episode-title">The Rescue</div><div class="episode-hook">"Some things are worth the risk."</div></div></div>
+    </div>
+</section>
+
+<!-- Quote -->
+<section class="quote-section">
+    <div class="reveal">
+        <p class="quote-text">"I won't let anything happen to them."</p>
+        <p class="quote-attr">&mdash; Ronan</p>
+    </div>
+</section>
+
+<!-- Shop -->
+<section class="shop-section" id="shop">
+    <div class="reveal">
+        <p class="section-label">Shop</p>
+        <h2 class="section-heading" style="max-width: 900px; margin: 0 auto 32px;">Own a piece of the world.</h2>
+    </div>
+    <div class="shop-grid">
+        <div class="shop-card reveal">
+            <div class="shop-badge exclusive">Website Exclusive</div>
+            <p class="shop-category">Season Pass</p>
+            <h3 class="shop-title">Season 1 &mdash; Full Collection</h3>
+            <p class="shop-desc">All 11 episodes + bonus scenes + character art pack + digital coloring book. Only available here.</p>
+            <p class="shop-price">$12.99</p>
+            <a href="#" class="shop-cta">Get the Collection</a>
+        </div>
+        <div class="shop-card reveal">
+            <div class="shop-badge exclusive">Website Exclusive</div>
+            <p class="shop-category">Episode Bundle</p>
+            <h3 class="shop-title">Episodes 1&ndash;11</h3>
+            <p class="shop-desc">All 11 episodes ad-free, downloadable. Early access before social release.</p>
+            <p class="shop-price">$7.99</p>
+            <a href="#" class="shop-cta">Buy Episodes</a>
+        </div>
+        <div class="shop-card reveal">
+            <div class="shop-badge digital">Digital</div>
+            <p class="shop-category">Coloring Book</p>
+            <h3 class="shop-title">Breath of Earth Coloring Book</h3>
+            <p class="shop-desc">30+ character and scene illustrations. Lyra, Ronan, the Scorch Ring, the Break Yard &mdash; all yours to bring to life.</p>
+            <p class="shop-price">$8.99 <span class="original">$11.99</span></p>
+            <a href="#" class="shop-cta">Download</a>
+        </div>
+        <div class="shop-card reveal">
+            <div class="shop-badge digital">Digital</div>
+            <p class="shop-category">Art Collection</p>
+            <h3 class="shop-title">Character Art Pack</h3>
+            <p class="shop-desc">High-res portraits of Lyra, Ronan, Zara, Caspian, and Sera. Phone wallpapers, desktop backgrounds, prints.</p>
+            <p class="shop-price">$5.99</p>
+            <a href="#" class="shop-cta">Get the Pack</a>
+        </div>
+        <div class="shop-card reveal">
+            <div class="shop-badge digital">Digital</div>
+            <p class="shop-category">Quote Collection</p>
+            <h3 class="shop-title">"Some Things Are Worth the Risk"</h3>
+            <p class="shop-desc">12 illustrated quote posters &mdash; the best voiceover lines on elemental backgrounds. Print-ready.</p>
+            <p class="shop-price">$4.99</p>
+            <a href="#" class="shop-cta">Download</a>
+    </div>
+    <div class="shop-external reveal">
+        <a href="#" class="shop-external-card">
+            <span class="shop-external-icon">&#9733;</span>
+            <span class="shop-external-name">Etsy Shop</span>
+        </a>
+        <a href="#" class="shop-external-card">
+            <span class="shop-external-icon">&#9654;</span>
+            <span class="shop-external-name">Amazon Storefront</span>
+        </a>
+    </div>
+    <p class="shop-note reveal">Website exclusives include bonus content not available anywhere else. Free shipping on physical orders over $35.</p>
+</section>
+
+<div class="divider"><div class="divider-line"></div><div class="divider-symbol">&#10023;</div><div class="divider-line"></div></div>
+
+<!-- Watch -->
+<section class="watch-section" id="watch">
+    <div class="reveal">
+        <p class="section-label">Now Streaming</p>
+        <h2 class="section-heading">Watch Season 1 on TikTok</h2>
+        <p class="story-text" style="text-align:center; max-width:560px; margin:0 auto 32px;">New episodes every week. Follow for Chapter 1 and beyond.</p>
+        <div class="platforms">
+            <a href="#" class="platform-card" style="border-color: var(--wind-glow);"><span class="platform-icon">&#9899;</span><span class="platform-name">TikTok</span></a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p class="footer-logo">Breath of Earth</p>
+    <p class="footer-text">&copy; 2026 &mdash; Created with love &amp; Venice Studio</p>
+    <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+        <a href="#">Press Kit</a>
+    </div>
+</footer>
+
+<script>
+    // Nav scroll effect
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 60));
+
+    // Mobile menu
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navLinks = document.getElementById('navLinks');
+    mobileToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => navLinks.classList.remove('open')));
+
+    // Reveal on scroll
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); revealObserver.unobserve(entry.target); }
+        });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // Wind particles
+    const windContainer = document.getElementById('windParticles');
+    for (let i = 0; i < 30; i++) {
+        const p = document.createElement('div');
+        p.className = 'wind-particle';
+        p.style.left = Math.random() * 100 + '%';
+        p.style.top = Math.random() * 100 + '%';
+        p.style.animationDelay = Math.random() * 8 + 's';
+        p.style.animationDuration = (6 + Math.random() * 6) + 's';
+        windContainer.appendChild(p);
+    }
+
+    // Ember particles
+    const emberContainer = document.getElementById('emberParticles');
+    for (let i = 0; i < 12; i++) {
+        const e = document.createElement('div');
+        e.className = 'ember';
+        e.style.left = (20 + Math.random() * 60) + '%';
+        e.style.bottom = Math.random() * 20 + '%';
+        e.style.animationDelay = Math.random() * 6 + 's';
+        e.style.animationDuration = (4 + Math.random() * 4) + 's';
+        e.style.width = (2 + Math.random() * 3) + 'px';
+        e.style.height = e.style.width;
+        emberContainer.appendChild(e);
+    }
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+</script>
+</body>
+</html>
