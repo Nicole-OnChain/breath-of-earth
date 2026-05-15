@@ -109,14 +109,14 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 ### Clip 6 — BROKEN (1:00-1:12) ⭐ Solo (episode end — Lyra breaks)
 
 **R2V prompt:**
-> (Lyra @image 1) on the floor of the Wind tower room at night, her back against the cold stone wall below the window, knees drawn up to her chest, silver moonlight on her face, tears on her cheeks, one hand pressed flat against the stone wall — listening, waiting, hoping for something she can't name — the room beautiful and empty around her, white-silver banners, no fire, no warmth, no one, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind outside and near silence inside, no music, sound effects only
+> (Lyra @image 1) on the floor of the Wind tower room at night, collapsed against the cold stone wall below the window, knees pulled tight to her chest, both hands gripping her own arms, knuckles white, silver moonlight catching the tears on her face, her jaw clenched so hard it's shaking, eyes squeezed shut then open then shut again, her whole body rigid with trying not to scream, the room beautiful and empty around her — white-silver banners, no fire, no warmth, no one — cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind howling outside and near silence inside, no music, sound effects only
 
-**Voiceover:** "I didn't know if Ronan was alive. I didn't know what Zara was. I didn't know if Caspian was... I didn't know anything. Except that I was in the nicest cage in the camp. And I couldn't hear him through the walls."
+**Voiceover:** "I didn't know if Ronan was alive. I didn't know what Zara was. I didn't know if Caspian was... I didn't know anything. Except that I was in the nicest cage in the camp. And I couldn't hear him through the walls. And I couldn't reach him. And I couldn't — I couldn't—"
 **Text overlay:** *The nicest cage.*
 **Duration:** 12 seconds
-**Sound effect:** Wind outside. Near silence inside. Her breathing catching. Then nothing.
+**Sound effect:** Wind howling outside. Near silence inside. Her breathing catching. A sound caught between a sob and trying to stop one. Then nothing.
 
-**Tip:** This is the lowest point. She's broken. Not fighting, not training, not watching — just sitting on the floor of her cage, crying, hand on the wall, listening for Ronan through stone she can't hear through. No hope yet. That comes tomorrow.
+**Tip:** This is the lowest point in the season. She's not just sad — she's desperate. Hysterical. Her body is failing to hold it together. Hands gripping her own arms, knuckles white, jaw clenched, tears, eyes squeezed shut. She's trying not to scream and she's losing. The voiceover cuts off mid-sentence — she can't finish. The audience should feel this in their chest.
 
 ---
 
@@ -129,7 +129,7 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 
 ## BACKGROUND MUSIC (Generate in Audio Tab)
 
-> "Cold sparse piano, single notes with space between, for 12 seconds — calculating, deliberate. At 12 seconds = the piano continues but underneath a low drone starts, guards' boots in rhythm. At 24 seconds = wind howling mixed in, harsh, being weaponized. At 36 seconds = the drone continues but the piano drops out, just watching, no emotion. At 48 seconds = just wind outside, nothing inside, the most empty room sound. At 60 seconds = the piano drops out completely, just wind and silence. The most empty sound. 72 seconds = one faint breath. Almost nothing. 85 seconds total, dark fantasy score, instrumental"
+> "Cold sparse piano, single notes with space between, for 12 seconds — calculating, deliberate. At 12 seconds = the piano continues but underneath a low drone starts, guards' boots in rhythm. At 24 seconds = wind howling mixed in, harsh, being weaponized. At 36 seconds = the drone continues but the piano drops out, just watching, no emotion. At 48 seconds = just wind outside, nothing inside, the most empty room sound. At 60 seconds = the piano drops out completely, just wind howling outside and her breathing catching inside. The sound of someone trying not to break. At 72 seconds = the wind cuts. Dead silence. One breath. 85 seconds total, dark fantasy score, instrumental"
 
 ---
 
@@ -140,7 +140,7 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 3. "Wind howling, targets exploding, trainer's commands, 12 seconds"
 4. "Near silence, distant wind, just watching, 12 seconds"
 5. "Wind outside, silence inside, her breathing, 12 seconds"
-6. "Wind outside, near silence inside, her breathing catching, then nothing, 12 seconds"
+6. "Wind howling outside, near silence inside, her breathing catching, a sound between a sob and trying to stop one, then nothing, 12 seconds"
 
 ---
 
@@ -154,7 +154,7 @@ They didn't just lock me up. They trained me. Combat training. Mandatory. They w
 
 She watched me train. From above. Like she used to. Except now she had his pin on her collar. And I couldn't tell if she was watching out for me... or watching me.
 
-I didn't know if Ronan was alive. I didn't know what Zara was. I didn't know if Caspian was... I didn't know anything. Except that I was in the nicest cage in the camp. And I couldn't hear him through the walls."
+I didn't know if Ronan was alive. I didn't know what Zara was. I didn't know if Caspian was... I didn't know anything. Except that I was in the nicest cage in the camp. And I couldn't hear him through the walls. And I couldn't reach him. And I couldn't — I couldn't—"
 
 ---
 
@@ -170,7 +170,7 @@ I didn't know if Ronan was alive. I didn't know what Zara was. I didn't know if 
 8. **Clip 3 (weaponized):** They're not punishing Lyra. They're weaponizing her. Her wind training is mandatory combat training.
 9. **Clip 4 (Zara watches):** She watches from above. Wearing his pin. The audience should think she's a traitor.
 10. **Clip 5 (alone):** The tower. Beautiful and empty. The nicest cage. Her hand on the wall — she's listening for something.
-11. **Clip 6 (broken):** She's on the floor. Crying. Hand on the wall. Listening for Ronan through stone she can't hear through. The lowest point. No hope yet.
+11. **Clip 6 (broken):** She's on the floor. Destroyed. Hands gripping her own arms, knuckles white, jaw clenched, tears, eyes squeezed shut. Trying not to scream and losing. The voiceover cuts off mid-sentence — she can't finish. The lowest point in the entire season.
 12. Add text overlays (italic quotes in title card tool)
 13. Crossfade transitions throughout — this episode is cold and deliberate, no hard cuts
 14. End card: black screen → "The nicest cage." → S2 Ep 9 tease
