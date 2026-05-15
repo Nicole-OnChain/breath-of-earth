@@ -111,12 +111,12 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 **R2V prompt:**
 > (Lyra @image 1) on the floor of the Wind tower room at night, collapsed against the cold stone wall below the window, knees pulled tight to her chest, both hands gripping her own arms, knuckles white, silver moonlight catching the tears on her face, her jaw clenched so hard it's shaking, eyes squeezed shut then open then shut again, her whole body rigid with trying not to scream, the room beautiful and empty around her — white-silver banners, no fire, no warmth, no one — cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind howling outside and near silence inside, no music, sound effects only
 
-**Voiceover:** "I didn't know if Ronan was alive. I didn't know what Zara was. Caspian's gone. I had nothing. Except the nicest cage in the camp."
+**Voiceover:** "It felt like falling. Again. But this time no one was there to catch me. I had nothing. Except the nicest cage in the camp."
 **Text overlay:** *The nicest cage.*
 **Duration:** 12 seconds
 **Sound effect:** Wind howling outside. Near silence inside. Her breathing catching. A sound caught between a sob and trying to stop one. Then nothing.
 
-**Tip:** This is the lowest point in the season. She's not just sad — she's desperate. Hysterical. Her body is failing to hold it together. Hands gripping her own arms, knuckles white, jaw clenched, tears, eyes squeezed shut. She's trying not to scream and she's losing. The voiceover is short and final — "Caspian's gone. I had nothing." No trailing off. Just devastation stated as fact. The audience should feel this in their chest.
+**Tip:** This is the lowest point in the season. She's not just sad — she's desperate. Hysterical. Her body is failing to hold it together. Hands gripping her own arms, knuckles white, jaw clenched, tears, eyes squeezed shut. She's trying not to scream and she's losing. The voiceover calls back to Ep 6 — "It felt like falling" — but now there's no one to catch her. Short, final, devastating.
 
 ---
 
@@ -154,9 +154,7 @@ They didn't just lock me up. They trained me. Combat training. Mandatory. They w
 
 She watched me train. From above. Like she used to. Except now she had his pin on her collar. And I couldn't tell if she was watching out for me... or watching me.
 
-I didn't know if Ronan was alive. I didn't know what Zara was. Caspian's gone. And I was in the nicest cage in the camp.
-
-I had nothing. Except the nicest cage in the camp."
+It felt like falling. Again. But this time no one was there to catch me. I had nothing. Except the nicest cage in the camp."
 
 ---
 
