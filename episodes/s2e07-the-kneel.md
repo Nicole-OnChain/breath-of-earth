@@ -10,7 +10,7 @@
 
 ## WHAT THIS EPISODE DOES
 
-Lyra and Ronan are forced to fight each other in the Scorch Ring. They spar at first, Ronan deflecting more than attacking. During the fight, he gets close and tells her — Zara led the guards to them. Don't trust her. Then the uncle signals for the fight to end. Ronan drops his hands. Gets on his knees. Refuses to fight her. Lyra has to end it. She does a show move — a wind blast that throws him back. It looks brutal. It injures him badly. But she doesn't kill him. The uncle and Zara watch from the sidelines.
+Lyra and Ronan are forced to fight each other in the Scorch Ring — the same ring where he saved her in S1. They spar at first, Ronan deflecting more than attacking. During the fight, he gets close and tells her — Zara led the guards to the water cave. Don't trust her. Then the uncle signals for the fight to end. Ronan drops his hands. Gets on his knees. Refuses to fight her. Lyra has to end it. She does a show move — a wind blast that throws him back. It looks brutal. It injures him badly. But she doesn't kill him. The uncle and Zara watch from the sidelines.
 
 ---
 
@@ -49,7 +49,7 @@ He watches to see if they'll break each other. They don't break. They choose eac
 **R2V prompt:**
 > (Lyra @image 1) LEFT frame being led into the Scorch Ring by two guards, wind already swirling around her hands unconsciously, volcanic rock glowing beneath her feet, the arena empty except for her — CUT TO — (Ronan @image 3) RIGHT frame being led in from the opposite side, stone dust at his feet, his jaw set, guards pushing him forward, the two of them facing each other across the volcanic arena, neither speaking, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps on volcanic rock, no music, sound effects only
 
-**Voiceover:** "They put us in the ring. Together. The same ring where Zara fought Caspian. The same ring where Ronan saved me."
+**Voiceover:** "They put us in the ring. Together. The same ring where he saved me. The same one."
 **Text overlay:** *The same ring.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
 **Sound effect:** Footsteps on volcanic rock, wind starting to swirl, distant crowd above
@@ -73,7 +73,7 @@ He watches to see if they'll break each other. They don't break. They choose eac
 **R2V prompt:**
 > (Ronan @image 3) LEFT frame grabbing (Lyra @image 1) by the arm and pulling her close during the fight, their faces inches apart, his jaw tight, his eyes intense and urgent, speaking to her in a low voice that no one else can hear, wind and stone dust swirling around them, the Scorch Ring glowing beneath them, the guards above losing sight of them behind the debris cloud, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, near silence under the debris, no music, sound effects only
 
-**Voiceover:** "He grabbed my arm. Pulled me close. And he said — 'Zara led them to us. Don't trust her.'"
+**Voiceover:** "He grabbed my arm. Pulled me close. And he said — 'Zara led them to the water cave. Don't trust her.'"
 **Text overlay:** *Don't trust her.*
 **Duration:** 12 seconds
 **Sound effect:** Wind and stone dust, near silence, just his voice low and urgent
@@ -148,11 +148,11 @@ He watches to see if they'll break each other. They don't break. They choose eac
 
 ## VOICEOVER SCRIPT (Full)
 
-"They put us in the ring. Together. The same ring where Zara fought Caspian. The same ring where Ronan saved me.
+"They put us in the ring. Together. The same ring where he saved me. The same one.
 
 We fought. Sort of. He blocked more than he attacked. I aimed to miss more than I hit. We both knew what this was.
 
-He grabbed my arm. Pulled me close. And he said — 'Zara led them to us. Don't trust her.'
+He grabbed my arm. Pulled me close. And he said — 'Zara led them to the water cave. Don't trust her.'
 
 The uncle raised his hand. The signal to end it. And Ronan... stopped.
 
@@ -171,7 +171,7 @@ I had to. He knew I had to. So I did the only thing I could. I hit him. Hard eno
 5. Drop sound effects at exact moments on audio layer 3
 6. **Clip 1 (into the ring):** Dread. Same ring. Different stakes.
 7. **Clip 2 (the spar):** They're not really fighting. The audience should feel the hollowness.
-8. **Clip 3 (the whisper):** THE information drop. Low voice. No one else can hear. "Zara led them to us. Don't trust her." The music drops to silence.
+8. **Clip 3 (the whisper):** THE information drop. Low voice. No one else can hear. "Zara led them to the water cave. Don't trust her." The music drops to silence.
 9. **Clip 4 (the signal):** The uncle raises his hand. Ronan stops. Cold calculation.
 10. **Clip 5 (the kneel):** THE moment. He kneels. Not defeat. Choice. The silence should be devastating.
 11. **Clip 6 (the strike):** She hits him. Hard. The wind roar should be LOUD then SILENT. He doesn't get up.
@@ -187,7 +187,7 @@ I had to. He knew I had to. So I did the only thing I could. I hit him. Hard eno
 
 **Clip 2 (the spar):** Hollow fighting. Neither committing. Both pretending.
 
-**Clip 3 (the whisper):** "Zara led them to us. Don't trust her." This recontextualizes everything about Zara for the audience — except it's a lie of omission. Zara IS a double agent. Ronan doesn't know that yet.
+**Clip 3 (the whisper):** "Zara led them to the water cave. Don't trust her." This recontextualizes everything about Zara for the audience — except it's a lie of omission. Zara IS a double agent. Ronan doesn't know that yet.
 
 **Clip 4 (the signal):** The uncle decides the fight is over. Ronan stops.
 
