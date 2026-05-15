@@ -110,7 +110,7 @@ He doesn't appear until the end. When we see him, he's carrying stones in the Br
 ### Clip 6 — THE DESCENT (1:00-1:12) ⭐ Solo (episode end)
 
 **R2V prompt:**
-> (Lyra @image 1) descending stone steps from the elevated Wind-weaver platform down toward the lower levels of the camp, her jaw set, wind picking up slightly around her as she goes lower, passing from bright light into shadow, moving with purpose toward the Break Yard, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
+> (Lyra @image 1) descending stone steps from the elevated Wind-weaver platform down toward the lower levels of the Compound, her jaw set, wind picking up slightly around her as she goes lower, passing from bright light into shadow, moving with purpose toward the Break Yard, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "They told me the top was where I belonged. So why was I always looking down?"
 **Text overlay:** *Why was I always looking down?*

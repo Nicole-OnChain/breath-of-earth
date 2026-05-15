@@ -119,7 +119,7 @@ He doesn't fight. He walks in after. Calm. Like he knew they were here the whole
 ### Clip 6 — TAKEN BACK (1:00-1:12) ⭐ Solo (episode end — surrender)
 
 **R2V prompt:**
-> Four captives being led through the jungle at night in separate directions — (Ronan @image 3) LEFT being dragged toward the Break Yard, (Lyra @image 1) RIGHT being pulled toward the Wind tower, (Caspian @image 5) CENTER being pushed toward the Drown Pit, (Zara @image 6) walking on her own without resistance, the camp visible ahead, torches and guards, each of them going to a different cage, the jungle dark between them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps and chains, no music, sound effects only
+> Four captives being led through the jungle at night in separate directions — (Ronan @image 3) LEFT being dragged toward the Break Yard, (Lyra @image 1) RIGHT being pulled toward the Wind tower, (Caspian @image 5) CENTER being pushed toward the Drown Pit, (Zara @image 6) walking on her own without resistance, the Compound visible ahead, torches and guards, each of them going to a different cage, the jungle dark between them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps and chains, no music, sound effects only
 
 **Voiceover:** "They split us up. Different towers. Different pits. Different cages. Zara went quiet. Ronan went still. Caspian went somewhere I couldn't see. And me? I went back to the nice room at the top."
 **Text overlay:** *The nice room at the top.*

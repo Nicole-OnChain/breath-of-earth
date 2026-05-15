@@ -53,9 +53,9 @@ The audience saw her take the uncle's pin in Ep 8. Now they see her slip a note 
 ### Clip 2 — ZARA ABOVE (0:12-0:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Zara @image 6) walking through the camp during the day, wearing the uncle's silver pin on her collar, guards nodding to her as she passes, Earth-shapers stepping aside, she's being treated like one of them — CUT TO — (Zara @image 6) standing beside the uncle on an elevated platform, he's speaking to a group of guards, she's listening with a flat expression, not agreeing or disagreeing, just present, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, camp sounds and boots, no music, sound effects only
+> (Zara @image 6) walking through the Compound during the day, wearing the uncle's silver pin on her collar, guards nodding to her as she passes, Earth-shapers stepping aside, she's being treated like one of them — CUT TO — (Zara @image 6) standing beside the uncle on an elevated platform, he's speaking to a group of guards, she's listening with a flat expression, not agreeing or disagreeing, just present, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, camp sounds and boots, no music, sound effects only
 
-**Voiceover:** "She walked through the camp like she owned it. Guards nodded to her. People stepped aside. She stood beside him. Like she belonged there."
+**Voiceover:** "She walked through the Compound like she owned it. Guards nodded to her. People stepped aside. She stood beside him. Like she belonged there."
 **Text overlay:** *Like she belonged there.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
 **Sound effect:** Camp sounds, boots, guards moving, distant commands
@@ -65,7 +65,7 @@ The audience saw her take the uncle's pin in Ep 8. Now they see her slip a note 
 ### Clip 3 — THE DOUBT (0:24-0:36) ⭐ Solo (Lyra's conflict)
 
 **R2V prompt:**
-> (Lyra @image 1) standing at the window of the Wind tower, looking down at the camp below, she can see (Zara @image 6) walking through the camp in the distance, the silver pin visible on her collar even from above, (Lyra @image 1)'s expression conflicted and hard — remembering what Ronan said about her, not trusting, not understanding — she turns away from the window and presses her forehead against the cool stone wall, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, camp sounds fading to silence, no music, sound effects only
+> (Lyra @image 1) standing at the window of the Wind tower, looking down at the Compound below, she can see (Zara @image 6) walking through the Compound in the distance, the silver pin visible on her collar even from above, (Lyra @image 1)'s expression conflicted and hard — remembering what Ronan said about her, not trusting, not understanding — she turns away from the window and presses her forehead against the cool stone wall, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, camp sounds fading to silence, no music, sound effects only
 
 **Voiceover:** "He told me not to trust her. Right before he knelt. 'Zara led them to our hideout.' That's what he said. And now she was wearing his pin."
 **Text overlay:** *His pin.*
@@ -142,7 +142,7 @@ The audience saw her take the uncle's pin in Ep 8. Now they see her slip a note 
 
 "The tower was beautiful. Silver banners. A view of everything below. And nothing — nothing — came through that door.
 
-She walked through the camp like she owned it. Guards nodded to her. People stepped aside. She stood beside him. Like she belonged there.
+She walked through the Compound like she owned it. Guards nodded to her. People stepped aside. She stood beside him. Like she belonged there.
 
 He told me not to trust her. Right before he knelt. 'Zara led them to our hideout.' That's what he said. And now she was wearing his pin.
 

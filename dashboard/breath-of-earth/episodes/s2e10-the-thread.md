@@ -20,7 +20,7 @@ This is a montage episode. Lyra finds a rhythm. She gets stronger. She has hope 
 She's not the girl who sat on the floor of the tower crying. She's finding a rhythm. Training harder. Using what they're giving her — but on her own terms. The wind isn't wild anymore. It's hers.
 
 ### Zara
-Every piece of information she passes costs her. She has to stand beside the uncle and watch the camp suffer. But she keeps leaving signs. She keeps showing up. She's not a traitor. She's a spy. And the audience sees it now.
+Every piece of information she passes costs her. She has to stand beside the uncle and watch the Compound suffer. But she keeps leaving signs. She keeps showing up. She's not a traitor. She's a spy. And the audience sees it now.
 
 ---
 
@@ -41,7 +41,7 @@ Every piece of information she passes costs her. She has to stand beside the unc
 ### Clip 1 — THE SIGNS (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Lyra @image 1) LEFT frame finding a folded piece of paper tucked into the window ledge of the Wind tower, her eyes narrowing as she reads it, she looks down at the camp below — CUT TO — close-up of a guard rotation schedule drawn in neat handwriting on the paper, times and positions marked, she memorizes it and burns the paper over a candle, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, paper rustling and candle flame, no music, sound effects only
+> (Lyra @image 1) LEFT frame finding a folded piece of paper tucked into the window ledge of the Wind tower, her eyes narrowing as she reads it, she looks down at the Compound below — CUT TO — close-up of a guard rotation schedule drawn in neat handwriting on the paper, times and positions marked, she memorizes it and burns the paper over a candle, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, paper rustling and candle flame, no music, sound effects only
 
 **Voiceover:** "The signs started small. A note in the window ledge. A guard rotation schedule. Times and positions. Someone was feeding me information. And I was pretty sure I knew who."
 **Text overlay:** *I knew who.*
@@ -53,7 +53,7 @@ Every piece of information she passes costs her. She has to stand beside the unc
 ### Clip 2 — THE COST (0:12-0:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Zara @image 6) standing beside the uncle during a camp inspection, guards lining up Earth-shapers for counting, the uncle giving orders, Zara standing with the silver pin on her collar, her expression flat — CUT TO — (Zara @image 6) walking through the camp later, passing (Lyra @image 1) in a corridor without looking at her, but as she passes her hand moves slightly — a signal, a small gesture, something only Lyra would notice — her face revealing nothing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, camp sounds then near silence, no music, sound effects only
+> (Zara @image 6) standing beside the uncle during a camp inspection, guards lining up Earth-shapers for counting, the uncle giving orders, Zara standing with the silver pin on her collar, her expression flat — CUT TO — (Zara @image 6) walking through the Compound later, passing (Lyra @image 1) in a corridor without looking at her, but as she passes her hand moves slightly — a signal, a small gesture, something only Lyra would notice — her face revealing nothing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, camp sounds then near silence, no music, sound effects only
 
 **Voiceover:** "She stood beside him. Watched the inspections. Nodded when they took food from the Earth-shapers. And every day, she walked past me without looking. But she always left something behind."
 **Text overlay:** *She always left something behind.*
@@ -103,7 +103,7 @@ Every piece of information she passes costs her. She has to stand beside the unc
 ### Clip 6 — THE WEAPON (1:00-1:12) ⭐ Solo (episode end — Lyra chooses herself)
 
 **R2V prompt:**
-> (Lyra @image 1) standing at the window of the Wind tower at night, wind swirling around her hands — not wild, not uncontrolled, but directed and powerful and intentional — she's looking down at the camp below, her expression sharp and certain, wind bending around her fingers like it answers to her, the note in her pocket, she knows the guard rotations now, she knows the cracks in the walls, she closes her hand and the wind dies, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind howling then settling to calm at her command, no music, sound effects only
+> (Lyra @image 1) standing at the window of the Wind tower at night, wind swirling around her hands — not wild, not uncontrolled, but directed and powerful and intentional — she's looking down at the Compound below, her expression sharp and certain, wind bending around her fingers like it answers to her, the note in her pocket, she knows the guard rotations now, she knows the cracks in the walls, she closes her hand and the wind dies, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind howling then settling to calm at her command, no music, sound effects only
 
 **Voiceover:** "They made me into something. But they forgot one thing. A weapon doesn't choose who holds it. A weapon chooses where it strikes. And I was done being held."
 **Text overlay:** *I was done being held.*

@@ -10,7 +10,7 @@
 
 ## WHAT THIS EPISODE DOES
 
-Caspian and Ronan explain their history. They fought together in the Break Yard — Caspian's water and Ronan's earth complemented each other. Caspian knows the water territory NE of the camp because it's where Tide-callers are trained. The hierarchy sent element users into specific geographic zones — water users to the northeast coast, earth users to the quarry mines. Caspian was sent to the water territory before he was brought to the Break Yard. He escaped once before. This cavern is where he hid. Lyra learns: the hierarchy doesn't just control element users. It controls the geography of power.
+Caspian and Ronan explain their history. They fought together in the Break Yard — Caspian's water and Ronan's earth complemented each other. Caspian knows the water territory NE of the Compound because it's where Tide-callers are trained. The hierarchy sent element users into specific geographic zones — water users to the northeast coast, earth users to the quarry mines. Caspian was sent to the water territory before he was brought to the Break Yard. He escaped once before. This cavern is where he hid. Lyra learns: the hierarchy doesn't just control element users. It controls the geography of power.
 
 ---
 
@@ -36,7 +36,7 @@ She's learning. The hierarchy doesn't just control people. It controls places. T
 > A harsh sunlit yard with stone walls and dust, (Caspian @image 5) LEFT frame sending a wave of water at an opponent, (Ronan @image 3) RIGHT frame raising a stone wall to block a counterattack, the two of them fighting side by side, earth and water working together, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 **Water territory — NE map view:**
-> A map-like view of the water territory NE of the camp — coastlines, rivers, wetlands, with a small glowing marker where the cavern is, the hierarchy's territory borders marked in dark lines, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
+> A map-like view of the water territory NE of the Compound — coastlines, rivers, wetlands, with a small glowing marker where the cavern is, the hierarchy's territory borders marked in dark lines, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 ---
 
@@ -71,9 +71,9 @@ She's learning. The hierarchy doesn't just control people. It controls places. T
 ### Clip 3 — THE GEOGRAPHY (0:24-0:36) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Caspian @image 5) standing in the pool of the cavern, water up to his knees, drawing lines in the air with water — a map — rivers, coastlines, the territory NE of the camp appearing as water shapes above the pool, his expression focused — CUT TO — (Lyra @image 1) watching the water map from the edge, her eyes wide, seeing the geography of her world laid out in light and water for the first time, (Ronan @image 3) beside her nodding slowly, he's seen this before, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water flowing and shaping, no music, sound effects only
+> (Caspian @image 5) standing in the pool of the cavern, water up to his knees, drawing lines in the air with water — a map — rivers, coastlines, the territory NE of the Compound appearing as water shapes above the pool, his expression focused — CUT TO — (Lyra @image 1) watching the water map from the edge, her eyes wide, seeing the geography of her world laid out in light and water for the first time, (Ronan @image 3) beside her nodding slowly, he's seen this before, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water flowing and shaping, no music, sound effects only
 
-**Voiceover:** "Caspian showed me. The water territory — NE of the camp. That's where they send Tide-callers. The earth users go to the quarry mines. Wind-weavers go to the mountain passes. They don't just control us. They control where we belong."
+**Voiceover:** "Caspian showed me. The water territory — NE of the Compound. That's where they send Tide-callers. The earth users go to the quarry mines. Wind-weavers go to the mountain passes. They don't just control us. They control where we belong."
 **Text overlay:** *They control where we belong.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
 **Sound effect:** Water flowing, shaping, near silence
@@ -146,7 +146,7 @@ She's learning. The hierarchy doesn't just control people. It controls places. T
 
 Ronan told me later. He and Caspian fought together in the Break Yard. Earth and water. They covered each other. That's why they trusted each other. They'd bled together before they ever met me.
 
-Caspian showed me. The water territory — NE of the camp. That's where they send Tide-callers. The earth users go to the quarry mines. Wind-weavers go to the mountain passes. They don't just control us. They control where we belong.
+Caspian showed me. The water territory — NE of the Compound. That's where they send Tide-callers. The earth users go to the quarry mines. Wind-weavers go to the mountain passes. They don't just control us. They control where we belong.
 
 He escaped once before. Found this cavern. Hid here for weeks. He knew every river, every rock, every path. The water territory was his before it was theirs.
 

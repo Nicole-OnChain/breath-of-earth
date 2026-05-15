@@ -18,9 +18,9 @@ Now it's morning. He's back to being cold. She's back to following. But somethin
 
 ## CHARACTER NOTE — CASPIAN (First Appearance)
 
-Caspian is a Tide-caller. Striking, dark-skinned, light compelling eyes. Blunt and perceptive. He's the first person at the camp who actually *sees* Lyra.
+Caspian is a Tide-caller. Striking, dark-skinned, light compelling eyes. Blunt and perceptive. He's the first person at the Compound who actually *sees* Lyra.
 
-In this episode: just a glimpse. A look from across the camp. Don't introduce him by name. Don't explain what he is. Just show that someone noticed her — and it's not Ronan.
+In this episode: just a glimpse. A look from across the Compound. Don't introduce him by name. Don't explain what he is. Just show that someone noticed her — and it's not Ronan.
 
 ---
 
@@ -33,7 +33,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 > A narrow path through dense jungle approaching a cluster of tents and structures visible through the trees, smoke rising from campfires, other people visible in the distance, morning light filtering through canopy, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 **The camp — exterior:**
-> A jungle camp with rough tents and wooden structures built among ancient trees, walkways between platforms, a fire pit in the center, people moving in the distance, organized but rough, morning light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
+> A jungle Compound with rough tents and wooden structures built among ancient trees, walkways between platforms, a fire pit in the center, people moving in the distance, organized but rough, morning light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 ---
 
@@ -94,19 +94,19 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ### Clip 4 — THE WARNING (0:36-0:48) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Ronan @image 3) standing on the far bank of a river, water dripping from his boots, looking back at (Lyra @image 1) still on the stones, his expression flat and cold, cold morning light — CUT TO — (Lyra @image 1) walking into a jungle camp with rough tents and wooden structures built among trees, other people visible in the distance, smoke from campfires, she's looking around with uncertainty, morning light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
+> (Ronan @image 3) standing on the far bank of a river, water dripping from his boots, looking back at (Lyra @image 1) still on the stones, his expression flat and cold, cold morning light — CUT TO — (Lyra @image 1) walking into a jungle Compound with rough tents and wooden structures built among trees, other people visible in the distance, smoke from campfires, she's looking around with uncertainty, morning light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "'Watch your step.' Same tone as always. The camp was... somewhere I didn't belong. Again."
 **Text overlay:** *Again.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
-**Sound effect:** Water fading, jungle ambience → camp ambience, distant voices, fire
+**Sound effect:** Water fading, jungle ambience → Compound ambience, distant voices, fire
 
 ---
 
 ### Clip 5 — THE CAMP WALK (0:48-1:00) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Lyra @image 1) walking through a jungle camp, rough tents and wooden walkways, people moving in the distance, she's looking around taking it all in, morning light filtering through canopy, (Zara @image 6) visible near a fire pit watching her with curiosity — CUT TO — (Lyra @image 1) standing still in the camp, looking uncertain, while (Ronan @image 3)'s back walks away into the trees without looking back, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
+> (Lyra @image 1) walking through a jungle Compound, rough tents and wooden walkways, people moving in the distance, she's looking around taking it all in, morning light filtering through canopy, (Zara @image 6) visible near a fire pit watching her with curiosity — CUT TO — (Lyra @image 1) standing still in the Compound, looking uncertain, while (Ronan @image 3)'s back walks away into the trees without looking back, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "People were watching. I didn't know yet what their looks meant. He left. Just like that."
 **Text overlay:** *(none)*
@@ -118,7 +118,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ### Clip 6 — THE LOOK (1:00-1:12) ⭐ Solo (episode end — Caspian glimpse)
 
 **R2V prompt:**
-> (Caspian @image 5) standing near a tent across a jungle camp, watching (Lyra @image 1) who is standing alone looking lost, his expression perceptive and unreadable, not threatening — just seeing her, really seeing her, morning light on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
+> (Caspian @image 5) standing near a tent across a jungle Compound, watching (Lyra @image 1) who is standing alone looking lost, his expression perceptive and unreadable, not threatening — just seeing her, really seeing her, morning light on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "But someone else was watching."
 **Text overlay:** *Someone else was watching.*
@@ -132,7 +132,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ## END CARD (1:12-1:17)
 - Black screen
 - White text: *Breath of Earth*
-- Smaller text: Season 1 — Episode 6: The Camp
+- Smaller text: Season 1 — Episode 6: The Compound
 
 ---
 
@@ -185,7 +185,7 @@ But someone else was watching."
 9. **Clip 6 (the look):** Caspian's note plays. Just a glimpse. The audience should wonder who that was.
 10. Add text overlays (italic quotes in title card tool)
 11. Crossfade transitions between clips
-12. End card: black screen → "Breath of Earth" → "Season 1 — Episode 6: The Camp"
+12. End card: black screen → "Breath of Earth" → "Season 1 — Episode 6: The Compound"
 
 ---
 

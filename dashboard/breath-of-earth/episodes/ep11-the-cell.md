@@ -39,7 +39,7 @@ Ancient. Old stone and old iron. Built before the hierarchy, maybe. Something th
 ## ADDITIONAL BACKDROPS (Generate in Image Tab)
 
 **Break Yard at night — windstorm:**
-> A volcanic camp at night with a powerful windstorm sweeping across the upper levels, tents flapping violently, fires blowing out, enforcers running toward the disturbance, while the Break Yard at ground level stays dark and still, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
+> A volcanic Compound at night with a powerful windstorm sweeping across the upper levels, tents flapping violently, fires blowing out, enforcers running toward the disturbance, while the Break Yard at ground level stays dark and still, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 **Holding cell — ancient bars:**
 > A rough stone cell carved into ancient rock, iron bars thick and old with rust and strange markings, the stone around them cracked but solid, built to hold — not by the hierarchy but by something older, moonlight filtering through the bars, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical

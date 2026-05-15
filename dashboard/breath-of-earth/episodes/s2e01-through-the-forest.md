@@ -10,7 +10,7 @@
 
 ## WHAT THIS EPISODE DOES
 
-Opens moments after S1E12. Lyra, Ronan, and Caspian have escaped the camp. They're running through the forest at night, exhausted and injured. Lyra is narrating — they don't know where they're going, they just know they can't stop. Caspian knows the terrain — he leads them toward the water territory NE of the camp. They reach a river. Caspian says he knows a place. The episode ends with them entering a hidden water cavern — Caspian's territory.
+Opens moments after S1E12. Lyra, Ronan, and Caspian have escaped the Compound. They're running through the forest at night, exhausted and injured. Lyra is narrating — they don't know where they're going, they just know they can't stop. Caspian knows the terrain — he leads them toward the water territory NE of the Compound. They reach a river. Caspian says he knows a place. The episode ends with them entering a hidden water cavern — Caspian's territory.
 
 ---
 

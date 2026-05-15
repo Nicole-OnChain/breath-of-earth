@@ -50,7 +50,7 @@ He doesn't look up. He doesn't expect anyone to come. His hand moving toward Lyr
 ### Clip 1 — THE TOWER + THE DESCENT (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Lyra @image 1) standing alone at a tall window in a gilded tower room at night, silver moonlight streaming in, looking down at the camp below, the room is beautiful and empty, her expression distant and troubled — CUT TO — (Lyra @image 1) walking down stone stairs and through narrow corridors at night, passing the volcanic Scorch Ring arena (dark but still warm, faint embers), descending further down, moonlight and shadow on the stone walls, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
+> (Lyra @image 1) standing alone at a tall window in a gilded tower room at night, silver moonlight streaming in, looking down at the Compound below, the room is beautiful and empty, her expression distant and troubled — CUT TO — (Lyra @image 1) walking down stone stairs and through narrow corridors at night, passing the volcanic Scorch Ring arena (dark but still warm, faint embers), descending further down, moonlight and shadow on the stone walls, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "I couldn't sleep. The tower was too nice. I walked past Zara's door. She was still awake. I didn't stop."
 **Text overlay:** *I didn't stop.*
@@ -76,7 +76,7 @@ He doesn't look up. He doesn't expect anyone to come. His hand moving toward Lyr
 ### Clip 3 — THE BREAK YARD + THE CELL (0:24-0:36) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> The Break Yard at ground level at night — mud and rock and dust, no torches, no platforms, just rough stone shelters barely visible in the darkness, (Lyra @image 1) descending into the mud and squalor, her expression shifting as she takes it in, the lowest level of the camp — CUT TO — a rough stone cell carved into rock, iron bars cutting into the stone, no light inside except faint moonlight filtering from outside, (Lyra @image 1) standing outside the bars, her face barely visible, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
+> The Break Yard at ground level at night — mud and rock and dust, no torches, no platforms, just rough stone shelters barely visible in the darkness, (Lyra @image 1) descending into the mud and squalor, her expression shifting as she takes it in, the lowest level of the Compound — CUT TO — a rough stone cell carved into rock, iron bars cutting into the stone, no light inside except faint moonlight filtering from outside, (Lyra @image 1) standing outside the bars, her face barely visible, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "It smelled like mud and sweat and something older. Something that had given up. He was in a cell. Rough stone. No light."
 **Text overlay:** *No light.*

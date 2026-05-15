@@ -23,7 +23,7 @@ The night after the promise. They're stuck in the woods together. He made camp. 
 
 Note: Ronan now speaks (since Ep 3). His silence in this episode is a choice — he's retreated back behind his wall. He spoke one promise, and now he's done talking.
 
-The river crossing and the camp move to Episode 5.
+The river crossing and the Compound move to Episode 5.
 
 ---
 

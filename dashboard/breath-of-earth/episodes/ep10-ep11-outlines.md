@@ -10,7 +10,7 @@ These are detailed outlines for the final two episodes of Season 1. They will be
 
 ### What This Episode Does
 
-Lyra decides to find Ronan. She descends through the camp — from the Wind tower at the top, through the Scorch Ring (Fire), past the Drown Pit (Water), down into the Break Yard (Earth). Each level shows her more of what the system does to people. The Wind tower is gilded but empty. The Scorch Ring is competitive but has dignity. The Drown Pit has camaraderie. The Break Yard is just labor — no dignity, no opposition, no training, just work.
+Lyra decides to find Ronan. She descends through the Compound — from the Wind tower at the top, through the Scorch Ring (Fire), past the Drown Pit (Water), down into the Break Yard (Earth). Each level shows her more of what the system does to people. The Wind tower is gilded but empty. The Scorch Ring is competitive but has dignity. The Drown Pit has camaraderie. The Break Yard is just labor — no dignity, no opposition, no training, just work.
 
 Caspian intercepts her at the Drown Pit. He doesn't try to stop her — he shows her where Ronan is being held. The look between them says: we both know him. We both know this is wrong. But I can't go down there either.
 
@@ -18,9 +18,9 @@ She descends into the Break Yard at night. She sees where they're holding Ronan 
 
 ### Scene Breakdown
 
-1. **THE TOWER (0:00-0:08)** — Lyra in the Wind tower at night. Empty. Gilded. "I couldn't sleep. The tower was too nice." She's looking out at the camp below. Beautiful cage.
+1. **THE TOWER (0:00-0:08)** — Lyra in the Wind tower at night. Empty. Gilded. "I couldn't sleep. The tower was too nice." She's looking out at the Compound below. Beautiful cage.
 
-2. **THE DESCENT (0:08-0:18)** — Lyra walking down through the camp at night. Past the Scorch Ring (dark, still warm). Past Zara's quarters (light still on, Zara's shadow moving inside). Down further. "I walked past Zara's door. She was still awake. I didn't stop."
+2. **THE DESCENT (0:08-0:18)** — Lyra walking down through the Compound at night. Past the Scorch Ring (dark, still warm). Past Zara's quarters (light still on, Zara's shadow moving inside). Down further. "I walked past Zara's door. She was still awake. I didn't stop."
 
 3. **THE DROWN PIT (0:18-0:28)** — Lyra reaches the Drown Pit. Water still falling. Mist. Caspian is there, sitting on the stone edge, water dripping from his hands. He's not training. He's waiting. "He was there. Like he knew I'd come."
 
@@ -58,7 +58,7 @@ I reached through the bars. He didn't take my hand. But his moved toward mine. A
 
 ### Key Production Notes
 
-- The descent through the camp is visual worldbuilding — each level looks different, feels different. The audience sees the hierarchy made physical.
+- The descent through the Compound is visual worldbuilding — each level looks different, feels different. The audience sees the hierarchy made physical.
 - Caspian doesn't stop her. He helps. This is the triangle in action — he can't go down there, but he can show her where.
 - The punishment marks are important. Not dramatic or gory. Just... marks. Deliberate. Systematic. The system did this.
 - Ronan doesn't look up. He doesn't expect anyone to come. That's the most devastating line.
@@ -73,19 +73,19 @@ I reached through the bars. He didn't take my hand. But his moved toward mine. A
 
 ### What This Episode Does
 
-Lyra comes back for Ronan. She doesn't use her wind to break him out — she uses it to create a distraction. A windstorm across the camp that draws the enforcers away. While they're responding to the "natural" disturbance, she gets Ronan out of the cell.
+Lyra comes back for Ronan. She doesn't use her wind to break him out — she uses it to create a distraction. A windstorm across the Compound that draws the enforcers away. While they're responding to the "natural" disturbance, she gets Ronan out of the cell.
 
 He tells her to leave. She won't. He says she'll make it worse. She says she already made it worse by letting them take him. He speaks for the first time in the whole series: "You shouldn't be here."
 
 They escape through the jungle at night. Ronan moves through the forest like it's part of him — earth shifting under his feet, roots pulling aside, the ground literally clearing their path. For the first time, we see what his power actually is when he's not suppressing it, not carrying stones, not being punished for existing.
 
-Season 1 ends on the run. They're out. But they're not safe. And Lyra's family is still at the camp.
+Season 1 ends on the run. They're out. But they're not safe. And Lyra's family is still at the Compound.
 
 ### Scene Breakdown
 
 1. **THE RETURN (0:00-0:10)** — Lyra walking back into the Break Yard at night, more determined now. Wind already swirling around her — controlled, not explosive. She knows what she's doing.
 
-2. **THE DISTRACTION (0:10-0:22)** — Lyra raises her hands and a windstorm sweeps across the camp above them. Tents flapping. Fires blowing out. The enforcers running toward the disturbance. She's using her power as a shield, not a weapon. "I didn't break him out. I just... made some noise."
+2. **THE DISTRACTION (0:10-0:22)** — Lyra raises her hands and a windstorm sweeps across the Compound above them. Tents flapping. Fires blowing out. The enforcers running toward the disturbance. She's using her power as a shield, not a weapon. "I didn't break him out. I just... made some noise."
 
 3. **THE CELL (0:22-0:32)** — Lyra at Ronan's cell. Bars cut into rock. She can't bend stone. But the enforcers are gone. She reaches through and his hand is already there this time. He was waiting.
 
@@ -93,13 +93,13 @@ Season 1 ends on the run. They're out. But they're not safe. And Lyra's family i
 
 5. **HER ANSWER (0:42-0:50)** — Lyra's face, jaw set. "You took my place. I'm not leaving you here." No hesitation. No romance. Just fact.
 
-6. **THE ESCAPE (0:50-1:00)** — They move through the camp in the chaos of the windstorm. Staying low. Keeping to shadows. Ronan's hand on the stone walls — they shift slightly as he passes, like the earth knows him.
+6. **THE ESCAPE (0:50-1:00)** — They move through the Compound in the chaos of the windstorm. Staying low. Keeping to shadows. Ronan's hand on the stone walls — they shift slightly as he passes, like the earth knows him.
 
 7. **THE JUNGLE (1:00-1:12)** 🔥🔥🔥 — They reach the jungle edge. And for the first time, we see Ronan's power fully. The earth moves for him — not angrily, not forced. Roots pull aside. The ground shifts to make a path. Stones roll away. The jungle literally clears their way. He's not suppressing it anymore. He's not carrying stones. He's walking through the forest like it was made for him.
 
 8. **THE HAND (1:12-1:20)** — Running through the jungle. His hand finds hers. Not romantic. Just practical. But she holds on. He doesn't let go.
 
-9. **THE LOOK BACK (1:20-1:30)** — Lyra looks back toward the camp. Lights. Chaos. Her family is still there. Sera. The twins. Mom and dad's memory. The wind is still swirling behind them — her distraction is still going.
+9. **THE LOOK BACK (1:20-1:30)** — Lyra looks back toward the Compound. Lights. Chaos. Her family is still there. Sera. The twins. Mom and dad's memory. The wind is still swirling behind them — her distraction is still going.
 
 10. **END (1:30-1:40)** — They disappear into the jungle. Wind dying behind them. Dark. Free. But not safe. Cut to black.
 
@@ -128,7 +128,7 @@ But some things are worth the risk."
 - **RONAN SPEAKS FOR THE FIRST TIME.** This is the biggest moment of the season. Five words. "You shouldn't be here." Low. Rough. The audience has been waiting 11 episodes. Don't overdo it. Don't give him more lines. Five words is enough.
 - **His power is finally shown.** Throughout the series, we've seen his power suppressed — carrying stones, taking punishment, staying silent. Now we see what Earth can do when it's not being punished. The jungle clears for him. This is who he is when he's not at the bottom.
 - **The hand-hold is practical, not romantic.** Running through the jungle. He grabs her hand to pull her. She holds on. He doesn't let go. That's all.
-- **The look back.** She looks back at the camp. Her family is still there. Sera. The twins. She's made a choice — and it has a cost.
+- **The look back.** She looks back at the Compound. Her family is still there. Sera. The twins. She's made a choice — and it has a cost.
 - **Season 1 ends on the run.** They're out. But they're not safe. And Lyra's family is still inside. This sets up Season 2: the rescue, Sera's turn, the system pushing back.
 
 ---

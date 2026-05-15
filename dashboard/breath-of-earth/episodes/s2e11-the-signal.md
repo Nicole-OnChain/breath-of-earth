@@ -10,7 +10,7 @@
 
 ## WHAT THIS EPISODE DOES
 
-Lyra finds a way to send Ronan a message through the stone. She channels wind through a crack in the floor and whispers to it — the ground carries sound. She tells him Zara's with them. She tells him to hold on. One tap comes back through the stone. Yes. Then the whole camp shakes — a signal from outside. Former prisoners, using the chaos Zara orchestrated. The camp goes on alert. Something is coming.
+Lyra finds a way to send Ronan a message through the stone. She channels wind through a crack in the floor and whispers to it — the ground carries sound. She tells him Zara's with them. She tells him to hold on. One tap comes back through the stone. Yes. Then the whole Compound shakes — a signal from outside. Former prisoners, using the chaos Zara orchestrated. The Compound goes on alert. Something is coming.
 
 ---
 
@@ -30,7 +30,7 @@ One tap. That's all she gets. But it's everything. He's alive. He's listening. A
 > The floor of the Wind tower room, a thin crack in the stone, (Lyra @image 1) kneeling on the floor with her hand pressed flat against the crack, wind visibly streaming from her palm down into the crack, her lips close to the stone, whispering, silver moonlight from above, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 **Camp — alert:**
-> The camp at night suddenly lit by torches and alarms, guards running to positions, the whole camp in motion, chaos and urgency, the distant glow of a signal fire on a hill outside the camp, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
+> The Compound at night suddenly lit by torches and alarms, guards running to positions, the whole Compound in motion, chaos and urgency, the distant glow of a signal fire on a hill outside the Compound, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 ---
 
@@ -81,7 +81,7 @@ One tap. That's all she gets. But it's everything. He's alive. He's listening. A
 ### Clip 4 — THE CONNECTION (0:36-0:48) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Lyra @image 1) sitting on the floor of the Wind tower, both hands pressed flat against the stone, her eyes closed, a small smile on her face for the first time in days, wind still gently swirling around her — CUT TO — below the tower, deep in the camp, (Ronan @image 3) in a dark disciplinary cell, his hand pressed flat against the stone wall, his jaw set but his eyes — for one moment — not hard, something like hope in them, the stone between them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, near silence, breathing through stone, no music, sound effects only
+> (Lyra @image 1) sitting on the floor of the Wind tower, both hands pressed flat against the stone, her eyes closed, a small smile on her face for the first time in days, wind still gently swirling around her — CUT TO — below the tower, deep in the Compound, (Ronan @image 3) in a dark disciplinary cell, his hand pressed flat against the stone wall, his jaw set but his eyes — for one moment — not hard, something like hope in them, the stone between them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, near silence, breathing through stone, no music, sound effects only
 
 **Voiceover:** "For the first time in days, I wasn't alone in the dark. The stone between us was still stone. But it carried everything."
 **Text overlay:** *It carried everything.*
@@ -93,9 +93,9 @@ One tap. That's all she gets. But it's everything. He's alive. He's listening. A
 ### Clip 5 — THE SHAKE (0:48-1:00) 💥 Multi (2 cuts — camp chaos)
 
 **Prompt (Sora 2 or Kling O3 — sudden action):**
-> CUT 1 — the Wind tower room SHAKING, (Lyra @image 1) bracing herself against the wall as the whole floor vibrates, objects rattling, dust falling from the ceiling, she looks out the window — CUT TO — CUT 2 — the camp below erupting into chaos, guards running to positions, torches flaring, horns sounding, the entire camp mobilizing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, ground shaking and horns and chaos, no music, sound effects only
+> CUT 1 — the Wind tower room SHAKING, (Lyra @image 1) bracing herself against the wall as the whole floor vibrates, objects rattling, dust falling from the ceiling, she looks out the window — CUT TO — CUT 2 — the Compound below erupting into chaos, guards running to positions, torches flaring, horns sounding, the entire Compound mobilizing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, ground shaking and horns and chaos, no music, sound effects only
 
-**Voiceover:** "And then the whole camp shook. Horns. Guards running everywhere. Something was happening outside. And no one was watching me."
+**Voiceover:** "And then the whole Compound shook. Horns. Guards running everywhere. Something was happening outside. And no one was watching me."
 **Text overlay:** *No one was watching me.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
 **Sound effect:** Ground SHAKING, horns, boots, torches, shouting, chaos
@@ -151,7 +151,7 @@ One tap. Through the stone. Through the floors. Through everything between us. O
 
 For the first time in days, I wasn't alone in the dark. The stone between us was still stone. But it carried everything.
 
-And then the whole camp shook. Horns. Guards running everywhere. Something was happening outside. And no one was watching me.
+And then the whole Compound shook. Horns. Guards running everywhere. Something was happening outside. And no one was watching me.
 
 I didn't know what was coming. But when she opened that door, I knew I wasn't staying."
 
@@ -168,7 +168,7 @@ I didn't know what was coming. But when she opened that door, I knew I wasn't st
 7. **Clip 2 (the message):** She tells him three things. Zara's with us. Hold on. I'm getting out.
 8. **Clip 3 (the tap):** THE moment. One tap through stone. Felt in her palm. Yes.
 9. **Clip 4 (the connection):** Two people, separated by stone, connected by it. She's not alone.
-10. **Clip 5 (the shake):** Camp chaos. Horns. Guards running. No one's watching Lyra. Zara's distraction is working.
+10. **Clip 5 (the shake):** Compound chaos. Horns. Guards running. No one's watching Lyra. Zara's distraction is working.
 11. **Clip 6 (the door):** Zara walks in. Silver pin gone. One line: "You coming, princess?" The whole season pivots here.
 12. Add text overlays (italic quotes in title card tool)
 13. Clip 3 (the tap): the music STOPS for the tap. Just that one note. Then silence. This is the most important sound design moment in the episode.
@@ -187,7 +187,7 @@ I didn't know what was coming. But when she opened that door, I knew I wasn't st
 
 **Clip 4 (the connection):** Two people, connected through stone. She's not alone.
 
-**Clip 5 (the shake):** Camp chaos. Horns. Guards running. No one is watching Lyra. Zara's distraction is working.
+**Clip 5 (the shake):** Compound chaos. Horns. Guards running. No one is watching Lyra. Zara's distraction is working.
 
 **Clip 6 (the door):** Zara walks in. Silver pin gone. "You coming, princess?" The whole season pivots here. She's not one of them anymore. She came for Lyra.
 

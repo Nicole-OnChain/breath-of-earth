@@ -1,4 +1,4 @@
-# Breath of Earth — Episode 6: "The Camp"
+# Breath of Earth — Episode 6: "The Compound"
 **Version:** 2.0 (6 clips × 12s, multi-scene format)
 **Duration target:** 72+ seconds (6 clips × 12s)
 **Video clips:** 6 (12 seconds each)
@@ -10,7 +10,7 @@
 
 ## WHAT THIS EPISODE DOES
 
-Lyra enters the camp for the first time. She's alone — Ronan left. Caspian is the first person who actually talks to her. Then Zara arrives and claims her — pulling her away from Caspian with a look that says *we have history*. Zara brings Lyra to the Wind-weavers at the top. Lyra looks down and sees Ronan carrying stones at the bottom. The hierarchy: Air → Fire → Water → Earth. Ronan is Earth. The man who held her is at the bottom.
+Lyra enters the Compound for the first time. She's alone — Ronan left. Caspian is the first person who actually talks to her. Then Zara arrives and claims her — pulling her away from Caspian with a look that says *we have history*. Zara brings Lyra to the Wind-weavers at the top. Lyra looks down and sees Ronan carrying stones at the bottom. The hierarchy: Air → Fire → Water → Earth. Ronan is Earth. The man who held her is at the bottom.
 
 ---
 
@@ -37,14 +37,14 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 
 ## ADDITIONAL BACKDROPS (Generate in Image Tab)
 
-**Camp entrance — walkway between structures:**
+**Compound entrance — walkway between structures:**
 > Wooden walkway between tent platforms built into jungle trees, other people walking in Flame-kissed red-gold and Tide-caller blue-teal clothing, organized but rough, morning light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
-**Camp center — fire pit:**
-> Central fire pit in a jungle camp surrounded by rough wooden benches and tent platforms, people gathered in small groups, some in red-gold clothing, some in blue-teal, morning light filtering through canopy, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
+**Compound center — fire pit:**
+> Central fire pit in a jungle Compound surrounded by rough wooden benches and tent platforms, people gathered in small groups, some in red-gold clothing, some in blue-teal, morning light filtering through canopy, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 **Wind-weaver area — elevated platform:**
-> An elevated platform in the jungle canopy with white-silver banners blowing gently, open and bright compared to the lower camp, white and silver fabrics draped, Wind-weaver symbols, morning light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
+> An elevated platform in the jungle canopy with white-silver banners blowing gently, open and bright compared to the lower Compound, white and silver fabrics draped, Wind-weaver symbols, morning light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 ---
 
@@ -67,24 +67,24 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 ### Clip 1 — ALONE + CASPIAN (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Lyra @image 1) standing alone in a jungle camp, looking lost and out of place, other people walking past her in colorful Flame-kissed red-gold and Tide-caller blue-teal clothing, nobody looking at her, morning light — CUT TO — (Caspian @image 5) walking up to (Lyra @image 1), his expression perceptive and direct, not smiling, not threatening, just assessing her, standing closer than comfortable, morning light on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, camp ambience then camp noise fading as he approaches, no music, sound effects only
+> (Lyra @image 1) standing alone in a jungle Compound, looking lost and out of place, other people walking past her in colorful Flame-kissed red-gold and Tide-caller blue-teal clothing, nobody looking at her, morning light — CUT TO — (Caspian @image 5) walking up to (Lyra @image 1), his expression perceptive and direct, not smiling, not threatening, just assessing her, standing closer than comfortable, morning light on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, Compound ambience then Compound noise fading as he approaches, no music, sound effects only
 
 **Voiceover:** "He left me standing there. No directions. No name. Nothing. Someone walked up. Didn't ask if I was lost. Just looked at me like he already knew the answer."
 **Text overlay:** *Like he already knew.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
-**Sound effect:** Camp ambience, voices → camp noise fading as he approaches
+**Sound effect:** Camp ambience, voices → Compound noise fading as he approaches
 
 ---
 
 ### Clip 2 — THE QUESTION + THE CAMP TOUR (0:12-0:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> Close-up of (Caspian @image 5) looking directly at camera with a blunt perceptive expression, one eyebrow slightly raised, like he's reading her, not smiling, morning light on his face — CUT TO — (Caspian @image 5) walking beside (Lyra @image 1) through the jungle camp, pointing at different areas, she's looking around wide-eyed, he's explaining something with a flat expression, passing people in colorful clothing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
+> Close-up of (Caspian @image 5) looking directly at camera with a blunt perceptive expression, one eyebrow slightly raised, like he's reading her, not smiling, morning light on his face — CUT TO — (Caspian @image 5) walking beside (Lyra @image 1) through the jungle Compound, pointing at different areas, she's looking around wide-eyed, he's explaining something with a flat expression, passing people in colorful clothing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "He said one thing. 'Wind-weaver?' Like he could smell it on me. He showed me around. Didn't offer his name. Didn't ask mine. Just walked. Just talked."
 **Text overlay:** *Just walked. Just talked.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
-**Sound effect:** Quiet, just a low note → footsteps on wooden walkway, camp ambience
+**Sound effect:** Quiet, just a low note → footsteps on wooden walkway, Compound ambience
 
 ---
 
@@ -96,7 +96,7 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 **Voiceover:** "Wind at the top. Fire second. Water third. Earth at the bottom. That's how it works here. Where they put the people who move rocks. Where they put—"
 **Text overlay:** *Earth at the bottom.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
-**Sound effect:** Wind on banners, contrast with lower camp sounds → a single low note, silence underneath
+**Sound effect:** Wind on banners, contrast with lower Compound sounds → a single low note, silence underneath
 
 ---
 
@@ -129,7 +129,7 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 ### Clip 6 — THE TOP (1:00-1:12) ⭐ Solo (episode end)
 
 **R2V prompt:**
-> (Lyra @image 1) standing on an elevated Wind-weaver platform looking down at the camp below, wind catching her hair, she looks like she belongs up here — but her expression says she doesn't feel it, morning light, white-silver banners, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
+> (Lyra @image 1) standing on an elevated Wind-weaver platform looking down at the Compound below, wind catching her hair, she looks like she belongs up here — but her expression says she doesn't feel it, morning light, white-silver banners, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "They told me I was at the top. It felt like falling."
 **Text overlay:** *It felt like falling.*
@@ -156,10 +156,10 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 1. "Camp ambience, distant voices, fire, 6 seconds"
 2. "Camp noise fading slightly as someone approaches, 6 seconds"
 3. "Quiet, just a low note, 4 seconds"
-4. "Footsteps on wooden walkway, camp ambience, 8 seconds"
-5. "Wind on banners contrasting with lower camp sounds, 6 seconds"
+4. "Footsteps on wooden walkway, Compound ambience, 8 seconds"
+5. "Wind on banners contrasting with lower Compound sounds, 6 seconds"
 6. "A single low note, silence underneath, 6 seconds"
-7. "A sharp note, tension spike, camp noise shifts, 12 seconds"
+7. "A sharp note, tension spike, Compound noise shifts, 12 seconds"
 8. "Wind on banners, elevated ambience, 6 seconds"
 9. "Wind, distant sound of heavy work, 6 seconds"
 10. "Wind on banners, then silence, 12 seconds"
@@ -221,4 +221,4 @@ They told me I was at the top. It felt like falling."
 breath of earth ep6 // they told me i was at the top. it felt like falling 😭 #breathofearth #romanticfantasy #darkromance #forbiddenlove #fantasytiktok #booktok #romancetok #fyp #storytime #slowburn #enemiestolovers
 
 ## INSTAGRAM REELS CAPTION
-Breath of Earth — Ep 6: The Camp 🌿🔥 Air at the top. Earth at the bottom. #breathofearth #romanticfantasy #forbiddenlove #fantasyreels #romancereels #booktok #darkromance #slowburn
+Breath of Earth — Ep 6: The Compound 🌿🔥 Air at the top. Earth at the bottom. #breathofearth #romanticfantasy #forbiddenlove #fantasyreels #romancereels #booktok #darkromance #slowburn

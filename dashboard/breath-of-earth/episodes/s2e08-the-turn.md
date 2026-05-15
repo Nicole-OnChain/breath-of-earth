@@ -17,7 +17,7 @@ Zara goes to the uncle. She's given a position — liaison between the hierarchy
 ## CHARACTER NOTES
 
 ### Zara
-She walks into the uncle's quarters. She doesn't flinch. She takes the position. She seals herself inside the system. The audience thinks she's a traitor. She's actually the most dangerous person in the camp — because the hierarchy thinks she's theirs.
+She walks into the uncle's quarters. She doesn't flinch. She takes the position. She seals herself inside the system. The audience thinks she's a traitor. She's actually the most dangerous person in the Compound — because the hierarchy thinks she's theirs.
 
 ### The Uncle
 He's smart. He gives Zara just enough power to make her visible, just enough trust to make her dependent, just enough rope to see what she does with it. He's testing her. And she passes every test.
@@ -36,7 +36,7 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 > The camp at ground level, Earth-shapers carrying heavier stones with guards watching, Tide-callers working under surveillance, a thin line of people waiting for reduced food rations, everything tighter and harder than before, grey overcast light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 **Wind tower — Lyra alone:**
-> The Wind tower room at night, (Lyra @image 1) sitting alone on the edge of the bed, window showing the camp below, the room beautiful and empty, silver moonlight, no fire, no warmth, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
+> The Wind tower room at night, (Lyra @image 1) sitting alone on the edge of the bed, window showing the Compound below, the room beautiful and empty, silver moonlight, no fire, no warmth, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 ---
 
@@ -97,9 +97,9 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 ### Clip 5 — ALONE (0:48-1:00) ⭐ Solo (Lyra alone in the tower)
 
 **R2V prompt:**
-> (Lyra @image 1) sitting alone on the edge of the bed in the Wind tower room at night, the window showing the camp below — distant torches, guards patrolling — the room beautiful and empty, silver moonlight on white-silver banners, no fire, no warmth, her expression hollow, one hand pressed flat against the stone wall below the window, like she's listening for something, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind outside and nothing inside, no music, sound effects only
+> (Lyra @image 1) sitting alone on the edge of the bed in the Wind tower room at night, the window showing the Compound below — distant torches, guards patrolling — the room beautiful and empty, silver moonlight on white-silver banners, no fire, no warmth, her expression hollow, one hand pressed flat against the stone wall below the window, like she's listening for something, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind outside and nothing inside, no music, sound effects only
 
-**Voiceover:** "I didn't know if Ronan was alive. I didn't know what Zara was. Caspian's gone. And I was in the nicest cage in the camp."
+**Voiceover:** "I didn't know if Ronan was alive. I didn't know what Zara was. Caspian's gone. And I was in the nicest cage in the Compound."
 **Text overlay:** *The nicest cage.*
 **Duration:** 12 seconds
 **Sound effect:** Wind outside. Silence inside. Her breathing.

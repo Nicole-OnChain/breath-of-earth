@@ -138,9 +138,9 @@ Caspian on the level above. One hand raised. A wall of water. This is the first 
 ### Clip 6 — AND THEN WE LEFT (1:00-1:12) ⭐ Solo (SEASON FINALE)
 
 **Prompt (R2V):**
-> (Lyra @image 1) right frame and (Ronan @image 3) left frame running through dense jungle at night, hands clasped together, moonlight filtering through the canopy, the camp behind them shrinking, the jungle ahead dark and open, jungle escape @image 10, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, running footsteps and jungle ambience fading, no music, sound effects only
+> (Lyra @image 1) right frame and (Ronan @image 3) left frame running through dense jungle at night, hands clasped together, moonlight filtering through the canopy, the Compound behind them shrinking, the jungle ahead dark and open, jungle escape @image 10, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, running footsteps and jungle ambience fading, no music, sound effects only
 
-**Voiceover:** "I looked back once. Not at the camp. At where the water came from. And we didn't look back."
+**Voiceover:** "I looked back once. Not at the Compound. At where the water came from. And we didn't look back."
 **Text overlay:** *And we didn't look back.*
 **Duration:** 12 seconds
 **Sound effect:** Running footsteps fading into jungle ambience, then silence
@@ -186,7 +186,7 @@ And then the water came. Not at us. For us.
 
 The water cleared a path. We didn't question it. We just ran.
 
-I looked back once. Not at the camp. At where the water came from. And we didn't look back."
+I looked back once. Not at the Compound. At where the water came from. And we didn't look back."
 
 ---
 
@@ -201,7 +201,7 @@ I looked back once. Not at the camp. At where the water came from. And we didn't
 7. **Clip 2 (the wall — trapped):** HARD CUT. Music stops. Torches light up from every level. They're surrounded. This is the hierarchy's power.
 8. **Clip 3 (standoff — ready):** Her wind. His earth. They're standing together. Ready to fight all of them. Two against dozens.
 9. **Clip 4 (Caspian's water — SIGNATURE SCENE):** THE WATER. Full orchestral hit. The water crashes down, sweeps guards away, parts around them. This is Caspian's moment. He saves them and they don't even know it was him.
-10. **Clip 5 (escape):** They run through the path the water made. She glances back. Not at the camp. At the water.
+10. **Clip 5 (escape):** They run through the path the water made. She glances back. Not at the Compound. At the water.
 11. **Clip 6 (and we didn't look back):** SEASON FINALE. They're gone. She looked back once. At whoever saved them. Then they left. Not sad. Not happy. Gone.
 12. Add text overlays (italic quotes in title card tool)
 13. Crossfade transitions between clips
