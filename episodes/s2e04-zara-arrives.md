@@ -10,7 +10,7 @@
 
 ## WHAT THIS EPISODE DOES
 
-Zara shows up. She enters the water cavern suspiciously — she shouldn't know where it is. She says she followed the river. Caspian and Zara have instant chemistry — flirtatious, competitive, both tide-callers. She challenges him. He likes that. Lyra doesn't trust her. Ronan doesn't trust her. But Caspian vouches for her — barely. The episode ends with distant horns. The guards have found the area. They're coming.
+Zara shows up. She enters the water cavern suspiciously — she shouldn't know where it is. She says she followed the river. Caspian and Zara have instant chemistry — flirtatious, competitive, fire and water. She challenges him. He likes that. Lyra doesn't trust her. Ronan doesn't trust her. But Caspian vouches for her — barely. The episode ends with distant horns. The guards have found the area. They're coming.
 
 ---
 
@@ -20,7 +20,7 @@ Zara shows up. She enters the water cavern suspiciously — she shouldn't know w
 She arrives confident. She's been following them. She knows things she shouldn't. She flirts with Caspian immediately — testing him, challenging him, matching his energy. She's fire. She's charming. She's dangerous. And she's not telling the whole truth.
 
 ### Caspian
-He's drawn to her immediately. She's a Tide-caller who challenges him — he's never met anyone like that. Their chemistry is instant and electric. He vouches for her, but barely. "She can fight. That's all I know."
+He's drawn to her immediately. She's a Flame-Kissed who challenges him — he's never met anyone like that. Their chemistry is instant and electric. He vouches for her, but barely. "She can fight. That's all I know."
 
 ### Lyra
 She doesn't trust Zara. Something about the way she arrived, the way she knows things, the way she's too comfortable. But she doesn't have a choice — the guards are coming.
@@ -36,7 +36,7 @@ He doesn't say much. He watches. He doesn't trust her either. But he'll wait and
 > The waterfall entrance of the water cavern, (Zara @image 6) stepping through the waterfall curtain, water streaming past her, her fire-red hair dark with water, her expression confident and assessing, the bioluminescent light of the cavern casting shadows behind her, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 **Cavern — Zara and Caspian:**
-> The water cavern, (Zara @image 6) and (Caspian @image 5) standing near the pool, both Tide-callers facing each other, Zara with an amused challenging expression, Caspian with a matching grin, water dripping from both of them, the chemistry between them visible, (Lyra @image 1) watching from the side with a guarded expression, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
+> The water cavern, (Zara @image 6) and (Caspian @image 5) standing near the pool, fire and water facing each other, Zara with an amused challenging expression, Caspian with a matching grin, water dripping from both of them, the chemistry between them visible, (Lyra @image 1) watching from the side with a guarded expression, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 ---
 
@@ -73,7 +73,7 @@ He doesn't say much. He watches. He doesn't trust her either. But he'll wait and
 **R2V prompt:**
 > (Zara @image 6) standing near the pool, her expression amused and challenging, she says something to (Caspian @image 5) with a smirk — CUT TO — (Caspian @image 5) grinning back at her, matching her energy, he says something back with the same smirk, water dripping from both of them, the chemistry between them electric and obvious, (Lyra @image 1) watching from the side with an unimpressed expression, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water dripping and near silence, no music, sound effects only
 
-**Voiceover:** "She flirted with Caspian like it was a weapon. And the worst part? He flirted back. They were both Tide-callers. Both competitive. Both insufferable."
+**Voiceover:** "She flirted with Caspian like it was a weapon. And the worst part? He flirted back. Fire and water. Both competitive. Both insufferable."
 **Text overlay:** *Both insufferable.*
 **Duration:** 12 seconds (2 cuts, ~6s each)
 **Sound effect:** Water dripping, near silence, their voices barely audible
@@ -95,7 +95,7 @@ He doesn't say much. He watches. He doesn't trust her either. But he'll wait and
 ### Clip 5 — THE CHALLENGE (0:48-1:00) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (Zara @image 6) standing in the cavern, fire flickering at her fingertips, she challenges (Caspian @image 5) with a look — CUT TO — (Caspian @image 5) in the pool raising a wave of water with one hand, accepting the challenge with a grin, (Zara @image 6) laughing, the two Tide-callers facing each other with fire and water between them, (Lyra @image 1) and (Ronan @image 3) watching from the side, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crackling and water splashing, no music, sound effects only
+> (Zara @image 6) standing in the cavern, fire flickering at her fingertips, she challenges (Caspian @image 5) with a look — CUT TO — (Caspian @image 5) in the pool raising a wave of water with one hand, accepting the challenge with a grin, (Zara @image 6) laughing, fire and water facing each other with fire and water between them, (Lyra @image 1) and (Ronan @image 3) watching from the side, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crackling and water splashing, no music, sound effects only
 
 **Voiceover:** "She challenged him. Right there. Fire against water. He raised a wave. She flicked fire at it. They laughed. Ronan and I did not laugh."
 **Text overlay:** *We did not laugh.*
@@ -109,7 +109,7 @@ He doesn't say much. He watches. He doesn't trust her either. But he'll wait and
 **Prompt (Sora 2 or Kling O3 — sudden tension):**
 > Inside the water cavern, (Lyra @image 1) and (Ronan @image 3) and (Caspian @image 5) and (Zara @image 6) all freezing in place — the laughter gone — as a distant horn sounds from outside, then another, the sound echoing through the cavern, (Caspian @image 5)'s expression shifting from playful to alert instantly, (Zara @image 6)'s expression going flat and serious, (Lyra @image 1) and (Ronan @image 3) exchanging a look — the guards have found the area, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, horns echoing through the cavern, no music, sound effects only
 
-**Voiceover:** "And then we heard them. Horns. Distant, but close enough. The guards had found the area. They were coming. And we had a Tide-caller we didn't trust and a cavern with one way out."
+**Voiceover:** "And then we heard them. Horns. Distant, but close enough. The guards had found the area. They were coming. And we had a Flame-Kissed we didn't trust and a cavern with one way out."
 **Text overlay:** *One way out.*
 **Duration:** 12 seconds
 **Sound effect:** Distant horns echoing, then silence, then another horn
@@ -146,13 +146,13 @@ He doesn't say much. He watches. He doesn't trust her either. But he'll wait and
 
 I didn't trust her. She shouldn't have known where this cave was. No one followed us. No one could have. And yet there she was.
 
-She flirted with Caspian like it was a weapon. And the worst part? He flirted back. They were both Tide-callers. Both competitive. Both insufferable.
+She flirted with Caspian like it was a weapon. And the worst part? He flirted back. Fire and water. Both competitive. Both insufferable.
 
 I asked Caspian if he trusted her. He thought about it for way too long. Then he said, 'She can fight. That's all I know.' Which was not a no. But it definitely wasn't a yes.
 
 She challenged him. Right there. Fire against water. He raised a wave. She flicked fire at it. They laughed. Ronan and I did not laugh.
 
-And then we heard them. Horns. Distant, but close enough. The guards had found the area. They were coming. And we had a Tide-caller we didn't trust and a cavern with one way out."
+And then we heard them. Horns. Distant, but close enough. The guards had found the area. They were coming. And we had a Flame-Kissed we didn't trust and a cavern with one way out."
 
 ---
 
@@ -165,7 +165,7 @@ And then we heard them. Horns. Distant, but close enough. The guards had found t
 5. Drop sound effects at exact moments on audio layer 3
 6. **Clip 1 (arrival):** Zara walks through the waterfall like she owns the place. Fire eyes. Confident.
 7. **Clip 2 (suspicion):** Lyra and Ronan don't trust her. Something's off.
-8. **Clip 3 (chemistry):** Zara and Caspian flirting. Both Tide-callers. Both insufferable.
+8. **Clip 3 (chemistry):** Zara and Caspian flirting. Fire and water. Both insufferable.
 9. **Clip 4 (the vouch):** Caspian barely vouches for her. "She can fight. That's all I know."
 10. **Clip 5 (the challenge):** Fire against water. They laugh. Lyra and Ronan don't.
 11. **Clip 6 (the horns):** Everything stops. The guards are coming. One way out.
@@ -181,7 +181,7 @@ And then we heard them. Horns. Distant, but close enough. The guards had found t
 
 **Clip 2 (suspicion):** Lyra doesn't trust her. Ronan doesn't trust her. She shouldn't know where this cave is.
 
-**Clip 3 (chemistry):** Zara and Caspian flirt like it's a weapon. Both Tide-callers. Both insufferable.
+**Clip 3 (chemistry):** Zara and Caspian flirt like it's a weapon. Fire and water. Both insufferable.
 
 **Clip 4 (the vouch):** Caspian barely vouches for her. "She can fight." Not a no. Not a yes.
 
