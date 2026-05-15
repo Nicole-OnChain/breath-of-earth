@@ -56,12 +56,18 @@ He's the comic relief. He sits by the pool making commentary. "You two want me t
 ### Clip 2 — CASPIAN'S COMMENTARY (0:12-0:24) ⭐ Solo (comic beat — Caspian roasts them)
 
 **R2V prompt:**
-> (Caspian @image 5) sitting by the pool with his feet dangling in the water, leaning back on his hands with a smug grin, he's calling out to (Lyra @image 1) and (Ronan @image 3) who are sparring in the background, his expression is knowing and theatrical, he gestures dramatically, the bioluminescent moss making him glow blue-green, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, near silence then Caspian's voice, no music, sound effects only
+> (Caspian @image 5) sitting by the pool with his feet dangling in the water, leaning back on his hands with a smug grin, he's calling out to (Lyra @image 1) and (Ronan @image 3) who are sparring in the background, his expression is knowing and theatrical, he gestures dramatically, the bioluminescent moss making him glow blue-green, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water lapping, no music, sound effects only
 
-**Voiceover:** "'You know,' Caspian said from the pool, 'if you two want to just hold hands and skip the punching, I won't judge.' I hit him with a wind gust. He didn't even flinch. 'Still here,' he said."
+**On-camera dialogue (Caspian speaking directly to camera/Lyra & Ronan):** "You know... if you two want to just hold hands and skip the punching, I won't judge."
+
+**Voiceover (Lyra, after Caspian's line):** "I hit him with a wind gust. He didn't even flinch."
+
+**On-camera dialogue (Caspian, reacting):** "Still here."
 **Text overlay:** *Still here.*
 **Duration:** 12 seconds
-**Sound effect:** Near silence, then wind gust, water splashing, Caspian's laugh
+**Sound effect:** Water lapping, wind gust hitting water, Caspian's laugh
+
+**Tip:** Caspian's lines should be generated as on-camera dialogue with lip sync. AI video tools can handle this — generate the clip first, then sync his dialogue audio to his lips. The two spoken lines bookend Lyra's short narration.
 
 ---
 
@@ -80,14 +86,16 @@ He's the comic relief. He sits by the pool making commentary. "You two want me t
 ### Clip 4 — STILL HERE (0:36-0:48) ⭐ Solo (comic beat — Caspian interrupts)
 
 **R2V prompt:**
-> (Caspian @image 5) standing in the pool with water up to his waist, his arms crossed, his expression knowing and loud, he's looking directly at (Lyra @image 1) and (Ronan @image 3) who are standing very close in the background, he says something loudly and makes an exaggerated gesture toward them, the moment completely broken, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, Caspian's voice breaking the silence, no music, sound effects only
+> (Caspian @image 5) standing in the pool with water up to his waist, his arms crossed, his expression knowing and loud, he's looking directly at (Lyra @image 1) and (Ronan @image 3) who are standing very close in the background, he says something loudly and makes an exaggerated gesture toward them, the moment completely broken, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water splashing, no music, sound effects only
 
-**Voiceover:** "'STILL HERE,' Caspian announced. He wasn't whispering. The moment was gone. And honestly? I think that was the point."
+**On-camera dialogue (Caspian, loud and theatrical):** "STILL HERE!"
+
+**Voiceover (Lyra, after Caspian's line):** "He wasn't whispering. The moment was gone. And honestly? I think that was the point."
 **Text overlay:** *STILL HERE.*
 **Duration:** 12 seconds
 **Sound effect:** Silence broken by Caspian's voice, water splashing
 
-**Tip:** This is the funniest moment in S2. Caspian is the absolute worst and the best. He sees them almost kiss and he WILL NOT let it happen quietly.
+**Tip:** This is the funniest moment in S2. Caspian's "STILL HERE" should be on-camera dialogue with lip sync — he's literally shouting this at them. Generate the clip first, then sync his dialogue audio to his lips. The audience hears HIM say it, not Lyra narrating it. That's the joke.
 
 ---
 
@@ -145,11 +153,17 @@ He's the comic relief. He sits by the pool making commentary. "You two want me t
 
 "We trained. Wind against earth. He'd raise a wall, I'd blast it. I'd send a gust, he'd redirect it. And Caspian sat by the pool providing commentary nobody asked for.
 
-'You know,' Caspian said from the pool, 'if you two want to just hold hands and skip the punching, I won't judge.' I hit him with a wind gust. He didn't even flinch. 'Still here,' he said.
+[Caspian, on camera:] "You know... if you two want to just hold hands and skip the punching, I won't judge."
+
+[Lyra, narration:] I hit him with a wind gust. He didn't even flinch.
+
+[Caspian, on camera:] "Still here."
 
 He came at me fast. I redirected, he redirected back. And suddenly we were close. Really close. Wind and stone dust everywhere. And neither of us was moving away.
 
-'STILL HERE,' Caspian announced. He wasn't whispering. The moment was gone. And honestly? I think that was the point.
+[Caspian, on camera, loud:] "STILL HERE!"
+
+[Lyra, narration:] He wasn't whispering. The moment was gone. And honestly? I think that was the point.
 
 I don't remember what we were laughing about. Caspian said something. I hit him with wind again. Ronan caught it and threw it back at both of us. And for a few minutes, we were just... three people in a cave. Laughing.
 
