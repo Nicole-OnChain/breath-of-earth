@@ -56,7 +56,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ### Clip 1 — THE MORNING AFTER + THE DISTANCE (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) walking behind an earth-shaper man with dark hair and stone-grey eyes (image 3 back) through dense jungle at early morning, mist on the ground, he's several steps ahead and not looking back, his stride stiff and deliberate, she's following but glancing at his back like she's trying to read something in it, cold and damp — CUT TO — close-up of the same wind-weaver girl (image 1) walking through jungle mist, pulling her jacket tighter, a faint shadow on her face — not cold, just thinking — looking at the ground but her mind somewhere else, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wet footsteps then rustling leaves, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) walking behind (Ronan @image 3)'s back through dense jungle at early morning, mist on the ground, he's several steps ahead and not looking back, his stride stiff and deliberate, she's following but glancing at his back like she's trying to read something in it, cold and damp — CUT TO — close-up of Lyra (image 1) walking through jungle mist, pulling her jacket tighter, a faint shadow on her face — not cold, just thinking — looking at the ground but her mind somewhere else, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wet footsteps then rustling leaves, no music, sound effects only
 
 **Voiceover:** "The next morning, he walked ahead. Like nothing happened. I could still feel where his arm had been. He didn't look at me once."
 **Text overlay:** *Not once.*
@@ -68,7 +68,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ### Clip 2 — THE RIVER + THE CROSSING (0:12-0:24) 🔗 Multi (2 cuts, spectacle setup)
 
 **Prompt (Sora 2 or Veo 3.1 — need rushing water physics):**
-> A wide river rushing through a jungle gorge, water crashing over dark moss-covered rocks, mist rising from the surface, a precarious path of wet stones crossing the river, the water fast and dangerous, cold morning light, cinematic scale — CUT TO — an earth-shaper man with dark hair and stone-grey eyes (image 3) stepping across wet stones on the rushing river, water spraying around his boots, completely sure-footed, not looking back, not hesitating, mist and spray, the river parting slightly around his steps like it knows him, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, rushing water constant and loud, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> A wide river rushing through a jungle gorge, water crashing over dark moss-covered rocks, mist rising from the surface, a precarious path of wet stones crossing the river, the water fast and dangerous, cold morning light, cinematic scale — CUT TO — (Ronan @image 3) stepping across wet stones on the rushing river, water spraying around his boots, completely sure-footed, not looking back, not hesitating, mist and spray, the river parting slightly around his steps like it knows him, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, rushing water constant and loud, no music, sound effects only
 
 **Voiceover:** "Then we hit the river. He crossed like the river owed him."
 **Text overlay:** *Like the river owed him.*
@@ -80,7 +80,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ### Clip 3 — THE SLIP + THE CATCH (0:24-0:36) ⭐ Solo (key moment — catch callback)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) slipping on a wet stone in a rushing river, arms flailing, water splashing around her, panic on her face, about to fall into the fast current, cold spray — CUT TO — an earth-shaper man with dark hair and stone-grey eyes (image 3) gripping the wind-weaver girl's arm hard, pulling her back from falling into the river, water spraying around them, his expression flat and unimpressed, her eyes wide with shock, he caught her but he doesn't look happy about it, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) slipping on a wet stone in a rushing river, arms flailing, water splashing around her, panic on her face, about to fall into the fast current, cold spray — CUT TO — (Ronan @image 3) gripping Lyra's arm hard, pulling her back from falling into the river, water spraying around them, his expression flat and unimpressed, her eyes wide with shock, he caught her but he doesn't look happy about it, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "I slipped. He caught me. Again."
 **Text overlay:** *Again.*
@@ -94,7 +94,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ### Clip 4 — THE WARNING (0:36-0:48) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3) standing on the far bank of a river, water dripping from his boots, looking back at a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) still on the stones, his expression flat and cold, cold morning light — CUT TO — the same wind-weaver girl (image 1) walking into a jungle camp with rough tents and wooden structures built among trees, other people visible in the distance, smoke from campfires, she's looking around with uncertainty, morning light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) standing on the far bank of a river, water dripping from his boots, looking back at (Lyra @image 1) still on the stones, his expression flat and cold, cold morning light — CUT TO — (Lyra @image 1) walking into a jungle camp with rough tents and wooden structures built among trees, other people visible in the distance, smoke from campfires, she's looking around with uncertainty, morning light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "'Watch your step.' Same tone as always. The camp was... somewhere I didn't belong. Again."
 **Text overlay:** *Again.*
@@ -106,7 +106,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ### Clip 5 — THE CAMP WALK (0:48-1:00) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) walking through a jungle camp, rough tents and wooden walkways, people moving in the distance, she's looking around taking it all in, morning light filtering through canopy, a flame-kissed woman with vivid red hair and ember-glow eyes visible near a fire pit watching her with curiosity — CUT TO — the same wind-weaver girl (image 1) standing still in the camp, looking uncertain, while an earth-shaper man with dark hair and stone-grey eyes (image 3 back) walks away into the trees without looking back, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) walking through a jungle camp, rough tents and wooden walkways, people moving in the distance, she's looking around taking it all in, morning light filtering through canopy, (Zara @image 6) visible near a fire pit watching her with curiosity — CUT TO — (Lyra @image 1) standing still in the camp, looking uncertain, while (Ronan @image 3)'s back walks away into the trees without looking back, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "People were watching. I didn't know yet what their looks meant. He left. Just like that."
 **Text overlay:** *(none)*
@@ -118,7 +118,7 @@ In this episode: just a glimpse. A look from across the camp. Don't introduce hi
 ### Clip 6 — THE LOOK (1:00-1:12) ⭐ Solo (episode end — Caspian glimpse)
 
 **R2V prompt:**
-> A tide-caller man with dark skin and bioluminescent teal eyes (image 5, Caspian) standing near a tent across a jungle camp, watching a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) who is standing alone looking lost, his expression perceptive and unreadable, not threatening — just seeing her, really seeing her, morning light on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Caspian @image 5) standing near a tent across a jungle camp, watching (Lyra @image 1) who is standing alone looking lost, his expression perceptive and unreadable, not threatening — just seeing her, really seeing her, morning light on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "But someone else was watching."
 **Text overlay:** *Someone else was watching.*

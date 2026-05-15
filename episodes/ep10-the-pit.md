@@ -50,7 +50,7 @@ He doesn't look up. He doesn't expect anyone to come. His hand moving toward Lyr
 ### Clip 1 — THE TOWER + THE DESCENT (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing alone at a tall window in a gilded tower room at night, silver moonlight streaming in, looking down at the camp below, the room is beautiful and empty, her expression distant and troubled — CUT TO — the same wind-weaver girl (image 1) walking down stone stairs and through narrow corridors at night, passing the volcanic Scorch Ring arena (dark but still warm, faint embers), descending further down, moonlight and shadow on the stone walls, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) standing alone at a tall window in a gilded tower room at night, silver moonlight streaming in, looking down at the camp below, the room is beautiful and empty, her expression distant and troubled — CUT TO — (Lyra @image 1) walking down stone stairs and through narrow corridors at night, passing the volcanic Scorch Ring arena (dark but still warm, faint embers), descending further down, moonlight and shadow on the stone walls, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "I couldn't sleep. The tower was too nice. I walked past Zara's door. She was still awake. I didn't stop."
 **Text overlay:** *I didn't stop.*
@@ -62,7 +62,7 @@ He doesn't look up. He doesn't expect anyone to come. His hand moving toward Lyr
 ### Clip 2 — CASPIAN (0:12-0:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A tide-caller man with dark skin and bioluminescent teal eyes (image 5, Caspian) sitting on the stone edge of the Drown Pit at night, waterfalls still cascading down the stone walls behind him, mist rising from the standing water, moonlight on the water, he's not training — he's waiting, his jaw is tight, a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) approaching from above — CUT TO — the same tide-caller man (image 5) standing at the edge of the Drown Pit, pointing downward toward the Break Yard below, his jaw tight, his expression saying everything his mouth won't — recognition, grief, fury held in check, the wind-weaver girl (image 1) watching him, moonlight and mist around them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Caspian @image 5) sitting on the stone edge of the Drown Pit at night, waterfalls still cascading down the stone walls behind him, mist rising from the standing water, moonlight on the water, he's not training — he's waiting, his jaw is tight, (Lyra @image 1) approaching from above — CUT TO — (Caspian @image 5) standing at the edge of the Drown Pit, pointing downward toward the Break Yard below, his jaw tight, his expression saying everything his mouth won't — recognition, grief, fury held in check, the wind-weaver girl (image 1) watching him, moonlight and mist around them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "He was there. Like he knew I'd come. He didn't tell me not to go. He just told me where."
 **Text overlay:** *He just told me where.*
@@ -76,7 +76,7 @@ He doesn't look up. He doesn't expect anyone to come. His hand moving toward Lyr
 ### Clip 3 — THE BREAK YARD + THE CELL (0:24-0:36) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> The Break Yard at ground level at night — mud and rock and dust, no torches, no platforms, just rough stone shelters barely visible in the darkness, the wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) descending into the mud and squalor, her expression shifting as she takes it in, the lowest level of the camp — CUT TO — a rough stone cell carved into rock, iron bars cutting into the stone, no light inside except faint moonlight filtering from outside, the same wind-weaver girl (image 1) standing outside the bars, her face barely visible, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> The Break Yard at ground level at night — mud and rock and dust, no torches, no platforms, just rough stone shelters barely visible in the darkness, (Lyra @image 1) descending into the mud and squalor, her expression shifting as she takes it in, the lowest level of the camp — CUT TO — a rough stone cell carved into rock, iron bars cutting into the stone, no light inside except faint moonlight filtering from outside, (Lyra @image 1) standing outside the bars, her face barely visible, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "It smelled like mud and sweat and something older. Something that had given up. He was in a cell. Rough stone. No light."
 **Text overlay:** *No light.*
@@ -88,7 +88,7 @@ He doesn't look up. He doesn't expect anyone to come. His hand moving toward Lyr
 ### Clip 4 — HIM + WHAT SHE SEES (0:36-0:48) ⭐ Solo (key emotional beat — devastating)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3, Ronan) sitting in a dark stone cell, back against the wall, his knees drawn up, marks visible on his arms — not training injuries, deliberate punishment marks, systematic, his face turned away, not looking up, moonlight barely reaching through the bars, the wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing on the other side of the bars, her hand pressed against them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) sitting in a dark stone cell, back against the wall, his knees drawn up, marks visible on his arms — not training injuries, deliberate punishment marks, systematic, his face turned away, not looking up, moonlight barely reaching through the bars, (Lyra @image 1) standing on the other side of the bars, her hand pressed against them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "He didn't look up. I don't think he expected anyone to come. You can't unsee what happens down here."
 **Text overlay:** *You can't unsee what happens down here.*
@@ -102,7 +102,7 @@ He doesn't look up. He doesn't expect anyone to come. His hand moving toward Lyr
 ### Clip 5 — HER HAND + HIS HAND (0:48-1:00) ⭐ Solo (THE moment — almost-touch through bars)
 
 **R2V prompt:**
-> The wind-weaver girl's hand (image 1, Lyra) reaching through iron bars into a dark stone cell, her fingers stretched toward an earth-shaper man's hand (image 3, Ronan) that is shifting — just barely — toward hers, not touching, just moving in her direction, moonlight on both hands through the bars, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> The wind-weaver girl's hand (image 1, Lyra) reaching through iron bars into a dark stone cell, her fingers stretched toward an earth-shaper man's hand (image 3, Ronan) that is shifting — just barely — toward hers, not touching, just moving in her direction, moonlight on both hands through the bars, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "I reached through the bars. He didn't take my hand. But his moved toward mine."
 **Text overlay:** *His moved toward mine.*
@@ -116,7 +116,7 @@ He doesn't look up. He doesn't expect anyone to come. His hand moving toward Lyr
 ### Clip 6 — THAT WAS ENOUGH (1:00-1:12) ⭐ Solo (episode end)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing at the iron bars of a dark stone cell, her hand still reaching through, moonlight on her face, wind picking up around her, her expression not sad — determined, something deeper than sadness, a decision forming, the cell and the darkness behind the bars, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) standing at the iron bars of a dark stone cell, her hand still reaching through, moonlight on her face, wind picking up around her, her expression not sad — determined, something deeper than sadness, a decision forming, the cell and the darkness behind the bars, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "And that was enough."
 **Text overlay:** *And that was enough.*

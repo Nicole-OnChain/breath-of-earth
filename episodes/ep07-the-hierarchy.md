@@ -44,7 +44,7 @@ He doesn't appear until the end. When we see him, he's carrying stones in the Br
 ### Clip 1 — WIND TRAINING + FIRE TRAINING (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing on an elevated Wind-weaver platform, wind swirling around her hands, white-silver banners billowing, she's trying to control the air but it's choppy and unsteady, morning light — CUT TO — the Scorch Ring inside a volcanic caldera, a flame-kissed woman with vivid red hair and ember-glow eyes (image 6, Zara) standing in the center, flames dancing from her fingertips with perfect control, confident and effortless, she smirks at the wind-weaver girl (image 1) across from her, heat shimmer and ember light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind whooshing then fire crackling, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) standing on an elevated Wind-weaver platform, wind swirling around her hands, white-silver banners billowing, she's trying to control the air but it's choppy and unsteady, morning light — CUT TO — the Scorch Ring inside a volcanic caldera, (Zara @image 6) standing in the center, flames dancing from her fingertips with perfect control, confident and effortless, she smirks at (Lyra @image 1) across from her, heat shimmer and ember light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind whooshing then fire crackling, no music, sound effects only
 
 **Voiceover:** "They put me at the top. Wind-weaver. Highest element. But Zara? She'd been doing this for years."
 **Text overlay:** *Highest element.*
@@ -56,7 +56,7 @@ He doesn't appear until the end. When we see him, he's carrying stones in the Br
 ### Clip 2 — ZARA VS LYRA (0:12-0:24) 💥 Solo (spectacle — fire vs wind, needs own generation)
 
 **R2V prompt:**
-> The Scorch Ring inside a volcanic caldera, a flame-kissed woman with vivid red hair and ember-glow eyes (image 6, Zara) sending a controlled arc of fire toward a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1), the wind-weaver girl raising her hands to deflect it with a gust of air, the elements clashing in a burst of sparks and wind, Zara's expression amused and competitive, Lyra's expression strained, volcanic rock and heat shimmer, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire whoosh and wind blast clashing, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> The Scorch Ring inside a volcanic caldera, (Zara @image 6) sending a controlled arc of fire toward (Lyra @image 1), (Lyra @image 1) raising her hands to deflect it with a gust of air, the elements clashing in a burst of sparks and wind, Zara's expression amused and competitive, Lyra's expression strained, volcanic rock and heat shimmer, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire whoosh and wind blast clashing, no music, sound effects only
 
 **Voiceover:** "She threw fire. I pushed it back. For about three seconds."
 **Text overlay:** *For about three seconds.*
@@ -70,7 +70,7 @@ He doesn't appear until the end. When we see him, he's carrying stones in the Br
 ### Clip 3 — WATER + EARTH TRAINING (0:24-0:36) 🔗 Multi (2 cuts, montage)
 
 **R2V prompt:**
-> The Drown Pit — a sunken stone arena with waterfalls cascading down stone walls, a tide-caller man with dark skin and bioluminescent teal eyes (image 5, Caspian) standing in still water, water flowing around his hands with calm control, mist rising, blue-teal light — CUT TO — the Break Yard at ground level, mud and rock and dust, an earth-shaper man with dark hair and stone-grey eyes (image 3, Ronan) carrying a heavy stone block on his shoulder, jaw set, not using his power, just labor, other Earth-shapers doing the same around him, grim and squalid, no platforms, no shade, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water flowing then stone scraping, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> The Drown Pit — a sunken stone arena with waterfalls cascading down stone walls, (Caspian @image 5) standing in still water, water flowing around his hands with calm control, mist rising, blue-teal light — CUT TO — the Break Yard at ground level, mud and rock and dust, (Ronan @image 3) carrying a heavy stone block on his shoulder, jaw set, not using his power, just labor, other Earth-shapers doing the same around him, grim and squalid, no platforms, no shade, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water flowing then stone scraping, no music, sound effects only
 
 **Voiceover:** "Water was calm. Controlled. Earth was... just labor. They don't train Earth-shapers. They use them."
 **Text overlay:** *They use them.*
@@ -84,7 +84,7 @@ He doesn't appear until the end. When we see him, he's carrying stones in the Br
 ### Clip 4 — RONAN ALONE (0:36-0:48) ⭐ Solo (key emotional beat)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3, Ronan) alone in the Break Yard at ground level, carrying a heavy stone block, his jaw set, sweat on his brow, not using his power — just his body, other Earth-shapers working around him but he's alone in the way he holds himself, isolated even in a crowd, mud and dust and harsh light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) alone in the Break Yard at ground level, carrying a heavy stone block, his jaw set, sweat on his brow, not using his power — just his body, other Earth-shapers working around him but he's alone in the way he holds himself, isolated even in a crowd, mud and dust and harsh light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "Ronan was at the bottom. Carrying stones. Not shaping the earth. Just... carrying them. Like he wasn't born to move mountains."
 **Text overlay:** *Like he wasn't born to move mountains.*
@@ -96,7 +96,7 @@ He doesn't appear until the end. When we see him, he's carrying stones in the Br
 ### Clip 5 — LOOKING DOWN + ZARA'S LOOK (0:48-1:00) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing on an elevated platform looking down at the Break Yard far below, her hand on the railing, her expression tight with something between anger and grief, wind catching her hair — CUT TO — a flame-kissed woman with vivid red hair and ember-glow eyes (image 6, Zara) standing nearby on the same platform, watching the wind-weaver girl look down at the Break Yard, her expression unreadable but calculating, not cruel — assessing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) standing on an elevated platform looking down at the Break Yard far below, her hand on the railing, her expression tight with something between anger and grief, wind catching her hair — CUT TO — (Zara @image 6) standing nearby on the same platform, watching (Lyra @image 1) look down at the Break Yard, her expression unreadable but calculating, not cruel — assessing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "I looked down. Zara watched me looking. She didn't say anything. Just... watched."
 **Text overlay:** *Just watched.*
@@ -110,7 +110,7 @@ He doesn't appear until the end. When we see him, he's carrying stones in the Br
 ### Clip 6 — THE DESCENT (1:00-1:12) ⭐ Solo (episode end)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) descending stone steps from the elevated Wind-weaver platform down toward the lower levels of the camp, her jaw set, wind picking up slightly around her as she goes lower, passing from bright light into shadow, moving with purpose toward the Break Yard, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) descending stone steps from the elevated Wind-weaver platform down toward the lower levels of the camp, her jaw set, wind picking up slightly around her as she goes lower, passing from bright light into shadow, moving with purpose toward the Break Yard, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "They told me the top was where I belonged. So why was I always looking down?"
 **Text overlay:** *Why was I always looking down?*

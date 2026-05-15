@@ -8,12 +8,12 @@
 
 ---
 
-## SCREEN POSITION RULES (all clips)
+## POSITIONING RULES (all clips)
 
 - **Ronan = LEFT side** (grounded, steady, stays put)
 - **Lyra = RIGHT side** (POV character, we see her reactions)
 - **When across a fire:** Ronan LEFT, Lyra RIGHT
-- **Reference format:** Use `(image X — Name)` not full physical descriptions — the image reference handles appearance
+- **Reference format:** Use `(Name @image X)` not full physical descriptions — the image reference handles appearance
 
 ---
 
@@ -66,7 +66,7 @@ Warm. Normal. A memory of home. Golden hour. Don't over-explain.
 ### Clip 1 — THE MEMORY (0:00-0:12) ⭐ Solo (warm flashback, needs own generation)
 
 **Prompt (Veo 3.1 or Sora 2 — warm golden flashback, different visual style):**
-> A warm memory — (image 1 — Lyra) laughing with a kind woman in a kitchen doorway, two identical red-headed boys running through a grassy yard, golden hour light, safe and happy, everything warm and soft, home — CUT TO — two young women who look almost like mirror images in a dim room, (image 1 — Lyra) on the RIGHT looking tired and worried, and (image 4 — Sera) on the LEFT standing apart by the window with arms crossed and an unreadable cold expression, two small red-headed boys asleep on the bed between them, candlelight, the warmth of the memory replaced by cold reality, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, warm children laughing fading to cold silence, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> A warm memory — (Lyra @image 1) laughing with a kind woman in a kitchen doorway, two identical red-headed boys running through a grassy yard, golden hour light, safe and happy, everything warm and soft, home — CUT TO — two young women who look almost like mirror images in a dim room, (Lyra @image 1) on the RIGHT looking tired and worried, and (Sera @image 4) on the LEFT standing apart by the window with arms crossed and an unreadable cold expression, two small red-headed boys asleep on the bed between them, candlelight, the warmth of the memory replaced by cold reality, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, warm children laughing fading to cold silence, no music, sound effects only
 
 **Voiceover:** "Before all this... we were happy. Sera. My twin. Same face. Different everything else."
 **Text overlay:** *Different everything else.*
@@ -80,7 +80,7 @@ Warm. Normal. A memory of home. Golden hour. Don't over-explain.
 ### Clip 2 — SERA'S LOOK + THE HALLWAY (0:12-0:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> Close-up of (image 4 — Sera) in shadow on the LEFT side of frame, watching something off-screen with a flat unreadable expression, not scared, not sad, just observing, moonlight on half her face, something hard behind her eyes — CUT TO — (image 1 — Lyra) on the RIGHT side walking fast through a dark stone corridor at night, shivering, arms wrapped around herself against the cold, breath visible in the air, jaw set with determination, flickering torchlight on wet stone walls, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, a single low note then footsteps echoing, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Close-up of (Sera @image 4) in shadow on the LEFT side of frame, watching something off-screen with a flat unreadable expression, not scared, not sad, just observing, moonlight on half her face, something hard behind her eyes — CUT TO — (Lyra @image 1) on the RIGHT side walking fast through a dark stone corridor at night, shivering, arms wrapped around herself against the cold, breath visible in the air, jaw set with determination, flickering torchlight on wet stone walls, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, a single low note then footsteps echoing, no music, sound effects only
 
 **Voiceover:** "She never fit. Not here. Not anywhere. I went looking for him."
 **Text overlay:** *I went looking for him.*
@@ -92,7 +92,7 @@ Warm. Normal. A memory of home. Golden hour. Don't over-explain.
 ### Clip 3 — THE EARTH (0:24-0:36) ⭐ Solo (signature scene — Ronan's power revealed)
 
 **R2V prompt:**
-> (image 3 — Ronan) sitting alone on the LEFT side of frame outside at night in a jungle clearing, a small fire burning in front of him, his hands resting on the ground beside him, small stones and pebbles shifting and aligning near his fingers, roots gently curling and uncurling at his touch, the ground itself settling and breathing with him, his expression focused and calm, moonlight and firelight on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, stone shifting, roots creaking softly, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) sitting alone on the LEFT side of frame outside at night in a jungle clearing, a small fire burning in front of him, his hands resting on the ground beside him, small stones and pebbles shifting and aligning near his fingers, roots gently curling and uncurling at his touch, the ground itself settling and breathing with him, his expression focused and calm, moonlight and firelight on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, stone shifting, roots creaking softly, no music, sound effects only
 
 **Voiceover:** "The earth just... moved for him. Like it knew him."
 **Text overlay:** *Like it knew him.*
@@ -106,7 +106,7 @@ Warm. Normal. A memory of home. Golden hour. Don't over-explain.
 ### Clip 4 — THE SIT + THE QUESTION (0:36-0:48) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (image 1 — Lyra) on the RIGHT sitting down across a small fire from (image 3 — Ronan) on the LEFT in a jungle clearing at night, she's hugging her knees, he's not looking at her, just staring at the fire, the space between them charged but quiet, moonlight and firelight — CUT TO — (image 1 — Lyra) on the RIGHT leaning forward with intensity, speaking directly to him with worry and determination, saying "I need to know if you're going to help me get my family back," (image 3 — Ronan) on the LEFT still not looking at her but his jaw has tightened like he's listening, firelight between them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crackling, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) on the RIGHT sitting down across a small fire from (Ronan @image 3) on the LEFT in a jungle clearing at night, she's hugging her knees, he's not looking at her, just staring at the fire, the space between them charged but quiet, moonlight and firelight — CUT TO — (Lyra @image 1) on the RIGHT leaning forward with intensity, speaking directly to him with worry and determination, saying "I need to know if you're going to help me get my family back," (Ronan @image 3) on the LEFT still not looking at her but his jaw has tightened like he's listening, firelight between them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crackling, no music, sound effects only
 
 **Voiceover:** "I didn't know what to say. He didn't seem to care. So I asked him straight. 'I need to know if you're going to help me get my family back.'"
 **Text overlay:** *Help me get them back.*
@@ -118,7 +118,7 @@ Warm. Normal. A memory of home. Golden hour. Don't over-explain.
 ### Clip 5 — THE CONFRONTATION + CHIN GRAB (0:48-1:00) ⭐ Solo (key emotional beat — Lyra pushes, Ronan reacts)
 
 **R2V prompt:**
-> (image 3 — Ronan) on the LEFT standing up from the fire abruptly and walking toward (image 1 — Lyra) on the RIGHT, his expression hard and unreadable, fire flaring behind him as he moves, he reaches out and grips her chin firmly, tilting her face up to look at him, his eyes locked on hers with quiet intensity, she's looking up at him startled and wide-eyed, firelight casting harsh shadows on his face, the ground beneath them trembling slightly with his emotion, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) on the LEFT standing up from the fire abruptly and walking toward (Lyra @image 1) on the RIGHT, his expression hard and unreadable, fire flaring behind him as he moves, he reaches out and grips her chin firmly, tilting her face up to look at him, his eyes locked on hers with quiet intensity, she's looking up at him startled and wide-eyed, firelight casting harsh shadows on his face, the ground beneath them trembling slightly with his emotion, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "He walked over. Grabbed my chin. Made me look at him."
 **Text overlay:** *Made me look at him.*
@@ -132,7 +132,7 @@ Warm. Normal. A memory of home. Golden hour. Don't over-explain.
 ### Clip 6 — THE PUSHBACK (1:00-1:12) ⭐ Solo (Ronan speaks — suspicion)
 
 **R2V prompt:**
-> (image 3 — Ronan) on the LEFT still gripping (image 1 — Lyra's) chin, his expression shifts from intense to something harder and more guarded, he releases her chin and steps back half a pace, his jaw tight, eyes searching her face like he's reading her motives, speaking with quiet suspicion, she looks back at him on the RIGHT without flinching, firelight on both their faces, the space between them tense, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) on the LEFT still gripping (Lyra @image 1)'s chin, his expression shifts from intense to something harder and more guarded, he releases her chin and steps back half a pace, his jaw tight, eyes searching her face like he's reading her motives, speaking with quiet suspicion, she looks back at him on the RIGHT without flinching, firelight on both their faces, the space between them tense, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover (Ronan's line):** "You think I don't know what you're doing."
 **Text overlay:** *You think I don't know what you're doing.*
@@ -146,7 +146,7 @@ Warm. Normal. A memory of home. Golden hour. Don't over-explain.
 ### Clip 7 — THE PROMISE (1:12-1:24) ⭐ Solo (episode end — Ronan sets up camp and speaks)
 
 **R2V prompt:**
-> (image 3 — Ronan) on the LEFT moving large flat stones around a campfire in a jungle clearing at night, arranging them into a windbreak and seating area with practiced efficiency, the stones shifting and sliding into place at his touch without him having to carry them, the ground leveling itself where he gestures, (image 1 — Lyra) on the RIGHT watching him from across the fire with wide hopeful eyes, he finishes and sits down on one of the stones opposite her, jaw tight, not looking at her, then slowly raises his eyes to meet hers and speaks with quiet reluctance, firelight and moonlight on both their faces, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, stones grinding into place, then silence, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) on the LEFT moving large flat stones around a campfire in a jungle clearing at night, arranging them into a windbreak and seating area with practiced efficiency, the stones shifting and sliding into place at his touch without him having to carry them, the ground leveling itself where he gestures, (Lyra @image 1) on the RIGHT watching him from across the fire with wide hopeful eyes, he finishes and sits down on one of the stones opposite her, jaw tight, not looking at her, then slowly raises his eyes to meet hers and speaks with quiet reluctance, firelight and moonlight on both their faces, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, stones grinding into place, then silence, no music, sound effects only
 
 **Voiceover (Ronan's line):** "I won't let anything happen to them."
 **Text overlay:** *I won't let anything happen to them.*

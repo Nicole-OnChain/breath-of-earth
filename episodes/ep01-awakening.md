@@ -73,7 +73,7 @@ Generate in Venice Studio **Image** tab, then save to **Library**. Download copi
 ### Clip 1 — SCENES 1→2→3: Party → Cornered → Panic (0:00-0:22)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) stands awkwardly at a crowded college party, clutching a red cup, looking uncomfortable and out of place, warm golden lighting with blurred laughing figures — CUT TO — a dark-haired figure steps close to the wind-weaver girl (image 1), leaning over her with one arm braced on the wall beside her head, caging her in, she shrinks back against the wall, her expression shifting from uneasy to afraid, tight over-the-shoulder framing, dark warm lighting — CUT TO — extreme close-up of the same wind-weaver girl's wide startled eyes, shallow depth of field, fear and defiance mixed, heartbeat rising, dramatic shadows, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, muffled party bass, heartbeat rising, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) stands awkwardly at a crowded college party, clutching a red cup, looking uncomfortable and out of place, warm golden lighting with blurred laughing figures — CUT TO — a dark-haired figure steps close to the wind-weaver girl (image 1), leaning over her with one arm braced on the wall beside her head, caging her in, she shrinks back against the wall, her expression shifting from uneasy to afraid, tight over-the-shoulder framing, dark warm lighting — CUT TO — extreme close-up of the same wind-weaver girl's wide startled eyes, shallow depth of field, fear and defiance mixed, heartbeat rising, dramatic shadows, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, muffled party bass, heartbeat rising, no music, sound effects only
 
 **Voiceover:** "I didn't want to be there. He saw that I didn't belong. But I didn't belong anywhere."
 **Text overlays:** *I didn't want to be there.* → *"You don't belong here."* → *But I didn't belong anywhere.*
@@ -85,7 +85,7 @@ Generate in Venice Studio **Image** tab, then save to **Library**. Download copi
 ### Clip 2 — SCENE 4: The Eruption (0:22-0:32) ⚡ BIGGEST SCENE
 
 **Prompt (Sora 2 or Kling — NOT R2V, no character ref needed for chaos):**
-> Dynamic wide shot, wind explosion erupting from a wind-weaver girl at a party, drinks flying off tables, streamers and decorations swirling violently in the air, her hair whipping wildly, people staggering back in shock and fear, her hands raised instinctively, chaotic energy, dramatic lighting, wind howling, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Dynamic wide shot, wind explosion erupting from a wind-weaver girl at a party, drinks flying off tables, streamers and decorations swirling violently in the air, her hair whipping wildly, people staggering back in shock and fear, her hands raised instinctively, chaotic energy, dramatic lighting, wind howling, no music, sound effects only
 
 **Voiceover:** "And then—"
 **Text overlay:** *And then—*
@@ -98,7 +98,7 @@ Generate in Venice Studio **Image** tab, then save to **Library**. Download copi
 ### Clip 3 — SCENES 5→6: The Shadow → The Intervention (0:32-0:48)
 
 **R2V prompt:**
-> A tall broad-shouldered muscular man (image 3) stands in a doorway backlit so his face is in shadow, imposing and powerful, party chaos blurred behind him, he steps forward slowly, low-angle shot, dramatic moody lighting — CUT TO — over-the-shoulder from behind the same earth-shaper man (image 3) as he steps between a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) and a smaller man, his broad shoulders filling the frame, the smaller man shrinking back intimidated, no words exchanged, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> A tall broad-shouldered muscular man (image 3) stands in a doorway backlit so his face is in shadow, imposing and powerful, party chaos blurred behind him, he steps forward slowly, low-angle shot, dramatic moody lighting — CUT TO — over-the-shoulder from behind (Ronan) (image 3) as he steps between (Lyra @image 1) and a smaller man, his broad shoulders filling the frame, the smaller man shrinking back intimidated, no words exchanged, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps, no music, sound effects only
 
 **Voiceover:** "He appeared. No words. No questions."
 **Text overlays:** *He appeared.* → *No words. No questions.*
@@ -110,7 +110,7 @@ Generate in Venice Studio **Image** tab, then save to **Library**. Download copi
 ### Clip 4 — SCENE 7: The Touch (0:48-0:55) ⭐ KEY BEAT
 
 **R2V prompt:**
-> Close-up of a large earth-shaper hand placed gently on the wind-weaver girl's back (image 1 front), sparks of light flickering at the point of contact, her expression shifting from shock to wonder, warm golden light emanating from where they touch, romantic cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Close-up of a large earth-shaper hand placed gently on the wind-weaver girl's back (image 1 front), sparks of light flickering at the point of contact, her expression shifting from shock to wonder, warm golden light emanating from where they touch, romantic cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, no music, sound effects only
 
 **Voiceover:** "Just his hand on my back."
 **Text overlay:** *Just his hand on my back.*
@@ -123,7 +123,7 @@ Generate in Venice Studio **Image** tab, then save to **Library**. Download copi
 ### Clip 5 — SCENES 8→9: The Departure → The Hook (0:55-1:20)
 
 **R2V prompt:**
-> Two silhouettes walking away from a party into the dark night, a tall broad-shouldered man (image 3) and a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1 back) following slightly behind, distant streetlights, cool night air, wind gently moving her hair, silence between them — CUT TO — close-up portrait of the same wind-weaver girl (image 1) in darkness, wind still slightly moving her hair, wide eyes processing what just happened, soft moonlight illuminating half her face, the other half in shadow, vulnerable and determined expression, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps then ambient wind, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Two silhouettes walking away from a party into the dark night, a tall broad-shouldered man (image 3) and (Lyra @image 1) following slightly behind, distant streetlights, cool night air, wind gently moving her hair, silence between them — CUT TO — close-up portrait of (Lyra @image 1) in darkness, wind still slightly moving her hair, wide eyes processing what just happened, soft moonlight illuminating half her face, the other half in shadow, vulnerable and determined expression, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps then ambient wind, no music, sound effects only
 
 **Voiceover:** "He didn't look back. Didn't need to. I didn't know his name. I didn't know what he was. I just knew — wherever he was taking me, I was already following."
 **Text overlays:** *He didn't look back.* → *I was already following.*

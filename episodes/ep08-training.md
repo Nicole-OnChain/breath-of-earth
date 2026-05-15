@@ -44,7 +44,7 @@ He finds her at night. Practicing alone. He tries to walk past. His hand moves t
 ### Clip 1 — SCORCH RING TRAINING + WIND BLAST (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> The Scorch Ring inside a volcanic caldera, a flame-kissed woman with vivid red hair and ember-glow eyes (image 6, Zara) sending arcs of controlled fire across the arena while a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) dodges and raises her hands to push back with wind, Zara's expression confident and amused, Lyra's expression determined but struggling, heat shimmer and sparks — CUT TO — close-up of the wind-weaver girl's hands raised, wind erupting from her palms in a blast, debris swirling, a supervisor figure knocked backward off-screen, the wind stronger than she intended, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crackling then wind blast, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> The Scorch Ring inside a volcanic caldera, (Zara @image 6) sending arcs of controlled fire across the arena while (Lyra @image 1) dodges and raises her hands to push back with wind, Zara's expression confident and amused, Lyra's expression determined but struggling, heat shimmer and sparks — CUT TO — close-up of Lyra's hands raised, wind erupting from her palms in a blast, debris swirling, a supervisor figure knocked backward off-screen, the wind stronger than she intended, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crackling then wind blast, no music, sound effects only
 
 **Voiceover:** "Zara didn't go easy on me. Fire met wind. She was better. I pushed harder."
 **Text overlay:** *She was better.*
@@ -56,7 +56,7 @@ He finds her at night. Practicing alone. He tries to walk past. His hand moves t
 ### Clip 2 — ZARA'S FIRE + CASPIAN'S WATER (0:12-0:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> The Scorch Ring inside a volcanic caldera, a flame-kissed woman with vivid red hair and ember-glow eyes (image 6, Zara) smirking as she sends another arc of fire toward the wind-weaver girl (image 1), competitive and skilled, fire swirling around her hands — CUT TO — a tide-caller man with dark skin and bioluminescent teal eyes (image 5, Caspian) stepping between them smoothly, water rising from a nearby pool and creating a wall of mist and spray that separates fire from wind, his expression calm and perceptive, not taking sides, just stopping it, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> The Scorch Ring inside a volcanic caldera, (Zara @image 6) smirking as she sends another arc of fire toward (Lyra @image 1), competitive and skilled, fire swirling around her hands — CUT TO — (Caspian @image 5) stepping between them smoothly, water rising from a nearby pool and creating a wall of mist and spray that separates fire from wind, his expression calm and perceptive, not taking sides, just stopping it, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "Our elements clashed. Then Caspian stepped in. Water between fire and wind. He didn't take sides. He just stopped it."
 **Text overlay:** *He just stopped it.*
@@ -68,7 +68,7 @@ He finds her at night. Practicing alone. He tries to walk past. His hand moves t
 ### Clip 3 — NIGHT ALONE (0:24-0:36) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> The Scorch Ring inside a volcanic caldera at night, dark but still warm with residual heat, a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) practicing alone, wind swirling unsteadily around her hands, her expression frustrated, faint embers glowing in the volcanic rock, moonlight and ember glow — CUT TO — an earth-shaper man with dark hair and stone-grey eyes (image 3, Ronan) walking through the edge of the Scorch Ring at night, passing through on his way somewhere, not looking at her, jaw set, volcanic rock and shadows, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> The Scorch Ring inside a volcanic caldera at night, dark but still warm with residual heat, (Lyra @image 1) practicing alone, wind swirling unsteadily around her hands, her expression frustrated, faint embers glowing in the volcanic rock, moonlight and ember glow — CUT TO — (Ronan @image 3) walking through the edge of the Scorch Ring at night, passing through on his way somewhere, not looking at her, jaw set, volcanic rock and shadows, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "That night I practiced alone. The wind wasn't listening. And then he was there."
 **Text overlay:** *And then he was there.*
@@ -80,7 +80,7 @@ He finds her at night. Practicing alone. He tries to walk past. His hand moves t
 ### Clip 4 — THE ALMOST (0:36-0:48) ⭐ Solo (key emotional beat — most intimate moment)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3, Ronan) and a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing close in the Scorch Ring at night, faint embers glowing, his hand slowly rising toward her face, almost touching her cheek, his fingers inches away, both of them frozen, his expression unreadable but his eyes intense, her lips slightly parted, moonlight and ember glow on their faces, the moment stretching, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) and (Lyra @image 1) standing close in the Scorch Ring at night, faint embers glowing, his hand slowly rising toward her face, almost touching her cheek, his fingers inches away, both of them frozen, his expression unreadable but his eyes intense, her lips slightly parted, moonlight and ember glow on their faces, the moment stretching, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "He tried to walk past. His hand moved. Not on purpose. Like his body made a choice. And for one second—"
 **Text overlay:** *For one second—*
@@ -94,7 +94,7 @@ He finds her at night. Practicing alone. He tries to walk past. His hand moves t
 ### Clip 5 — THE WALL (0:48-1:00) ⭐ Solo (key moment — Ronan's armor slams shut)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3, Ronan) yanking his hand back from beside the wind-weaver girl's face (image 1), his expression slamming shut, cold and guarded, and a rock wall rising from the volcanic floor between them, rough and fast, separating them completely, he's already turning away on the other side, the wall between them solid and final, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) yanking his hand back from beside (Lyra @image 1)'s face, his expression slamming shut, cold and guarded, and a rock wall rising from the volcanic floor between them, rough and fast, separating them completely, he's already turning away on the other side, the wall between them solid and final, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "And then his wall came up. Literally. Rock between us like it was nothing."
 **Text overlay:** *Like it was nothing.*
@@ -108,7 +108,7 @@ He finds her at night. Practicing alone. He tries to walk past. His hand moves t
 ### Clip 6 — ALONE (1:00-1:12) ⭐ Solo (episode end)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing alone in the Scorch Ring at night, a rough rock wall in front of her, faint embers glowing in the volcanic rock, wind barely moving around her — not strong, not controlled, just there, like it's waiting, her expression complicated — not sad, not angry, just processing, moonlight on her face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) standing alone in the Scorch Ring at night, a rough rock wall in front of her, faint embers glowing in the volcanic rock, wind barely moving around her — not strong, not controlled, just there, like it's waiting, her expression complicated — not sad, not angry, just processing, moonlight on her face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "I stood there. The wind barely moved. I didn't know if I was waiting for him. Or for it to mean something."
 **Text overlay:** *I didn't know if I was waiting.*

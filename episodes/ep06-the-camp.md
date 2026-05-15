@@ -67,7 +67,7 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 ### Clip 1 — ALONE + CASPIAN (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing alone in a jungle camp, looking lost and out of place, other people walking past her in colorful Flame-kissed red-gold and Tide-caller blue-teal clothing, nobody looking at her, morning light — CUT TO — a tide-caller man with dark skin and bioluminescent teal eyes (image 5, Caspian) walking up to the same wind-weaver girl (image 1), his expression perceptive and direct, not smiling, not threatening, just assessing her, standing closer than comfortable, morning light on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, camp ambience then camp noise fading as he approaches, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) standing alone in a jungle camp, looking lost and out of place, other people walking past her in colorful Flame-kissed red-gold and Tide-caller blue-teal clothing, nobody looking at her, morning light — CUT TO — (Caspian @image 5) walking up to (Lyra @image 1), his expression perceptive and direct, not smiling, not threatening, just assessing her, standing closer than comfortable, morning light on his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, camp ambience then camp noise fading as he approaches, no music, sound effects only
 
 **Voiceover:** "He left me standing there. No directions. No name. Nothing. Someone walked up. Didn't ask if I was lost. Just looked at me like he already knew the answer."
 **Text overlay:** *Like he already knew.*
@@ -79,7 +79,7 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 ### Clip 2 — THE QUESTION + THE CAMP TOUR (0:12-0:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> Close-up of a tide-caller man with dark skin and bioluminescent teal eyes (image 5, Caspian) looking directly at camera with a blunt perceptive expression, one eyebrow slightly raised, like he's reading her, not smiling, morning light on his face — CUT TO — the same tide-caller man (image 5) walking beside the wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) through the jungle camp, pointing at different areas, she's looking around wide-eyed, he's explaining something with a flat expression, passing people in colorful clothing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Close-up of (Caspian @image 5) looking directly at camera with a blunt perceptive expression, one eyebrow slightly raised, like he's reading her, not smiling, morning light on his face — CUT TO — (Caspian @image 5) walking beside (Lyra @image 1) through the jungle camp, pointing at different areas, she's looking around wide-eyed, he's explaining something with a flat expression, passing people in colorful clothing, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "He said one thing. 'Wind-weaver?' Like he could smell it on me. He showed me around. Didn't offer his name. Didn't ask mine. Just walked. Just talked."
 **Text overlay:** *Just walked. Just talked.*
@@ -91,7 +91,7 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 ### Clip 3 — THE HIERARCHY + THE REALIZATION (0:24-0:36) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) looking up at an elevated platform in the jungle canopy with white-silver banners blowing gently, Wind-weaver symbols, bright and open, then looking down at the ground level where workers in brown and green are carrying supplies, the contrast visible — CUT TO — close-up of the same wind-weaver girl (image 1) with a slow dawning realization on her face, her eyes widening slightly, the color draining from her expression, she's understanding something terrible, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) looking up at an elevated platform in the jungle canopy with white-silver banners blowing gently, Wind-weaver symbols, bright and open, then looking down at the ground level where workers in brown and green are carrying supplies, the contrast visible — CUT TO — close-up of (Lyra @image 1) with a slow dawning realization on her face, her eyes widening slightly, the color draining from her expression, she's understanding something terrible, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "Wind at the top. Fire second. Water third. Earth at the bottom. That's how it works here. Where they put the people who move rocks. Where they put—"
 **Text overlay:** *Earth at the bottom.*
@@ -103,7 +103,7 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 ### Clip 4 — ZARA (0:36-0:48) ⭐ Solo (key moment — Zara arrives, claims Lyra)
 
 **R2V prompt:**
-> A flame-kissed woman with vivid red hair and ember-glow eyes (image 6, Zara) walking up between a tide-caller man with dark skin and bioluminescent teal eyes (image 5, Caspian) and a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1), Zara places a hand on Lyra's shoulder possessively and looks at Caspian with a knowing smirk, Caspian's jaw tightens, his eyes flick to Zara with something between irritation and history, the look passing between them like electricity, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Zara @image 6) walking up between (Caspian @image 5) and (Lyra @image 1), Zara places a hand on Lyra's shoulder possessively and looks at Caspian with a knowing smirk, Caspian's jaw tightens, his eyes flick to Zara with something between irritation and history, the look passing between them like electricity, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "Then she appeared. Put her hand on my shoulder like she'd been watching. Looked at him like they had history."
 **Text overlay:** *Like they had history.*
@@ -117,7 +117,7 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 ### Clip 5 — THE INVITATION + THE LOOK DOWN (0:48-1:00) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A flame-kissed woman with vivid red hair and ember-glow eyes (image 6, Zara) guiding a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) away from a tide-caller man with dark skin and bioluminescent teal eyes (image 5, Caspian) and toward an elevated platform with white-silver banners, Zara's arm around Lyra's shoulders, warm and possessive, Caspian watching them go with a tight expression — CUT TO — the same wind-weaver girl (image 1) turning her head to look down from the elevated platform at the ground level, where an earth-shaper man with dark hair and stone-grey eyes (image 3, Ronan) is carrying heavy stones with other Earth-shapers, his jaw set, not looking up, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Zara @image 6) guiding (Lyra @image 1) away from (Caspian @image 5) and toward an elevated platform with white-silver banners, Zara's arm around Lyra's shoulders, warm and possessive, Caspian watching them go with a tight expression — CUT TO — (Lyra @image 1) turning her head to look down from the elevated platform at the ground level, where (Ronan @image 3) is carrying heavy stones with other Earth-shapers, his jaw set, not looking up, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "'You're a Wind-weaver. You belong up there.' She glanced back at him. 'Not down here with them.' I looked down. He was already working. Carrying stones. Like he'd never held me at all."
 **Text overlay:** *Like he'd never held me at all.*
@@ -129,7 +129,7 @@ First appearance. She doesn't just welcome Lyra — she claims her. Pulls her aw
 ### Clip 6 — THE TOP (1:00-1:12) ⭐ Solo (episode end)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing on an elevated Wind-weaver platform looking down at the camp below, wind catching her hair, she looks like she belongs up here — but her expression says she doesn't feel it, morning light, white-silver banners, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) standing on an elevated Wind-weaver platform looking down at the camp below, wind catching her hair, she looks like she belongs up here — but her expression says she doesn't feel it, morning light, white-silver banners, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "They told me I was at the top. It felt like falling."
 **Text overlay:** *It felt like falling.*

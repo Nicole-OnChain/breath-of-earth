@@ -1,4 +1,4 @@
-# Breath of Earth — Episode 9: "The Triangle"
+# Breath of Earth — Episode 9: "The Choice"
 **Version:** 2.0 (6 clips × 12s, multi-scene format)
 **Duration target:** 72+ seconds (6 clips × 12s)
 **Video clips:** 6 (12 seconds each)
@@ -30,13 +30,13 @@ She stops Lyra from going after Ronan. "You'll make it worse." Not cruel. Realis
 ## ADDITIONAL BACKDROPS (Generate in Image Tab)
 
 **The Scorch Ring — enforcers approaching Lyra:**
-> The Scorch Ring inside a volcanic caldera, two stern enforcers in dark uniforms striding toward a wind-weaver girl with silver-blonde hair and pale luminous skin standing alone at the center of the arena, other trainees stepping back, tense atmosphere, golden hour light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
+> The Scorch Ring inside a volcanic caldera, two stern enforcers in dark uniforms striding toward (Lyra @image 1) standing alone at the center of the arena, other trainees stepping back, tense atmosphere, golden hour light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 **The Scorch Ring — rock wall erupting:**
-> The Scorch Ring inside a volcanic caldera, a wall of rock and stone erupting from the floor of the arena between a wind-weaver girl with silver-blonde hair and pale luminous skin and two stern enforcers, the ground cracked and shifted, debris flying, everyone in the arena looking DOWN toward the Break Yard far below, shock and confusion on their faces, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
+> The Scorch Ring inside a volcanic caldera, a wall of rock and stone erupting from the floor of the arena between (Lyra @image 1) and two stern enforcers, the ground cracked and shifted, debris flying, everyone in the arena looking DOWN toward the Break Yard far below, shock and confusion on their faces, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 **The Break Yard — enforcers taking Ronan:**
-> The Break Yard at ground level, mud and rock and dust, an earth-shaper man with dark hair and stone-grey eyes being held by the arms by two stern enforcers in dark uniforms, his hands bound behind his back, other Earth-shapers watching in silence with their heads lowered, harsh morning light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
+> The Break Yard at ground level, mud and rock and dust, (Ronan @image 3) being held by the arms by two stern enforcers in dark uniforms, his hands bound behind his back, other Earth-shapers watching in silence with their heads lowered, harsh morning light, cinematic fantasy illustration — painterly, atmospheric fog and volumetric light, jewel-tone palette, 9:16 vertical
 
 ---
 
@@ -47,7 +47,7 @@ She stops Lyra from going after Ronan. "You'll make it worse." Not cruel. Realis
 ### Clip 1 — THEY COME FOR HER + THE GRAB (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> Two stern enforcers in dark military-style uniforms striding across the Scorch Ring inside a volcanic caldera toward a wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing alone at the center of the arena, their faces hard and purposeful, other trainees stepping back and watching silently, the enforcers' hands outstretched toward her — CUT TO — close-up of an enforcer's hand gripping the wind-weaver girl's arm tightly, her face flashing from fear to anger, the enforcer's expression cold and efficient, dragging her toward the edge of the Scorch Ring, volcanic rock and heat around them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Two stern enforcers in dark military-style uniforms striding across the Scorch Ring inside a volcanic caldera toward (Lyra @image 1) standing alone at the center of the arena, their faces hard and purposeful, other trainees stepping back and watching silently, the enforcers' hands outstretched toward her — CUT TO — close-up of an enforcer's hand gripping the wind-weaver girl's arm tightly, her face flashing from fear to anger, the enforcer's expression cold and efficient, dragging her toward the edge of the Scorch Ring, volcanic rock and heat around them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "They came for me. Like I knew they would. They grabbed my arm. Hard. Different uniform. Same message."
 **Text overlay:** *Same message.*
@@ -59,21 +59,21 @@ She stops Lyra from going after Ronan. "You'll make it worse." Not cruel. Realis
 ### Clip 2 — THE GROUND MOVES (0:12-0:24) 💥 Solo (signature scene — earth physics)
 
 **Prompt (Sora 2 or Kling O3 — need earth physics, NOT R2V):**
-> A volcanic caldera training arena, the ground suddenly SHAKES and CRACKS, a wall of rock and stone ERUPTS from the floor between a wind-weaver girl with silver-blonde hair and pale luminous skin and two enforcers grabbing her arm, the rock wall rises fast and rough, not polished — raw, powerful, protective, the floor splits and shifts under the enforcers' feet, debris flying, everyone in the arena staggering back in shock, all looking DOWN toward the Break Yard far below, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> A volcanic caldera training arena, the ground suddenly SHAKES and CRACKS, a wall of rock and stone ERUPTS from the floor between (Lyra @image 1) and two enforcers grabbing her arm, the rock wall rises fast and rough, not polished — raw, powerful, protective, the floor splits and shifts under the enforcers' feet, debris flying, everyone in the arena staggering back in shock, all looking DOWN toward the Break Yard far below, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "And then the ground moved."
 **Text overlay:** *The ground moved.*
 **Duration:** 12 seconds
 **Sound effect:** Deep earth RUMBLE, rock CRACKING and splitting, debris, shouts of shock
 
-**Tip:** This is the signature visual. The rock wall rises BETWEEN Lyra and the enforcers. Not at them. Not an attack. Just — enough to stop them. Raw, rough, powerful. Everyone feels it. Everyone knows where it came from.
+**Tip:** This is the signature visual. The rock wall rises BETWEEN Lyra and the enforcers. Not at them. Not an attack. Just — enough to stop them. Raw, rough, powerful. Everyone feels it. Everyone knows where it came from. This is Ronan's CHOICE — he felt it and he acted.
 
 ---
 
 ### Clip 3 — THE LOOK DOWN + HIM (0:24-0:36) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing in the Scorch Ring with a rough rock wall between her and the enforcers, looking DOWN through the gaps in the volcanic rock to the Break Yard far below, her expression shifting from shock to understanding — CUT TO — an earth-shaper man with dark hair and stone-grey eyes (image 3, Ronan) standing in the Break Yard far below, his hand still raised from where he moved the earth, his face blank and still, two enforcers already striding toward him across the mud, other Earth-shapers stepping back and watching in silence, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) standing in the Scorch Ring with a rough rock wall between her and the enforcers, looking DOWN through the gaps in the volcanic rock to the Break Yard far below, her expression shifting from shock to understanding — CUT TO — (Ronan @image 3) standing in the Break Yard far below, his hand still raised from where he moved the earth, his face blank and still, two enforcers already striding toward him across the mud, other Earth-shapers stepping back and watching in silence, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "I looked down. Through the cracks in the rock. And I saw him. He was down there. His hand still raised. He'd felt it — the ground carries everything. And he made a choice."
 **Text overlay:** *He made a choice.*
@@ -85,7 +85,7 @@ She stops Lyra from going after Ronan. "You'll make it worse." Not cruel. Realis
 ### Clip 4 — TAKEN + THE LOOK (0:36-0:48) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> An earth-shaper man with dark hair and stone-grey eyes (image 3, Ronan) being held by two enforcers in dark uniforms, his hands bound behind his back, his face blank and expressionless, not resisting, not looking at anyone, other Earth-shapers watching with their heads lowered, mud and rock of the Break Yard around them — CUT TO — the same earth-shaper man (image 3) being led away by enforcers through the Break Yard, and just for one moment — one beat — he turns his head and looks UP toward the Scorch Ring high above, his eyes finding the wind-weaver girl's through the gap in the volcanic rock, his expression unreadable but his eyes intense, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) being held by two enforcers in dark uniforms, his hands bound behind his back, his face blank and expressionless, not resisting, not looking at anyone, other Earth-shapers watching with their heads lowered, mud and rock of the Break Yard around them — CUT TO — (Ronan @image 3) being led away by enforcers through the Break Yard, and just for one moment — one beat — he turns his head and looks UP toward the Scorch Ring high above, his eyes finding the wind-weaver girl's through the gap in the volcanic rock, his expression unreadable but his eyes intense, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "They bound his hands. Like he was nothing. One look. That's all I got."
 **Text overlay:** *One look.*
@@ -99,7 +99,7 @@ She stops Lyra from going after Ronan. "You'll make it worse." Not cruel. Realis
 ### Clip 5 — ZARA (0:48-1:00) ⭐ Solo (key beat — Zara pulls Lyra back)
 
 **R2V prompt:**
-> A flame-kissed woman with vivid red hair and ember-glow eyes (image 6, Zara) gripping the wind-weaver girl's arm (image 1, Lyra) right in the Scorch Ring where the rock wall just erupted, Zara pulling her back from the edge, her expression serious and urgent, volcanic rock and debris around them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Zara @image 6) gripping the wind-weaver girl's arm (image 1, Lyra) right in the Scorch Ring where the rock wall just erupted, Zara pulling her back from the edge, her expression serious and urgent, volcanic rock and debris around them, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "Zara grabbed my arm. 'You go down there, you'll make it worse.'"
 **Text overlay:** *You'll make it worse.*
@@ -113,7 +113,7 @@ She stops Lyra from going after Ronan. "You'll make it worse." Not cruel. Realis
 ### Clip 6 — RESOLVE (1:00-1:12) ⭐ Solo (episode end — Lyra's resolve)
 
 **R2V prompt:**
-> A wind-weaver girl with silver-blonde hair and pale luminous skin (image 1) standing alone in the volcanic caldera at dusk, the rock wall still standing behind her, the arena empty, her jaw set, wind starting to swirl around her — not rage, a choice, golden hour light on volcanic rock, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) standing alone in the volcanic caldera at dusk, the rock wall still standing behind her, the arena empty, her jaw set, wind starting to swirl around her — not rage, a choice, golden hour light on volcanic rock, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "He saved me. They took him for it. I'm getting him back."
 **Text overlay:** *I'm getting him back.*

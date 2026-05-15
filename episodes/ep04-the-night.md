@@ -8,12 +8,12 @@
 
 ---
 
-## SCREEN POSITION RULES (all clips)
+## POSITIONING RULES (all clips)
 
 - **Ronan = LEFT side** (grounded, steady, stays put)
 - **Lyra = RIGHT side** (POV character, we see her reactions)
 - **When across a fire:** Ronan LEFT, Lyra RIGHT
-- **Reference format:** Use `(image X — Name)` not full physical descriptions — the image reference handles appearance
+- **Reference format:** Use `(Name @image X)` not full physical descriptions — the image reference handles appearance
 
 ---
 
@@ -49,7 +49,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 1 — THE AFTERMATH + THE COLD (0:00-0:12) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (image 1 — Lyra) lying on the ground on the RIGHT side of frame next to a dying campfire in a jungle clearing at night, wrapped in a thin blanket, shivering, eyes open staring at the dark sky, embers glowing faintly, (image 3 — Ronan) sitting on the LEFT side across the fire with his back to a tree, not looking at her, arms crossed — CUT TO — close-up of (image 1 — Lyra) shivering violently, her breath visible in the cold air, pulling the thin blanket tighter around herself, jaw clenched trying to stop her teeth from chattering, embers barely glowing, dark jungle surrounding, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, dying embers then shivering and cold wind, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) lying on the ground on the RIGHT side of frame next to a dying campfire in a jungle clearing at night, wrapped in a thin blanket, shivering, eyes open staring at the dark sky, embers glowing faintly, (Ronan @image 3) sitting on the LEFT side across the fire with his back to a tree, not looking at her, arms crossed — CUT TO — close-up of (Lyra @image 1) shivering violently, her breath visible in the cold air, pulling the thin blanket tighter around herself, jaw clenched trying to stop her teeth from chattering, embers barely glowing, dark jungle surrounding, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, dying embers then shivering and cold wind, no music, sound effects only
 
 **Voiceover:** "He made camp. Made a fire. Didn't say another word. I was freezing. And I wasn't going to ask."
 **Text overlay:** *I wasn't going to ask.*
@@ -61,7 +61,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 2 — THE LOOK + THE MOVE (0:12-0:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (image 3 — Ronan) sitting against a tree on the LEFT side of frame at night, arms crossed, his eyes open slightly, looking across the dying fire at (image 1 — Lyra) shivering on the ground on the RIGHT, his jaw tightening, frustration in his expression, like he's fighting something inside himself — CUT TO — (image 3 — Ronan) standing up abruptly, frustrated, striding around the dying campfire from LEFT toward RIGHT toward (image 1 — Lyra), his expression hard and annoyed, like he's doing something he doesn't want to do, firelight catching his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crack goes quiet then footsteps on leaves, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) sitting against a tree on the LEFT side of frame at night, arms crossed, his eyes open slightly, looking across the dying fire at (Lyra @image 1) shivering on the ground on the RIGHT, his jaw tightening, frustration in his expression, like he's fighting something inside himself — CUT TO — (Ronan @image 3) standing up abruptly, frustrated, striding around the dying campfire from LEFT toward RIGHT toward (Lyra @image 1), his expression hard and annoyed, like he's doing something he doesn't want to do, firelight catching his face, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire crack goes quiet then footsteps on leaves, no music, sound effects only
 
 **Voiceover:** "He saw. He got up. Crossed the fire. Like it was my fault he had to move."
 **Text overlay:** *Like it was my fault.*
@@ -73,7 +73,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 3 — THE WARMTH (0:24-0:36) ⭐ Solo (key emotional beat — most intimate moment)
 
 **R2V prompt:**
-> Camera angle: shot from the FRONT showing BOTH faces. (image 3 — Ronan) sitting on the ground on the LEFT behind (image 1 — Lyra) on the RIGHT, his back against a tree, her back against his chest, his HEAVY DARK JACKET is draped over her shoulders and wrapped around her torso covering her front, HIS arms are stiff at his sides OUTSIDE the jacket NOT wrapped around her, his jaw clenched tight with frustration, she is stiff with shock, neither comfortable, the jacket is clearly HIS — too big for her, dark and rough against her light clothing, dying embers and moonlight, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Camera angle: shot from the FRONT showing BOTH faces. (Ronan @image 3) sitting on the ground on the LEFT behind (Lyra @image 1) on the RIGHT, his back against a tree, her back against his chest, his HEAVY DARK JACKET is draped over her shoulders and wrapped around her torso covering her front, HIS arms are stiff at his sides OUTSIDE the jacket NOT wrapped around her, his jaw clenched tight with frustration, she is stiff with shock, neither comfortable, the jacket is clearly HIS — too big for her, dark and rough against her light clothing, dying embers and moonlight, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "He pulled me against him. Didn't ask. Just... did it. And his arms stayed stiff. Like he was mad at me for being cold."
 **Text overlay:** *Like he was mad at me for being cold.*
@@ -87,7 +87,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 4 — THE QUIET + THE SHIFT (0:36-0:48) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (image 1 — Lyra) on the RIGHT leaning back against the chest of (image 3 — Ronan) on the LEFT at night, both of them fully clothed, his arms stiff at his sides NOT wrapped around her, she's looking up at the stars through the canopy, neither of them speaking, the fire completely out now, just moonlight — CUT TO — close-up of (image 3 — Ronan) from behind (image 1 — Lyra), showing HIS LEFT ARM that was stiff at his side slowly relaxing and coming to rest ACROSS HER WAIST from behind, HIS HAND resting on her side near her stomach, his hand open palm-down NOT gripping, his face above and behind her head with eyes closed like he's half-asleep, the movement is subtle and involuntary like it happened in his sleep, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, soft rustle of fabric then breathing, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Lyra @image 1) on the RIGHT leaning back against the chest of (Ronan @image 3) on the LEFT at night, both of them fully clothed, his arms stiff at his sides NOT wrapped around her, she's looking up at the stars through the canopy, neither of them speaking, the fire completely out now, just moonlight — CUT TO — close-up of (Ronan @image 3) from behind (Lyra @image 1), showing HIS LEFT ARM that was stiff at his side slowly relaxing and coming to rest ACROSS HER WAIST from behind, HIS HAND resting on her side near her stomach, his hand open palm-down NOT gripping, his face above and behind her head with eyes closed like he's half-asleep, the movement is subtle and involuntary like it happened in his sleep, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, soft rustle of fabric then breathing, no music, sound effects only
 
 **Voiceover:** "Neither of us slept. At some point... his arm moved. I don't think he knew."
 **Text overlay:** *I don't think he knew.*
@@ -101,7 +101,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 5 — THE MORNING (0:48-1:12) ⭐ Extended (key emotional beat — his reaction, 24 seconds)
 
 **R2V prompt:**
-> Early dawn light, (image 1 — Lyra) on the RIGHT slowly waking up, opening her eyes, and seeing (image 3 — Ronan) on the LEFT already awake, sitting up against a tree, looking at her — HOLD on RONAN'S FACE for several seconds, his expression shifting microscopically from unreadable to something deeper, his jaw tightens, his eyes hold on her, dawn light on his face, then his expression SLAMS CLOSED like a door, he looks away sharply, stands up abruptly, the warmth gone — she's left sitting on the ground, dawn light on both their faces, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> Early dawn light, (Lyra @image 1) on the RIGHT slowly waking up, opening her eyes, and seeing (Ronan @image 3) on the LEFT already awake, sitting up against a tree, looking at her — HOLD on RONAN'S FACE for several seconds, his expression shifting microscopically from unreadable to something deeper, his jaw tightens, his eyes hold on her, dawn light on his face, then his expression SLAMS CLOSED like a door, he looks away sharply, stands up abruptly, the warmth gone — she's left sitting on the ground, dawn light on both their faces, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, no music, sound effects only
 
 **Voiceover:** "When I woke up, he was already looking at me. Not warm. Not cold. Just... seeing me. For the first time."
 **Text overlay:** *For the first time.*
@@ -115,7 +115,7 @@ The river crossing and the camp move to Episode 5.
 ### Clip 6 — THE WALL (1:12-1:24) 🔗 Multi (2 cuts)
 
 **R2V prompt:**
-> (image 3 — Ronan) on the LEFT standing up abruptly at dawn, his expression slamming shut cold, he turns and starts walking AWAY from camera down a jungle path — and simultaneously (image 1 — Lyra) on the RIGHT sitting on the ground watching him go, takes a step FORWARD toward him, then stops, dawn light on the jungle clearing — CUT TO — (image 3 — Ronan) walking AWAY FROM CAMERA down the jungle path, his back to us, his stride stiff and deliberate, while (image 1 — Lyra) stands and takes a few steps FORWARD after him, walking TOWARD camera, then stops and watches his retreating back, her expression a mix of frustration and wonder, dawn light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps walking away then footsteps following then stopping, NO MUSIC, ONLY SOUND EFFECTS, 9:16 vertical
+> (Ronan @image 3) on the LEFT standing up abruptly at dawn, his expression slamming shut cold, he turns and starts walking AWAY from camera down a jungle path — and simultaneously (Lyra @image 1) on the RIGHT sitting on the ground watching him go, takes a step FORWARD toward him, then stops, dawn light on the jungle clearing — CUT TO — (Ronan @image 3) walking AWAY FROM CAMERA down the jungle path, his back to us, his stride stiff and deliberate, while (Lyra @image 1) stands and takes a few steps FORWARD after him, walking TOWARD camera, then stops and watches his retreating back, her expression a mix of frustration and wonder, dawn light, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, footsteps walking away then footsteps following then stopping, no music, sound effects only
 
 **Voiceover:** "Then he stood up. Walked away. Like it never happened. I took a step after him. Then stopped."
 **Text overlay:** *Like it never happened.*
