@@ -111,8 +111,8 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 **R2V prompt:**
 > (Lyra @image 1) on the floor of the Wind tower room at night, collapsed against the cold stone wall below the window, knees pulled tight to her chest, both hands gripping her own arms, knuckles white, silver moonlight catching the tears on her face, her jaw clenched so hard it's shaking, eyes squeezed shut then open then shut again, her whole body rigid with trying not to scream, the room beautiful and empty around her — white-silver banners, no fire, no warmth, no one — cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind howling outside and near silence inside, no music, sound effects only
 
-**Voiceover:** "It felt like falling. Again. But this time no one was there to catch me. I had nothing. Except the nicest cage in the camp."
-**Text overlay:** *The nicest cage.*
+**Voiceover:** "It felt like falling. Again. But this time no one was there to catch me."
+**Text overlay:** *No one was there to catch me.*
 **Duration:** 12 seconds
 **Sound effect:** Wind howling outside. Near silence inside. Her breathing catching. A sound caught between a sob and trying to stop one. Then nothing.
 
@@ -122,7 +122,7 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 
 ## END CARD (1:12-1:17)
 - Black screen
-- White text: *The nicest cage.*
+- White text: *No one was there to catch me.*
 - Smaller text: *Breath of Earth — S2 Ep 9: The Cage — Tomorrow*
 
 ---
@@ -154,7 +154,7 @@ They didn't just lock me up. They trained me. Combat training. Mandatory. They w
 
 She watched me train. From above. Like she used to. Except now she had his pin on her collar. And I couldn't tell if she was watching out for me... or watching me.
 
-It felt like falling. Again. But this time no one was there to catch me. I had nothing. Except the nicest cage in the camp."
+It felt like falling. Again. But this time no one was there to catch me."
 
 ---
 
@@ -173,7 +173,7 @@ It felt like falling. Again. But this time no one was there to catch me. I had n
 11. **Clip 6 (broken):** She's on the floor. Destroyed. Hands gripping her own arms, knuckles white, jaw clenched, tears, eyes squeezed shut. Trying not to scream and losing. The voiceover cuts off mid-sentence — she can't finish. The lowest point in the entire season.
 12. Add text overlays (italic quotes in title card tool)
 13. Crossfade transitions throughout — this episode is cold and deliberate, no hard cuts
-14. End card: black screen → "The nicest cage." → S2 Ep 9 tease
+14. End card: black screen → "No one was there to catch me." → S2 Ep 9 tease
 
 ---
 
