@@ -99,7 +99,7 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 **R2V prompt:**
 > (Lyra @image 1) sitting alone on the edge of the bed in the Wind tower room at night, the window showing the camp below — distant torches, guards patrolling — the room beautiful and empty, silver moonlight on white-silver banners, no fire, no warmth, her expression hollow, one hand pressed flat against the stone wall below the window, like she's listening for something, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind outside and nothing inside, no music, sound effects only
 
-**Voiceover:** "I didn't know if Ronan was alive. I didn't know what Zara was. I didn't know if Caspian was... I didn't know anything. Except that I was in the nicest cage in the camp."
+**Voiceover:** "I didn't know if Ronan was alive. I didn't know what Zara was. Caspian's gone. And I was in the nicest cage in the camp."
 **Text overlay:** *The nicest cage.*
 **Duration:** 12 seconds
 **Sound effect:** Wind outside. Silence inside. Her breathing.
@@ -111,7 +111,7 @@ She's alone. The one person who might be an ally — Zara — is the one person 
 **R2V prompt:**
 > (Lyra @image 1) on the floor of the Wind tower room at night, collapsed against the cold stone wall below the window, knees pulled tight to her chest, both hands gripping her own arms, knuckles white, silver moonlight catching the tears on her face, her jaw clenched so hard it's shaking, eyes squeezed shut then open then shut again, her whole body rigid with trying not to scream, the room beautiful and empty around her — white-silver banners, no fire, no warmth, no one — cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, wind howling outside and near silence inside, no music, sound effects only
 
-**Voiceover:** "I didn't know if Ronan was alive. I didn't know what Zara was. I didn't know if Caspian was... I didn't know anything. Except that I was in the nicest cage in the camp. And I couldn't hear him through the walls. And I couldn't reach him. And I couldn't — I couldn't—"
+**Voiceover:** "I didn't know if Ronan was alive. I didn't know what Zara was. Caspian's gone. I had nothing. Except the nicest cage in the camp."
 **Text overlay:** *The nicest cage.*
 **Duration:** 12 seconds
 **Sound effect:** Wind howling outside. Near silence inside. Her breathing catching. A sound caught between a sob and trying to stop one. Then nothing.
@@ -154,7 +154,9 @@ They didn't just lock me up. They trained me. Combat training. Mandatory. They w
 
 She watched me train. From above. Like she used to. Except now she had his pin on her collar. And I couldn't tell if she was watching out for me... or watching me.
 
-I didn't know if Ronan was alive. I didn't know what Zara was. I didn't know if Caspian was... I didn't know anything. Except that I was in the nicest cage in the camp. And I couldn't hear him through the walls. And I couldn't reach him. And I couldn't — I couldn't—"
+I didn't know if Ronan was alive. I didn't know what Zara was. Caspian's gone. And I was in the nicest cage in the camp.
+
+I had nothing. Except the nicest cage in the camp."
 
 ---
 
