@@ -164,6 +164,24 @@ The source points are sealed. Proximity absorption is the only way anyone has ac
 
 ---
 
+## Caspian's True Motivation (S4 REVEAL — do NOT reveal in S3)
+
+Caspian genuinely wants to change the hierarchy. He believes the source points should be accessible to everyone, not hoarded by the houses that happen to live near them. His philosophy: if opening a source hurts the fewest people possible, the end justifies the means.
+
+The problem: Lyra, Ronan, and the twin ARE the few he's willing to hurt.
+
+This is why he was always charming with everyone:
+- His kindness to Lyra in S1 — he was sizing her up. Wind element. He'd need her someday.
+- His help to Ronan in the Cell — Earth element. Same calculation.
+- His relationship with Zara — Fire element. The most dangerous one to get close to, because he'd need her too.
+- His "death" in the Drown Pit — not sacrifice. Strategy. He needed to disappear to build what he's building.
+
+Every warm moment was real AND strategic. He's not faking his feelings. He genuinely cares about these people. He's also genuinely willing to use them. That's what makes him terrifying — he's not wrong about the hierarchy, and he's not wrong that the source points should be open. He's wrong about the cost being acceptable.
+
+**This does NOT come out in S3.** The audience should believe he's a villain who betrayed everyone. The philosophy, the genuine desire to change things, the calculus of "hurt the fewest" — all of that is S4. In S3, he's just the teacher in the shadows who took Lyra and Ronan. The motivation is saved for when the audience needs to see him as more than a monster.
+
+---
+
 ## Open Threads for S4
 
 - **The other three source points:** Air, Fire, Earth — each sealed, each needs to be reached
