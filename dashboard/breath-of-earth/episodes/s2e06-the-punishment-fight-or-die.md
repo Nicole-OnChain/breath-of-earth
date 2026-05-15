@@ -1,4 +1,4 @@
-# Breath of Earth — Season 2, Episode 6: "The Punishment, Part 1"
+# Breath of Earth — Season 2, Episode 6: "The Punishment: Fight or Die"
 **Version:** 1.0 (v3 prompt standard)
 **Duration target:** 72+ seconds (6 clips × 12s)
 **Video clips:** 6 (12 seconds each)
@@ -123,7 +123,7 @@ He watches from the edge of the Drown Pit. He's seen this before. He doesn't fli
 ## END CARD (1:12-1:17)
 - Black screen
 - White text: *He didn't come back up.*
-- Smaller text: *Breath of Earth — S2 Ep 7: The Punishment, Part 2 — Tomorrow*
+- Smaller text: *Breath of Earth — S2 Ep 7: The Punishment: He Wouldn't Fight Me — Tomorrow*
 
 ---
 
@@ -199,4 +199,4 @@ She walked out. And the water was still. And the pit was quiet. And I didn't kno
 breath of earth s2 ep6 // she raised the water. he went under. and he didn't come back up. 😭🌊 #breathofearth #romanticfantasy #darkromance #forbiddenlove #fantasytiktok #booktok #romancetok #fyp #storytime #slowburn
 
 ## INSTAGRAM REELS CAPTION
-Breath of Earth — S2 Ep 6: The Punishment, Part 1 🌊 He went under. And he didn't come back up. #breathofearth #romanticfantasy #forbiddenlove #fantasyreels #romancereels #booktok #darkromance #slowburn
+Breath of Earth — S2 Ep 6: The Punishment: Fight or Die 🌊 He went under. And he didn't come back up. #breathofearth #romanticfantasy #forbiddenlove #fantasyreels #romancereels #booktok #darkromance #slowburn

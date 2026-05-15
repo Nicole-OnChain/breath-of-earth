@@ -1,4 +1,4 @@
-# Breath of Earth — Season 2, Episode 7: "The Punishment, Part 2"
+# Breath of Earth — Season 2, Episode 7: "The Punishment: He Wouldn't Fight Me"
 **Version:** 1.0 (v3 prompt standard)
 **Duration target:** 72+ seconds (6 clips × 12s)
 **Video clips:** 6 (12 seconds each)
@@ -203,4 +203,4 @@ I had to. He knew I had to. So I did the only thing I could. I hit him. Hard eno
 breath of earth s2 ep7 // he got on his knees. not because he lost. because he wouldn't fight me. 😭🪨🌪️ #breathofearth #romanticfantasy #darkromance #forbiddenlove #fantasytiktok #booktok #romancetok #fyp #storytime #slowburn
 
 ## INSTAGRAM REELS CAPTION
-Breath of Earth — S2 Ep 7: The Punishment, Part 2 🪨 He wouldn't fight her. Not then. Not ever. #breathofearth #romanticfantasy #forbiddenlove #fantasyreels #romancereels #booktok #darkromance #slowburn
+Breath of Earth — S2 Ep 7: The Punishment: He Wouldn't Fight Me 🪨 He wouldn't fight her. Not then. Not ever. #breathofearth #romanticfantasy #forbiddenlove #fantasyreels #romancereels #booktok #darkromance #slowburn
