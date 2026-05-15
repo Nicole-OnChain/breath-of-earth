@@ -20,7 +20,7 @@ Zara and Caspian are forced to fight each other to the death in the Drown Pit. T
 She's fighting the person she has history with. She starts playful because that's how they've always been — sparring partners, rivals, something more. When she realizes it has to end, she doesn't hesitate. She's calculating. She makes it look real. (Secret: Caspian helped her plan this. She knows how to almost-kill someone with water. But she doesn't know he'll survive. She thinks she killed him.)
 
 ### Caspian
-He's been in the Drown Pit his whole life. He fights like he belongs there — fluid, precise, powerful. But when the shift comes, when he sees Zara's face change, he knows what she's doing. And he lets her. He's not giving up. He's trusting her. (Secret: He takes a breath before she submerges him. A Tide-caller can hold his breath for minutes. But he goes under, and he doesn't come back up. The audience sees what Lyra sees — death.)
+He's been in the Drown Pit his whole life. He fights like he belongs there — fluid, precise, powerful. But when the shift comes, when he sees Zara's face change, he knows what she's doing. And he lets her. He's not giving up. He's trusting her. (Secret: He takes a breath before she burns him and he goes under. A Tide-caller can hold his breath for minutes. But he goes under, and he doesn't come back up. The audience sees what Lyra sees — death.) **CANON: Zara's fire leaves a permanent burn scar across his jaw and left cheek. This scar is visible whenever he appears after this episode. It is her mark on him — and his proof of survival.**
 
 ### The Uncle
 He watches from the edge of the Drown Pit. He's seen this before. He doesn't flinch. He's testing Zara. And Zara passes.
@@ -36,7 +36,7 @@ He watches from the edge of the Drown Pit. He's seen this before. He doesn't fli
 > The Drown Pit arena, (Zara @image 6) LEFT frame now deadly serious, flames concentrated in her palms, (Caspian @image 5) RIGHT frame in the water, his expression shifting from playful to something harder and more focused, water rising around him in a tight spiral, the crowd watching in tense silence, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 **The Drown Pit — the drowning:**
-> The Drown Pit arena, (Zara @image 6) standing with fire blazing from both hands, (Caspian @image 5) falling backward into the dark water of the pit, burns visible on his chest and arms, his face calm almost peaceful as he goes under, the water closing over him, Zara's expression blank and controlled, the uncle watching from above, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
+> The Drown Pit arena, (Zara @image 6) standing with fire blazing from both hands, (Caspian @image 5) falling backward into the dark water of the pit, a burn mark seared across his jaw and cheek, burns on his chest and arms, his face calm almost peaceful despite the burns as he goes under, the water closing over him, Zara's expression blank and controlled, the uncle watching from above, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 ---
 
@@ -94,10 +94,10 @@ He watches from the edge of the Drown Pit. He's seen this before. He doesn't fli
 
 ---
 
-### Clip 5 — THE DROWNING (0:48-1:00) ⭐ Solo (THE moment — Caspian goes under)
+### Clip 5 — THE DROWNING (0:48-1:00) ⭐ Solo (THE moment — Zara burns him, scar on his jaw)
 
 **Prompt (Sora 2 or Kling O3 — emotional, slow-motion feel):**
-> The Drown Pit, (Zara @image 6) standing with fire blazing from both hands, she thrusts a final burst of flame directly at (Caspian @image 5), the fire searing across his chest and arms, he staggers backward, burns visible, and falls into the dark water of the pit — for one brief second his face is visible through the surface, eyes open, expression calm almost peaceful — then he sinks below the surface and the water closes over him, dark and still, Zara's face blank and controlled, not triumphant not grieving just done, the uncle watching from above, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire roaring then water then silence, no music, sound effects only
+> The Drown Pit, (Zara @image 6) standing with fire blazing from both hands, she thrusts a final burst of flame directly at (Caspian @image 5), the fire searing across his chest and arms and catching his jaw — a burn mark scorched across his cheek — he staggers backward, and falls into the dark water of the pit — for one brief second his face is visible through the surface, eyes open, expression calm almost peaceful, the burn mark still visible on his jaw — then he sinks below the surface and the water closes over him, dark and still, Zara's face blank and controlled, not triumphant not grieving just done, the uncle watching from above, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire roaring then water then silence, no music, sound effects only
 
 **Voiceover:** "She burned him. He fell into the water. And he sank. And he didn't come back up."
 **Text overlay:** *He didn't come back up.*
@@ -171,7 +171,7 @@ She walked out. And the water was still. And the pit was quiet. And I didn't kno
 7. **Clip 2 (the play fight):** Almost fun. Steam between them. Like a dance. Then the voiceover: "one of them had to lose."
 8. **Clip 3 (the shift):** THE hinge. Grins gone. Eyes meeting. The play stops. This moment needs to breathe.
 9. **Clip 4 (the fight real):** Full combat. No grins. Real power. Fire and water colliding explosively.
-**Clip 5 (the drowning):** Devastating. Zara uses fire — she's a Flame-Kissed. She burns him with a final blast, he falls back into the water and sinks. His face through the water is calm. Not suffering. Calm. That's what makes it haunt the audience. Then the water closes. And he doesn't come back. A Tide-caller can hold his breath for minutes. He took a breath before he went under. But nobody sees that.
+**Clip 5 (the drowning):** Devastating. Zara uses fire — she's a Flame-Kissed. She burns him with a final blast, catching his jaw and leaving a permanent scar. He falls back into the water and sinks. His face through the water is calm despite the burn. Not suffering. Calm. That's what makes it haunt the audience. Then the water closes. And he doesn't come back. A Tide-caller can hold his breath for minutes. He took a breath before he went under. But nobody sees that. The burn scar across his jaw is canon — it appears in every future episode.
 11. **Clip 6 (silence):** Zara alone. Empty. The uncle nodding. The water still. The most devastating silence in the series.
 12. Add text overlays (italic quotes in title card tool)
 13. Clip 2 → 3: hard cut (the shift). Everything else crossfade.
@@ -189,7 +189,7 @@ She walked out. And the water was still. And the pit was quiet. And I didn't kno
 
 **Clip 4 (the fight real):** Full combat. Real power. No pretending.
 
-**Clip 5 (the drowning):** Zara burns him with fire — she's a Flame-Kissed. He falls back into the water and sinks. His face is calm. The water closes. He doesn't come back. Zara's face is blank. Not triumph. Not grief. Just done.
+**Clip 5 (the drowning):** Zara burns him with fire — she's a Flame-Kissed. The fire catches his jaw, leaving a permanent burn scar. He falls back into the water and sinks. His face is calm despite the burn. The water closes. He doesn't come back. Zara's face is blank. Not triumph. Not grief. Just done. The scar is canon — it appears in every future episode when Caspian returns.
 
 **Clip 6 (silence):** Zara alone. Water still. Uncle nods. Lyra's voice: "I didn't know yet that I'd never see him again."
 
