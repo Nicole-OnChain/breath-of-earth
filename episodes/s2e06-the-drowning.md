@@ -36,7 +36,7 @@ He watches from the edge of the Drown Pit. He's seen this before. He doesn't fli
 > The Drown Pit arena, (Zara @image 6) LEFT frame now deadly serious, flames concentrated in her palms, (Caspian @image 5) RIGHT frame in the water, his expression shifting from playful to something harder and more focused, water rising around him in a tight spiral, the crowd watching in tense silence, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 **The Drown Pit — the drowning:**
-> The Drown Pit arena, (Zara @image 6) standing in shallow water, her hands raised, a massive sphere of water engulfing (Caspian @image 5) completely — he's submerged, his face visible through the water for one second, eyes open, then the water closes over him, Zara's expression blank and controlled, the uncle watching from above, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
+> The Drown Pit arena, (Zara @image 6) standing with fire blazing from both hands, (Caspian @image 5) falling backward into the dark water of the pit, burns visible on his chest and arms, his face calm almost peaceful as he goes under, the water closing over him, Zara's expression blank and controlled, the uncle watching from above, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, 9:16 vertical
 
 ---
 
@@ -97,12 +97,12 @@ He watches from the edge of the Drown Pit. He's seen this before. He doesn't fli
 ### Clip 5 — THE DROWNING (0:48-1:00) ⭐ Solo (THE moment — Caspian goes under)
 
 **Prompt (Sora 2 or Kling O3 — emotional, slow-motion feel):**
-> The Drown Pit, (Zara @image 6) standing in shallow water with both hands raised, a massive sphere of water rising up and engulfing (Caspian @image 5) completely, for one brief second his face is visible through the water — eyes open, expression calm, almost peaceful — then the water closes over him completely, Zara's face blank and controlled, not triumphant, not grieving, just... done, the uncle watching from above, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, water roaring then silence, no music, sound effects only
+> The Drown Pit, (Zara @image 6) standing with fire blazing from both hands, she thrusts a final burst of flame directly at (Caspian @image 5), the fire searing across his chest and arms, he staggers backward, burns visible, and falls into the dark water of the pit — for one brief second his face is visible through the surface, eyes open, expression calm almost peaceful — then he sinks below the surface and the water closes over him, dark and still, Zara's face blank and controlled, not triumphant not grieving just done, the uncle watching from above, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, fire roaring then water then silence, no music, sound effects only
 
-**Voiceover:** "She raised the water. He went under. And he didn't come back up."
+**Voiceover:** "She burned him. He fell into the water. And he sank. And he didn't come back up."
 **Text overlay:** *He didn't come back up.*
 **Duration:** 12 seconds
-**Sound effect:** Water roaring upward, then sudden silence. Nothing. Just dripping water.
+**Sound effect:** Fire roaring, then a splash, then sudden silence. Just dripping water.
 
 **Tip:** This is the most devastating moment of S2. The audience believes Caspian is dead. Zara believes it. Only Caspian knows — and we don't show it. His face through the water should be calm. Not suffering. Not fighting. Calm. That's what makes it believable and haunting.
 
@@ -111,7 +111,7 @@ He watches from the edge of the Drown Pit. He's seen this before. He doesn't fli
 ### Clip 6 — SILENCE (1:00-1:12) ⭐ Solo (episode end — Zara alone)
 
 **R2V prompt:**
-> (Zara @image 6) standing alone in the Drown Pit, water settling around her, steam rising, the crowd above silent, the sphere of water gone, the surface of the pit still and dark where he went under, her expression blank — not triumphant, not sad, just empty, the uncle nodding once from above, guards descending to escort her out, she doesn't resist, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, dripping water and near silence, no music, sound effects only
+> (Zara @image 6) standing alone in the Drown Pit, fire fading from her hands, steam rising from the water where Caspian went under, the crowd above silent, the surface of the pit still and dark where he sank, her expression blank — not triumphant, not sad, just empty, the uncle nodding once from above, guards descending to escort her out, she doesn't resist, cinematic fantasy illustration — painterly, jewel-tone palette, volumetric light, dripping water and near silence, no music, sound effects only
 
 **Voiceover:** "She walked out. And the water was still. And the pit was quiet. And I didn't know yet that I'd never see him again."
 **Text overlay:** *I didn't know yet.*
@@ -139,7 +139,7 @@ He watches from the edge of the Drown Pit. He's seen this before. He doesn't fli
 2. "Steam hissing, fire crackling, water surging, crowd murmurs fading, 12 seconds"
 3. "Crowd going silent, fire condensing to tight focused burn, water swirling tighter, near silence, 12 seconds"
 4. "Fire and water colliding explosively, steam bursts, pit walls shaking, crowd gasps, 12 seconds"
-5. "Water roaring upward then sudden silence, just dripping, 12 seconds"
+5. "Fire roaring, a splash, then sudden silence, just dripping water, 12 seconds"
 6. "Water dripping, near silence, footsteps, then nothing, 12 seconds"
 
 ---
@@ -154,7 +154,7 @@ And then they looked at each other. And the play stopped.
 
 They stopped pretending. Fire met water. Steam filled the pit. And I couldn't look away.
 
-She raised the water. He went under. And he didn't come back up.
+She burned him. He fell into the water. And he sank. And he didn't come back up.
 
 She walked out. And the water was still. And the pit was quiet. And I didn't know yet that I'd never see him again."
 
@@ -171,7 +171,7 @@ She walked out. And the water was still. And the pit was quiet. And I didn't kno
 7. **Clip 2 (the play fight):** Almost fun. Steam between them. Like a dance. Then the voiceover: "one of them had to lose."
 8. **Clip 3 (the shift):** THE hinge. Grins gone. Eyes meeting. The play stops. This moment needs to breathe.
 9. **Clip 4 (the fight real):** Full combat. No grins. Real power. Fire and water colliding explosively.
-10. **Clip 5 (the drowning):** Devastating. Caspian's face through the water is calm. Not suffering. Calm. That's what makes it haunt the audience. Then the water closes. And he doesn't come back.
+**Clip 5 (the drowning):** Devastating. Zara uses fire — she's a Flame-Kissed. She burns him with a final blast, he falls back into the water and sinks. His face through the water is calm. Not suffering. Calm. That's what makes it haunt the audience. Then the water closes. And he doesn't come back. A Tide-caller can hold his breath for minutes. He took a breath before he went under. But nobody sees that.
 11. **Clip 6 (silence):** Zara alone. Empty. The uncle nodding. The water still. The most devastating silence in the series.
 12. Add text overlays (italic quotes in title card tool)
 13. Clip 2 → 3: hard cut (the shift). Everything else crossfade.
@@ -189,7 +189,7 @@ She walked out. And the water was still. And the pit was quiet. And I didn't kno
 
 **Clip 4 (the fight real):** Full combat. Real power. No pretending.
 
-**Clip 5 (the drowning):** Caspian goes under. His face is calm. The water closes. He doesn't come back. Zara's face is blank. Not triumph. Not grief. Just done.
+**Clip 5 (the drowning):** Zara burns him with fire — she's a Flame-Kissed. He falls back into the water and sinks. His face is calm. The water closes. He doesn't come back. Zara's face is blank. Not triumph. Not grief. Just done.
 
 **Clip 6 (silence):** Zara alone. Water still. Uncle nods. Lyra's voice: "I didn't know yet that I'd never see him again."
 
