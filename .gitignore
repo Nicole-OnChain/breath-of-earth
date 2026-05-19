@@ -1,1 +1,13 @@
 private-episodes/
+
+# Episode scripts — PRIVATE, served from home computer only
+episodes/
+subtitles/
+dashboard/breath-of-earth/subtitles/
+dashboard/breath-of-earth/episodes/
+
+# Book chapters — unpublished manuscript
+book-writer/
+
+# Word exports
+book-writer/word-exports/
