@@ -445,7 +445,7 @@
             height: 140px; position: relative; perspective: 600px;
         }
         .shop-preview-coloring .page {
-            width: 80px; height: 110px; background: rgba(240, 235, 225, 0.9);
+            width: 90px; height: 120px; background: rgba(240, 235, 225, 0.9);
             border: 1px solid rgba(106, 90, 58, 0.2); border-radius: 2px;
             position: absolute; box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
         }
@@ -918,111 +918,116 @@
         <p class="shop-desc">Every season. Every book. Every piece of art. Plus exclusive Sera bonus content you can&amp;rsquo;t get anywhere else.</p>
         <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 24px;">Individual value: $52.91 &amp;middot; <strong style="color: var(--gold);">Save $22.92</strong></p>
 
-        <!-- Kickstarter-style item grid -->
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px;">
-
-            <!-- Season 1 -->
-            <div style="background: rgba(126,184,216,0.06); border: 1px solid rgba(126,184,216,0.15); border-radius: 6px; padding: 16px; text-align: center;">
-                <div style="font-size: 28px; margin-bottom: 8px;">📺</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--wind-glow); letter-spacing: 1px;">Season 1</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">Awakening &amp;middot; 12 episodes</p>
-                <p style="font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold); margin-top: 8px;">$4.99</p>
+        <!-- Kickstarter-style fanned paper display -->
+        <div style="margin-bottom: 32px;">
+            <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--text-muted); letter-spacing: 2px; text-transform: uppercase; text-align: center; margin-bottom: 16px;">What you get</p>
+            
+            <!-- Row 1: Seasons (4 fanned pages) -->
+            <div class="shop-preview-coloring" style="height: 160px; margin-bottom: 12px;">
+                <div class="page" style="transform: rotate(-18deg) translateX(-50px); z-index: 1; border: 2px solid rgba(126,184,216,0.4); background: linear-gradient(135deg, rgba(126,184,216,0.08), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(18deg); text-align: center;">
+                        <div style="font-size: 20px;">📺</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 9px; color: var(--wind-glow); letter-spacing: 1px; margin-top: 4px;">S1</p>
+                        <p style="font-size: 7px; color: rgba(80,60,30,0.4); margin-top: 2px;">$4.99</p>
+                    </div>
+                </div>
+                <div class="page" style="transform: rotate(-6deg) translateX(-15px); z-index: 2; border: 2px solid rgba(232,115,74,0.4); background: linear-gradient(135deg, rgba(232,115,74,0.08), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(6deg); text-align: center;">
+                        <div style="font-size: 20px;">📺</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 9px; color: var(--fire-glow); letter-spacing: 1px; margin-top: 4px;">S2</p>
+                        <p style="font-size: 7px; color: rgba(80,60,30,0.4); margin-top: 2px;">$4.99</p>
+                    </div>
+                </div>
+                <div class="page" style="transform: rotate(6deg) translateX(15px); z-index: 3; border: 2px solid rgba(106,90,58,0.4); background: linear-gradient(135deg, rgba(106,90,58,0.08), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-6deg); text-align: center;">
+                        <div style="font-size: 20px;">📺</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 9px; color: var(--earth-glow); letter-spacing: 1px; margin-top: 4px;">S3</p>
+                        <p style="font-size: 7px; color: rgba(80,60,30,0.4); margin-top: 2px;">$4.99</p>
+                    </div>
+                </div>
+                <div class="page" style="transform: rotate(18deg) translateX(50px); z-index: 4; border: 2px solid rgba(74,143,168,0.4); background: linear-gradient(135deg, rgba(74,143,168,0.08), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-18deg); text-align: center;">
+                        <div style="font-size: 20px;">📺</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 9px; color: var(--water-glow); letter-spacing: 1px; margin-top: 4px;">S4</p>
+                        <p style="font-size: 7px; color: rgba(80,60,30,0.4); margin-top: 2px;">$4.99</p>
+                    </div>
+                </div>
             </div>
 
-            <!-- Season 2 -->
-            <div style="background: rgba(232,115,74,0.06); border: 1px solid rgba(232,115,74,0.15); border-radius: 6px; padding: 16px; text-align: center;">
-                <div style="font-size: 28px; margin-bottom: 8px;">📺</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--fire-glow); letter-spacing: 1px;">Season 2</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">The Sister &amp;middot; 12 episodes</p>
-                <p style="font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold); margin-top: 8px;">$4.99</p>
+            <!-- Row 2: Books (3 fanned pages) -->
+            <div class="shop-preview-coloring" style="height: 160px; margin-bottom: 12px;">
+                <div class="page" style="transform: rotate(-12deg) translateX(-35px); z-index: 1; border: 2px solid rgba(201,168,76,0.4); background: linear-gradient(135deg, rgba(201,168,76,0.08), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(12deg); text-align: center;">
+                        <div style="font-size: 20px;">📚</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 9px; color: var(--gold); letter-spacing: 1px; margin-top: 4px;">BOOK 1</p>
+                        <p style="font-size: 7px; color: rgba(80,60,30,0.4); margin-top: 2px;">$5.99</p>
+                    </div>
+                </div>
+                <div class="page" style="transform: rotate(0deg) translateX(0px); z-index: 2; border: 2px solid rgba(201,168,76,0.4); background: linear-gradient(135deg, rgba(201,168,76,0.08), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                        <div style="font-size: 20px;">📚</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 9px; color: var(--gold); letter-spacing: 1px; margin-top: 4px;">BOOK 2</p>
+                        <p style="font-size: 7px; color: rgba(80,60,30,0.4); margin-top: 2px;">$5.99</p>
+                    </div>
+                </div>
+                <div class="page" style="transform: rotate(12deg) translateX(35px); z-index: 3; border: 2px solid rgba(201,168,76,0.4); background: linear-gradient(135deg, rgba(201,168,76,0.08), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-12deg); text-align: center;">
+                        <div style="font-size: 20px;">📚</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 9px; color: var(--gold); letter-spacing: 1px; margin-top: 4px;">BOOK 3</p>
+                        <p style="font-size: 7px; color: rgba(80,60,30,0.4); margin-top: 2px;">$5.99</p>
+                    </div>
+                </div>
             </div>
 
-            <!-- Season 3 -->
-            <div style="background: rgba(106,90,58,0.08); border: 1px solid rgba(106,90,58,0.2); border-radius: 6px; padding: 16px; text-align: center;">
-                <div style="font-size: 28px; margin-bottom: 8px;">📺</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--earth-glow); letter-spacing: 1px;">Season 3</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">Overthrow &amp;middot; 12 episodes</p>
-                <p style="font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold); margin-top: 8px;">$4.99</p>
+            <!-- Row 3: Art + Coloring (2 fanned pages) -->
+            <div class="shop-preview-coloring" style="height: 160px; margin-bottom: 12px;">
+                <div class="page" style="transform: rotate(-8deg) translateX(-20px); z-index: 1; border: 2px solid rgba(106,90,58,0.4); background: linear-gradient(135deg, rgba(106,90,58,0.08), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(8deg); text-align: center;">
+                        <div style="font-size: 20px;">🎨</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 9px; color: var(--earth-glow); letter-spacing: 1px; margin-top: 4px;">COLORING</p>
+                        <p style="font-size: 7px; color: rgba(80,60,30,0.4); margin-top: 2px;">$4.99</p>
+                    </div>
+                </div>
+                <div class="page" style="transform: rotate(8deg) translateX(20px); z-index: 2; border: 2px solid rgba(126,184,216,0.4); background: linear-gradient(135deg, rgba(126,184,216,0.08), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-8deg); text-align: center;">
+                        <div style="font-size: 20px;">🖼</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 9px; color: var(--wind-glow); letter-spacing: 1px; margin-top: 4px;">ART PACK</p>
+                        <p style="font-size: 7px; color: rgba(80,60,30,0.4); margin-top: 2px;">$3.99</p>
+                    </div>
+                </div>
             </div>
 
-            <!-- Season 4 -->
-            <div style="background: rgba(74,143,168,0.06); border: 1px solid rgba(74,143,168,0.15); border-radius: 6px; padding: 16px; text-align: center;">
-                <div style="font-size: 28px; margin-bottom: 8px;">📺</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--water-glow); letter-spacing: 1px;">Season 4</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">The Trench &amp;middot; 12 episodes</p>
-                <p style="font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold); margin-top: 8px;">$4.99</p>
-            </div>
-
-            <!-- Book 1 -->
-            <div style="background: rgba(201,168,76,0.06); border: 1px solid rgba(201,168,76,0.15); border-radius: 6px; padding: 16px; text-align: center;">
-                <div style="font-size: 28px; margin-bottom: 8px;">📚</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--text-bright); letter-spacing: 1px;">Book 1</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">EPUB &amp;middot; Kindle ready</p>
-                <p style="font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold); margin-top: 8px;">$5.99</p>
-            </div>
-
-            <!-- Book 2 -->
-            <div style="background: rgba(201,168,76,0.06); border: 1px solid rgba(201,168,76,0.15); border-radius: 6px; padding: 16px; text-align: center;">
-                <div style="font-size: 28px; margin-bottom: 8px;">📚</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--text-bright); letter-spacing: 1px;">Book 2</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">EPUB &amp;middot; Kindle ready</p>
-                <p style="font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold); margin-top: 8px;">$5.99</p>
-            </div>
-
-            <!-- Book 3 -->
-            <div style="background: rgba(201,168,76,0.06); border: 1px solid rgba(201,168,76,0.15); border-radius: 6px; padding: 16px; text-align: center;">
-                <div style="font-size: 28px; margin-bottom: 8px;">📚</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--text-bright); letter-spacing: 1px;">Book 3</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">EPUB &amp;middot; Kindle ready</p>
-                <p style="font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold); margin-top: 8px;">$5.99</p>
-            </div>
-
-            <!-- Coloring Book -->
-            <div style="background: rgba(106,90,58,0.06); border: 1px solid rgba(106,90,58,0.15); border-radius: 6px; padding: 16px; text-align: center;">
-                <div style="font-size: 28px; margin-bottom: 8px;">🎨</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--text-bright); letter-spacing: 1px;">Coloring Book</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">30+ pages &amp;middot; PDF</p>
-                <p style="font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold); margin-top: 8px;">$4.99</p>
-            </div>
-
-            <!-- Character Art Pack -->
-            <div style="background: rgba(126,184,216,0.04); border: 1px solid rgba(126,184,216,0.1); border-radius: 6px; padding: 16px; text-align: center;">
-                <div style="font-size: 28px; margin-bottom: 8px;">🖼</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--text-bright); letter-spacing: 1px;">Art Pack</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">5 portraits + wallpapers</p>
-                <p style="font-family: 'Cinzel', serif; font-size: 14px; color: var(--gold); margin-top: 8px;">$3.99</p>
-            </div>
-
-            <!-- Sera Bonus Episode -->
-            <div style="background: linear-gradient(135deg, rgba(232,115,74,0.08) 0%, rgba(201,168,76,0.08) 100%); border: 1px solid rgba(201,168,76,0.3); border-radius: 6px; padding: 16px; text-align: center; position: relative;">
-                <div style="position: absolute; top: -8px; right: 10px; background: var(--gold); color: var(--dark); font-size: 9px; font-weight: 700; padding: 2px 8px; border-radius: 3px; letter-spacing: 1px;">EXCLUSIVE</div>
-                <div style="font-size: 28px; margin-bottom: 8px;">🔥</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--gold); letter-spacing: 1px;">Sera's POV</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">Bonus episode</p>
-            </div>
-
-            <!-- Sera Bonus Chapter -->
-            <div style="background: linear-gradient(135deg, rgba(232,115,74,0.08) 0%, rgba(201,168,76,0.08) 100%); border: 1px solid rgba(201,168,76,0.3); border-radius: 6px; padding: 16px; text-align: center; position: relative;">
-                <div style="position: absolute; top: -8px; right: 10px; background: var(--gold); color: var(--dark); font-size: 9px; font-weight: 700; padding: 2px 8px; border-radius: 3px; letter-spacing: 1px;">EXCLUSIVE</div>
-                <div style="font-size: 28px; margin-bottom: 8px;">📖</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--gold); letter-spacing: 1px;">Sera's Chapter</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">Bonus chapter</p>
-            </div>
-
-            <!-- Sera Coloring Pages -->
-            <div style="background: linear-gradient(135deg, rgba(232,115,74,0.08) 0%, rgba(201,168,76,0.08) 100%); border: 1px solid rgba(201,168,76,0.3); border-radius: 6px; padding: 16px; text-align: center; position: relative;">
-                <div style="position: absolute; top: -8px; right: 10px; background: var(--gold); color: var(--dark); font-size: 9px; font-weight: 700; padding: 2px 8px; border-radius: 3px; letter-spacing: 1px;">EXCLUSIVE</div>
-                <div style="font-size: 28px; margin-bottom: 8px;">✏️</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--gold); letter-spacing: 1px;">Sera Coloring</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">Extra pages</p>
-            </div>
-
-            <!-- Bonus Portrait -->
-            <div style="background: linear-gradient(135deg, rgba(232,115,74,0.08) 0%, rgba(201,168,76,0.08) 100%); border: 1px solid rgba(201,168,76,0.3); border-radius: 6px; padding: 16px; text-align: center; position: relative;">
-                <div style="position: absolute; top: -8px; right: 10px; background: var(--gold); color: var(--dark); font-size: 9px; font-weight: 700; padding: 2px 8px; border-radius: 3px; letter-spacing: 1px;">EXCLUSIVE</div>
-                <div style="font-size: 28px; margin-bottom: 8px;">🎭</div>
-                <p style="font-family: 'Cinzel', serif; font-size: 13px; color: var(--gold); letter-spacing: 1px;">Sera + Bonus Art</p>
-                <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">Alt portrait</p>
+            <!-- Row 4: Exclusives (4 fanned pages with gold borders) -->
+            <p style="font-family: 'Cinzel', serif; font-size: 11px; color: var(--gold); letter-spacing: 2px; text-transform: uppercase; text-align: center; margin: 16px 0 12px;">✦ Exclusives ✦</p>
+            <div class="shop-preview-coloring" style="height: 160px;">
+                <div class="page" style="transform: rotate(-18deg) translateX(-50px); z-index: 1; border: 2px solid rgba(201,168,76,0.6); background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(18deg); text-align: center;">
+                        <div style="font-size: 20px;">🔥</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 8px; color: var(--gold); letter-spacing: 1px; margin-top: 4px;">SERA'S POV</p>
+                        <p style="font-size: 6px; color: rgba(201,168,76,0.6); margin-top: 2px;">BONUS EP</p>
+                    </div>
+                </div>
+                <div class="page" style="transform: rotate(-6deg) translateX(-15px); z-index: 2; border: 2px solid rgba(201,168,76,0.6); background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(6deg); text-align: center;">
+                        <div style="font-size: 20px;">📖</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 8px; color: var(--gold); letter-spacing: 1px; margin-top: 4px;">SERA'S CH</p>
+                        <p style="font-size: 6px; color: rgba(201,168,76,0.6); margin-top: 2px;">BONUS</p>
+                    </div>
+                </div>
+                <div class="page" style="transform: rotate(6deg) translateX(15px); z-index: 3; border: 2px solid rgba(201,168,76,0.6); background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-6deg); text-align: center;">
+                        <div style="font-size: 20px;">✏️</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 8px; color: var(--gold); letter-spacing: 1px; margin-top: 4px;">SERA ART</p>
+                        <p style="font-size: 6px; color: rgba(201,168,76,0.6); margin-top: 2px;">COLORING</p>
+                    </div>
+                </div>
+                <div class="page" style="transform: rotate(18deg) translateX(50px); z-index: 4; border: 2px solid rgba(201,168,76,0.6); background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(240,235,225,0.92));">
+                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-18deg); text-align: center;">
+                        <div style="font-size: 20px;">🎭</div>
+                        <p style="font-family: 'Cinzel', serif; font-size: 8px; color: var(--gold); letter-spacing: 1px; margin-top: 4px;">BONUS</p>
+                        <p style="font-size: 6px; color: rgba(201,168,76,0.6); margin-top: 2px;">PORTRAIT</p>
+                    </div>
+                </div>
             </div>
         </div>
 
